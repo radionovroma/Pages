@@ -1,13 +1,13 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const PostcssPresetEnv = require("postcss-preset-env");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const PostcssPresetEnv = require('postcss-preset-env')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
-const mode = process.env.NODE_ENV || "development";
-const devMode = mode === "development";
-const target = devMode ? "web" : "browserslist";
-const devtool = devMode ? "source-map" : undefined;
+const mode = process.env.NODE_ENV || 'development'
+const devMode = mode === 'development'
+const target = devMode ? 'web' : 'browserslist'
+const devtool = devMode ? 'source-map' : undefined
 
 module.exports = {
   mode,
@@ -18,18 +18,18 @@ module.exports = {
     hot: true,
     open: true,
   },
-  entry: "./src/index.tsx",
+  entry: './src/index.tsx',
   output: {
-    assetModuleFilename: "assets/[contenthash:8].[ext]",
+    assetModuleFilename: 'assets/[contenthash:8].[ext]',
     clean: true,
-    filename: "[name].[contenthash:8].js",
-    path: path.resolve(__dirname, "dist"),
+    filename: '[name].[contenthash:8].js',
+    path: path.resolve(__dirname, 'dist'),
   },
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        use: "ts-loader",
+        use: 'ts-loader',
         exclude: /node_modules/,
       },
       {
@@ -39,7 +39,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: [
-              ['@babel/preset-env', { targets: "defaults" }]
+              ['@babel/preset-env', { targets: 'defaults' }]
             ]
           }
         }
@@ -47,17 +47,17 @@ module.exports = {
       {
         test: /\.(c|sa|sc)ss$/i,
         use: [
-          devMode ? "style-loader" : MiniCssExtractPlugin.loader,
-          "css-loader",
+          devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
+          'css-loader',
           {
-            loader: "postcss-loader",
+            loader: 'postcss-loader',
             options: {
               postcssOptions: {
                 plugins: [PostcssPresetEnv],
               }
             },
           },
-          "sass-loader",
+          'sass-loader',
         ],
       },
       {
@@ -88,27 +88,27 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        loader: "svg-inline-loader",
+        loader: 'svg-inline-loader',
       },
       {
         test: /\.(woff2?|eot|ttf|otf)$/i,
-        type: "asset/resource",
+        type: 'asset/resource',
         generator: {
-          filename: "fonts/[name].[ext]"
+          filename: 'fonts/[name].[ext]'
         }
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "public", "index.html")
+      template: path.resolve(__dirname, 'public', 'index.html')
     }),
     new MiniCssExtractPlugin({
-      filename: "[name].[contenthash:8].css"
+      filename: '[name].[contenthash:8].css'
     }),
     new CleanWebpackPlugin(),
   ],
   resolve: {
-    extensions: [".tsx", ".ts", ".js"],
+    extensions: ['.tsx', '.ts', '.js'],
   },
 }

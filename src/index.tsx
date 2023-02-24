@@ -5,4 +5,4 @@ import './styles/index.scss';
 
 ReactDOM
   .createRoot(document.getElementById('root') as HTMLElement)
-  .render(<App />);
+  .render(<App/>);
