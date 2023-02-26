@@ -1,7 +1,7 @@
-import React from 'react';
+import { FC } from 'react';
 import './styles/index.scss';
 
-export const App = () => {
+export const App: FC = () => {
   return (
     <div className="App">
     </div>
