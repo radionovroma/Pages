@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from './App';
-import './styles/index.scss';
-import { makeServer } from './server';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { App } from "./App";
+import { makeServer } from "@mock";
+import "./styles/index.scss";
 
 makeServer();
 
