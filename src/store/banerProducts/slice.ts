@@ -7,7 +7,7 @@ export interface State {
   loadStatus: LOAD_STATUSES;
 }
 
-const SLICE_NAME = "BANNER_BOOKS";
+const SLICE_NAME = "BANNER_PRODUCTS";
 const api = new Api();
 
 export const fetchBannerProducts = createAsyncThunk(SLICE_NAME, api.getBannerProducts);
