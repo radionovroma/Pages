@@ -25,20 +25,33 @@ export function makeServer () {
 
       this.get('/categories', (schema) => {
         return schema.categories.all().models
-      })
+      });
 
       this.get('/banner_products', (schema) => {
         //изменить на 15 когда будут заполнены данные
-        return schema.products.where({categoryId: 1}).models.slice(0,10);
-      })
+        const popularProducts = schema.products.where({categoryId: 1}).models.slice(0,10);
+        return popularProducts.map(({ id, title, authors, synopsis, img, pages, language, date_published, count }) => {
+          return {
+            id,
+            title,
+            authors,
+            synopsis,
+            img,
+            pages,
+            language,
+            date_published,
+            count
+          }
+        })
+      });
 
       this.get('/popular_categories', (schema) => {
         //изменить на 13, 14 когда будут заполнены данные
         const categories = schema.categories.find([2, 3]).models;
 
         return categories.map((category) => {
-            const products = schema.products.where({categoryId: category.id}).models;
-            return { category, products: products.slice(0,20) };
+            const items = schema.products.where({categoryId: category.id}).models;
+            return { category, books: items };
           });
       });
 
