@@ -56,7 +56,7 @@ export const Footer: FC<FooterProps> = ({ routs, LogoSvg }) => {
               routs.map(item => (
                 <li key={item.id}>
                   <a
-                    href={item.route}
+                    href={item.path}
                     className="flex items-center gap-20 font-sans text-lg leading-9 text-lightBlue hover:text-white">
                     <ExploreSvg/>
                     {item.label}
