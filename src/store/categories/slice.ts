@@ -7,8 +7,8 @@ export interface State {
   loadStatus: LOAD_STATUSES;
 }
 
-const SLICE_NAME = "categories";
-const api = new Api()
+const SLICE_NAME = "CATEGORIES";
+const api = new Api();
 
 export const fetchCategoriesList = createAsyncThunk(SLICE_NAME, api.getCategoriesList);
 
