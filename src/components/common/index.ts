@@ -1,2 +1,2 @@
 export { InputWithIcon } from "./InputWithIcon";
-export { DropdownMenu } from "./DropdownMenu";
+export { BookCard } from "./BookCard";
