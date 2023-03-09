@@ -4,12 +4,22 @@ module.exports = {
     './public/index.html'
   ],
   theme: {
+    boxShadow: {
+      'md': '0px 10px 15px -5px rgba(0, 0, 0, 0.25)',
+      '2xl': '0 45px 25px rgba(0, 0, 0, 0.25)',
+    },
     colors: {
       blue: '#1b3764',
+      jeans: '#3266b8',
       lightBlue: '#b4c7e7',
       yellow: '#ffca42',
-      gray: '#f6f8fc',
+      gold: '#ffba00',
+      lightGray: '#f6f8fc',
+      gray: '#969AA0',
       white: '#ffffff',
+    },
+    dropShadow: {
+      '2xl': '0 45px 25px rgba(0, 0, 0, 0.25)',
     },
     fontFamily: {
       serif: ['Cardo', 'serif'],
@@ -20,21 +30,29 @@ module.exports = {
       '315': '315deg',
     },
     spacing: {
-      '0': '0px',
-      '5': '5px',
+      '0': '0',
       '10': '10px',
+      '15': '15px',
       '20': '20px',
       '25': '25px',
       '30': '30px',
+      '35': '35px',
       '40': '40px',
+      '50': '50px',
       '65': '65px',
-      '110': '110px',
+      '90': '90px',
+      '120': '120px',
+      '200': '200px',
       '230': '230px',
+      '300': '300px',
       '350': '350px',
       '660': '660px',
       'cont': '1300px',
+      'cont+': '1420px',
       'full': '100%',
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }
