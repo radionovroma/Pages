@@ -15,11 +15,11 @@ export class Api {
   getCategoriesList = (): Promise<Category[]> => {
     return this.fetchData(new URL('http://localhost:8080/api/categories'));
   };
-  getBannerBooks = (): Promise<Book[]> => {
+  getBannerProducts = (): Promise<Book[]> => {
     return this.fetchData(new URL('http://localhost:8080/api/banner_products'))
   }
 
-  getPopularCategories = (): Promise<{category: Category, products: Book[]}[]> => {
+  getPopularCategories = (): Promise<{category: Category, books: Book[]}[]> => {
     return this.fetchData(new URL('http://localhost:8080/api/popular_categories'));
   }
 }
