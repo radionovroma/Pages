@@ -27,6 +27,7 @@
       "@common": ["./components/common"],
       "@components": ["./components"],
       "@mock": ["./mock-api"],
+      "@containers": ["./containers"],
       "@types": ["./types"],
       "@store/*": ["./store/*"],
     }
