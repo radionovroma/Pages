@@ -35,7 +35,8 @@ export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
               <SwiperSlide
                 key={book.id}
                 className="flex justify-center">
-                <BookCard book={book}/>
+                <BookCard
+                  book={book}/>
               </SwiperSlide>
             )
           })

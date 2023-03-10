@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { Book } from "@types";
 import BookmarkSVG from "@img/bookmark-icon.svg";
+import { BookCover } from "../BoolCover";
 
 interface BookCardProps {
   book: Book;
@@ -11,10 +12,10 @@ export const BookCard: FC<BookCardProps> = ({ book}) => {
   return (
     <article>
       <a href="src/components/common/BookCard">
-        <img
-          src={img}
-          alt={`${title} cover`}
-          className="h-350 w-230 shadow-md"/>
+          <BookCover
+            coverImg={img}
+            alt={`Cover of the book "${title}"`}
+            className="h-350 w-[234px] shadow-md"/>
       </a>
       <p
         className="mt-15 font-sans text-lg text-yellow cursor-default">

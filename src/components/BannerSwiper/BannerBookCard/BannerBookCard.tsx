@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { BookCover } from "@common";
 import { Book } from "@types";
 
 interface BannerBookCardProps {
@@ -62,10 +63,11 @@ export const BannerBookCard: FC<BannerBookCardProps> = ({ book }) => {
           }
         </ul>
       </div>
-      <img
-        src={book.img}
-        alt={book.title}
-        className="h-[500px] border-8 border-white"/>
+      <BookCover
+        coverImg={book.img}
+        alt={`Cover of the book "${book.title}"`}
+        delay={1500}
+        className="h-[500px] w-[335px]"/>
     </article>
   );
 }

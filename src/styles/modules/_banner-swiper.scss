@@ -1,5 +1,4 @@
 .banner-swiper{
-
   .swiper-button-next, .swiper-button-prev{
     color: #b4c7e7;
 
@@ -26,6 +25,12 @@
       &:hover {
         border-color: #b4c7e7;
       }
+    }
+  }
+
+  .book-cover__wrap{
+    img{
+      border: 8px solid #ffffff;
     }
   }
 }

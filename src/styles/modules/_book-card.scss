@@ -1,3 +1,11 @@
+.book-cover__wrap {
+  display: flex !important;
+
+  img{
+    flex: 1;
+  }
+}
+
 .bookmark-button:hover {
   path{
     stroke: #fff;
