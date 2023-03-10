@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCategoriesList, getCategoriesList, getCategoriesStatus } from "@store/categories";
 import { fetchPopularCategories, getPopularCategoriesList, getPopularCategoriesStatus } from "@store/popularCategories";
-import { BannerSwiper, CategorySwiper, Footer, Header, BannerBlock, NewsletterBlock } from "@components";
-import { LOAD_STATUSES, NavRoute } from "@types";
+import { BannerSwiper, PopularCategories, Footer, Header, BannerBlock, NewsletterBlock } from "@components";
+import { NavRoute } from "@types";
 import LogoSvg from "@img/logo.svg";
 
 export const MainPage: FC = () => {
@@ -34,14 +34,7 @@ export const MainPage: FC = () => {
       />
       <main>
         <BannerSwiper/>
-        <div className="flex flex-col gap-65 items-center my-90">
-          {
-            popularCategoriesStatus === LOAD_STATUSES.LOADED &&
-            popularCategoriesList.map(({category, books}) => {
-              return <CategorySwiper key={category.id} category={category} books={books}/>
-            })
-          }
-        </div>
+        <PopularCategories popularCategories={popularCategoriesList} status={popularCategoriesStatus}/>
         <BannerBlock/>
         <NewsletterBlock/>
       </main>

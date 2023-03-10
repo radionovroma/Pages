@@ -1,6 +1,7 @@
 export { Header } from "./Header";
 export { Footer } from "./Footer";
 export { BannerSwiper } from "./BannerSwiper";
-export { CategorySwiper } from "./CategorySwiper";
+export { PopularCategories } from "./PopularCategories";
+export { CategorySwiper } from "./PopularCategories/CategorySwiper";
 export { BannerBlock } from "./BannerBlock";
 export { NewsletterBlock } from "./NewsletterBlock";

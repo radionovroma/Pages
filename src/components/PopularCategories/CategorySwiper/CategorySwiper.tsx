@@ -14,10 +14,10 @@ interface CategorySwiperProps{
 
 export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
   return (
-    <section
+    <div
       className="w-cont+">
       <a
-        href=""
+        href="src/components/PopularCategories/CategorySwiper"
         className="ml-[60px] font-serif font-bold text-3xl text-blue capitalize hover:text-jeans">
         {category.label}
       </a>
@@ -42,6 +42,6 @@ export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
           })
         }
       </Swiper>
-    </section>
+    </div>
   );
 }
