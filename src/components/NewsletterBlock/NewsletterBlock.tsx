@@ -1,17 +1,49 @@
-import { FC, useState, ChangeEvent } from "react";
+import { ChangeEvent, FC, useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { notification } from 'antd';
+import { getSubscribeResponse, getSubscribeData, getSubscribeStatus, subscribe } from "@store/newsletterSubscription";
+import { LOAD_STATUSES } from "@types";
+
+type NotificationType = 'info' | 'warning';
 
 export const NewsletterBlock: FC = () => {
   const [inputValue, setInputValue] = useState("");
+  const subscribeResponse = useSelector(getSubscribeResponse);
+  const subscriberData = useSelector(getSubscribeData);
+  const subscribeStatus = useSelector(getSubscribeStatus);
+  const dispatch = useDispatch();
+  const [api, contextHolder] = notification.useNotification();
+
+  const openNotificationWithIcon = (type: NotificationType, message: string) => {
+    api[type]({
+      message,
+      placement: "bottomRight",
+      duration: 500,
+      style: {
+        width: 400,
+        borderRadius: 0,
+      }
+    });
+  };
 
   const handlerSubmit = (e: ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const data = new FormData(e.target as HTMLFormElement);
+    dispatch(subscribe(inputValue) as any);
 
     setInputValue("");
   }
 
+  useEffect(() => {
+    if (subscribeStatus === LOAD_STATUSES.LOADED) {
+      openNotificationWithIcon('info', `Subscribed by ${subscriberData?.email}`);
+    } else if (subscribeStatus === LOAD_STATUSES.ERROR && subscribeResponse !== undefined) {
+      openNotificationWithIcon('warning', subscribeResponse);
+    }
+  }, [subscribeStatus])
+
   return (
     <section className="flex justify-center items-center w-full py-90">
+      { contextHolder }
       <div className="flex flex-col gap-30 w-cont p-90 bg-yellow">
         <h2 className="relative pb-20 font-serif font-bold text-5xl text-center text-blue cursor-default
             after:absolute after:bottom-0 after:left-1/2 after:-translate-x-2/4 after:w-50 after:h-[2px] after:bg-blue">
