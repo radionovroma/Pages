@@ -63,7 +63,7 @@ export const BannerSwiper = () => {
           allowTouchMove={false}
           loop={true}
           speed={1000}
-          autoplay={{ delay: 100000, disableOnInteraction: false }}
+          autoplay={{ delay: 10000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
           navigation
           className="banner-swiper">
