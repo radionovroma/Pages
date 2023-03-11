@@ -24,10 +24,10 @@ export const BannerBookCard: FC<BannerBookCardProps> = ({ book }) => {
           {book.synopsis}
         </p>
         <div
-          className="mt-50 flex gap-35">
+          className="mt-35 flex gap-35">
           <button
             className="w-230 h-50 font-serif font-bold text-lg leading-6 text-blue bg-yellow hover:bg-gold">
-            Order Today
+            Add To Cart
           </button>
           <a
             href="src/components/BannerSwiper/BannerBookCard"
@@ -39,7 +39,7 @@ export const BannerBookCard: FC<BannerBookCardProps> = ({ book }) => {
           </a>
         </div>
         <ul
-          className="flex gap-90 mt-50">
+          className="flex justify-between mt-35">
           {
             [ { label: "Pages:", content: book.pages },
               { label: "Language:", content: book.language},
@@ -47,7 +47,7 @@ export const BannerBookCard: FC<BannerBookCardProps> = ({ book }) => {
               .map(item => (
                   <li
                     key={item.label}
-                    className="relative pl-30
+                    className="relative w-[160px] pl-30
                             before:absolute before:left-0 before:top-[7px] before:w-15 before:h-15 before:bg-yellow before:rounded-full">
                     <h3
                       className="font-serif font-bold text-2xl text-white">
