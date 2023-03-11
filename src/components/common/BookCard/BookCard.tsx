@@ -11,11 +11,12 @@ export const BookCard: FC<BookCardProps> = ({ book}) => {
   const { img, authors, title, price } = book;
   return (
     <article>
-      <a href="src/components/common/BookCard">
+      <a
+        href="src/components/common/BookCard">
           <BookCover
             coverImg={img}
             alt={`Cover of the book "${title}"`}
-            className="h-350 w-[234px] shadow-md"/>
+            className="h-350 w-[234px] mt-[5px] shadow-md"/>
       </a>
       <p
         className="mt-15 font-sans text-lg text-yellow cursor-default">
@@ -35,7 +36,7 @@ export const BookCard: FC<BookCardProps> = ({ book}) => {
       <div className="flex gap-10 mt-10">
         <button
           className="w-[170px] h-50 border border-yellow font-serif font-bold text-blue hover:bg-yellow">
-          Order Today
+          Add To Cart
         </button>
         <button
           className="flex justify-center items-center w-50 h-50 border border-yellow hover:bg-yellow/75 hover:border-0 bookmark-button">

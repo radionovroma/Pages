@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import { BookCard } from "@common";
 import { Category, Book} from "@types";
+import LastSlideImg from "@img/category-swiper-last-slide.png";
 import "swiper/swiper.css";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -17,7 +18,7 @@ export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
     <div
       className="w-cont+">
       <a
-        href="src/components/PopularCategories/CategorySwiper"
+        href=""
         className="ml-[60px] font-serif font-bold text-3xl text-blue capitalize hover:text-jeans">
         {category.label}
       </a>
@@ -41,6 +42,17 @@ export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
             )
           })
         }
+        <SwiperSlide>
+          <a
+            href=""
+            className="cursor-pointer">
+            <img
+              src={LastSlideImg}
+              alt="View all category books"
+              className="mt-[5px] h-350 w-[234px] hover:animate-wiggle"
+            />
+          </a>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

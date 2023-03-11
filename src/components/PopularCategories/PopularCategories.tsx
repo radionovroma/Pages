@@ -13,7 +13,7 @@ export const PopularCategories: FC<PopularCategoriesProps> = ({ popularCategorie
 
   const bookLoader =
     <div>
-      <div className={classNames("h-350 w-[234px]", pulse)}></div>
+      <div className={classNames("h-350 w-[234px] mt-[5px]", pulse)}></div>
       <div className={classNames("mt-15 w-90 h-[28px]", pulse)}></div>
       <div className="h-[80px] mt-10 ">
         <div className={classNames("h-[25px]", pulse)}></div>

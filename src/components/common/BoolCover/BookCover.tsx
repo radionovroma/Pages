@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component"
 import classNames from "classnames";
-import bookCoverPlaceholder from "@img/book-cover.png";
+import bookCoverPlaceholder from "@img/book-cover-placeholder.png";
 
 interface BookCoverProps {
   coverImg: string;
