@@ -2,7 +2,6 @@ import { FC } from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCategoriesList, getCategoriesList, getCategoriesStatus } from "@store/categories";
-import { fetchPopularCategories, getPopularCategoriesList, getPopularCategoriesStatus } from "@store/popularCategories";
 import { BannerSwiper, PopularCategories, Footer, Header, BannerBlock, NewsletterBlock } from "@components";
 import { NavRoute } from "@types";
 import LogoSvg from "@img/logo.svg";
@@ -10,13 +9,10 @@ import LogoSvg from "@img/logo.svg";
 export const MainPage: FC = () => {
   const categoriesList = useSelector(getCategoriesList);
   const categoriesStatus = useSelector(getCategoriesStatus);
-  const popularCategoriesList = useSelector(getPopularCategoriesList);
-  const popularCategoriesStatus = useSelector(getPopularCategoriesStatus);
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(fetchCategoriesList() as any);
-    dispatch(fetchPopularCategories() as any);
   }, []);
 
   const routs: NavRoute[] = [
@@ -34,11 +30,13 @@ export const MainPage: FC = () => {
       />
       <main>
         <BannerSwiper/>
-        <PopularCategories popularCategories={popularCategoriesList} status={popularCategoriesStatus}/>
+        <PopularCategories/>
         <BannerBlock/>
         <NewsletterBlock/>
       </main>
-      <Footer routs={routs} LogoSvg={LogoSvg}/>
+      <Footer
+        routs={routs}
+        LogoSvg={LogoSvg}/>
     </div>
   );
 }

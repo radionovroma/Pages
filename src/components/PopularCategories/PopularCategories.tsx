@@ -1,14 +1,23 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import classNames from "classnames";
-import { Book, Category, LOAD_STATUSES } from "@types";
+import { LOAD_STATUSES } from "@types";
 import { CategorySwiper } from "./CategorySwiper";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchPopularCategories, getPopularCategoriesList, getPopularCategoriesStatus } from "@store/popularCategories";
 
 interface PopularCategoriesProps {
-  popularCategories: { category: Category, books: Book[] }[];
-  status: LOAD_STATUSES;
+
 }
 
-export const PopularCategories: FC<PopularCategoriesProps> = ({ popularCategories, status }) => {
+export const PopularCategories: FC<PopularCategoriesProps> = () => {
+  const popularCategoriesList = useSelector(getPopularCategoriesList);
+  const popularCategoriesStatus = useSelector(getPopularCategoriesStatus);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchPopularCategories() as any);
+  }, []);
+
   const pulse = "bg-lightGray rounded";
 
   const bookLoader =
@@ -48,7 +57,7 @@ export const PopularCategories: FC<PopularCategoriesProps> = ({ popularCategorie
   return (
     <section className="flex flex-col gap-65 items-center my-90">
       {
-        (status === LOAD_STATUSES.UNKNOWN || status === LOAD_STATUSES.LOADING) &&
+        (popularCategoriesStatus === LOAD_STATUSES.UNKNOWN || popularCategoriesStatus === LOAD_STATUSES.LOADING) &&
         popularCategoriesLoader.map((item,index) => (
           <div key={index}>
             { item }
@@ -56,8 +65,8 @@ export const PopularCategories: FC<PopularCategoriesProps> = ({ popularCategorie
         ))
       }
       {
-        status === LOAD_STATUSES.LOADED &&
-        popularCategories.map(({ category, books }) => {
+        popularCategoriesStatus === LOAD_STATUSES.LOADED &&
+        popularCategoriesList.map(({ category, books }) => {
           return <CategorySwiper key={category.id} category={category} books={books}/>
         })
       }
