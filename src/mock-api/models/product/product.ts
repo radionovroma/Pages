@@ -5,7 +5,7 @@ export interface Product {
   img: string;
   authors: string[];
   publisher: string;
-  date_published: string;
+  date_published: number;
   language: string;
   dimensions: string;
   pages: number;

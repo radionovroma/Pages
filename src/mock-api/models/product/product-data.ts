@@ -11,7 +11,7 @@ export const products: Product[] = [
       "Stephen King"
     ],
     publisher: "Scribner",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.4 Inches, Weight: 1.6 Pounds",
     pages: 448,
@@ -28,7 +28,7 @@ export const products: Product[] = [
       "Hanya Yanagihara"
     ],
     publisher: "Doubleday",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.5313 Inches, Weight: 1.25 Pounds",
     pages: 720,
@@ -45,7 +45,7 @@ export const products: Product[] = [
       "Don Winslow"
     ],
     publisher: "William Morrow",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.12 Inches, Width: 1.25 Inches, Weight: 1.425 Pounds",
     pages: 400,
@@ -62,7 +62,7 @@ export const products: Product[] = [
       "Jodi Picoult"
     ],
     publisher: "Ballantine Books",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 0.8438 Inches, Weight: 1.29 Pounds",
     pages: 336,
@@ -79,7 +79,7 @@ export const products: Product[] = [
       "Colson Whitehead"
     ],
     publisher: "Doubleday",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 0.9375 Inches, Weight: 1.39 Pounds",
     pages: 336,
@@ -96,7 +96,7 @@ export const products: Product[] = [
       "David Baldacci"
     ],
     publisher: "Grand Central Publishing",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.35 Inches, Length: 6.45 Inches, Width: 1.6 Inches, Weight: 1.4 Pounds",
     pages: 432,
@@ -113,7 +113,7 @@ export const products: Product[] = [
       "Mark Greaney"
     ],
     publisher: "Berkley",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.31 Inches, Length: 6.21 Inches, Width: 1.67 Inches, Weight: 1.6 Pounds",
     pages: 512,
@@ -130,7 +130,7 @@ export const products: Product[] = [
       "Stephen King"
     ],
     publisher: "Scribner",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.13 Inches, Weight: 2 Inches, Weight: 1.6 Pounds",
     pages: 528,
@@ -147,7 +147,7 @@ export const products: Product[] = [
       "Brit Bennett",
     ],
     publisher: "Harpercollins/Dialogue Books/Tinder Press",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.2 Inches, Length: 6.22 Inches, Weight: 0.82 Inches, Weight: 1.2 Pounds",
     pages: 352,
@@ -164,7 +164,7 @@ export const products: Product[] = [
       "Richard Powers"
     ],
     publisher: "W. W. Norton & Company",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1 Inches, Weight: 1.15 Pounds",
     pages: 288,
@@ -181,7 +181,7 @@ export const products: Product[] = [
       "Heather Morris"
     ],
     publisher: "Zaffre/Ebury Press",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 8 Inches, Length: 5.31 Inches, Width: 0.65 Inches, Weight: 0.5 Pounds",
     pages: 288,
@@ -198,7 +198,7 @@ export const products: Product[] = [
       "Elin Hilderbrand"
     ],
     publisher: "Little, Brown and Company",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.55 Inches, Length: 6.4 Inches, Width: 1.75 Inches, Weight: 1.43 Pounds",
     pages: 432,
@@ -215,7 +215,7 @@ export const products: Product[] = [
       "Sally Rooney"
     ],
     publisher: "Farrar, Straus and Giroux",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 8.4 Inches, Length: 6.09 Inches, Width: 1.21 Inches, Weight: 1.07 Pounds",
     pages: 240,
@@ -232,7 +232,7 @@ export const products: Product[] = [
       "Chris Whitaker"
     ],
     publisher: "Henry Holt and Co.",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.14 Inches, Width: 0 Inches, Weight: 1.25 Pounds",
     pages: 384,
@@ -249,7 +249,7 @@ export const products: Product[] = [
       "Ruth Ware"
     ],
     publisher: "Gallery/Scout Press",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.2 Inches, Weight: 1.3 Pounds",
     pages: 384,
@@ -266,7 +266,7 @@ export const products: Product[] = [
       "Mark Greaney"
     ],
     publisher: "Berkley",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.34 Inches, Length: 6.34 Inches, Width: 1.57 Inches, Weight: 1.5 Pounds",
     pages: 528,
@@ -283,7 +283,7 @@ export const products: Product[] = [
       "Kim Michele Richardson"
     ],
     publisher: "Sourcebooks Landmark",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1.5 Inches, Weight: 0.65 Pounds",
     pages: 320,
@@ -300,7 +300,7 @@ export const products: Product[] = [
       "Louise Penny"
     ],
     publisher: "Minotaur Books",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.5098235 Inches, Length: 6.51 Inches, Width: 1.49 Inches, Weight: 1.45 Pounds",
     pages: 448,
@@ -317,7 +317,7 @@ export const products: Product[] = [
       "John Sandford"
     ],
     publisher: "G.P. Putnam's Sons",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.3 Inches, Length: 6.4 Inches, Width: 1.5 Inches, Weight: 1.23 Pounds",
     pages: 400,
@@ -334,7 +334,7 @@ export const products: Product[] = [
       "Emily Henry"
     ],
     publisher: "Berkley",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.9688 Inches, Weight: 1.3 Pounds",
     pages: 384,
@@ -351,7 +351,7 @@ export const products: Product[] = [
       "Susan Wiggs"
     ],
     publisher: "William Morrow",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.21 Inches, Weight: 1.1 Pounds",
     pages: 384,
@@ -368,7 +368,7 @@ export const products: Product[] = [
       "Isabel Allende"
     ],
     publisher: "Ballantine Books",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.45 Inches, Length: 6.44 Inches, Width: 1.04 Inches, Weight: 1.25 Pounds",
     pages: 336,
@@ -385,7 +385,7 @@ export const products: Product[] = [
       "Olivie Blake"
     ],
     publisher: "Tor Books",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.96 Inches, Weight: 1.2 Pounds",
     pages: 384,
@@ -402,7 +402,7 @@ export const products: Product[] = [
       "Lisa Gardner"
     ],
     publisher: "Dutton",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.27 Inches, Length: 6.24 Inches, Width: 1.29 Inches, Weight: 1.27 Pounds",
     pages: 400,
@@ -419,7 +419,7 @@ export const products: Product[] = [
       "Bonnie Garmus"
     ],
     publisher: "Doubleday",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.125 Inches, Weight: 1.58 Pounds",
     pages: 400,
@@ -436,7 +436,7 @@ export const products: Product[] = [
       "Kate Atkinson"
     ],
     publisher: "Doubleday",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.1563 Inches, Weight: 1.25 Pounds",
     pages: 416,
@@ -453,7 +453,7 @@ export const products: Product[] = [
       "Emily Henry"
     ],
     publisher: "Berkley",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 0.9375 Inches, Weight: 0.75 Pounds",
     pages: 384,
@@ -470,7 +470,7 @@ export const products: Product[] = [
       "Daniel Silva"
     ],
     publisher: "Harper",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.49 Inches, Weight: 1 Pounds",
     pages: 496,
@@ -487,7 +487,7 @@ export const products: Product[] = [
       "Elena Ferrante"
     ],
     publisher: "Europa Editions",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.5 Inches, Width: 1.25 Inches, Weight: 1.2 Pounds",
     pages: 324,
@@ -504,7 +504,7 @@ export const products: Product[] = [
       "Emily St. John Mandel"
     ],
     publisher: "Knopf",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 8.5 Inches, Length: 5.96 Inches, Width: 1.1 Inches, Weight: 1.15 Pounds",
     pages: 320,
@@ -521,7 +521,7 @@ export const products: Product[] = [
       "Amor Towles"
     ],
     publisher: "Viking",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.28 Inches, Width: 1.83 Inches, Weight: 1.9 Pounds",
     pages: 416,
@@ -538,7 +538,7 @@ export const products: Product[] = [
       "Lauren Groff"
     ],
     publisher: "Riverhead Books",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.6875 Inches, Weight: 1 Pounds",
     pages: 272,
@@ -555,7 +555,7 @@ export const products: Product[] = [
       "Jessamine Chan"
     ],
     publisher: "Simon & Schuster",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.865 Inches, Weight: 1 Pounds",
     pages: 336,
@@ -572,7 +572,7 @@ export const products: Product[] = [
       "Frances Liardet"
     ],
     publisher: "G.P. Putnam's Sons",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.27 Inches, Length: 6.22 Inches, Width: 1.44 Inches, Weight: 1.5 Pounds",
     pages: 464,
@@ -590,7 +590,7 @@ export const products: Product[] = [
       "Dirk Cussler"
     ],
     publisher: "G.P. Putnam's Sons",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.34 Inches, Length: 6.31 Inches, Width: 1.86 Inches, Weight: 1.5 Pounds",
     pages: 464,
@@ -607,7 +607,7 @@ export const products: Product[] = [
       "Andy Weir"
     ],
     publisher: "Ballantine Books",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.25 Inches, Weight: 1.72 Pounds",
     pages: 496,
@@ -624,7 +624,7 @@ export const products: Product[] = [
       "Stephen King"
     ],
     publisher: "Scribner",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.6 Inches, Weight: 1.94 Pounds",
     pages: 576,
@@ -641,7 +641,7 @@ export const products: Product[] = [
       "Serena Burdick"
     ],
     publisher: "Park Row",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 8.9 Inches, Length: 5.9 Inches, Width: 0.8 Inche, Weight: 0.6 Poundss",
     pages: 336,
@@ -658,7 +658,7 @@ export const products: Product[] = [
       "J.A. Jance"
     ],
     publisher: "Gallery Books",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 9 Inches, Width: 6 Inches, Weight: 1.15 Pounds",
     pages: 352,
@@ -675,7 +675,7 @@ export const products: Product[] = [
       "Erica Bauermeister"
     ],
     publisher: "St. Martin's Press",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.43 Inches, Length: 6.45 Inches, Width: 1.1 Inches, Weight: 1.15 Pounds",
     pages: 320,
@@ -692,7 +692,7 @@ export const products: Product[] = [
       "Tessa Bailey"
     ],
     publisher: "Avon",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 8 Inches, Length: 5.31 Inches, Width: 0.94 Inches, Weight: 0.65 Pounds",
     pages: 416,
@@ -709,7 +709,7 @@ export const products: Product[] = [
       "Rosie Walsh"
     ],
     publisher: "Pamela Dorman Books",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 9.3 Inches, Length: 6.21 Inches, Width: 1.17 Inches, Weight: 1.2 Pounds",
     pages: 352,
@@ -726,7 +726,7 @@ export const products: Product[] = [
       "Jennifer Chiaverini"
     ],
     publisher: "William Morrow",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.466 Inches, Weight: 1.7 Pounds",
     pages: 608,
@@ -743,7 +743,7 @@ export const products: Product[] = [
       "Amor Towles"
     ],
     publisher: "Viking",
-    date_published: "2016",
+    date_published: 2016,
     language: "english",
     dimensions: "Height: 9.27 Inches, Length: 6.32 Inches, Width: 1.44 Inches, Weight: 1.6 Pounds",
     pages: 480,
@@ -760,7 +760,7 @@ export const products: Product[] = [
       "Toni Morrison"
     ],
     publisher: "VincategoryIde",
-    date_published: "2004",
+    date_published: 2004,
     language: "english",
     dimensions: "Height: 8 Inches, Length: 5.2 Inches, Width: 0.7 Inches, Weight: 0.75 Pounds",
     pages: 321,
@@ -777,7 +777,7 @@ export const products: Product[] = [
       "Tarryn Fisher"
     ],
     publisher: "Graydon House",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 8.9 Inches, Length: 5.9 Inches, Width: 0.8, Weight: 0.7 Pounds",
     pages: 336,
@@ -794,7 +794,7 @@ export const products: Product[] = [
       "Gabrielle Zevin"
     ],
     publisher: "Knopf",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.1 Inches, Width: 1.15 Inches, Weight: 1.6 Pounds",
     pages: 416,
@@ -811,7 +811,7 @@ export const products: Product[] = [
       "Tommy Orange"
     ],
     publisher: "Knopf",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 8.52 Inches, Length: 5.75 Inches, Width: 1.15 Inches, Weight: 1 Pounds",
     pages: 304,
@@ -828,7 +828,7 @@ export const products: Product[] = [
       "Kristin Hannah"
     ],
     publisher: "St. Martin's Press",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 9.48 Inches, Length: 6.44 Inches, Width: 1.38 Inches, Weight: 1.55 Pounds",
     pages: 448,
@@ -845,7 +845,7 @@ export const products: Product[] = [
       "Tessa Bailey"
     ],
     publisher: "Avon",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 8 Inches, Length: 5.31 Inches, Width: 0.83 Inches, Weight: 0.65 Pounds",
     pages: 368,
@@ -862,7 +862,7 @@ export const products: Product[] = [
       "Elizabeth Wetmore"
     ],
     publisher: "Harper",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.05 Inches, Weight: 1.05 Pounds",
     pages: 320,
@@ -879,7 +879,7 @@ export const products: Product[] = [
       "Randy Wayne White"
     ],
     publisher: "G.P. Putnam's Sons",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.29 Inches, Length: 6.3 Inches, Width: 1.17 Inches, Weight: 1.3 Pounds",
     pages: 368,
@@ -896,7 +896,7 @@ export const products: Product[] = [
       "Greg Iles"
     ],
     publisher: "William Morrow",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.466 Inches, Weight: 1.65 Pounds",
     pages: 608,
@@ -913,7 +913,7 @@ export const products: Product[] = [
       "Marc Cameron"
     ],
     publisher: "G.P. Putnam's Sons",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 9.34 Inches, Length: 6.4 Inches, Width: 1.6 Inches, Weight: 1.65 Pounds",
     pages: 528,
@@ -931,7 +931,7 @@ export const products: Product[] = [
       "Sarah Pekkanen"
     ],
     publisher: "St. Martin's Press",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 9.5901383 Inches, Length: 6.43 Inches, Width: 1.31 Inches, Weight: 1.2 Pounds",
     pages: 352,
@@ -948,7 +948,7 @@ export const products: Product[] = [
       "Lisa Jewell"
     ],
     publisher: "Atria Books",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.3 Inches, Weight: 1.08 Pounds",
     pages: 336,
@@ -965,7 +965,7 @@ export const products: Product[] = [
       "Michael Connelly"
     ],
     publisher: "Little, Brown and Company",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.7 Inches, Length: 6.7 Inches, Width: 1.65 Inches, Weight: 1.4 Pounds",
     pages: 416,
@@ -982,7 +982,7 @@ export const products: Product[] = [
       "Catherine Steadman"
     ],
     publisher: "Ballantine Books",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 9.5 Inches, Length: 6.4 Inches, Width: 1.13 Inches, Weight: 1.27 Pounds",
     pages: 352,
@@ -999,7 +999,7 @@ export const products: Product[] = [
       "Catherine Coulter"
     ],
     publisher: "Gallery Books",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.7 Inches, Weight: 1.5 Pounds",
     pages: 512,
@@ -1016,7 +1016,7 @@ export const products: Product[] = [
       "Marc Cameron"
     ],
     publisher: "G.P. Putnam's Sons",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.32 Inches, Length: 6.32 Inches, Width: 1.6 Inches, Weight: 1.65 Pounds",
     pages: 512,
@@ -1033,7 +1033,7 @@ export const products: Product[] = [
       "Stephen King"
     ],
     publisher: "Scribner",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 7 Inches, Length: 5 Inches, Width: 1 Inches, Weight: 0.5 Pounds",
     pages: 160,
@@ -1050,7 +1050,7 @@ export const products: Product[] = [
       "Mary Higgins Clark"
     ],
     publisher: "Simon & Schuster",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.3 Inches, Weight: 1.2 Pounds",
     pages: 400,
@@ -1068,7 +1068,7 @@ export const products: Product[] = [
       "Douglas Preston"
     ],
     publisher: "Grand Central Publishing",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.3 Inches, Length: 6.45 Inches, Width: 1.65 Inches, Weight: 1.3 Pounds",
     pages: 416,
@@ -1085,7 +1085,7 @@ export const products: Product[] = [
       "Liane Moriarty"
     ],
     publisher: "Flatiron Books",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 9.41 Inches, Length: 6.5 Inches, Width: 1.4 Inches, Weight: 1.45 Pounds",
     pages: 464,
@@ -1102,7 +1102,7 @@ export const products: Product[] = [
       "Lisa Gardner"
     ],
     publisher: "Dutton",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.27 Inches, Length: 6.27 Inches, Width: 1.33 Inches, Weight: 1.32 Pounds",
     pages: 400,
@@ -1119,7 +1119,7 @@ export const products: Product[] = [
       "Louise Penny"
     ],
     publisher: "Minotaur Books",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.6 Inches, Length: 6.6 Inches, Width: 1.4 Inches, Weight: 1.41 Pounds",
     pages: 448,
@@ -1136,7 +1136,7 @@ export const products: Product[] = [
       "Steve Berry"
     ],
     publisher: "Minotaur Books",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.6 Inches, Length: 6.5 Inches, Width: 1.3 Inches, Weight: 1.35 Pounds",
     pages: 416,
@@ -1153,7 +1153,7 @@ export const products: Product[] = [
       "C. J. Box"
     ],
     publisher: "G.P. Putnam's Sons",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.3 Inches, Length: 6.2 Inches, Width: 1.2 Inches, Weight: 1.2 Pounds",
     pages: 384,
@@ -1170,7 +1170,7 @@ export const products: Product[] = [
       "Lisa Scottoline"
     ],
     publisher: "G.P. Putnam's Sons",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1 Inches, Weight: 1.39 Pounds",
     pages: 400,
@@ -1187,7 +1187,7 @@ export const products: Product[] = [
       "Mary Kubica"
     ],
     publisher: "Park Row",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.13 Inches, Width: 1.2 Inches, Weight: 1.22 Pounds",
     pages: 320,
@@ -1204,7 +1204,7 @@ export const products: Product[] = [
       "Lisa Scottoline"
     ],
     publisher: "St. Martin's Press",
-    date_published: "2017",
+    date_published: 2017,
     language: "english",
     dimensions: "Height: 9.6 Inches, Length: 6.5 Inches, Width: 1.2 Inches, Weight: 1.25 Pounds",
     pages: 368,
@@ -1221,7 +1221,7 @@ export const products: Product[] = [
       "Janice Hallett"
     ],
     publisher: "Atria Books",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Weight: 1.13 Pounds, Width: 0.825 Inches",
     pages: 336,
@@ -1238,7 +1238,7 @@ export const products: Product[] = [
       "Christopher Golden"
     ],
     publisher: "St. Martin's Press",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.1 Inches, Width: 1 Inch, Weight: 1 Pounds",
     pages: 336,
@@ -1255,7 +1255,7 @@ export const products: Product[] = [
       "Dean Koontz"
     ],
     publisher: "Thomas & Mercer",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1 Inches, Weight: 1.37 Pounds",
     pages: 416,
@@ -1272,7 +1272,7 @@ export const products: Product[] = [
       "Brad Taylor"
     ],
     publisher: "William Morrow",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.4 Inches, Weight: 1.4 Pounds",
     pages: 464,
@@ -1289,7 +1289,7 @@ export const products: Product[] = [
       "E. V. Adamson"
     ],
     publisher: "Scarlet",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.4 Inches, Length: 6.4 Inches, Width: 1.2 Inches, Weight: 1.35 Pounds",
     pages: 312,
@@ -1306,7 +1306,7 @@ export const products: Product[] = [
       "Dr. Jenna Podjasek"
     ],
     publisher: "Bancroft Press",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.2 Inches, Weight: 1.19 Pounds",
     pages: 285,
@@ -1323,7 +1323,7 @@ export const products: Product[] = [
       "Joseph O’Connor"
     ],
     publisher: "Europa Editions",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     pages: 440,
     dimensions: "Height: 8.75 Inches, Length: 8.5 Inches, Width: 1.25 Inches, Weight: 1.05 Pounds",
@@ -1340,7 +1340,7 @@ export const products: Product[] = [
       "Ann-Helén Laestadius"
     ],
     publisher: "Scribner",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.4 Inches, Length: 5.5 Inches, Width: 1.1 Inches, Weight: 1.36 Pounds",
     pages: 432,
@@ -1357,7 +1357,7 @@ export const products: Product[] = [
       "Lyn Liao Butler"
     ],
     publisher: "Thomas & Mercer",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.65 Pounds",
     pages: 299,
@@ -1374,7 +1374,7 @@ export const products: Product[] = [
       "E.A. Aymar"
     ],
     publisher: "Thomas & Mercer",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches",
     pages: 335,
@@ -1391,7 +1391,7 @@ export const products: Product[] = [
       "DC Palter"
     ],
     publisher: "Pandamoon Publishing",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.6 Inches, Weight: 0.9 Pounds",
     pages: 262,
@@ -1408,7 +1408,7 @@ export const products: Product[] = [
       "Mike Lawson"
     ],
     publisher: "Atlantic Monthly Press",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.5 Inches, Length: 6.25 Inches, Width: 1 Inch, Weight: 0.8 Pounds",
     pages: 288,
@@ -1425,7 +1425,7 @@ export const products: Product[] = [
       "Dan Jones"
     ],
     publisher: "Viking",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inchess, Width: 1.1563 Inches, Weight: 1.25 Pound",
     pages: 448,
@@ -1442,7 +1442,7 @@ export const products: Product[] = [
       "J. D. Robb"
     ],
     publisher: "St. Martin's Press",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.1 Inches, Width: 1 Inch, Weight: 1 Pound",
     pages: 384,
@@ -1459,7 +1459,7 @@ export const products: Product[] = [
       "Tom Rob Smith"
     ],
     publisher: "Scribner",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.825 Inches, Weight: 1.16 Pound",
     pages: 368,
@@ -1477,7 +1477,7 @@ export const products: Product[] = [
       "Roy Johansen"
     ],
     publisher: "Grand Central Publishing",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.0625 Inches, Weight: 1.1 Pound",
     pages: 320,
@@ -1494,7 +1494,7 @@ export const products: Product[] = [
       "Jonathan Kellerman"
     ],
     publisher: "Ballantine Books",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.54 Inches, Length: 6.35 Inches, Width: 1.12 Inches, Weight: 1.15 Pound",
     pages: 320,
@@ -1511,7 +1511,7 @@ export const products: Product[] = [
       "Leanne Kale Sparks"
     ],
     publisher: "Crooked Lane Books",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.5 Inches, Length: 6.35 Inches, Width: 0.96 Inches, Weight: 1.25 Pound",
     pages: 272,
@@ -1528,7 +1528,7 @@ export const products: Product[] = [
       "Rachel Koller Croft"
     ],
     publisher: "Berkley",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.9 Inches, Weight: 1.35 Pounds",
     pages: 368,
@@ -1545,7 +1545,7 @@ export const products: Product[] = [
       "Michael Robotham"
     ],
     publisher: "Scribner",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.905 Inches, Weight: 1.21 Pounds",
     pages: 352,
@@ -1562,7 +1562,7 @@ export const products: Product[] = [
       "Matthew FitzSimmons"
     ],
     publisher: "Thomas & Mercer",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.95 Pounds",
     pages: 316,
@@ -1579,7 +1579,7 @@ export const products: Product[] = [
       "Gregg Hurwitz"
     ],
     publisher: "Minotaur Books",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.1247909 Inches, Width: 1 Inch, Weight: 1 Pounds",
     pages: 352,
@@ -1596,7 +1596,7 @@ export const products: Product[] = [
       "Kotzwinkle William"
     ],
     publisher: "Blackstone Publishing",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.5 Inches, Length: 6.5 Inches, Width: 1 Inch, Weight: 1.55 Pounds",
     pages: 350,
@@ -1613,7 +1613,7 @@ export const products: Product[] = [
       "Kathleen Kent"
     ],
     publisher: "Mulholland Books",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6 Inches, Width: 1.3125 Inches, Weight: 1.15 Pounds",
     pages: 400,
@@ -1630,7 +1630,7 @@ export const products: Product[] = [
       "Margot Douaihy"
     ],
     publisher: "Gillian Flynn Books",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.8 Inches, Weight: 1.25 Pounds",
     pages: 320,
@@ -1647,7 +1647,7 @@ export const products: Product[] = [
       "Rick Lenz"
     ],
     publisher: "Chromodroid Press",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.5 Inches, Length: 5.5 Inches, Width: 0.62 Inches, Weight: 0.7 Pounds",
     pages: 248,
@@ -1664,7 +1664,7 @@ export const products: Product[] = [
       "Jonathan Wilson"
     ],
     publisher: "Schocken",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 0.75 Inches, Weight: 0.96 Pounds",
     pages: 272,
@@ -1681,7 +1681,7 @@ export const products: Product[] = [
       "Julia Bartz"
     ],
     publisher: "Atria/Emily Bestler Books",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.625 Inches, Weight: 0.94 Pounds",
     pages: 320,
@@ -1698,7 +1698,7 @@ export const products: Product[] = [
       "Mark Greaney"
     ],
     publisher: "Berkley",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.3 Inches, Weight: 1.72 Pounds",
     pages: 528,
@@ -1715,7 +1715,7 @@ export const products: Product[] = [
       "Steve Berry"
     ],
     publisher: "Grand Central Publishing",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8 Inches, Length: 5.31 Inches, Width: 0.82 Inches, Weight: 0.62 Pounds",
     pages: 400,
@@ -1732,7 +1732,7 @@ export const products: Product[] = [
       "Andrew Mayne"
     ],
     publisher: "Thomas & Mercer",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.7 Pounds",
     pages: 315,
@@ -1749,7 +1749,7 @@ export const products: Product[] = [
       "Joe Kilgore"
     ],
     publisher: "Encircle Publications",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.5 Inches, Length: 5.5 Inches, Width: 0.64 Inches, Weight: 0.72 Pounds",
     pages: 256,
@@ -1766,7 +1766,7 @@ export const products: Product[] = [
       "Cora Harrison"
     ],
     publisher: "Severn House",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.6 Inches, Length: 5.6 Inches, Width: 0.9 Inches, Weight: 0.8 Pounds",
     pages: 240,
@@ -1783,7 +1783,7 @@ export const products: Product[] = [
       "Debra Webb"
     ],
     publisher: "Thomas & Mercer",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.9 Pounds",
     pages: 351,
@@ -1800,7 +1800,7 @@ export const products: Product[] = [
       "Katherine Bolger Hyde"
     ],
     publisher: "Severn House",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.75 Inches, Length: 5.75 Inches, Width: 0.75 Inches, Weight: 0.85 Pounds",
     pages: 224,
@@ -1817,7 +1817,7 @@ export const products: Product[] = [
       "Toni LoTempio"
     ],
     publisher: "Severn House",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.6 Inches, Length: 5.4 Inches, Width: 1 Inches, Weight: 0.95 Pounds",
     pages: 256,
@@ -1834,7 +1834,7 @@ export const products: Product[] = [
       "Mary Winters"
     ],
     publisher: "Berkley",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8 Inches, Length: 5.2 Inches, Width: 0.8 Inches, Weight: 0.58 Pounds",
     pages: 320,
@@ -1851,7 +1851,7 @@ export const products: Product[] = [
       "Betty Webb"
     ],
     publisher: "Poisoned Pen Press",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 8.5 Inches, Length: 5.5 Inches, Width: 0.84 Inches, Weight: 0.43 Pounds",
     pages: 336,
@@ -1868,7 +1868,7 @@ export const products: Product[] = [
       "Peter Robinson"
     ],
     publisher: "William Morrow",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.05 Inches, Weight: 1 Pounds",
     pages: 320,
@@ -1885,7 +1885,7 @@ export const products: Product[] = [
       "Diane Kelly"
     ],
     publisher: "Berkley",
-    date_published: "2023",
+    date_published: 2023,
     language: "english",
     dimensions: "Height: 6.75 Inches, Length: 4.12 Inches, Width: 0.72 Inches, Weight: 0.32 Pounds",
     pages: 288,
@@ -1902,7 +1902,7 @@ export const products: Product[] = [
       "Louise Penny"
     ],
     publisher: "Minotaur Books",
-    date_published: "2016",
+    date_published: 2016,
     language: "english",
     dimensions: "Height: 9.62 Inches, Length: 6.42 Inches, Width: 1.3 Inches, Weight: 1.3 Pounds",
     pages: 400,
@@ -1919,7 +1919,7 @@ export const products: Product[] = [
       "Karin Slaughter"
     ],
     publisher: "William Morrow",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.41 Inches, Weight: 1.35 Pounds",
     pages: 464,
@@ -1936,7 +1936,7 @@ export const products: Product[] = [
       "C. J. Box"
     ],
     publisher: "G. P. Putnam's Sons",
-    date_published: "2005",
+    date_published: 2005,
     language: "english",
     dimensions: "Height: 9.5 Inches, Length: 6.4 Inches, Width: 1 Inches, Weight: 1.25 Pounds",
     pages: 305,
@@ -1953,7 +1953,7 @@ export const products: Product[] = [
       "Brian Freeman"
     ],
     publisher: "Thomas & Mercer",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 1 Pounds",
     pages: 336,
@@ -1970,7 +1970,7 @@ export const products: Product[] = [
       "Kate Atkinson"
     ],
     publisher: "Little, Brown and Company",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.65 Inches, Length: 6.6 Inches, Width: 1.55 Inches, Weight: 1.4 Pounds",
     pages: 400,
@@ -1987,7 +1987,7 @@ export const products: Product[] = [
       "Karin Slaughter"
     ],
     publisher: "William Morrow",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 8.7 Inches, Length: 1.6 Inches, Width: 6.1 Inches, Weight: 1.4 Pounds",
     pages: 480,
@@ -2004,7 +2004,7 @@ export const products: Product[] = [
       "Paul Vidich"
     ],
     publisher: "Pegasus Crime",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.3 Inches, Length: 6.3 Inches, Width: 0.9 Inches, Weight: 0.85 Pounds",
     pages: 224,
@@ -2021,7 +2021,7 @@ export const products: Product[] = [
       "Joe Ide"
     ],
     publisher: "Mulholland Books",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.5 Inches, Length: 6.25 Inches, Width: 1.25 Inches, Weight: 1.35 Pounds",
     pages: 352,
@@ -2038,7 +2038,7 @@ export const products: Product[] = [
       "Anthony Horowitz"
     ],
     publisher: "Harper",
-    date_published: "2017",
+    date_published: 2017,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.49 Inches, Weight: 1.55 Pounds",
     pages: 496,
@@ -2055,7 +2055,7 @@ export const products: Product[] = [
       "Charlie Donlea"
     ],
     publisher: "Kensington",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.32 Inches, Length: 6.26 Inches, Width: 1.09 Inches, Weight: 1 Pounds",
     pages: 304,
@@ -2072,7 +2072,7 @@ export const products: Product[] = [
       "Robert Crais"
     ],
     publisher: "G.P. Putnam's Sons",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.27 Inches, Length: 6.42 Inches, Width: 1.33 Inches, Weight: 1.25 Pounds",
     pages: 352,
@@ -2089,7 +2089,7 @@ export const products: Product[] = [
       "Alex Segura"
     ],
     publisher: "Flatiron Books",
-    date_published: "2022",
+    date_published: 2022,
     language: "english",
     dimensions: "Height: 9.25 Inches, Length: 6.12 Inches, Width: 1,25 Inches, Weight: 1.29 Pounds",
     pages: 336,
@@ -2106,7 +2106,7 @@ export const products: Product[] = [
       "Louise Penny"
     ],
     publisher: "Minotaur Books",
-    date_published: "2011",
+    date_published: 2011,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.9 Inches, Weight: 1.45 Pounds",
     pages: 352,
@@ -2123,7 +2123,7 @@ export const products: Product[] = [
       "Graham Moore"
     ],
     publisher: "Random House",
-    date_published: "2016",
+    date_published: 2016,
     language: "english",
     dimensions: "Height: 9.54 Inches, Length: 6.46 Inches, Width: 1.29 Inches, Weight: 1.4 Pounds",
     pages: 384,
@@ -2140,7 +2140,7 @@ export const products: Product[] = [
       "Tim Dorsey"
     ],
     publisher: "William Morrow",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.09 Inches, Weight: 1.06 Pounds",
     pages: 336,
@@ -2157,7 +2157,7 @@ export const products: Product[] = [
       "Sherry Thomas"
     ],
     publisher: "Berkley",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 8.2 Inches, Length: 5.5 Inches, Width: 0.9 Inches, Weight: 0.7 Pounds",
     pages: 352,
@@ -2174,7 +2174,7 @@ export const products: Product[] = [
       "Sara Paretsky"
     ],
     publisher: "William Morrow",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.29 Inches, Weight: 1.25 Pounds",
     pages: 416,
@@ -2191,7 +2191,7 @@ export const products: Product[] = [
       "Joseph Schneider"
     ],
     publisher: "Poisoned Pen Press",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1.5 Inches, Weight: 0.75 Pounds",
     pages: 336,
@@ -2208,7 +2208,7 @@ export const products: Product[] = [
       "Miranda James"
     ],
     publisher: "Berkley",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.27 Inches, Length: 6.29 Inches, Width: 0.99 Inches, Weight: 0.9 Pounds",
     pages: 304,
@@ -2225,7 +2225,7 @@ export const products: Product[] = [
       "Galbraith Robert"
     ],
     publisher: "Mulholland Books",
-    date_published: "2013",
+    date_published: 2013,
     language: "english",
     dimensions: "Height: 9.5 Inches, Length: 6.325 Inches, Width: 2.125 Inches, Weight: 1.7 Pounds",
     pages: 464,
@@ -2242,7 +2242,7 @@ export const products: Product[] = [
       "Martha Grimes"
     ],
     publisher: "Atlantic Monthly Press",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 8.9 Inches, Length: 6.2 Inches, Width: 1.2 Inches, Weight: 0.9 Pounds",
     pages: 243,
@@ -2259,7 +2259,7 @@ export const products: Product[] = [
       "Thomas Harris"
     ],
     publisher: "St. Martin's Press",
-    date_published: "1988",
+    date_published: 1988,
     language: "english",
     dimensions: "Height: 9.56 Inches, Length: 6.14 Inches, Width: 1.195 Inches, Weight: 1.45 Pounds",
     pages: 352,
@@ -2276,7 +2276,7 @@ export const products: Product[] = [
       "Ariel Lawhon"
     ],
     publisher: "Doubleday",
-    date_published: "2018",
+    date_published: 2018,
     language: "english",
     dimensions: "Height: 9.56 Inches, Length: 6.47 Inches, Width: 1.29 Inches, Weight: 1.3 Pounds",
     pages: 352,
@@ -2293,7 +2293,7 @@ export const products: Product[] = [
       "Jane Harper"
     ],
     publisher: "Flatiron Books",
-    date_published: "2017",
+    date_published: 2017,
     language: "english",
     dimensions: "Height: 9.58 Inches, Length: 6.5 Inches, Width: 1.21, Weight: 1.15 Pounds",
     pages: 336,
@@ -2310,7 +2310,7 @@ export const products: Product[] = [
       "Agatha Christie"
     ],
     publisher: "William Morrow Paperbacks",
-    date_published: "2011",
+    date_published: 2011,
     language: "english",
     dimensions: "Height: 0.7 Inches, Length: 8 Inches, Width: 5.36 Inches, Weight: 0.45 Pounds",
     pages: 247,
@@ -2327,7 +2327,7 @@ export const products: Product[] = [
       "C. J. Box"
     ],
     publisher: "Putnam Adult",
-    date_published: "2001",
+    date_published: 2001,
     language: "english",
     dimensions: "Height: 9.32 Inches, Length: 6.24 Inches, Width: 1.13 Inches, Weight: 1 Pounds",
     pages: 293,
@@ -2344,7 +2344,7 @@ export const products: Product[] = [
       "Gillian Flynn"
     ],
     publisher: "Ballantine Books",
-    date_published: "2012",
+    date_published: 2012,
     language: "english",
     dimensions: "Height: 9.41 Inches, Length: 6.45 Inches, Width: 1.32 Inches, Weight: 1.45 Pounds",
     pages: 419,
@@ -2361,7 +2361,7 @@ export const products: Product[] = [
       "Sophie Hannah"
     ],
     publisher: "William Morrow",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.09 Inches, Weight: 1.05 Pounds",
     pages: 336,
@@ -2378,7 +2378,7 @@ export const products: Product[] = [
       "Rhys Bowen"
     ],
     publisher: "Lake Union Publishing",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.75 Pounds",
     pages: 347,
@@ -2395,7 +2395,7 @@ export const products: Product[] = [
       "Alex North"
     ],
     publisher: "Celadon Books",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.6 Inches, Length: 6.5 Inches, Width: 1.25 Inches, Weight: 1.2 Pounds",
     pages: 368,
@@ -2412,7 +2412,7 @@ export const products: Product[] = [
       "Denise Mina"
     ],
     publisher: "Mulholland Books",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.7 Inches, Length: 6.5 Inches, Width: 1.55 Inches, Weight: 1.3 Pounds",
     pages: 384,
@@ -2429,7 +2429,7 @@ export const products: Product[] = [
       "Chris Pavone"
     ],
     publisher: "Crown",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.43 Inches, Length: 6.37 Inches, Width: 1.18 Inches, Weight: 1.35 Pounds",
     pages: 384,
@@ -2446,7 +2446,7 @@ export const products: Product[] = [
       "Katrine Engberg"
     ],
     publisher: "Gallery/Scout Press",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1 Inches, Weight: 1.1 Pounds",
     pages: 368,
@@ -2463,7 +2463,7 @@ export const products: Product[] = [
       "Jess Kidd"
     ],
     publisher: "Atria Books",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.3 Inches, Weight: 1.1 Pounds",
     pages: 384,
@@ -2480,7 +2480,7 @@ export const products: Product[] = [
       "Charles Todd"
     ],
     publisher: "William Morrow",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.09 Inches, Weight: 1.1 Pounds",
     pages: 336,
@@ -2497,7 +2497,7 @@ export const products: Product[] = [
       "C. J. Tudor"
     ],
     publisher: "Crown",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.6 Inches, Length: 6.5 Inches, Width: 0.94 Inches, Weight: 1.1 Pounds",
     pages: 288,
@@ -2514,7 +2514,7 @@ export const products: Product[] = [
       "John le Carré"
     ],
     publisher: "Viking",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.3 Inches, Length: 6.3 Inches, Width: 1.2 Inches, Weight: 1.26 Pounds",
     pages: 288,
@@ -2532,7 +2532,7 @@ export const products: Product[] = [
       "Lincoln Child"
     ],
     publisher: "Grand Central Publishing",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.35 Inches, Length: 6.4 Inches, Width: 1.55 Inches, Weight: 1.35 Pounds",
     pages: 416,
@@ -2549,7 +2549,7 @@ export const products: Product[] = [
       "Richard Osman"
     ],
     publisher: "Pamela Dorman Books",
-    date_published: "2020",
+    date_published: 2020,
     language: "english",
     dimensions: "Height: 9.32 Inches, Length: 6.14 Inches, Width: 1.25 Inches, Weight: 0.8 Pounds",
     pages: 368,
@@ -2566,7 +2566,7 @@ export const products: Product[] = [
       "Michael Connelly"
     ],
     publisher: "Little, Brown and Company",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.5 Inches, Length: 6.25 Inches, Width: 1.25 Inches, Weight: 1.44 Pounds",
     pages: 416,
@@ -2584,7 +2584,7 @@ export const products: Product[] = [
       "Douglas Preston"
     ],
     publisher: "Grand Central Publishing",
-    date_published: "2021",
+    date_published: 2021,
     language: "english",
     dimensions: "Height: 9.3 Inches, Length: 6.45 Inches, Width: 1.65 Inches, Weight: 1.3 Pounds",
     pages: 416,
@@ -2601,7 +2601,7 @@ export const products: Product[] = [
       "Jane Harper"
     ],
     publisher: "Flatiron Books",
-    date_published: "2019",
+    date_published: 2019,
     language: "english",
     dimensions: "Height: 9.42 Inches, Length: 6.37 Inches, Width: 1.17 Inches, Weight: 1.1 Pounds",
     pages: 352,
