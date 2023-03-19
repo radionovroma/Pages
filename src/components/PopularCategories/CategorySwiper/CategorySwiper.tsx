@@ -25,7 +25,7 @@ export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
       <Swiper
         modules={[Navigation]}
         slidesPerView={5}
-        spaceBetween={30}
+        spaceBetween={48}
         slidesPerGroup={4}
         speed={1000}
         navigation
@@ -49,7 +49,7 @@ export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
             <img
               src={LastSlideImg}
               alt="View all category books"
-              className="mt-[5px] h-350 w-[234px] hover:animate-wiggle"
+              className="h-[334px] w-[222px] hover:animate-wiggle"
             />
           </a>
         </SwiperSlide>
