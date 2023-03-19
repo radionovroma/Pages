@@ -15,7 +15,9 @@ const SLICE_NAME = "NEWSLETTER_SUBSCRIPTION";
 const api = new Api();
 
 export const subscribe = createAsyncThunk(SLICE_NAME,
-  (email: string) => { return api.subscribeNewsletter(email) }
+  (email: string) => {
+    return api.postSubscriber({ email })
+  }
 );
 
 const initialState: State = {

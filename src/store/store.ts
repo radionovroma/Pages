@@ -3,6 +3,7 @@ import { reducer as categoriesReducer } from "./categories";
 import { reducer as bannerProductsReducer } from "./banerProducts";
 import { reducer as popularCategoriesReducer } from "./popularCategories";
 import { reducer as newsletterReducer } from "./newsletterSubscription";
+import { reducer as catalogReducer } from "./catalog";
 
 export const store = configureStore({
   reducer: {
@@ -10,6 +11,7 @@ export const store = configureStore({
     bannerProducts: bannerProductsReducer,
     popularCategories: popularCategoriesReducer,
     newsletterReducer: newsletterReducer,
+    catalog: catalogReducer,
   }
 });
 
