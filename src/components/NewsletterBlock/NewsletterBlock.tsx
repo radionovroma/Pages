@@ -18,7 +18,7 @@ export const NewsletterBlock: FC = () => {
     api[type]({
       message,
       placement: "bottomRight",
-      duration: 500,
+      duration: 10,
       style: {
         width: 400,
         borderRadius: 0,
@@ -63,7 +63,7 @@ export const NewsletterBlock: FC = () => {
             placeholder="Your Email id..."
             required
             pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3,4}$/"
-            className="w-[525px] px-25 font-sans font-lg text-blue outline-0 placeholder:text-gray"
+            className="w-[525px] px-25 border border-white font-sans font-lg text-blue outline-0 placeholder:text-gray hover:border-blue focus-visible:border-blue"
           />
           <button
             type="submit"
