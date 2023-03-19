@@ -1,6 +1,6 @@
 import { createServer, Model, belongsTo, Response } from "miragejs";
 import * as yup from "yup";
-import orderBy from "lodash";
+import orderBy from 'lodash.orderby';
 import { products, categories } from "./models";
 
 const subscriberCredentialsSchema = yup.object().shape({
