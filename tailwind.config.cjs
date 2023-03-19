@@ -61,6 +61,9 @@ module.exports = {
           '50%': { transform: 'rotate(1deg)' },
         }
       },
+      gridTemplateColumns: {
+        'catalog': '302px repeat(1, minmax(0, 1fr))',
+      },
     }
   },
   plugins: [
