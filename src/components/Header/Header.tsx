@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { InputWithIcon } from "@common";
+import { InputWithIcon } from "./InputWithIcon";
 import { DropdownMenu } from "./DropdownMenu";
 import { NavRoute } from "@types";
 import SearchSvg from "@img/search-icon.svg";
