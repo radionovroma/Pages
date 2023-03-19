@@ -22,3 +22,153 @@
     display: flex;
   }
 }
+
+.ant-select{
+  .ant-select-selector{
+    box-shadow: none !important;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #1b3764 !important;
+  }
+
+  &:hover {
+    .ant-select-selector{
+      border-color: #1b3764 !important;
+    }
+  }
+
+  &-open{
+    .ant-select-selector{
+      border-color: #1b3764 !important;
+      box-shadow: none !important;
+    }
+  }
+}
+
+.ant-select-dropdown {
+  .ant-select-item{
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #1b3764 !important;
+
+    &-option-selected{
+      background-color: #b4c7e7;
+    }
+  }
+}
+
+.ant-checkbox-group {
+  margin-top: 5px;
+
+  label{
+    margin-left: 0 !important;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #1b3764 !important;
+  }
+}
+
+.ant-input-number-affix-wrapper {
+  width: 124px;
+
+  .ant-input-number-prefix{
+    color: #969AA0;
+    width: 45px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+  }
+
+  .ant-input-number-input-wrap{
+    input{
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      color: #1b3764 !important;
+    }
+  }
+}
+
+.ant-form > .ant-form-item{
+  margin-bottom: 20px;
+
+  &:last-child{
+    margin: 0;
+  }
+
+  .ant-form-item-control-sort{
+    width: 200px;
+  }
+}
+
+.ant-form-item{
+  margin-bottom: 0;
+}
+
+.ant-form-item-label > label{
+  font-family: Inter, sans-serif;
+  font-size: 18px !important;
+  color: #1b3764 !important;
+}
+
+.antd-form-item__switch > .ant-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.antd-form-item__switch{
+  & > .ant-form-item-row{
+    justify-content: space-between;
+  }
+
+  .ant-form-item-control{
+    width: 50px !important;
+    flex-grow: 0;
+
+    &-input{
+      align-items: normal;
+
+      &-content{
+        flex: none;
+
+        .ant-switch {
+          background-color: #969AA0;
+
+          &-checked {
+            background-color: #1677ff;
+          }
+        }
+
+        .antd-switch-checked {
+          background-color: #1677ff;
+        }
+      }
+    }
+  }
+}
+
+.antd-form-item__buttons {
+  .ant-form-item-control-input-content {
+    display: flex;
+    justify-content: space-between;
+
+    .ant-btn {
+      height: 38px;
+      font-family: Inter, sans-serif;
+      font-size: 18px !important;
+      color: #1b3764 !important;
+    }
+  }
+}
+
+.ant-pagination-item {
+  a {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    color: #1b3764;
+  }
+
+  &-active {
+    a {
+      font-weight: 500;
+    }
+  }
+}
