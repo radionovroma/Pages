@@ -4,7 +4,7 @@ import { BannerSwiper, PopularCategories, BannerBlock, NewsletterBlock } from "@
 export const MainPage: FC = () => {
 
   return (
-    <main className="App">
+    <main>
       <BannerSwiper/>
       <PopularCategories/>
       <BannerBlock/>

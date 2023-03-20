@@ -1,5 +1,6 @@
 import { FC, useEffect, useMemo, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useParams, useNavigate } from "react-router-dom";
 import { Form, Pagination } from "antd";
 import { debounce, pickBy } from "lodash";
 import classNames from "classnames";
@@ -29,6 +30,27 @@ export const Catalog: FC = () => {
     return { value: id, label };
   });
 
+  const { categoryType } = useParams();
+  const categoryTypeIds = categoriesList.find((category) => category.type === categoryType)?.id
+  const navigate = useNavigate();
+
+  useEffect(() => {
+
+
+    if (categoryTypeIds) {
+      form.setFieldValue("categoryTypeIds", categoryTypeIds);
+      dispatch(fetchCatalog({categoryTypeIds}) as any);
+    } else if (!form.getFieldValue("categoryTypeIds")) {
+      dispatch(fetchCatalog() as any)
+    }
+  }, [categoryTypeIds]);
+
+  useEffect(() => {
+    if (categoryTypeIds !== form.getFieldValue("categoryTypeIds")) {
+      navigate("/catalog");
+    }
+  }, [form.getFieldValue("categoryTypeIds")]);
+
   const catalogList = useSelector(getCatalogList);
   const catalogFilterParams = useSelector(getCatalogFilterParams);
   const catalogTotalCount = useSelector(getCatalogTotalCount);
@@ -48,7 +70,7 @@ export const Catalog: FC = () => {
   const filterFormLoader =
     <div className={classNames(filterFormWrapStyles, "flex-col gap-20 h-[840px] border-0 animate-pulse", pulse)}></div>;
 
-  const booksListLoader = new Array(form.getFieldsValue().limit || 20);
+  const booksListLoader = new Array(form.getFieldValue("limit") || 20);
   booksListLoader.fill(bookLoader);
 
   const catalogLoader =
@@ -61,10 +83,6 @@ export const Catalog: FC = () => {
         ))
       }
     </div>;
-
-  useEffect(() => {
-    dispatch(fetchCatalog({}) as any);
-  }, []);
 
   useEffect(() => {
     if ( catalogStatus === LOAD_STATUSES.LOADED ) {

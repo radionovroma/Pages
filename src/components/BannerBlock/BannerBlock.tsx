@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 import img from "@img/banner.png";
 
 export const BannerBlock: FC = () => {
@@ -15,11 +16,12 @@ export const BannerBlock: FC = () => {
             className="font-sans text-lg text-lightBlue leading-8 cursor-default">
             Welcome to Pages! We have several thousand titles and free delivery. Looking for your new favourite book? Browse some of our top categories.
           </p>
-          <a
-            href=""
+          <Link
+            to="/catalog"
+            preventScrollReset={false}
             className="flex justify-center items-center w-230 h-50 border border-yellow font-serif font-bold text-lg text-white hover:bg-yellow hover:text-blue">
             View our catalog
-          </a>
+          </Link>
         </div>
         <img src={img} alt=""/>
       </div>

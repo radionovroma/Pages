@@ -4,7 +4,7 @@ import { Catalog, NewsletterBlock } from "@components";
 
 export const CatalogPage: FC = () => {
   return (
-    <main className="App">
+    <main>
       <PageBanner
         heading="Catalog"/>
       <Catalog/>

@@ -55,14 +55,17 @@ module.exports = {
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
       },
+      backgroundImage: {
+        'error-page': "url('@img/bg-error-page.jpg')",
+      },
+      gridTemplateColumns: {
+        'catalog': '302px repeat(1, minmax(0, 1fr))',
+      },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-1deg)' },
           '50%': { transform: 'rotate(1deg)' },
         }
-      },
-      gridTemplateColumns: {
-        'catalog': '302px repeat(1, minmax(0, 1fr))',
       },
     }
   },

@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { Link } from "react-router-dom";
 import { NavRoute } from "@types";
 import FacebookSvg from "@img/facebook-icon.svg";
 import TwitterSvg from "@img/twitter-icon.svg";
@@ -23,15 +24,15 @@ export const Footer: FC<FooterProps> = ({ routs, LogoSvg }) => {
     { label: "address :", content: "24A Kingston St, Los Vegas NC 28202, USA." },
     { label: "mail :", content: "support@doctors.com" },
     { label: "phone :", content: "(+22) 123 - 4567 - 900" }
-  ]
+  ];
 
   return (
     <footer className="flex justify-center bg-blue w-full py-40">
       <div className="w-cont grid grid-cols-6 gap-65">
         <div>
-          <a href="./">
+          <Link to="/">
             <LogoSvg/>
-          </a>
+          </Link>
           <ul className="flex gap-10 mt-25">
             {socialLinks.map(item => (
               <li
@@ -55,12 +56,13 @@ export const Footer: FC<FooterProps> = ({ routs, LogoSvg }) => {
             {
               routs.map(item => (
                 <li key={item.id}>
-                  <a
-                    href={item.path}
+                  <Link
+                    to={item.path}
+                    preventScrollReset={false}
                     className="flex items-center gap-20 font-sans text-lg leading-9 text-lightBlue hover:text-white">
                     <ExploreSvg/>
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))
             }

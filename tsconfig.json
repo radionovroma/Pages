@@ -23,12 +23,13 @@
     "baseUrl": "./src",
     "paths": {
       "@api": ["./api/Api.ts"],
-      "@img/*": ["./img/*"],
+      "@containers": ["./containers"],
       "@common": ["./components/common"],
       "@components": ["./components"],
+      "@hooks" : ["./hooks"],
+      "@img/*": ["./img/*"],
       "@loaders": ["./loaders"],
       "@mock": ["./mock-api"],
-      "@containers": ["./containers"],
       "@types": ["./types"],
       "@store/*": ["./store/*"],
     }

@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import { BookCard } from "@common";
@@ -17,11 +18,11 @@ export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
   return (
     <div
       className="w-cont+">
-      <a
-        href=""
+      <Link
+        to={`catalog/${category.type}`}
         className="ml-[60px] font-serif font-bold text-3xl text-blue capitalize hover:text-jeans">
         {category.label}
-      </a>
+      </Link>
       <Swiper
         modules={[Navigation]}
         slidesPerView={5}

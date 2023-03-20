@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 import classNames from "classnames";
 import { LOAD_STATUSES, NavRoute } from "@types";
 
@@ -14,28 +15,28 @@ export const DropdownMenu: FC<DropdownMenuProps> = ({ route }) => {
 
   return (
     <div className="group flex justify-center w-120">
-      <a
-        href={route.path}
+      <Link
+        to={route.path}
         className={ classNames("relative pt-10 px-25 font-sans text-lg leading-5 text-center text-white capitalize cursor-pointer hover:text-yellow", arrow)}>
         {route.label}
-      </a>
+      </Link>
       {
         route.dropdownList?.status === LOAD_STATUSES.LOADED &&
         <div
-          className="hidden absolute z-10 group-hover:flex shadow-2xl top-[64px] left-0 justify-center w-full bg-blue">
-          <ul className="flex flex-wrap gap-x-[125px] align-center content-between w-cont py-20">
+          className="hidden absolute z-10 group-hover:flex shadow-2xl top-[55px] left-0 justify-center w-full bg-blue">
+          <ul className="flex flex-wrap gap-x-[125px] align-center content-between w-cont py-10">
             {
               route.dropdownList.list.map((item) => (
                 <li
                   key={item.id}
                   className="flex w-230 h-[36px]">
-                  <a
-                    href={`${route.path}/${item.type}`}
+                  <Link
+                    to={`${route.path}/${item.type}`}
                     className="flex-auto flex items-center
                     font-sans text-base leading-4 text-center text-white capitalize
                     cursor-pointer hover:text-yellow">
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))
             }
