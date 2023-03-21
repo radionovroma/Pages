@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 import { Book } from "@types";
 import BookmarkSVG from "@img/bookmark-icon.svg";
 import { BookCover } from "../BoolCover";
@@ -11,23 +12,23 @@ export const BookCard: FC<BookCardProps> = ({ book}) => {
   const { img, authors, title, price } = book;
   return (
     <article>
-      <a
-        href="src/components/common/BookCard">
+      <Link
+        to={`/book/${book.id}`}>
           <BookCover
             coverImg={img}
             alt={`Cover of the book "${title}"`}
             className="h-[334px] w-[222px] shadow-md"/>
-      </a>
+      </Link>
       <p
         className="mt-15 font-sans text-lg text-yellow cursor-default">
         {`${price}$`}
       </p>
       <div className="h-[80px] mt-10">
-        <a
-          href="src/components/common/BookCard"
+        <Link
+          to={`/book/${book.id}`}
           className="font-serif font-bold text-xl text-blue hover:text-jeans line-clamp-2">
           {title}
-        </a>
+        </Link>
         <p
           className="font-sans text-gray line-clamp-1 cursor-default">
           {authors.join(", ")}

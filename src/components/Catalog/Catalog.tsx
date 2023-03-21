@@ -35,8 +35,6 @@ export const Catalog: FC = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-
-
     if (categoryTypeIds) {
       form.setFieldValue("categoryTypeIds", categoryTypeIds);
       dispatch(fetchCatalog({categoryTypeIds}) as any);

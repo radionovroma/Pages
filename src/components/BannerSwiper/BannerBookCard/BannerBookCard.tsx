@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 import { BookCover } from "@common";
 import { Book } from "@types";
 
@@ -16,12 +17,12 @@ export const BannerBookCard: FC<BannerBookCardProps> = ({ book }) => {
         </h1>
         <p
           className="relative font-serif italic text-2xl leading-9 text-white pl-50
-                  before:absolute before:w-35 before:h-[1px] before:bg-yellow before:left-0 before:top-1/2">
+                  before:absolute before:w-35 before:h-[1px] before:bg-yellow before:left-0 before:top-1/2 before:-translate-y-2/4">
           {book.authors.join(', ')}
         </p>
         <p
           className="mt-35 font-sans text-xl leading-9 text-lightBlue line-clamp-2">
-          {book.synopsis}
+          {book.description}
         </p>
         <div
           className="mt-35 flex gap-35">
@@ -29,14 +30,14 @@ export const BannerBookCard: FC<BannerBookCardProps> = ({ book }) => {
             className="w-230 h-50 font-serif font-bold text-lg leading-6 text-blue bg-yellow hover:bg-gold">
             Add To Cart
           </button>
-          <a
-            href="src/components/BannerSwiper/BannerBookCard"
+          <Link
+            to={`/book/${book.id}`}
             className="flex justify-center items-center
                       w-230 h-50 font-serif font-bold text-lg leading-6 text-lightBlue
                       border border-lightBlue
                       hover:text-white hover:border-white">
             Learn more
-          </a>
+          </Link>
         </div>
         <ul
           className="flex justify-between mt-35">
@@ -63,11 +64,13 @@ export const BannerBookCard: FC<BannerBookCardProps> = ({ book }) => {
           }
         </ul>
       </div>
-      <BookCover
-        coverImg={book.img}
-        alt={`Cover of the book "${book.title}"`}
-        delay={1500}
-        className="h-[500px] w-[335px]"/>
+      <Link to={`/book/${book.id}`}>
+        <BookCover
+          coverImg={book.img}
+          alt={`Cover of the book "${book.title}"`}
+          delay={1500}
+          className="h-[500px] w-[335px]"/>
+      </Link>
     </article>
   );
 }

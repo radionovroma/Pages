@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from "react-router-dom";
 import { App } from "./App";
-import { MainPage, CatalogPage, ErrorPage } from "@containers";
+import { MainPage, CatalogPage, BookPage, ErrorPage } from "@containers";
 import { makeServer } from "@mock";
 import { store } from "@store/store"
 import "./styles/index.scss";
@@ -23,6 +23,9 @@ const router = createBrowserRouter(
           path=":categoryType"
           element={<CatalogPage/>}/>
       </Route>
+      <Route
+        path="book/:ids"
+        element={<BookPage/>}/>
       <Route
         path="*"
         element={<ErrorPage/>}/>

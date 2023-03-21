@@ -6,3 +6,5 @@ export { CategorySwiper } from "./PopularCategories/CategorySwiper";
 export { BannerBlock } from "./BannerBlock";
 export { NewsletterBlock } from "./NewsletterBlock";
 export { Catalog } from "./Catalog";
+export { BookBlock } from "./BookBlock";
+export { FeaturesBlock } from "./FeaturesBlock";

@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     boxShadow: {
       'md': '0px 10px 15px -5px rgba(0, 0, 0, 0.25)',
+      'xl': '0px 20px 25px rgba(0, 0, 0, 0.2)',
       '2xl': '0 45px 25px rgba(0, 0, 0, 0.25)',
     },
     colors: {
@@ -46,6 +47,7 @@ module.exports = {
       '230': '230px',
       '300': '300px',
       '350': '350px',
+      '600': '600px',
       '660': '660px',
       'cont': '1300px',
       'cont+': '1420px',
