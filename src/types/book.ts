@@ -2,7 +2,7 @@ export interface Book {
   categoryTypeId: string;
   id: string;
   title: string;
-  synopsis: string;
+  description: string;
   img: string;
   authors: string[];
   publisher: string;

@@ -1,7 +1,7 @@
 export interface Product {
   id: string;
   title: string;
-  synopsis: string;
+  description: string;
   img: string;
   authors: string[];
   publisher: string;

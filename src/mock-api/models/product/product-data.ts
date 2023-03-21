@@ -5,7 +5,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1982137975",
     title: "If It Bleeds",
-    synopsis: "Readers adore Stephen King’s novels, and his novellas are their own dark treat, briefer but just as impactful and enduring as his longer fiction. Many of his novellas have been made into iconic films, including “The Body” (Stand by Me) and “Rita Hayworth and Shawshank Redemption” (Shawshank Redemption).\nThe four brilliant tales in If It Bleeds prove as iconic as their predecessors. In the title story, reader favorite Holly Gibney (from the Mr. Mercedes trilogy and The Outsider) must face her fears, and possibly another outsider—this time on her own. In “Mr. Harrigan’s Phone” an intergenerational friendship has a disturbing afterlife. “The Life of Chuck” explores, beautifully, how each of us contains multitudes. And in “Rat,” a struggling writer must contend with the darker side of ambition.\nIf these novellas show King’s range, they also prove that certain themes endure. One of King’s great concerns is evil, and in If It Bleeds, there’s plenty of it. There is also evil’s opposite, which in King’s fiction often manifests as friendship. Holly is reminded that friendship is not only life-affirming but can be life-saving. Young Craig befriends Mr. Harrigan, and the sweetness of this late-in-life connection is its own reward.\n“An adroit vehicle to showcase the…nature of evil” (The Boston Globe), If It Bleeds is “exactly what I wanted to read right now,” says Ruth Franklin in The New York Times Book Review.",
+    description: "Readers adore Stephen King’s novels, and his novellas are their own dark treat, briefer but just as impactful and enduring as his longer fiction. Many of his novellas have been made into iconic films, including “The Body” (Stand by Me) and “Rita Hayworth and Shawshank Redemption” (Shawshank Redemption).\nThe four brilliant tales in If It Bleeds prove as iconic as their predecessors. In the title story, reader favorite Holly Gibney (from the Mr. Mercedes trilogy and The Outsider) must face her fears, and possibly another outsider—this time on her own. In “Mr. Harrigan’s Phone” an intergenerational friendship has a disturbing afterlife. “The Life of Chuck” explores, beautifully, how each of us contains multitudes. And in “Rat,” a struggling writer must contend with the darker side of ambition.\nIf these novellas show King’s range, they also prove that certain themes endure. One of King’s great concerns is evil, and in If It Bleeds, there’s plenty of it. There is also evil’s opposite, which in King’s fiction often manifests as friendship. Holly is reminded that friendship is not only life-affirming but can be life-saving. Young Craig befriends Mr. Harrigan, and the sweetness of this late-in-life connection is its own reward.\n“An adroit vehicle to showcase the…nature of evil” (The Boston Globe), If It Bleeds is “exactly what I wanted to read right now,” says Ruth Franklin in The New York Times Book Review.",
     img: "https://m.media-amazon.com/images/I/81yQo6uoLPL.jpg",
     authors: [
       "Stephen King"
@@ -13,7 +13,7 @@ export const products: Product[] = [
     publisher: "Scribner",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.4 Inches, Weight: 1.6 Pounds",
+    dimensions: "9.25 x 6.125 x 1.4 Inches",
     pages: 448,
     price: 29.99,
     count: 10,
@@ -22,7 +22,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0385547935",
     title: "To Paradise",
-    synopsis: "To Paradise is a fin de siècle novel of marvelous literary effect, but above all it is a work of emotional genius. The great power of this remarkable novel is driven by Yanagihara’s understanding of the aching desire to protect those we love—partners, lovers, children, friends, family, and even our fellow citizens—and the pain that ensues when we cannot.\nIn an alternate version of 1893 America, New York is part of the Free States, where people may live and love whomever they please (or so it seems). The fragile young scion of a distinguished family resists betrothal to a worthy suitor, drawn to a charming music teacher of no means. In a 1993 Manhattan besieged by the AIDS epidemic, a young Hawaiian man lives with his much older, wealthier partner, hiding his troubled childhood and the fate of his father. And in 2093, in a world riven by plagues and governed by totalitarian rule, a powerful scientist’s damaged granddaughter tries to navigate life without him—and solve the mystery of her husband’s disappearances.\nThese three sections comprise an ingenious symphony, as recurring notes and themes deepen and enrich one another: A townhouse in Washington Square Park in Greenwich Village; illness, and treatments that come at a terrible cost; wealth and squalor; the weak and the strong; race; the definition of family, and of nationhood; the dangerous righteousness of the powerful, and of revolutionaries; the longing to find a place in an earthly paradise, and the gradual realization that it can’t exist. What unites not just the characters, but these Americas, are their reckonings with the qualities that make us human: Fear. Love. Shame. Need. Loneliness.",
+    description: "To Paradise is a fin de siècle novel of marvelous literary effect, but above all it is a work of emotional genius. The great power of this remarkable novel is driven by Yanagihara’s understanding of the aching desire to protect those we love—partners, lovers, children, friends, family, and even our fellow citizens—and the pain that ensues when we cannot.\nIn an alternate version of 1893 America, New York is part of the Free States, where people may live and love whomever they please (or so it seems). The fragile young scion of a distinguished family resists betrothal to a worthy suitor, drawn to a charming music teacher of no means. In a 1993 Manhattan besieged by the AIDS epidemic, a young Hawaiian man lives with his much older, wealthier partner, hiding his troubled childhood and the fate of his father. And in 2093, in a world riven by plagues and governed by totalitarian rule, a powerful scientist’s damaged granddaughter tries to navigate life without him—and solve the mystery of her husband’s disappearances.\nThese three sections comprise an ingenious symphony, as recurring notes and themes deepen and enrich one another: A townhouse in Washington Square Park in Greenwich Village; illness, and treatments that come at a terrible cost; wealth and squalor; the weak and the strong; race; the definition of family, and of nationhood; the dangerous righteousness of the powerful, and of revolutionaries; the longing to find a place in an earthly paradise, and the gradual realization that it can’t exist. What unites not just the characters, but these Americas, are their reckonings with the qualities that make us human: Fear. Love. Shame. Need. Loneliness.",
     img: "https://m.media-amazon.com/images/I/71bPP2ldKyL.jpg",
     authors: [
       "Hanya Yanagihara"
@@ -30,7 +30,7 @@ export const products: Product[] = [
     publisher: "Doubleday",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.5313 Inches, Weight: 1.25 Pounds",
+    dimensions: "9.25 x 6.1 x 1.5 Inches",
     pages: 720,
     price: 14.99,
     count: 45,
@@ -39,7 +39,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0062851195",
     title: "City on Fire",
-    synopsis: "Two criminal empires together control all of New England.\nUntil a beautiful woman comes between the Irish and the Italians, launching a war that will see them kill each other, destroy an alliance, and set a city on fire.\nDanny Ryan yearns for a more “legit” life and a place in the sun. But as the bloody conflict stacks body on body and brother turns against brother, Danny has to rise above himself. To save the friends he loves like family and the family he has sworn to protect, he becomes a leader, a ruthless strategist, and a master of a treacherous game in which the winners live and the losers die.\nFrom the gritty streets of Providence to the glittering screens of Hollywood to the golden casinos of Las Vegas, two rival crime families ignite a war that will leave only one standing. The winner will forge a dynasty.\nExploring the classic themes of loyalty, betrayal, and honor, City on Fire is a contemporary masterpiece in the tradition of The Godfather, Casino, and Goodfellas—a thrilling saga from Don Winslow, “America’s greatest living crime writer” (Jon Land, Providence Journal).",
+    description: "Two criminal empires together control all of New England.\nUntil a beautiful woman comes between the Irish and the Italians, launching a war that will see them kill each other, destroy an alliance, and set a city on fire.\nDanny Ryan yearns for a more “legit” life and a place in the sun. But as the bloody conflict stacks body on body and brother turns against brother, Danny has to rise above himself. To save the friends he loves like family and the family he has sworn to protect, he becomes a leader, a ruthless strategist, and a master of a treacherous game in which the winners live and the losers die.\nFrom the gritty streets of Providence to the glittering screens of Hollywood to the golden casinos of Las Vegas, two rival crime families ignite a war that will leave only one standing. The winner will forge a dynasty.\nExploring the classic themes of loyalty, betrayal, and honor, City on Fire is a contemporary masterpiece in the tradition of The Godfather, Casino, and Goodfellas—a thrilling saga from Don Winslow, “America’s greatest living crime writer” (Jon Land, Providence Journal).",
     img: "https://m.media-amazon.com/images/I/71fKQB3Jv7S.jpg",
     authors: [
       "Don Winslow"
@@ -47,7 +47,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.12 Inches, Width: 1.25 Inches, Weight: 1.425 Pounds",
+    dimensions: "9.25 x 6.12 x 1.25 Inches",
     pages: 400,
     price: 14.99,
     count: 23,
@@ -56,7 +56,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1984818414",
     title: "Wish You Were Here",
-    synopsis: "Diana O’Toole is perfectly on track. She will be married by thirty, done having kids by thirty-five, and move out to the New York City suburbs, all while climbing the professional ladder in the cutthroat art auction world. She’s an associate specialist at Sotheby’s now, but her boss has hinted at a promotion if she can close a deal with a high-profile client. She’s not engaged just yet, but she knows her boyfriend, Finn, a surgical resident, is about to propose on their romantic getaway to the Galápagos—days before her thirtieth birthday. Right on time.\nBut then a virus that felt worlds away has appeared in the city, and on the eve of their departure, Finn breaks the news: It’s all hands on deck at the hospital. He has to stay behind. You should still go, he assures her, since it would be a shame for all of their nonrefundable trip to go to waste. And so, reluctantly, she goes.\nAlmost immediately, Diana’s dream vacation goes awry. Her luggage is lost, the Wi-Fi is nearly nonexistent, and the hotel they’d booked is shut down due to the pandemic. In fact, the whole island is now under quarantine, and she is stranded until the borders reopen. Completely isolated, she must venture beyond her comfort zone. Slowly, she carves out a connection with a local family when a teenager with a secret opens up to Diana, despite her father’s suspicion of outsiders.\nIn the Galápagos Islands, where Darwin’s theory of evolution by natural selection was formed, Diana finds herself examining her relationships, her choices, and herself—and wondering if when she goes home, she too will have evolved into someone completely different.",
+    description: "Diana O’Toole is perfectly on track. She will be married by thirty, done having kids by thirty-five, and move out to the New York City suburbs, all while climbing the professional ladder in the cutthroat art auction world. She’s an associate specialist at Sotheby’s now, but her boss has hinted at a promotion if she can close a deal with a high-profile client. She’s not engaged just yet, but she knows her boyfriend, Finn, a surgical resident, is about to propose on their romantic getaway to the Galápagos—days before her thirtieth birthday. Right on time.\nBut then a virus that felt worlds away has appeared in the city, and on the eve of their departure, Finn breaks the news: It’s all hands on deck at the hospital. He has to stay behind. You should still go, he assures her, since it would be a shame for all of their nonrefundable trip to go to waste. And so, reluctantly, she goes.\nAlmost immediately, Diana’s dream vacation goes awry. Her luggage is lost, the Wi-Fi is nearly nonexistent, and the hotel they’d booked is shut down due to the pandemic. In fact, the whole island is now under quarantine, and she is stranded until the borders reopen. Completely isolated, she must venture beyond her comfort zone. Slowly, she carves out a connection with a local family when a teenager with a secret opens up to Diana, despite her father’s suspicion of outsiders.\nIn the Galápagos Islands, where Darwin’s theory of evolution by natural selection was formed, Diana finds herself examining her relationships, her choices, and herself—and wondering if when she goes home, she too will have evolved into someone completely different.",
     img: "https://m.media-amazon.com/images/I/71QaoIm7HFL.jpg",
     authors: [
       "Jodi Picoult"
@@ -64,7 +64,7 @@ export const products: Product[] = [
     publisher: "Ballantine Books",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 0.8438 Inches, Weight: 1.29 Pounds",
+    dimensions: "9.25 x 6.1 x 0.8 Inches",
     pages: 336,
     price: 12.99,
     count: 45,
@@ -73,7 +73,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0385545134",
     title: "Harlem Shuffle",
-    synopsis: "\"Ray Carney was only slightly bent when it came to being crooked...\" To his customers and neighbors on 125th street, Carney is an upstanding salesman of reasonably priced furniture, making a decent life for himself and his family. He and his wife Elizabeth are expecting their second child, and if her parents on Striver's Row don't approve of him or their cramped apartment across from the subway tracks, it's still home.\nFew people know he descends from a line of uptown hoods and crooks, and that his façade of normalcy has more than a few cracks in it. Cracks that are getting bigger all the time.\nCash is tight, especially with all those installment-plan sofas, so if his cousin Freddie occasionally drops off the odd ring or necklace, Ray doesn't ask where it comes from. He knows a discreet jeweler downtown who doesn't ask questions, either.\nThen Freddie falls in with a crew who plan to rob the Hotel Theresa—the \"Waldorf of Harlem\"—and volunteers Ray's services as the fence. The heist doesn't go as planned; they rarely do. Now Ray has a new clientele, one made up of shady cops, vicious local gangsters, two-bit pornographers, and other assorted Harlem lowlifes.\nThus begins the internal tussle between Ray the striver and Ray the crook. As Ray navigates this double life, he begins to see who actually pulls the strings in Harlem. Can Ray avoid getting killed, save his cousin, and grab his share of the big score, all while maintaining his reputation as the go-to source for all your quality home furniture needs?\nHarlem Shuffle's ingenious story plays out in a beautifully recreated New York City of the early 1960s. It's a family saga masquerading as a crime novel, a hilarious morality play, a social novel about race and power, and ultimately a love letter to Harlem.\nBut mostly, it's a joy to read, another dazzling novel from the Pulitzer Prize and National Book Award-winning Colson Whitehead.",
+    description: "\"Ray Carney was only slightly bent when it came to being crooked...\" To his customers and neighbors on 125th street, Carney is an upstanding salesman of reasonably priced furniture, making a decent life for himself and his family. He and his wife Elizabeth are expecting their second child, and if her parents on Striver's Row don't approve of him or their cramped apartment across from the subway tracks, it's still home.\nFew people know he descends from a line of uptown hoods and crooks, and that his façade of normalcy has more than a few cracks in it. Cracks that are getting bigger all the time.\nCash is tight, especially with all those installment-plan sofas, so if his cousin Freddie occasionally drops off the odd ring or necklace, Ray doesn't ask where it comes from. He knows a discreet jeweler downtown who doesn't ask questions, either.\nThen Freddie falls in with a crew who plan to rob the Hotel Theresa—the \"Waldorf of Harlem\"—and volunteers Ray's services as the fence. The heist doesn't go as planned; they rarely do. Now Ray has a new clientele, one made up of shady cops, vicious local gangsters, two-bit pornographers, and other assorted Harlem lowlifes.\nThus begins the internal tussle between Ray the striver and Ray the crook. As Ray navigates this double life, he begins to see who actually pulls the strings in Harlem. Can Ray avoid getting killed, save his cousin, and grab his share of the big score, all while maintaining his reputation as the go-to source for all your quality home furniture needs?\nHarlem Shuffle's ingenious story plays out in a beautifully recreated New York City of the early 1960s. It's a family saga masquerading as a crime novel, a hilarious morality play, a social novel about race and power, and ultimately a love letter to Harlem.\nBut mostly, it's a joy to read, another dazzling novel from the Pulitzer Prize and National Book Award-winning Colson Whitehead.",
     img: "https://m.media-amazon.com/images/I/91Mj6CdzCgL.jpg",
     authors: [
       "Colson Whitehead"
@@ -81,7 +81,7 @@ export const products: Product[] = [
     publisher: "Doubleday",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 0.9375 Inches, Weight: 1.39 Pounds",
+    dimensions: "9.25 x 6.1 x 0.9 Inches",
     pages: 336,
     price: 12.99,
     count: 2,
@@ -90,7 +90,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1538750562",
     title: "One Good Deed",
-    synopsis: "It's 1949. When war veteran Aloysius Archer is released from Carderock Prison, he is sent to Poca City on parole with a short list of do's and a much longer list of don'ts: do report regularly to his parole officer, don't go to bars, certainly don't drink alcohol, do get a job -- and don't ever associate with loose women.\nThe small town quickly proves more complicated and dangerous than Archer's years serving in the war or his time in jail. Within a single night, his search for gainful employment -- and a stiff drink -- leads him to a local bar, where he is hired for what seems like a simple job: to collect a debt owed to a powerful local businessman, Hank Pittleman\nSoon Archer discovers that recovering the debt won't be so easy. The indebted man has a furious grudge against Hank and refuses to pay; Hank's clever mistress has her own designs on Archer; and both Hank and Archer's stern parole officer, Miss Crabtree, are keeping a sharp eye on him.\nWhen a murder takes place right under Archer's nose, police suspicions rise against the ex-convict, and Archer realizes that the crime could send him right back to prison . . . if he doesn't use every skill in his arsenal to track down the real killer.",
+    description: "It's 1949. When war veteran Aloysius Archer is released from Carderock Prison, he is sent to Poca City on parole with a short list of do's and a much longer list of don'ts: do report regularly to his parole officer, don't go to bars, certainly don't drink alcohol, do get a job -- and don't ever associate with loose women.\nThe small town quickly proves more complicated and dangerous than Archer's years serving in the war or his time in jail. Within a single night, his search for gainful employment -- and a stiff drink -- leads him to a local bar, where he is hired for what seems like a simple job: to collect a debt owed to a powerful local businessman, Hank Pittleman\nSoon Archer discovers that recovering the debt won't be so easy. The indebted man has a furious grudge against Hank and refuses to pay; Hank's clever mistress has her own designs on Archer; and both Hank and Archer's stern parole officer, Miss Crabtree, are keeping a sharp eye on him.\nWhen a murder takes place right under Archer's nose, police suspicions rise against the ex-convict, and Archer realizes that the crime could send him right back to prison . . . if he doesn't use every skill in his arsenal to track down the real killer.",
     img: "https://m.media-amazon.com/images/I/51NQ+HlEtlL.jpg",
     authors: [
       "David Baldacci"
@@ -98,7 +98,7 @@ export const products: Product[] = [
     publisher: "Grand Central Publishing",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.35 Inches, Length: 6.45 Inches, Width: 1.6 Inches, Weight: 1.4 Pounds",
+    dimensions: "9.35 x 6.45 x 1.6 Inches",
     pages: 432,
     price: 28.99,
     count: 41,
@@ -107,7 +107,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0593098919",
     title: "One Minute Out",
-    synopsis: "While on a mission to Croatia, Court Gentry uncovers a human trafficking operation. The trail leads from the Balkans all the way back to Hollywood.\nCourt is determined to shut it down, but his CIA handlers have other plans. The criminal ringleader has actionable intelligence about a potentially devastating terrorist attack on the US. The CIA won't move until they have that intel. It's a moral balancing act with Court at the pivot point.",
+    description: "While on a mission to Croatia, Court Gentry uncovers a human trafficking operation. The trail leads from the Balkans all the way back to Hollywood.\nCourt is determined to shut it down, but his CIA handlers have other plans. The criminal ringleader has actionable intelligence about a potentially devastating terrorist attack on the US. The CIA won't move until they have that intel. It's a moral balancing act with Court at the pivot point.",
     img: "https://m.media-amazon.com/images/I/91UR+0rJz-L.jpg",
     authors: [
       "Mark Greaney"
@@ -115,7 +115,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.31 Inches, Length: 6.21 Inches, Width: 1.67 Inches, Weight: 1.6 Pounds",
+    dimensions: "9.31 x 6.21 x 1.67 Inches",
     pages: 512,
     price: 27.99,
     count: 17,
@@ -124,7 +124,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1982173610",
     title: "Billy Summers",
-    synopsis: "Chances are, if you’re a target of Billy Summers, two immutable truths apply: You’ll never even know what hit you, and you’re really getting what you deserve. He’s a killer for hire and the best in the business—but he’ll do the job only if the assignment is a truly bad person. But now, time is catching up with him, and Billy wants out. Before he can do that though, there’s one last hit, which promises a generous payday at the end of the line even as things don’t seem quite on the level here. Given that Billy is among the most talented snipers in the world, a decorated Iraq war vet, and a virtual Houdini when it comes to vanishing after the job is done, what could possibly go wrong? How about everything.\nPart war story and part love letter to small-town America and the people who live there, this spectacular thriller of luck, fate, and love will grip readers with its electrifying narrative, as a complex antihero with one last shot at redemption must avenge the crimes of an extraordinarily evil man. You won’t ever forget this stunning novel from master storyteller Stephen King…and you will never forget Billy.",
+    description: "Chances are, if you’re a target of Billy Summers, two immutable truths apply: You’ll never even know what hit you, and you’re really getting what you deserve. He’s a killer for hire and the best in the business—but he’ll do the job only if the assignment is a truly bad person. But now, time is catching up with him, and Billy wants out. Before he can do that though, there’s one last hit, which promises a generous payday at the end of the line even as things don’t seem quite on the level here. Given that Billy is among the most talented snipers in the world, a decorated Iraq war vet, and a virtual Houdini when it comes to vanishing after the job is done, what could possibly go wrong? How about everything.\nPart war story and part love letter to small-town America and the people who live there, this spectacular thriller of luck, fate, and love will grip readers with its electrifying narrative, as a complex antihero with one last shot at redemption must avenge the crimes of an extraordinarily evil man. You won’t ever forget this stunning novel from master storyteller Stephen King…and you will never forget Billy.",
     img: "https://m.media-amazon.com/images/I/81KQ2z4C-OL.jpg",
     authors: [
       "Stephen King"
@@ -132,7 +132,7 @@ export const products: Product[] = [
     publisher: "Scribner",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.13 Inches, Weight: 2 Inches, Weight: 1.6 Pounds",
+    dimensions: "9.25 x 6.13 x 2 Inches",
     pages: 528,
     price: 14.99,
     count: 34,
@@ -141,7 +141,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0525536299",
     title: "The Vanishing Half",
-    synopsis: "The Vignes twin sisters will always be identical. But after growing up together in a small, southern black community and running away at age sixteen, it's not just the shape of their daily lives that is different as adults, it's everything: their families, their communities, their racial identities. Many years later, one sister lives with her black daughter in the same southern town she once tried to escape. The other secretly passes for white, and her white husband knows nothing of her past. Still, even separated by so many miles and just as many lies, the fates of the twins remain intertwined. What will happen to the next generation, when their own daughters' storylines intersect?\nWeaving together multiple strands and generations of this family, from the Deep South to California, from the 1950s to the 1990s, Brit Bennett produces a story that is at once a riveting, emotional family story and a brilliant exploration of the American history of passing. Looking well beyond issues of race, The Vanishing Half considers the lasting influence of the past as it shapes a person's decisions, desires, and expectations, and explores some of the multiple reasons and realms in which people sometimes feel pulled to live as something other than their origins.\nAs with her New York Times-bestselling debut The Mothers, Brit Bennett offers an engrossing page-turner about family and relationships that is immersive and provocative, compassionate and wise.",
+    description: "The Vignes twin sisters will always be identical. But after growing up together in a small, southern black community and running away at age sixteen, it's not just the shape of their daily lives that is different as adults, it's everything: their families, their communities, their racial identities. Many years later, one sister lives with her black daughter in the same southern town she once tried to escape. The other secretly passes for white, and her white husband knows nothing of her past. Still, even separated by so many miles and just as many lies, the fates of the twins remain intertwined. What will happen to the next generation, when their own daughters' storylines intersect?\nWeaving together multiple strands and generations of this family, from the Deep South to California, from the 1950s to the 1990s, Brit Bennett produces a story that is at once a riveting, emotional family story and a brilliant exploration of the American history of passing. Looking well beyond issues of race, The Vanishing Half considers the lasting influence of the past as it shapes a person's decisions, desires, and expectations, and explores some of the multiple reasons and realms in which people sometimes feel pulled to live as something other than their origins.\nAs with her New York Times-bestselling debut The Mothers, Brit Bennett offers an engrossing page-turner about family and relationships that is immersive and provocative, compassionate and wise.",
     img: "https://m.media-amazon.com/images/I/81ICvbFe2+L.jpg",
     authors: [
       "Brit Bennett",
@@ -149,7 +149,7 @@ export const products: Product[] = [
     publisher: "Harpercollins/Dialogue Books/Tinder Press",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.2 Inches, Length: 6.22 Inches, Weight: 0.82 Inches, Weight: 1.2 Pounds",
+    dimensions: "9.2 x 6.22 x 0.82 Inches",
     pages: 352,
     price: 26.99,
     count: 29,
@@ -158,7 +158,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0393881148",
     title: "Bewilderment",
-    synopsis: "The astrobiologist Theo Byrne searches for life throughout the cosmos while single-handedly raising his unusual nine-year-old, Robin, following the death of his wife. Robin is a warm, kind boy who spends hours painting elaborate pictures of endangered animals. He’s also about to be expelled from third grade for smashing his friend in the face. As his son grows more troubled, Theo hopes to keep him off psychoactive drugs. He learns of an experimental neurofeedback treatment to bolster Robin’s emotional control, one that involves training the boy on the recorded patterns of his mother’s brain…\nWith its soaring descriptions of the natural world, its tantalizing vision of life beyond, and its account of a father and son’s ferocious love, Bewilderment marks Richard Powers’s most intimate and moving novel. At its heart lies the question: How can we tell our children the truth about this beautiful, imperiled planet?",
+    description: "The astrobiologist Theo Byrne searches for life throughout the cosmos while single-handedly raising his unusual nine-year-old, Robin, following the death of his wife. Robin is a warm, kind boy who spends hours painting elaborate pictures of endangered animals. He’s also about to be expelled from third grade for smashing his friend in the face. As his son grows more troubled, Theo hopes to keep him off psychoactive drugs. He learns of an experimental neurofeedback treatment to bolster Robin’s emotional control, one that involves training the boy on the recorded patterns of his mother’s brain…\nWith its soaring descriptions of the natural world, its tantalizing vision of life beyond, and its account of a father and son’s ferocious love, Bewilderment marks Richard Powers’s most intimate and moving novel. At its heart lies the question: How can we tell our children the truth about this beautiful, imperiled planet?",
     img: "https://m.media-amazon.com/images/I/71cEOVrIUmL.jpg",
     authors: [
       "Richard Powers"
@@ -166,7 +166,7 @@ export const products: Product[] = [
     publisher: "W. W. Norton & Company",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1 Inches, Weight: 1.15 Pounds",
+    dimensions: "9 x 6 x 1 Inches",
     pages: 288,
     price: 9.15,
     count: 8,
@@ -175,7 +175,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0062797158",
     title: "The Tattooist of Auschwitz",
-    synopsis: "“The Tattooist of Auschwitz is an extraordinary document, a story about the extremes of human behavior existing side by side: calculated brutality alongside impulsive and selfless acts of love. I find it hard to imagine anyone who would not be drawn in, confronted and moved. I would recommend it unreservedly to anyone, whether they’d read a hundred Holocaust stories or none.”—Graeme Simsion, internationally-bestselling author of The Rosie Project\nIn April 1942, Lale Sokolov, a Slovakian Jew, is forcibly transported to the concentration camps at Auschwitz-Birkenau. When his captors discover that he speaks several languages, he is put to work as a Tätowierer (the German word for tattooist), tasked with permanently marking his fellow prisoners.\nImprisoned for over two and a half years, Lale witnesses horrific atrocities and barbarism—but also incredible acts of bravery and compassion. Risking his own life, he uses his privileged position to exchange jewels and money from murdered Jews for food to keep his fellow prisoners alive.\nOne day in July 1942, Lale, prisoner 32407, comforts a trembling young woman waiting in line to have the number 34902 tattooed onto her arm. Her name is Gita, and in that first encounter, Lale vows to somehow survive the camp and marry her.\nA vivid, harrowing, and ultimately hopeful re-creation of Lale Sokolov's experiences as the man who tattooed the arms of thousands of prisoners with what would become one of the most potent symbols of the Holocaust, The Tattooist of Auschwitz is also a testament to the endurance of love and humanity under the darkest possible conditions.",
+    description: "“The Tattooist of Auschwitz is an extraordinary document, a story about the extremes of human behavior existing side by side: calculated brutality alongside impulsive and selfless acts of love. I find it hard to imagine anyone who would not be drawn in, confronted and moved. I would recommend it unreservedly to anyone, whether they’d read a hundred Holocaust stories or none.”—Graeme Simsion, internationally-bestselling author of The Rosie Project\nIn April 1942, Lale Sokolov, a Slovakian Jew, is forcibly transported to the concentration camps at Auschwitz-Birkenau. When his captors discover that he speaks several languages, he is put to work as a Tätowierer (the German word for tattooist), tasked with permanently marking his fellow prisoners.\nImprisoned for over two and a half years, Lale witnesses horrific atrocities and barbarism—but also incredible acts of bravery and compassion. Risking his own life, he uses his privileged position to exchange jewels and money from murdered Jews for food to keep his fellow prisoners alive.\nOne day in July 1942, Lale, prisoner 32407, comforts a trembling young woman waiting in line to have the number 34902 tattooed onto her arm. Her name is Gita, and in that first encounter, Lale vows to somehow survive the camp and marry her.\nA vivid, harrowing, and ultimately hopeful re-creation of Lale Sokolov's experiences as the man who tattooed the arms of thousands of prisoners with what would become one of the most potent symbols of the Holocaust, The Tattooist of Auschwitz is also a testament to the endurance of love and humanity under the darkest possible conditions.",
     img: "https://m.media-amazon.com/images/I/81lfY0CFyaL.jpg",
     authors: [
       "Heather Morris"
@@ -183,7 +183,7 @@ export const products: Product[] = [
     publisher: "Zaffre/Ebury Press",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 8 Inches, Length: 5.31 Inches, Width: 0.65 Inches, Weight: 0.5 Pounds",
+    dimensions: "8 x 5.31 x 0.65 Inches",
     pages: 288,
     price: 16.99,
     count: 37,
@@ -192,7 +192,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0316420018",
     title: "Summer of 69",
-    synopsis: "Welcome to the most tumultuous summer of the twentieth century. It's 1969, and for the Levin family, the times they are a-changing. Every year the children have looked forward to spending the summer at their grandmother's historic home in downtown Nantucket. But like so much else in America, nothing is the same: Blair, the oldest sister, is marooned in Boston, pregnant with twins and unable to travel. Middle sister Kirby, caught up in the thrilling vortex of civil rights protests and determined to be independent, takes a summer job on Martha's Vineyard. Only-son Tiger is an infantry soldier, recently deployed to Vietnam. And thirteen-year-old Jessie suddenly feels like an only child, marooned in the house with her out-of-touch grandmother and her worried mother, while each of them hides a troubling secret.\nAs the summer heats up, Ted Kennedy sinks a car in Chappaquiddick, man flies to the moon, and Jessie and her family experience their own dramatic upheavals along with the rest of the country. In her first historical novel, rich with the details of an era that shaped both a nation and an island thirty miles out to sea, Elin Hilderbrand once again earns her title as queen of the summer novel.",
+    description: "Welcome to the most tumultuous summer of the twentieth century. It's 1969, and for the Levin family, the times they are a-changing. Every year the children have looked forward to spending the summer at their grandmother's historic home in downtown Nantucket. But like so much else in America, nothing is the same: Blair, the oldest sister, is marooned in Boston, pregnant with twins and unable to travel. Middle sister Kirby, caught up in the thrilling vortex of civil rights protests and determined to be independent, takes a summer job on Martha's Vineyard. Only-son Tiger is an infantry soldier, recently deployed to Vietnam. And thirteen-year-old Jessie suddenly feels like an only child, marooned in the house with her out-of-touch grandmother and her worried mother, while each of them hides a troubling secret.\nAs the summer heats up, Ted Kennedy sinks a car in Chappaquiddick, man flies to the moon, and Jessie and her family experience their own dramatic upheavals along with the rest of the country. In her first historical novel, rich with the details of an era that shaped both a nation and an island thirty miles out to sea, Elin Hilderbrand once again earns her title as queen of the summer novel.",
     img: "https://m.media-amazon.com/images/I/51uMqiWGOwL.jpg",
     authors: [
       "Elin Hilderbrand"
@@ -200,7 +200,7 @@ export const products: Product[] = [
     publisher: "Little, Brown and Company",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.55 Inches, Length: 6.4 Inches, Width: 1.75 Inches, Weight: 1.43 Pounds",
+    dimensions: "9.55 x 6.4 x 1.75 Inches",
     pages: 432,
     price: 27.99,
     count: 49,
@@ -209,7 +209,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0374602603",
     title: "Beautiful World, Where Are You",
-    synopsis: "Alice, a novelist, meets Felix, who works in a warehouse, and asks him if he’d like to travel to Rome with her. In Dublin, her best friend, Eileen, is getting over a break-up, and slips back into flirting with Simon, a man she has known since childhood.\nAlice, Felix, Eileen, and Simon are still young―but life is catching up with them. They desire each other, they delude each other, they get together, they break apart. They have sex, they worry about sex, they worry about their friendships and the world they live in. Are they standing in the last lighted room before the darkness, bearing witness to something? Will they find a way to believe in a beautiful world?",
+    description: "Alice, a novelist, meets Felix, who works in a warehouse, and asks him if he’d like to travel to Rome with her. In Dublin, her best friend, Eileen, is getting over a break-up, and slips back into flirting with Simon, a man she has known since childhood.\nAlice, Felix, Eileen, and Simon are still young―but life is catching up with them. They desire each other, they delude each other, they get together, they break apart. They have sex, they worry about sex, they worry about their friendships and the world they live in. Are they standing in the last lighted room before the darkness, bearing witness to something? Will they find a way to believe in a beautiful world?",
     img: "https://m.media-amazon.com/images/I/91OiidtyTrL.jpg",
     authors: [
       "Sally Rooney"
@@ -217,7 +217,7 @@ export const products: Product[] = [
     publisher: "Farrar, Straus and Giroux",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 8.4 Inches, Length: 6.09 Inches, Width: 1.21 Inches, Weight: 1.07 Pounds",
+    dimensions: "8.4 x 6.09 x 1.21 Inches",
     pages: 240,
     price: 11.99,
     count: 29,
@@ -226,7 +226,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1250759668",
     title: "We Begin at the End",
-    synopsis: "Duchess Day Radley is a thirteen-year-old self-proclaimed outlaw. Rules are for other people. She is the fierce protector of her five-year-old brother, Robin, and the parent to her mother, Star, a single mom incapable of taking care of herself, let alone her two kids.\nWalk has never left the coastal California town where he and Star grew up. He may have become the chief of police, but he’s still trying to heal the old wound of having given the testimony that sent his best friend, Vincent King, to prison decades before. And he's in overdrive protecting Duchess and her brother.\nNow, thirty years later, Vincent is being released. And Duchess and Walk must face the trouble that comes with his return. We Begin at the End is an extraordinary novel about two kinds of families―the ones we are born into and the ones we create.",
+    description: "Duchess Day Radley is a thirteen-year-old self-proclaimed outlaw. Rules are for other people. She is the fierce protector of her five-year-old brother, Robin, and the parent to her mother, Star, a single mom incapable of taking care of herself, let alone her two kids.\nWalk has never left the coastal California town where he and Star grew up. He may have become the chief of police, but he’s still trying to heal the old wound of having given the testimony that sent his best friend, Vincent King, to prison decades before. And he's in overdrive protecting Duchess and her brother.\nNow, thirty years later, Vincent is being released. And Duchess and Walk must face the trouble that comes with his return. We Begin at the End is an extraordinary novel about two kinds of families―the ones we are born into and the ones we create.",
     img: "https://m.media-amazon.com/images/I/91f7YhpVDML.jpg",
     authors: [
       "Chris Whitaker"
@@ -234,7 +234,7 @@ export const products: Product[] = [
     publisher: "Henry Holt and Co.",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.14 Inches, Width: 0 Inches, Weight: 1.25 Pounds",
+    dimensions: "9.25 x 6.14 x 0 Inches",
     pages: 384,
     price: 26.27,
     count: 23,
@@ -243,7 +243,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "150118881X",
     title: "One by One",
-    synopsis: "Getting snowed in at a luxurious, rustic ski chalet high in the French Alps doesn’t sound like the worst problem in the world. Especially when there’s a breathtaking vista, a full-service chef and housekeeper, a cozy fire to keep you warm, and others to keep you company. Unless that company happens to be eight coworkers…each with something to gain, something to lose, and something to hide.\nWhen the cofounder of Snoop, a trendy London-based tech startup, organizes a weeklong trip for the team in the French Alps, it starts out as a corporate retreat like any other: PowerPoint presentations and strategy sessions broken up by mandatory bonding on the slopes. But as soon as one shareholder upends the agenda by pushing a lucrative but contentious buyout offer, tensions simmer and loyalties are tested. The storm brewing inside the chalet is no match for the one outside, however, and a devastating avalanche leaves the group cut off from all access to the outside world. Even worse, one Snooper hadn’t made it back from the slopes when the avalanche hit.\nAs each hour passes without any sign of rescue, panic mounts, the chalet grows colder, and the group dwindles further…one by one.",
+    description: "Getting snowed in at a luxurious, rustic ski chalet high in the French Alps doesn’t sound like the worst problem in the world. Especially when there’s a breathtaking vista, a full-service chef and housekeeper, a cozy fire to keep you warm, and others to keep you company. Unless that company happens to be eight coworkers…each with something to gain, something to lose, and something to hide.\nWhen the cofounder of Snoop, a trendy London-based tech startup, organizes a weeklong trip for the team in the French Alps, it starts out as a corporate retreat like any other: PowerPoint presentations and strategy sessions broken up by mandatory bonding on the slopes. But as soon as one shareholder upends the agenda by pushing a lucrative but contentious buyout offer, tensions simmer and loyalties are tested. The storm brewing inside the chalet is no match for the one outside, however, and a devastating avalanche leaves the group cut off from all access to the outside world. Even worse, one Snooper hadn’t made it back from the slopes when the avalanche hit.\nAs each hour passes without any sign of rescue, panic mounts, the chalet grows colder, and the group dwindles further…one by one.",
     img: "https://m.media-amazon.com/images/I/81d6gX6RJRL.jpg",
     authors: [
       "Ruth Ware"
@@ -251,7 +251,7 @@ export const products: Product[] = [
     publisher: "Gallery/Scout Press",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.2 Inches, Weight: 1.3 Pounds",
+    dimensions: "9 x 6 x 1.2 Inches",
     pages: 384,
     price: 12.99,
     count: 10,
@@ -260,7 +260,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0593098951",
     title: "Relentless",
-    synopsis: "The first agent disappearance was a puzzle.\nThe second was a mystery.\nThe third was a conspiracy.\nIntelligence operatives around the world are disappearing. When a missing American agent re-appears in Venezuela, Court Gentry, the Gray Man, is dispatched to bring him in, but a team of assassins has other ideas. Court escapes with his life and a vital piece of intelligence.\nMeanwhile, CIA agent Zoya Zakharova is in Berlin. Her mission: to infiltrate a private intelligence firm with some alarming connections. The closer she gets to answers, the less likely she is to get out alive.\nCourt and Zoya are just two pieces on this international chessboard, and they're about to discover one undeniable truth—sometimes capturing a king requires sacrificing some pawns.",
+    description: "The first agent disappearance was a puzzle.\nThe second was a mystery.\nThe third was a conspiracy.\nIntelligence operatives around the world are disappearing. When a missing American agent re-appears in Venezuela, Court Gentry, the Gray Man, is dispatched to bring him in, but a team of assassins has other ideas. Court escapes with his life and a vital piece of intelligence.\nMeanwhile, CIA agent Zoya Zakharova is in Berlin. Her mission: to infiltrate a private intelligence firm with some alarming connections. The closer she gets to answers, the less likely she is to get out alive.\nCourt and Zoya are just two pieces on this international chessboard, and they're about to discover one undeniable truth—sometimes capturing a king requires sacrificing some pawns.",
     img: "https://m.media-amazon.com/images/I/91vAcKmi25L.jpg",
     authors: [
       "Mark Greaney"
@@ -268,7 +268,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.34 Inches, Length: 6.34 Inches, Width: 1.57 Inches, Weight: 1.5 Pounds",
+    dimensions: "9.34 x 6.34 x 1.57 Inches",
     pages: 528,
     price: 12.99,
     count: 8,
@@ -277,7 +277,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1492671525",
     title: "The Book Woman of Troublesome Creek",
-    synopsis: "The bestselling historical fiction novel from Kim Michele Richardson, this is a novel following Cussy Mary, a packhorse librarian and her quest to bring books to the Appalachian community she loves, perfect for readers of William Kent Kreuger and Lisa Wingate. The perfect addition to your next book club!\nThe hardscrabble folks of Troublesome Creek have to scrap for everything—everything except books, that is. Thanks to Roosevelt's Kentucky Pack Horse Library Project, Troublesome's got its very own traveling librarian, Cussy Mary Carter.\nCussy's not only a book woman, however, she's also the last of her kind, her skin a shade of blue unlike most anyone else. Not everyone is keen on Cussy's family or the Library Project, and a Blue is often blamed for any whiff of trouble. If Cussy wants to bring the joy of books to the hill folks, she's going to have to confront prejudice as old as the Appalachias and suspicion as deep as the holler.\nInspired by the true blue-skinned people of Kentucky and the brave and dedicated Kentucky Pack Horse library service of the 1930s, The Book Woman of Troublesome Creek is a story of raw courage, fierce strength, and one woman's belief that books can carry us anywhere—even back home.",
+    description: "The bestselling historical fiction novel from Kim Michele Richardson, this is a novel following Cussy Mary, a packhorse librarian and her quest to bring books to the Appalachian community she loves, perfect for readers of William Kent Kreuger and Lisa Wingate. The perfect addition to your next book club!\nThe hardscrabble folks of Troublesome Creek have to scrap for everything—everything except books, that is. Thanks to Roosevelt's Kentucky Pack Horse Library Project, Troublesome's got its very own traveling librarian, Cussy Mary Carter.\nCussy's not only a book woman, however, she's also the last of her kind, her skin a shade of blue unlike most anyone else. Not everyone is keen on Cussy's family or the Library Project, and a Blue is often blamed for any whiff of trouble. If Cussy wants to bring the joy of books to the hill folks, she's going to have to confront prejudice as old as the Appalachias and suspicion as deep as the holler.\nInspired by the true blue-skinned people of Kentucky and the brave and dedicated Kentucky Pack Horse library service of the 1930s, The Book Woman of Troublesome Creek is a story of raw courage, fierce strength, and one woman's belief that books can carry us anywhere—even back home.",
     img: "https://m.media-amazon.com/images/I/915Xr2rEwQL.jpg",
     authors: [
       "Kim Michele Richardson"
@@ -285,7 +285,7 @@ export const products: Product[] = [
     publisher: "Sourcebooks Landmark",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1.5 Inches, Weight: 0.65 Pounds",
+    dimensions: "8.25 x 5.5 x 1.5 Inches",
     pages: 320,
     price: 7.93,
     count: 26,
@@ -294,7 +294,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1250145236",
     title: "All the Devils Are Here",
-    synopsis: "On their first night in Paris, the Gamaches gather as a family for a bistro dinner with Armand’s godfather, the billionaire Stephen Horowitz. Walking home together after the meal, they watch in horror as Stephen is knocked down and critically injured in what Gamache knows is no accident, but a deliberate attempt on the elderly man’s life.\nWhen a strange key is found in Stephen’s possession it sends Armand, his wife Reine-Marie, and his former second-in-command at the Sûreté, Jean-Guy Beauvoir, from the top of the Tour d’Eiffel, to the bowels of the Paris Archives, from luxury hotels to odd, coded, works of art.\nIt sends them deep into the secrets Armand’s godfather has kept for decades.\nA gruesome discovery in Stephen’s Paris apartment makes it clear the secrets are more rancid, the danger far greater and more imminent, than they realized.\nSoon the whole family is caught up in a web of lies and deceit. In order to find the truth, Gamache will have to decide whether he can trust his friends, his colleagues, his instincts, his own past. His own family.\nFor even the City of Light casts long shadows. And in that darkness devils hide.",
+    description: "On their first night in Paris, the Gamaches gather as a family for a bistro dinner with Armand’s godfather, the billionaire Stephen Horowitz. Walking home together after the meal, they watch in horror as Stephen is knocked down and critically injured in what Gamache knows is no accident, but a deliberate attempt on the elderly man’s life.\nWhen a strange key is found in Stephen’s possession it sends Armand, his wife Reine-Marie, and his former second-in-command at the Sûreté, Jean-Guy Beauvoir, from the top of the Tour d’Eiffel, to the bowels of the Paris Archives, from luxury hotels to odd, coded, works of art.\nIt sends them deep into the secrets Armand’s godfather has kept for decades.\nA gruesome discovery in Stephen’s Paris apartment makes it clear the secrets are more rancid, the danger far greater and more imminent, than they realized.\nSoon the whole family is caught up in a web of lies and deceit. In order to find the truth, Gamache will have to decide whether he can trust his friends, his colleagues, his instincts, his own past. His own family.\nFor even the City of Light casts long shadows. And in that darkness devils hide.",
     img: "https://m.media-amazon.com/images/I/91Vs9Aj+TzL.jpg",
     authors: [
       "Louise Penny"
@@ -302,7 +302,7 @@ export const products: Product[] = [
     publisher: "Minotaur Books",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.5098235 Inches, Length: 6.51 Inches, Width: 1.49 Inches, Weight: 1.45 Pounds",
+    dimensions: "9.5 x 6.51 x 1.49 Inches",
     pages: 448,
     price: 28.99,
     count: 35,
@@ -311,7 +311,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0525536582",
     title: "Neon Prey",
-    synopsis: "Clayton Deese looks like a small-time criminal, muscle for hire when his loan shark boss needs to teach someone a lesson. Now, seven months after a job that went south and landed him in jail, Deese has skipped out on bail, and the U.S. Marshals come looking for him. They don't much care about a low-level guy--it's his boss they want--but Deese might be their best chance to bring down the whole operation.\nThen, they step onto a dirt trail behind Deese's rural Louisiana cabin and find a jungle full of graves.\nNow Lucas Davenport is on the trail of a serial killer who has been operating for years without notice. His quarry is ruthless, and--as Davenport will come to find--full of surprises . . .",
+    description: "Clayton Deese looks like a small-time criminal, muscle for hire when his loan shark boss needs to teach someone a lesson. Now, seven months after a job that went south and landed him in jail, Deese has skipped out on bail, and the U.S. Marshals come looking for him. They don't much care about a low-level guy--it's his boss they want--but Deese might be their best chance to bring down the whole operation.\nThen, they step onto a dirt trail behind Deese's rural Louisiana cabin and find a jungle full of graves.\nNow Lucas Davenport is on the trail of a serial killer who has been operating for years without notice. His quarry is ruthless, and--as Davenport will come to find--full of surprises . . .",
     img: "https://m.media-amazon.com/images/I/91K3+PVcBsL.jpg",
     authors: [
       "John Sandford"
@@ -319,7 +319,7 @@ export const products: Product[] = [
     publisher: "G.P. Putnam's Sons",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.3 Inches, Length: 6.4 Inches, Width: 1.5 Inches, Weight: 1.23 Pounds",
+    dimensions: "9.3 x 6.4 x 1.5 Inches",
     pages: 400,
     price: 9.99,
     count: 5,
@@ -328,7 +328,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0593440870",
     title: "Book Lovers",
-    synopsis: "One summer. Two rivals. A plot twist they didn't see coming...\nNora Stephens' life is books—she’s read them all—and she is not that type of heroine. Not the plucky one, not the laidback dream girl, and especially not the sweetheart. In fact, the only people Nora is a heroine for are her clients, for whom she lands enormous deals as a cutthroat literary agent, and her beloved little sister Libby.\nWhich is why she agrees to go to Sunshine Falls, North Carolina for the month of August when Libby begs her for a sisters’ trip away—with visions of a small town transformation for Nora, who she’s convinced needs to become the heroine in her own story. But instead of picnics in meadows, or run-ins with a handsome country doctor or bulging-forearmed bartender, Nora keeps bumping into Charlie Lastra, a bookish brooding editor from back in the city. It would be a meet-cute if not for the fact that they’ve met many times and it’s never been cute.\nIf Nora knows she’s not an ideal heroine, Charlie knows he’s nobody’s hero, but as they are thrown together again and again—in a series of coincidences no editor worth their salt would allow—what they discover might just unravel the carefully crafted stories they’ve written about themselves.",
+    description: "One summer. Two rivals. A plot twist they didn't see coming...\nNora Stephens' life is books—she’s read them all—and she is not that type of heroine. Not the plucky one, not the laidback dream girl, and especially not the sweetheart. In fact, the only people Nora is a heroine for are her clients, for whom she lands enormous deals as a cutthroat literary agent, and her beloved little sister Libby.\nWhich is why she agrees to go to Sunshine Falls, North Carolina for the month of August when Libby begs her for a sisters’ trip away—with visions of a small town transformation for Nora, who she’s convinced needs to become the heroine in her own story. But instead of picnics in meadows, or run-ins with a handsome country doctor or bulging-forearmed bartender, Nora keeps bumping into Charlie Lastra, a bookish brooding editor from back in the city. It would be a meet-cute if not for the fact that they’ve met many times and it’s never been cute.\nIf Nora knows she’s not an ideal heroine, Charlie knows he’s nobody’s hero, but as they are thrown together again and again—in a series of coincidences no editor worth their salt would allow—what they discover might just unravel the carefully crafted stories they’ve written about themselves.",
     img: "https://m.media-amazon.com/images/I/71tP2vAr70L.jpg",
     authors: [
       "Emily Henry"
@@ -336,7 +336,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.9688 Inches, Weight: 1.3 Pounds",
+    dimensions: "9 x 6 x 0.9 Inches",
     pages: 384,
     price: 9.99,
     count: 14,
@@ -345,7 +345,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0062425587",
     title: "The Oysterville Sewing Circle",
-    synopsis: "At the break of dawn, Caroline Shelby rolls into Oysterville, Washington, a tiny hamlet at the edge of the raging Pacific.\nShe’s come home.\nHome to a place she thought she’d left forever, home of her heart and memories, but not her future. Ten years ago, Caroline launched a career in the glamorous fashion world of Manhattan. But her success in New York imploded on a wave of scandal and tragedy, forcing her to flee to the only safe place she knows.\nAnd in the backseat of Caroline’s car are two children who were orphaned in a single chilling moment—five-year-old Addie and six-year-old Flick. She’s now their legal guardian—a role she’s not sure she’s ready for.\nBut the Oysterville she left behind has changed. Her siblings have their own complicated lives and her aging parents are hoping to pass on their thriving seafood restaurant to the next generation. And there’s Will Jensen, a decorated Navy SEAL who’s also returned home after being wounded overseas. Will and Caroline were forever friends as children, with the promise of something more . . . until he fell in love with Sierra, Caroline’s best friend and the most beautiful girl in town. With her modeling jobs drying up, Sierra, too, is on the cusp of reinventing herself.\nCaroline returns to her favorite place: the sewing shop owned by Mrs. Lindy Bloom, the woman who inspired her and taught her to sew. There she discovers that even in an idyllic beach town, there are women living with the deepest of secrets. Thus begins the Oysterville Sewing Circle—where women can join forces to support each other through the troubles they keep hidden.\nYet just as Caroline regains her creativity and fighting spirit, and the children begin to heal from their loss, an unexpected challenge tests her courage and her heart. This time, though, Caroline is not going to run away. She’s going to stand and fight for everything—and everyone—she loves.",
+    description: "At the break of dawn, Caroline Shelby rolls into Oysterville, Washington, a tiny hamlet at the edge of the raging Pacific.\nShe’s come home.\nHome to a place she thought she’d left forever, home of her heart and memories, but not her future. Ten years ago, Caroline launched a career in the glamorous fashion world of Manhattan. But her success in New York imploded on a wave of scandal and tragedy, forcing her to flee to the only safe place she knows.\nAnd in the backseat of Caroline’s car are two children who were orphaned in a single chilling moment—five-year-old Addie and six-year-old Flick. She’s now their legal guardian—a role she’s not sure she’s ready for.\nBut the Oysterville she left behind has changed. Her siblings have their own complicated lives and her aging parents are hoping to pass on their thriving seafood restaurant to the next generation. And there’s Will Jensen, a decorated Navy SEAL who’s also returned home after being wounded overseas. Will and Caroline were forever friends as children, with the promise of something more . . . until he fell in love with Sierra, Caroline’s best friend and the most beautiful girl in town. With her modeling jobs drying up, Sierra, too, is on the cusp of reinventing herself.\nCaroline returns to her favorite place: the sewing shop owned by Mrs. Lindy Bloom, the woman who inspired her and taught her to sew. There she discovers that even in an idyllic beach town, there are women living with the deepest of secrets. Thus begins the Oysterville Sewing Circle—where women can join forces to support each other through the troubles they keep hidden.\nYet just as Caroline regains her creativity and fighting spirit, and the children begin to heal from their loss, an unexpected challenge tests her courage and her heart. This time, though, Caroline is not going to run away. She’s going to stand and fight for everything—and everyone—she loves.",
     img: "https://m.media-amazon.com/images/I/81K8REyYJCL.jpg",
     authors: [
       "Susan Wiggs"
@@ -353,7 +353,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.21 Inches, Weight: 1.1 Pounds",
+    dimensions: "9 x 6 x 1.21 Inches",
     pages: 384,
     price: 26.99,
     count: 14,
@@ -362,7 +362,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "198482015X",
     title: "A Long Petal of the Sea",
-    synopsis: "In the late 1930s, civil war grips Spain. When General Franco and his Fascists succeed in overthrowing the government, hundreds of thousands are forced to flee in a treacherous journey over the mountains to the French border. Among them is Roser, a pregnant young widow, who finds her life intertwined with that of Victor Dalmau, an army doctor and the brother of her deceased love. In order to survive, the two must unite in a marriage neither of them desires.\nTogether with two thousand other refugees, Roser and Victor embark on the SS Winnipeg, a ship chartered by the poet Pablo Neruda, to Chile: “the long petal of sea and wine and snow.” As unlikely partners, the couple embraces exile as the rest of Europe erupts in world war. Starting over on a new continent, they face trial after trial, but they will also find joy as they patiently await the day when they might go home. Through it all, their hope of returning to Spain keeps them going. Destined to witness the battle between freedom and repression as it plays out across the world, Roser and Victor will find that home might have been closer than they thought all along.\nA masterful work of historical fiction about hope, exile, and belonging, A Long Petal of the Sea shows Isabel Allende at the height of her powers.",
+    description: "In the late 1930s, civil war grips Spain. When General Franco and his Fascists succeed in overthrowing the government, hundreds of thousands are forced to flee in a treacherous journey over the mountains to the French border. Among them is Roser, a pregnant young widow, who finds her life intertwined with that of Victor Dalmau, an army doctor and the brother of her deceased love. In order to survive, the two must unite in a marriage neither of them desires.\nTogether with two thousand other refugees, Roser and Victor embark on the SS Winnipeg, a ship chartered by the poet Pablo Neruda, to Chile: “the long petal of sea and wine and snow.” As unlikely partners, the couple embraces exile as the rest of Europe erupts in world war. Starting over on a new continent, they face trial after trial, but they will also find joy as they patiently await the day when they might go home. Through it all, their hope of returning to Spain keeps them going. Destined to witness the battle between freedom and repression as it plays out across the world, Roser and Victor will find that home might have been closer than they thought all along.\nA masterful work of historical fiction about hope, exile, and belonging, A Long Petal of the Sea shows Isabel Allende at the height of her powers.",
     img: "https://m.media-amazon.com/images/I/A1OedyI3i8L.jpg",
     authors: [
       "Isabel Allende"
@@ -370,7 +370,7 @@ export const products: Product[] = [
     publisher: "Ballantine Books",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.45 Inches, Length: 6.44 Inches, Width: 1.04 Inches, Weight: 1.25 Pounds",
+    dimensions: "9.45 x 6.44 x 1.04 Inches",
     pages: 336,
     price: 31.81,
     count: 0,
@@ -379,7 +379,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1250854512",
     title: "The Atlas Six",
-    synopsis: "The Alexandrian Society, caretakers of lost knowledge from the greatest civilizations of antiquity, are the foremost secret society of magical academicians in the world. Those who earn a place among the Alexandrians will secure a life of wealth, power, and prestige beyond their wildest dreams, and each decade, only the six most uniquely talented magicians are selected to be considered for initiation. Enter the latest round of six: Libby Rhodes and Nico de Varona, unwilling halves of an unfathomable whole, who exert uncanny control over every element of physicality. Reina Mori, a naturalist, who can intuit the language of life itself. Parisa Kamali, a telepath who can traverse the depths of the subconscious, navigating worlds inside the human mind. Callum Nova, an empath easily mistaken for a manipulative illusionist, who can influence the intimate workings of a person’s inner self. Finally, there is Tristan Caine, who can see through illusions to a new structure of reality—an ability so rare that neither he nor his peers can fully grasp its implications. When the candidates are recruited by the mysterious Atlas Blakely, they are told they will have one year to qualify for initiation, during which time they will be permitted preliminary access to the Society’s archives and judged based on their contributions to various subjects of impossibility: time and space, luck and thought, life and death. Five, they are told, will be initiated. One will be eliminated. The six potential initiates will fight to survive the next year of their lives, and if they can prove themselves to be the best among their rivals, most of them will.Most of them.",
+    description: "The Alexandrian Society, caretakers of lost knowledge from the greatest civilizations of antiquity, are the foremost secret society of magical academicians in the world. Those who earn a place among the Alexandrians will secure a life of wealth, power, and prestige beyond their wildest dreams, and each decade, only the six most uniquely talented magicians are selected to be considered for initiation. Enter the latest round of six: Libby Rhodes and Nico de Varona, unwilling halves of an unfathomable whole, who exert uncanny control over every element of physicality. Reina Mori, a naturalist, who can intuit the language of life itself. Parisa Kamali, a telepath who can traverse the depths of the subconscious, navigating worlds inside the human mind. Callum Nova, an empath easily mistaken for a manipulative illusionist, who can influence the intimate workings of a person’s inner self. Finally, there is Tristan Caine, who can see through illusions to a new structure of reality—an ability so rare that neither he nor his peers can fully grasp its implications. When the candidates are recruited by the mysterious Atlas Blakely, they are told they will have one year to qualify for initiation, during which time they will be permitted preliminary access to the Society’s archives and judged based on their contributions to various subjects of impossibility: time and space, luck and thought, life and death. Five, they are told, will be initiated. One will be eliminated. The six potential initiates will fight to survive the next year of their lives, and if they can prove themselves to be the best among their rivals, most of them will.Most of them.",
     img: "https://m.media-amazon.com/images/I/71t9Gb4k2sL.jpg",
     authors: [
       "Olivie Blake"
@@ -387,7 +387,7 @@ export const products: Product[] = [
     publisher: "Tor Books",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.96 Inches, Weight: 1.2 Pounds",
+    dimensions: "9 x 6 x 0.96 Inches",
     pages: 384,
     price: 29.99,
     count: 8,
@@ -396,7 +396,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1524745006",
     title: "When You See Me",
-    synopsis: "FBI Special Agent Kimberly Quincy and Sergeant Detective D D Warren have built a task force to follow the digital bread crumbs left behind by deceased serial kidnapper Jacob Ness. When a disturbing piece of evidence is discovered in the hills of Georgia, they bring Flora Dane and true-crime savant Keith Edgar to a small town where something seems to be deeply wrong. What at first looks like a Gothic eeriness soon hardens into something much more sinister . . . and they discover that for all the evil Jacob committed while alive, his worst secret is still to be revealed. Quincy and DD must summon their considerable skills and experience to crack the most disturbing case of their careers—and Flora must face her own past directly in the hope of saving others.",
+    description: "FBI Special Agent Kimberly Quincy and Sergeant Detective D D Warren have built a task force to follow the digital bread crumbs left behind by deceased serial kidnapper Jacob Ness. When a disturbing piece of evidence is discovered in the hills of Georgia, they bring Flora Dane and true-crime savant Keith Edgar to a small town where something seems to be deeply wrong. What at first looks like a Gothic eeriness soon hardens into something much more sinister . . . and they discover that for all the evil Jacob committed while alive, his worst secret is still to be revealed. Quincy and DD must summon their considerable skills and experience to crack the most disturbing case of their careers—and Flora must face her own past directly in the hope of saving others.",
     img: "https://m.media-amazon.com/images/I/81i2Mox5xmL.jpg",
     authors: [
       "Lisa Gardner"
@@ -404,7 +404,7 @@ export const products: Product[] = [
     publisher: "Dutton",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.27 Inches, Length: 6.24 Inches, Width: 1.29 Inches, Weight: 1.27 Pounds",
+    dimensions: "9.27 x 6.24 x 1.29 Inches",
     pages: 400,
     price: 22.94,
     count: 10,
@@ -413,7 +413,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "038554734X",
     title: "Lessons in Chemistry",
-    synopsis: "Chemist Elizabeth Zott is not your average woman. In fact, Elizabeth Zott would be the first to point out that there is no such thing as an average woman. But it’s the early 1960s and her all-male team at Hastings Research Institute takes a very unscientific view of equality. Except for one: Calvin Evans; the lonely, brilliant, Nobel–prize nominated grudge-holder who falls in love with—of all things—her mind. True chemistry results.\nBut like science, life is unpredictable. Which is why a few years later Elizabeth Zott finds herself not only a single mother, but the reluctant star of America’s most beloved cooking show Supper at Six. Elizabeth’s unusual approach to cooking (“combine one tablespoon acetic acid with a pinch of sodium chloride”) proves revolutionary. But as her following grows, not everyone is happy. Because as it turns out, Elizabeth Zott isn’t just teaching women to cook. She’s daring them to change the status quo.\nLaugh-out-loud funny, shrewdly observant, and studded with a dazzling cast of supporting characters, Lessons in Chemistry is as original and vibrant as its procategoryIdonist.",
+    description: "Chemist Elizabeth Zott is not your average woman. In fact, Elizabeth Zott would be the first to point out that there is no such thing as an average woman. But it’s the early 1960s and her all-male team at Hastings Research Institute takes a very unscientific view of equality. Except for one: Calvin Evans; the lonely, brilliant, Nobel–prize nominated grudge-holder who falls in love with—of all things—her mind. True chemistry results.\nBut like science, life is unpredictable. Which is why a few years later Elizabeth Zott finds herself not only a single mother, but the reluctant star of America’s most beloved cooking show Supper at Six. Elizabeth’s unusual approach to cooking (“combine one tablespoon acetic acid with a pinch of sodium chloride”) proves revolutionary. But as her following grows, not everyone is happy. Because as it turns out, Elizabeth Zott isn’t just teaching women to cook. She’s daring them to change the status quo.\nLaugh-out-loud funny, shrewdly observant, and studded with a dazzling cast of supporting characters, Lessons in Chemistry is as original and vibrant as its procategoryIdonist.",
     img: "https://m.media-amazon.com/images/I/71yNgTMEcpL.jpg",
     authors: [
       "Bonnie Garmus"
@@ -421,7 +421,7 @@ export const products: Product[] = [
     publisher: "Doubleday",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.125 Inches, Weight: 1.58 Pounds",
+    dimensions: "9.25 x 6.1 x 1.1 Inches",
     pages: 400,
     price: 37.81,
     count: 26,
@@ -430,7 +430,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0385547978",
     title: "Shrines of Gaiety",
-    synopsis: "1926, and in a country still recovering from the Great War, London has become the focus for a delirious new nightlife. In the clubs of Soho, peers of the realm rub shoulders with starlets, foreign dignitaries with gangsters, and girls sell dances for a shilling a time.\nThe notorious queen of this glittering world is Nellie Coker, ruthless but also ambitious to advance her six children, including the enigmatic eldest, Niven, whose character has been forged in the crucible of the Somme. But success breeds enemies, and Nellie’s empire faces threats from without and within. For beneath the dazzle of Soho’s gaiety, there is a dark underbelly, a world in which it is all too easy to become lost.\nWith her unique Dickensian flair, Kate Atkinson gives us a window in a vanished world. Slyly funny, brilliantly observant, and ingeniously plotted, Shrines of Gaiety showcases the myriad talents that have made Atkinson one of the most lauded writers of our time.",
+    description: "1926, and in a country still recovering from the Great War, London has become the focus for a delirious new nightlife. In the clubs of Soho, peers of the realm rub shoulders with starlets, foreign dignitaries with gangsters, and girls sell dances for a shilling a time.\nThe notorious queen of this glittering world is Nellie Coker, ruthless but also ambitious to advance her six children, including the enigmatic eldest, Niven, whose character has been forged in the crucible of the Somme. But success breeds enemies, and Nellie’s empire faces threats from without and within. For beneath the dazzle of Soho’s gaiety, there is a dark underbelly, a world in which it is all too easy to become lost.\nWith her unique Dickensian flair, Kate Atkinson gives us a window in a vanished world. Slyly funny, brilliantly observant, and ingeniously plotted, Shrines of Gaiety showcases the myriad talents that have made Atkinson one of the most lauded writers of our time.",
     img: "https://m.media-amazon.com/images/I/914PqQFZZYL.jpg",
     authors: [
       "Kate Atkinson"
@@ -438,7 +438,7 @@ export const products: Product[] = [
     publisher: "Doubleday",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.1563 Inches, Weight: 1.25 Pounds",
+    dimensions: "9.25 x 6.1 x 1.1",
     pages: 416,
     price: 14.99,
     count: 5,
@@ -447,7 +447,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1984806750",
     title: "People We Meet On Vacation",
-    synopsis: "Poppy and Alex. Alex and Poppy. They have nothing in common. She’s a wild child; he wears khakis. She has insatiable wanderlust; he prefers to stay home with a book. And somehow, ever since a fateful car share home from college many years ago, they are the very best of friends. For most of the year they live far apart—she’s in New York City, and he’s in their small hometown—but every summer, for a decade, they have taken one glorious week of vacation together.\nUntil two years ago, when they ruined everything. They haven't spoken since.\nPoppy has everything she should want, but she’s stuck in a rut. When someone asks when she was last truly happy, she knows, without a doubt, it was on that ill-fated, final trip with Alex. And so, she decides to convince her best friend to take one more vacation together—lay everything on the table, make it all right. Miraculously, he agrees.\nNow she has a week to fix everything. If only she can get around the one big truth that has always stood quietly in the middle of their seemingly perfect relationship. What could possibly go wrong?\n",
+    description: "Poppy and Alex. Alex and Poppy. They have nothing in common. She’s a wild child; he wears khakis. She has insatiable wanderlust; he prefers to stay home with a book. And somehow, ever since a fateful car share home from college many years ago, they are the very best of friends. For most of the year they live far apart—she’s in New York City, and he’s in their small hometown—but every summer, for a decade, they have taken one glorious week of vacation together.\nUntil two years ago, when they ruined everything. They haven't spoken since.\nPoppy has everything she should want, but she’s stuck in a rut. When someone asks when she was last truly happy, she knows, without a doubt, it was on that ill-fated, final trip with Alex. And so, she decides to convince her best friend to take one more vacation together—lay everything on the table, make it all right. Miraculously, he agrees.\nNow she has a week to fix everything. If only she can get around the one big truth that has always stood quietly in the middle of their seemingly perfect relationship. What could possibly go wrong?\n",
     img: "https://m.media-amazon.com/images/I/71cgoQH0zrL.jpg",
     authors: [
       "Emily Henry"
@@ -455,7 +455,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 0.9375 Inches, Weight: 0.75 Pounds",
+    dimensions: "8.25 x 5.5 x 0.9 Inches",
     pages: 384,
     price: 10.79,
     count: 35,
@@ -464,7 +464,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0062834851",
     title: "Portrait of an Unknown Woman",
-    synopsis: "1527. A dark curtain has fallen across Europe. Martin Luther’s break with the Vatican has led to civil war and artistic censorship, forcing the renowned portraitist Hans Holbein the Younger to flee to the safety of Tudor England. Under the patronage of one of Henry VIII’s most trusted and brilliant advisors, Sir Thomas More, Holbein painted two portraits of the More family over the course of five years. Though nearly identical, the second is different. Why? And what do these subtle differences mean?\nIn this sweeping epic, Vanora Bennett uses these two pictures to weave a wondrously imagined tale of Tudor England, witnessed through the eyes of Meg, More’s intelligent and headstrong young ward. Set against the turmoil, intrigue, and tragedy of Henry VIII’s court, Portrait of an Unknown Woman is the story of a woman torn between two remarkable yet radically different men—one she will love, the other she will marry. It also the story of a country torn apart by fanaticism, corruption, and the desires of a headstrong king. Rich with colorful detail, full of vibrant characters drawn from the pages of history, this magnificent novel hails the arrival of a visionary new writer and is sure to become one of the most talked about books of the year.",
+    description: "1527. A dark curtain has fallen across Europe. Martin Luther’s break with the Vatican has led to civil war and artistic censorship, forcing the renowned portraitist Hans Holbein the Younger to flee to the safety of Tudor England. Under the patronage of one of Henry VIII’s most trusted and brilliant advisors, Sir Thomas More, Holbein painted two portraits of the More family over the course of five years. Though nearly identical, the second is different. Why? And what do these subtle differences mean?\nIn this sweeping epic, Vanora Bennett uses these two pictures to weave a wondrously imagined tale of Tudor England, witnessed through the eyes of Meg, More’s intelligent and headstrong young ward. Set against the turmoil, intrigue, and tragedy of Henry VIII’s court, Portrait of an Unknown Woman is the story of a woman torn between two remarkable yet radically different men—one she will love, the other she will marry. It also the story of a country torn apart by fanaticism, corruption, and the desires of a headstrong king. Rich with colorful detail, full of vibrant characters drawn from the pages of history, this magnificent novel hails the arrival of a visionary new writer and is sure to become one of the most talked about books of the year.",
     img: "https://m.media-amazon.com/images/I/91BIb9s++pL.jpg",
     authors: [
       "Daniel Silva"
@@ -472,7 +472,7 @@ export const products: Product[] = [
     publisher: "Harper",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.49 Inches, Weight: 1 Pounds",
+    dimensions: "9 x 6 x 1.49 Inches",
     pages: 496,
     price: 18.78,
     count: 8,
@@ -481,7 +481,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1609455916",
     title: "The Lying Life of Adults",
-    synopsis: "Giovanna’s pretty face is changing, turning ugly, at least so her father thinks. Giovanna, he says, looks more like her Aunt Vittoria every day. But can it be true? Is she really changing? Is she turning into her Aunt Vittoria, a woman she hardly knows but whom her mother and father clearly despise? Surely there is a mirror somewhere in which she can see herself as she truly is.\nGiovanna is searching for her reflection in two kindred cities that fear and detest one another: Naples of the heights, which assumes a mask of refinement, and Naples of the depths, a place of excess and vulgarity. She moves from one to the other in search of the truth, but neither city seems to offer answers or escape.\nNamed one of 2016’s most influential people by TIME Magazine and frequently touted as a future Nobel Prize-winner, Elena Ferrante has become one of the world’s most read and beloved writers. With this new novel about the transition from childhood to adolescence to adulthood, Ferrante proves once again that she deserves her many accolades. In The Lying Life of Adults, readers will discover another gripping, highly addictive, and totally unforgettable Neapolitan story.",
+    description: "Giovanna’s pretty face is changing, turning ugly, at least so her father thinks. Giovanna, he says, looks more like her Aunt Vittoria every day. But can it be true? Is she really changing? Is she turning into her Aunt Vittoria, a woman she hardly knows but whom her mother and father clearly despise? Surely there is a mirror somewhere in which she can see herself as she truly is.\nGiovanna is searching for her reflection in two kindred cities that fear and detest one another: Naples of the heights, which assumes a mask of refinement, and Naples of the depths, a place of excess and vulgarity. She moves from one to the other in search of the truth, but neither city seems to offer answers or escape.\nNamed one of 2016’s most influential people by TIME Magazine and frequently touted as a future Nobel Prize-winner, Elena Ferrante has become one of the world’s most read and beloved writers. With this new novel about the transition from childhood to adolescence to adulthood, Ferrante proves once again that she deserves her many accolades. In The Lying Life of Adults, readers will discover another gripping, highly addictive, and totally unforgettable Neapolitan story.",
     img: "https://m.media-amazon.com/images/I/81rHmow6yFL.jpg",
     authors: [
       "Elena Ferrante"
@@ -489,7 +489,7 @@ export const products: Product[] = [
     publisher: "Europa Editions",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.5 Inches, Width: 1.25 Inches, Weight: 1.2 Pounds",
+    dimensions: "9.25 x 6.5 x 1.25 Inches",
     pages: 324,
     price: 14.35,
     count: 14,
@@ -498,7 +498,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0525521143",
     title: "The Glass Hotel",
-    synopsis: "Vincent is a bartender at the Hotel Caiette, a five-star lodging on the northernmost tip of Vancouver Island. On the night she meets Jonathan Alkaitis, a hooded figure scrawls a message on the lobby's glass wall: Why don’t you swallow broken glass. High above Manhattan, a greater crime is committed: Alkaitis's billion-dollar business is really nothing more than a game of smoke and mirrors. When his scheme collapses, it obliterates countless fortunes and devastates lives. Vincent, who had been posing as Jonathan’s wife, walks away into the night. Years later, a victim of the fraud is hired to investigate a strange occurrence: a woman has seemingly vanished from the deck of a container ship between ports of call.\nIn this captivating story of crisis and survival, Emily St. John Mandel takes readers through often hidden landscapes: campgrounds for the near-homeless, underground electronica clubs, service in luxury hotels, and life in a federal prison. Rife with unexpected beauty, The Glass Hotel is a captivating portrait of greed and guilt, love and delusion, ghosts and unintended consequences, and the infinite ways we search for meaning in our lives.",
+    description: "Vincent is a bartender at the Hotel Caiette, a five-star lodging on the northernmost tip of Vancouver Island. On the night she meets Jonathan Alkaitis, a hooded figure scrawls a message on the lobby's glass wall: Why don’t you swallow broken glass. High above Manhattan, a greater crime is committed: Alkaitis's billion-dollar business is really nothing more than a game of smoke and mirrors. When his scheme collapses, it obliterates countless fortunes and devastates lives. Vincent, who had been posing as Jonathan’s wife, walks away into the night. Years later, a victim of the fraud is hired to investigate a strange occurrence: a woman has seemingly vanished from the deck of a container ship between ports of call.\nIn this captivating story of crisis and survival, Emily St. John Mandel takes readers through often hidden landscapes: campgrounds for the near-homeless, underground electronica clubs, service in luxury hotels, and life in a federal prison. Rife with unexpected beauty, The Glass Hotel is a captivating portrait of greed and guilt, love and delusion, ghosts and unintended consequences, and the infinite ways we search for meaning in our lives.",
     img: "https://m.media-amazon.com/images/I/71KvHMXo2hL.jpg",
     authors: [
       "Emily St. John Mandel"
@@ -506,7 +506,7 @@ export const products: Product[] = [
     publisher: "Knopf",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 8.5 Inches, Length: 5.96 Inches, Width: 1.1 Inches, Weight: 1.15 Pounds",
+    dimensions: "8.5 x 5.96 x 1.1 Inches",
     pages: 320,
     price: 11.99,
     count: 26,
@@ -515,7 +515,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0735222355",
     title: "The Lincoln Highway",
-    synopsis: "In June, 1954, eighteen-year-old Emmett Watson is driven home to Nebraska by the warden of the juvenile work farm where he has just served fifteen months for involuntary manslaughter. His mother long gone, his father recently deceased, and the family farm foreclosed upon by the bank, Emmett's intention is to pick up his eight-year-old brother, Billy, and head to California where they can start their lives anew. But when the warden drives away, Emmett discovers that two friends from the work farm have hidden themselves in the trunk of the warden's car. Together, they have hatched an altogether different plan for Emmett's future, one that will take them all on a fateful journey in the opposite direction—to the City of New York.\nSpanning just ten days and told from multiple points of view, Towles's third novel will satisfy fans of his multi-layered literary styling while providing them an array of new and richly imagined settings, characters, and themes. “Once again, I was wowed by Towles’s writing—especially because The Lincoln Highway is so different from A Gentleman in Moscow in terms of setting, plot, and themes. Towles is not a one-trick pony. Like all the best storytellers, he has range. He takes inspiration from famous hero’s journeys, including The Iliad, The Odyssey, Hamlet, Huckleberry Finn, and Of Mice and Men. He seems to be saying that our personal journeys are never as linear or predictable as an interstate highway. But, he suggests, when something (or someone) tries to steer us off course, it is possible to take the wheel.” – Bill Gates",
+    description: "In June, 1954, eighteen-year-old Emmett Watson is driven home to Nebraska by the warden of the juvenile work farm where he has just served fifteen months for involuntary manslaughter. His mother long gone, his father recently deceased, and the family farm foreclosed upon by the bank, Emmett's intention is to pick up his eight-year-old brother, Billy, and head to California where they can start their lives anew. But when the warden drives away, Emmett discovers that two friends from the work farm have hidden themselves in the trunk of the warden's car. Together, they have hatched an altogether different plan for Emmett's future, one that will take them all on a fateful journey in the opposite direction—to the City of New York.\nSpanning just ten days and told from multiple points of view, Towles's third novel will satisfy fans of his multi-layered literary styling while providing them an array of new and richly imagined settings, characters, and themes. “Once again, I was wowed by Towles’s writing—especially because The Lincoln Highway is so different from A Gentleman in Moscow in terms of setting, plot, and themes. Towles is not a one-trick pony. Like all the best storytellers, he has range. He takes inspiration from famous hero’s journeys, including The Iliad, The Odyssey, Hamlet, Huckleberry Finn, and Of Mice and Men. He seems to be saying that our personal journeys are never as linear or predictable as an interstate highway. But, he suggests, when something (or someone) tries to steer us off course, it is possible to take the wheel.” – Bill Gates",
     img: "https://m.media-amazon.com/images/I/91DUhtU6KCL.jpg",
     authors: [
       "Amor Towles"
@@ -523,7 +523,7 @@ export const products: Product[] = [
     publisher: "Viking",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.28 Inches, Width: 1.83 Inches, Weight: 1.9 Pounds",
+    dimensions: "9.25 x 6.28 x 1.83 Inches",
     pages: 416,
     price: 14.99,
     count: 0,
@@ -532,7 +532,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1594634491",
     title: "Matrix",
-    synopsis: "Cast out of the royal court by Eleanor of Aquitaine, deemed too coarse and rough-hewn for marriage or courtly life, seventeen-year-old Marie de France is sent to England to be the new prioress of an impoverished abbey, its nuns on the brink of starvation and beset by disease.\nAt first taken aback by the severity of her new life, Marie finds focus and love in collective life with her singular and mercurial sisters. In this crucible, Marie steadily supplants her desire for family, for her homeland, for the passions of her youth with something new to her: devotion to her sisters, and a conviction in her own divine visions. Marie, born the last in a long line of women warriors and crusaders, is determined to chart a bold new course for the women she now leads and protects. But in a world that is shifting and corroding in frightening ways, one that can never reconcile itself with her existence, will the sheer force of Marie’s vision be bulwark enough?\nEqually alive to the sacred and the profane, Matrix gathers currents of violence, sensuality, and religious ecstasy in a mesmerizing portrait of consuming passion, aberrant faith, and a woman that history moves both through and around. Lauren Groff’s new novel, her first since Fates and Furies, is a defiant and timely exploration of the raw power of female creativity in a corrupted world.",
+    description: "Cast out of the royal court by Eleanor of Aquitaine, deemed too coarse and rough-hewn for marriage or courtly life, seventeen-year-old Marie de France is sent to England to be the new prioress of an impoverished abbey, its nuns on the brink of starvation and beset by disease.\nAt first taken aback by the severity of her new life, Marie finds focus and love in collective life with her singular and mercurial sisters. In this crucible, Marie steadily supplants her desire for family, for her homeland, for the passions of her youth with something new to her: devotion to her sisters, and a conviction in her own divine visions. Marie, born the last in a long line of women warriors and crusaders, is determined to chart a bold new course for the women she now leads and protects. But in a world that is shifting and corroding in frightening ways, one that can never reconcile itself with her existence, will the sheer force of Marie’s vision be bulwark enough?\nEqually alive to the sacred and the profane, Matrix gathers currents of violence, sensuality, and religious ecstasy in a mesmerizing portrait of consuming passion, aberrant faith, and a woman that history moves both through and around. Lauren Groff’s new novel, her first since Fates and Furies, is a defiant and timely exploration of the raw power of female creativity in a corrupted world.",
     img: "https://m.media-amazon.com/images/I/91d6m7kzl4L.jpg",
     authors: [
       "Lauren Groff"
@@ -540,7 +540,7 @@ export const products: Product[] = [
     publisher: "Riverhead Books",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.6875 Inches, Weight: 1 Pounds",
+    dimensions: "9 x 6 x 0.7 Inches",
     pages: 272,
     price: 13.99,
     count: 10,
@@ -549,7 +549,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1982156120",
     title: "The School for Good Mothers",
-    synopsis: "Frida Liu is struggling. She doesn’t have a career worthy of her Chinese immigrant parents’ sacrifices. She can’t persuade her husband, Gust, to give up his wellness-obsessed younger mistress. Only with Harriet, their cherubic daughter, does Frida finally attain the perfection expected of her. Harriet may be all she has, but she is just enough.\nUntil Frida has a very bad day.\nThe state has its eye on mothers like Frida. The ones who check their phones, letting their children get injured on the playground; who let their children walk home alone. Because of one moment of poor judgement, a host of government officials will now determine if Frida is a candidate for a Big Brother-like institution that measures the success or failure of a mother’s devotion.\nFaced with the possibility of losing Harriet, Frida must prove that a bad mother can be redeemed. That she can learn to be good.\nAn “intense” (Oprah Daily), “captivating” (Today) page-turner that is also a transgressive novel of ideas about the perils of “perfect” upper-middle class parenting; the violence enacted upon women by both the state and, at times, one another; the systems that separate families; and the boundlessness of love, The School for Good Mothers introduces, in Frida, an everywoman for the ages. Using dark wit to explore the pains and joys of the deepest ties that bind us, Chan has written a modern literary classic.",
+    description: "Frida Liu is struggling. She doesn’t have a career worthy of her Chinese immigrant parents’ sacrifices. She can’t persuade her husband, Gust, to give up his wellness-obsessed younger mistress. Only with Harriet, their cherubic daughter, does Frida finally attain the perfection expected of her. Harriet may be all she has, but she is just enough.\nUntil Frida has a very bad day.\nThe state has its eye on mothers like Frida. The ones who check their phones, letting their children get injured on the playground; who let their children walk home alone. Because of one moment of poor judgement, a host of government officials will now determine if Frida is a candidate for a Big Brother-like institution that measures the success or failure of a mother’s devotion.\nFaced with the possibility of losing Harriet, Frida must prove that a bad mother can be redeemed. That she can learn to be good.\nAn “intense” (Oprah Daily), “captivating” (Today) page-turner that is also a transgressive novel of ideas about the perils of “perfect” upper-middle class parenting; the violence enacted upon women by both the state and, at times, one another; the systems that separate families; and the boundlessness of love, The School for Good Mothers introduces, in Frida, an everywoman for the ages. Using dark wit to explore the pains and joys of the deepest ties that bind us, Chan has written a modern literary classic.",
     img: "https://m.media-amazon.com/images/I/718aMFcFxOL.jpg",
     authors: [
       "Jessamine Chan"
@@ -557,7 +557,7 @@ export const products: Product[] = [
     publisher: "Simon & Schuster",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.865 Inches, Weight: 1 Pounds",
+    dimensions: "9 x 6 x 0.86 Inches",
     pages: 336,
     price: 13.99,
     count: 36,
@@ -566,7 +566,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0735218862",
     title: "We Must Be Brave",
-    synopsis: "A woman. A war. The child who changed everything.\nDecember 1940. As German bombs fall on Southampton, England during World War II, the city's residents flee to the surrounding villages. In Upton village, amid the chaos, newly married Ellen Parr finds a girl asleep, unclaimed at the back of an empty bus. Little Pamela, it seems, is entirely alone.\nEllen has always believed she does not want children, but when she takes Pamela into her home, the child cracks open the past Ellen thought she had escaped and the future she and her husband Selwyn had dreamed for themselves. As the war rages on, love grows where it was least expected, surprising them all. But with the end of the fighting comes the realization that Pamela was never theirs to keep. Spanning the sweep of the twentieth century, We Must Be Brave explores the fierce love that we feel for our children and the power of that love to endure. Beyond distance, beyond time, beyond life itself.",
+    description: "A woman. A war. The child who changed everything.\nDecember 1940. As German bombs fall on Southampton, England during World War II, the city's residents flee to the surrounding villages. In Upton village, amid the chaos, newly married Ellen Parr finds a girl asleep, unclaimed at the back of an empty bus. Little Pamela, it seems, is entirely alone.\nEllen has always believed she does not want children, but when she takes Pamela into her home, the child cracks open the past Ellen thought she had escaped and the future she and her husband Selwyn had dreamed for themselves. As the war rages on, love grows where it was least expected, surprising them all. But with the end of the fighting comes the realization that Pamela was never theirs to keep. Spanning the sweep of the twentieth century, We Must Be Brave explores the fierce love that we feel for our children and the power of that love to endure. Beyond distance, beyond time, beyond life itself.",
     img: "https://m.media-amazon.com/images/I/81SmE+6BznL.jpg",
     authors: [
       "Frances Liardet"
@@ -574,7 +574,7 @@ export const products: Product[] = [
     publisher: "G.P. Putnam's Sons",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.27 Inches, Length: 6.22 Inches, Width: 1.44 Inches, Weight: 1.5 Pounds",
+    dimensions: "9.27 x 6.22 x 1.44 Inches",
     pages: 464,
     price: 8.51,
     count: 8,
@@ -583,7 +583,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0735218994",
     title: "Celtic Empire",
-    synopsis: "The murders of a team of United Nations scientists in El Salvador. . . A deadly collision in the waterways off the city of Detroit. . . An attack by tomb raiders on an archaeological site along the banks of the Nile. . . Is there a link between these violent events? The answer may lie in the tale of an Egyptian princess forced to flee the armies of her father three thousand years ago.\nDuring what was supposed to be a routine investigation in South America, NUMA Director Dirk Pitt finds himself embroiled in an international mystery, one that will lead him across the world and which will threaten everyone and everything he knows--most importantly, his own family. Pitt travels to Scotland in search of answers about the spread of an unknown disease and the shadowy bioremediation company that may be behind it. Meanwhile, his son and daughter face a threat of their own when the discoveries they have made in an Egyptian tomb put killers on their trail. These seemingly unrelated riddles come together in a stunning showdown on the rocky isles of Ireland, where only the Pitts can unravel the secrets of an ancient enigma that could change the very future of mankind.",
+    description: "The murders of a team of United Nations scientists in El Salvador. . . A deadly collision in the waterways off the city of Detroit. . . An attack by tomb raiders on an archaeological site along the banks of the Nile. . . Is there a link between these violent events? The answer may lie in the tale of an Egyptian princess forced to flee the armies of her father three thousand years ago.\nDuring what was supposed to be a routine investigation in South America, NUMA Director Dirk Pitt finds himself embroiled in an international mystery, one that will lead him across the world and which will threaten everyone and everything he knows--most importantly, his own family. Pitt travels to Scotland in search of answers about the spread of an unknown disease and the shadowy bioremediation company that may be behind it. Meanwhile, his son and daughter face a threat of their own when the discoveries they have made in an Egyptian tomb put killers on their trail. These seemingly unrelated riddles come together in a stunning showdown on the rocky isles of Ireland, where only the Pitts can unravel the secrets of an ancient enigma that could change the very future of mankind.",
     img: "https://m.media-amazon.com/images/I/91xI4GjM7jL.jpg",
     authors: [
       "Clive Cussler",
@@ -592,7 +592,7 @@ export const products: Product[] = [
     publisher: "G.P. Putnam's Sons",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.34 Inches, Length: 6.31 Inches, Width: 1.86 Inches, Weight: 1.5 Pounds",
+    dimensions: "9.34 x 6.31 x 1.86 Inches",
     pages: 464,
     price: 9.99,
     count: 26,
@@ -601,7 +601,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0593135202",
     title: "Project Hail Mary",
-    synopsis: "Ryland Grace is the sole survivor on a desperate, last-chance mission—and if he fails, humanity and the earth itself will perish.\nExcept that right now, he doesn’t know that. He can’t even remember his own name, let alone the nature of his assignment or how to complete it.\nAll he knows is that he’s been asleep for a very, very long time. And he’s just been awakened to find himself millions of miles from home, with nothing but two corpses for company.\nHis crewmates dead, his memories fuzzily returning, Ryland realizes that an impossible task now confronts him. Hurtling through space on this tiny ship, it’s up to him to puzzle out an impossible scientific mystery—and conquer an extinction-level threat to our species.\nAnd with the clock ticking down and the nearest human being light-years away, he’s got to do it all alone.\nOr does he?\nAn irresistible interstellar adventure as only Andy Weir could deliver, Project Hail Mary is a tale of discovery, speculation, and survival to rival The Martian—while taking us to places it never dreamed of going.",
+    description: "Ryland Grace is the sole survivor on a desperate, last-chance mission—and if he fails, humanity and the earth itself will perish.\nExcept that right now, he doesn’t know that. He can’t even remember his own name, let alone the nature of his assignment or how to complete it.\nAll he knows is that he’s been asleep for a very, very long time. And he’s just been awakened to find himself millions of miles from home, with nothing but two corpses for company.\nHis crewmates dead, his memories fuzzily returning, Ryland realizes that an impossible task now confronts him. Hurtling through space on this tiny ship, it’s up to him to puzzle out an impossible scientific mystery—and conquer an extinction-level threat to our species.\nAnd with the clock ticking down and the nearest human being light-years away, he’s got to do it all alone.\nOr does he?\nAn irresistible interstellar adventure as only Andy Weir could deliver, Project Hail Mary is a tale of discovery, speculation, and survival to rival The Martian—while taking us to places it never dreamed of going.",
     img: "https://m.media-amazon.com/images/I/91mYu67RfUL.jpg",
     authors: [
       "Andy Weir"
@@ -609,7 +609,7 @@ export const products: Product[] = [
     publisher: "Ballantine Books",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.25 Inches, Weight: 1.72 Pounds",
+    dimensions: "9.25 x 6.125 x 1.25 Inches",
     pages: 496,
     price: 21.52,
     count: 14,
@@ -618,7 +618,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1982110562",
     title: "The Institute",
-    synopsis: "In the middle of the night, in a house on a quiet street in suburban Minneapolis, intruders silently murder Luke Ellis’s parents and load him into a black SUV. The operation takes less than two minutes. Luke will wake up at The Institute, in a room that looks just like his own, except there’s no window. And outside his door are other doors, behind which are other kids with special talents—telekinesis and telepathy—who got to this place the same way Luke did: Kalisha, Nick, George, Iris, and ten-year-old Avery Dixon. They are all in Front Half. Others, Luke learns, graduated to Back Half, “like the roach motel,” Kalisha says. “You check in, but you don’t check out.”\nIn this most sinister of institutions, the director, Mrs. Sigsby, and her staff are ruthlessly dedicated to extracting from these children the force of their extranormal gifts. There are no scruples here. If you go along, you get tokens for the vending machines. If you don’t, punishment is brutal. As each new victim disappears to Back Half, Luke becomes more and more desperate to get out and get help. But no one has ever escaped from the Institute.\nAs psychically terrifying as Firestarter, and with the spectacular kid power of It, The Institute is Stephen King’s gut-wrenchingly dramatic story of good vs. evil in a world where the good guys don’t always win.",
+    description: "In the middle of the night, in a house on a quiet street in suburban Minneapolis, intruders silently murder Luke Ellis’s parents and load him into a black SUV. The operation takes less than two minutes. Luke will wake up at The Institute, in a room that looks just like his own, except there’s no window. And outside his door are other doors, behind which are other kids with special talents—telekinesis and telepathy—who got to this place the same way Luke did: Kalisha, Nick, George, Iris, and ten-year-old Avery Dixon. They are all in Front Half. Others, Luke learns, graduated to Back Half, “like the roach motel,” Kalisha says. “You check in, but you don’t check out.”\nIn this most sinister of institutions, the director, Mrs. Sigsby, and her staff are ruthlessly dedicated to extracting from these children the force of their extranormal gifts. There are no scruples here. If you go along, you get tokens for the vending machines. If you don’t, punishment is brutal. As each new victim disappears to Back Half, Luke becomes more and more desperate to get out and get help. But no one has ever escaped from the Institute.\nAs psychically terrifying as Firestarter, and with the spectacular kid power of It, The Institute is Stephen King’s gut-wrenchingly dramatic story of good vs. evil in a world where the good guys don’t always win.",
     img: "https://m.media-amazon.com/images/I/81pA6-hv+2L.jpg",
     authors: [
       "Stephen King"
@@ -626,7 +626,7 @@ export const products: Product[] = [
     publisher: "Scribner",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.125 Inches, Width: 1.6 Inches, Weight: 1.94 Pounds",
+    dimensions: "9.25 x 6.125 x 1.6 Inches",
     pages: 576,
     price: 9.99,
     count: 5,
@@ -635,7 +635,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0778308731",
     title: "The Girls with No Names",
-    synopsis: "A beautiful tale of hope, courage, and sisterhood—inspired by the real House of Mercy and the girls confined there for daring to break the rules.\nGrowing up in New York City in the 1910s, Luella and Effie Tildon realize that even as wealthy young women, their freedoms come with limits. But when the sisters discover a shocking secret about their father, Luella, the brazen elder sister, becomes emboldened to do as she pleases. Her rebellion comes with consequences, and one morning Luella is mysteriously gone.\nEffie suspects her father has sent Luella to the House of Mercy and hatches a plan to get herself committed to save her sister. But she made a miscalculation, and with no one to believe her story, Effie’s own escape seems impossible—unless she can trust an enigmatic girl named Mable. As their fates entwine, Mable and Effie must rely on their tenuous friendship to survive.\nHome for Unwanted Girls meets The Dollhouse in this atmospheric, heartwarming story that explores not only the historical House of Mercy, but the lives—and secrets—of the girls who stayed there.",
+    description: "A beautiful tale of hope, courage, and sisterhood—inspired by the real House of Mercy and the girls confined there for daring to break the rules.\nGrowing up in New York City in the 1910s, Luella and Effie Tildon realize that even as wealthy young women, their freedoms come with limits. But when the sisters discover a shocking secret about their father, Luella, the brazen elder sister, becomes emboldened to do as she pleases. Her rebellion comes with consequences, and one morning Luella is mysteriously gone.\nEffie suspects her father has sent Luella to the House of Mercy and hatches a plan to get herself committed to save her sister. But she made a miscalculation, and with no one to believe her story, Effie’s own escape seems impossible—unless she can trust an enigmatic girl named Mable. As their fates entwine, Mable and Effie must rely on their tenuous friendship to survive.\nHome for Unwanted Girls meets The Dollhouse in this atmospheric, heartwarming story that explores not only the historical House of Mercy, but the lives—and secrets—of the girls who stayed there.",
     img: "https://m.media-amazon.com/images/I/81TFwZoQb6L.jpg",
     authors: [
       "Serena Burdick"
@@ -643,7 +643,7 @@ export const products: Product[] = [
     publisher: "Park Row",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 8.9 Inches, Length: 5.9 Inches, Width: 0.8 Inche, Weight: 0.6 Poundss",
+    dimensions: "8.9 x 5.9 x 0.8 Inches",
     pages: 336,
     price: 11.99,
     count: 35,
@@ -652,7 +652,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1501151010",
     title: "The A List",
-    synopsis: "More than ten years after the abrupt end of her high-profile broadcasting career, Ali Reynolds has made a good life for herself in her hometown of Sedona, Arizona. She has a new house, a new husband, and a flourishing cybersecurity company called High Noon Enterprises, where her team of veritable technological wizards hunts down criminals one case at a time.\nBut the death of an old friend brings Ali back to the last story she ever reported: a feel-good human interest piece about a young man in need of a kidney to save his life, which quickly spiraled into a medical mismanagement scandal that landed a prestigious local doctor in prison for murder.\nYears may have passed, but Dr. Edward Gilchrist has not forgotten those responsible for his downfall—certainly not Ali Reynolds, who exposed his dirty deeds to the world. Life without parole won’t stop him from getting his revenge. Tattooed on his arm are the initials of those who put him behind bars, and he won’t stop until every person on that Annihilation List is dead.\nIn this gripping suspense novel from the New York Times bestselling author praised for her “inimitable, take-no-prisoners style” (Kirkus Reviews), Ali Reynolds and her team race against the clock to stop this ruthless killer—before her own name is crossed out for good.",
+    description: "More than ten years after the abrupt end of her high-profile broadcasting career, Ali Reynolds has made a good life for herself in her hometown of Sedona, Arizona. She has a new house, a new husband, and a flourishing cybersecurity company called High Noon Enterprises, where her team of veritable technological wizards hunts down criminals one case at a time.\nBut the death of an old friend brings Ali back to the last story she ever reported: a feel-good human interest piece about a young man in need of a kidney to save his life, which quickly spiraled into a medical mismanagement scandal that landed a prestigious local doctor in prison for murder.\nYears may have passed, but Dr. Edward Gilchrist has not forgotten those responsible for his downfall—certainly not Ali Reynolds, who exposed his dirty deeds to the world. Life without parole won’t stop him from getting his revenge. Tattooed on his arm are the initials of those who put him behind bars, and he won’t stop until every person on that Annihilation List is dead.\nIn this gripping suspense novel from the New York Times bestselling author praised for her “inimitable, take-no-prisoners style” (Kirkus Reviews), Ali Reynolds and her team race against the clock to stop this ruthless killer—before her own name is crossed out for good.",
     img: "https://m.media-amazon.com/images/I/91w2iXjgVbL.jpg",
     authors: [
       "J.A. Jance"
@@ -660,7 +660,7 @@ export const products: Product[] = [
     publisher: "Gallery Books",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 9 Inches, Width: 6 Inches, Weight: 1.15 Pounds",
+    dimensions: "9 x 9 x 6 Inches",
     pages: 352,
     price: 9.99,
     count: 0,
@@ -669,7 +669,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "125020013X",
     title: "The Scent Keeper",
-    synopsis: "Emmeline lives an enchanted childhood on a remote island with her father, who teaches her about the natural world through her senses. What he won’t explain are the mysterious scents stored in the drawers that line the walls of their cabin, or the origin of the machine that creates them. As Emmeline grows, however, so too does her curiosity, until one day the unforeseen happens, and Emmeline is vaulted out into the real world--a place of love, betrayal, ambition, and revenge. To understand her past, Emmeline must unlock the clues to her identity, a quest that challenges the limits of her heart and imagination.\nLyrical and immersive, The Scent Keeper explores the provocative beauty of scent, the way it can reveal hidden truths, lead us to the person we seek, and even help us find our way back home.",
+    description: "Emmeline lives an enchanted childhood on a remote island with her father, who teaches her about the natural world through her senses. What he won’t explain are the mysterious scents stored in the drawers that line the walls of their cabin, or the origin of the machine that creates them. As Emmeline grows, however, so too does her curiosity, until one day the unforeseen happens, and Emmeline is vaulted out into the real world--a place of love, betrayal, ambition, and revenge. To understand her past, Emmeline must unlock the clues to her identity, a quest that challenges the limits of her heart and imagination.\nLyrical and immersive, The Scent Keeper explores the provocative beauty of scent, the way it can reveal hidden truths, lead us to the person we seek, and even help us find our way back home.",
     img: "https://m.media-amazon.com/images/I/91wkh0SnczL.jpg",
     authors: [
       "Erica Bauermeister"
@@ -677,7 +677,7 @@ export const products: Product[] = [
     publisher: "St. Martin's Press",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.43 Inches, Length: 6.45 Inches, Width: 1.1 Inches, Weight: 1.15 Pounds",
+    dimensions: "9.43 x 6.45 x 1.1 Inches",
     pages: 320,
     price: 26.99,
     count: 26,
@@ -686,7 +686,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0063045656",
     title: "It Happened One Summer",
-    synopsis: "Piper Bellinger is fashionable, influential, and her reputation as a wild child means the paparazzi are constantly on her heels. When too much champagne and an out-of-control rooftop party lands Piper in the slammer, her stepfather decides enough is enough. So he cuts her off, and sends Piper and her sister to learn some responsibility running their late father’s dive bar... in Washington.\nPiper hasn’t even been in Westport for five minutes when she meets big, bearded sea captain Brendan, who thinks she won’t last a week outside of Beverly Hills. So what if Piper can’t do math, and the idea of sleeping in a shabby apartment with bunk beds gives her hives. How bad could it really be? She’s determined to show her stepfather—and the hot, grumpy local—that she’s more than a pretty face.\nExcept it’s a small town and everywhere she turns, she bumps into Brendan. The fun-loving socialite and the gruff fisherman are polar opposites, but there’s an undeniable attraction simmering between them. Piper doesn’t want any distractions, especially feelings for a man who sails off into the sunset for weeks at a time. Yet as she reconnects with her past and begins to feel at home in Westport, Piper starts to wonder if the cold, glamorous life she knew is what she truly wants. LA is calling her name, but Brendan—and this town full of memories—may have already caught her heart. ",
+    description: "Piper Bellinger is fashionable, influential, and her reputation as a wild child means the paparazzi are constantly on her heels. When too much champagne and an out-of-control rooftop party lands Piper in the slammer, her stepfather decides enough is enough. So he cuts her off, and sends Piper and her sister to learn some responsibility running their late father’s dive bar... in Washington.\nPiper hasn’t even been in Westport for five minutes when she meets big, bearded sea captain Brendan, who thinks she won’t last a week outside of Beverly Hills. So what if Piper can’t do math, and the idea of sleeping in a shabby apartment with bunk beds gives her hives. How bad could it really be? She’s determined to show her stepfather—and the hot, grumpy local—that she’s more than a pretty face.\nExcept it’s a small town and everywhere she turns, she bumps into Brendan. The fun-loving socialite and the gruff fisherman are polar opposites, but there’s an undeniable attraction simmering between them. Piper doesn’t want any distractions, especially feelings for a man who sails off into the sunset for weeks at a time. Yet as she reconnects with her past and begins to feel at home in Westport, Piper starts to wonder if the cold, glamorous life she knew is what she truly wants. LA is calling her name, but Brendan—and this town full of memories—may have already caught her heart. ",
     img: "https://m.media-amazon.com/images/I/81ZKf0rJk5L.jpg",
     authors: [
       "Tessa Bailey"
@@ -694,7 +694,7 @@ export const products: Product[] = [
     publisher: "Avon",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 8 Inches, Length: 5.31 Inches, Width: 0.94 Inches, Weight: 0.65 Pounds",
+    dimensions: "8 x 5.31 x 0.94 Inches",
     pages: 416,
     price: 13.99,
     count: 0,
@@ -703,7 +703,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0525522778",
     title: "Ghosted",
-    synopsis: "When Sarah meets Eddie, they connect instantly and fall in love. To Sarah, it seems as though her life has finally begun. And it's mutual: It's as though Eddie has been waiting for her, too. Sarah has never been so certain of anything. So when Eddie leaves for a long-booked vacation and promises to call from the airport, she has no cause to doubt him. But he doesn't call.\nSarah's friends tell her to forget about him, but she can't. She knows something's happened--there must be an explanation.\nMinutes, days, weeks go by as Sarah becomes increasingly worried. But then she discovers she's right. There is a reason for Eddie's disappearance, and it's the one thing they didn't share with each other: the truth.",
+    description: "When Sarah meets Eddie, they connect instantly and fall in love. To Sarah, it seems as though her life has finally begun. And it's mutual: It's as though Eddie has been waiting for her, too. Sarah has never been so certain of anything. So when Eddie leaves for a long-booked vacation and promises to call from the airport, she has no cause to doubt him. But he doesn't call.\nSarah's friends tell her to forget about him, but she can't. She knows something's happened--there must be an explanation.\nMinutes, days, weeks go by as Sarah becomes increasingly worried. But then she discovers she's right. There is a reason for Eddie's disappearance, and it's the one thing they didn't share with each other: the truth.",
     img: "https://m.media-amazon.com/images/I/91yPYT1Zd2L.jpg",
     authors: [
       "Rosie Walsh"
@@ -711,7 +711,7 @@ export const products: Product[] = [
     publisher: "Pamela Dorman Books",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 9.3 Inches, Length: 6.21 Inches, Width: 1.17 Inches, Weight: 1.2 Pounds",
+    dimensions: "9.3 x 6.21 x 1.17 Inches",
     pages: 352,
     price: 11.99,
     count: 35,
@@ -720,7 +720,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0062841106",
     title: "Resistance Women",
-    synopsis: "After Wisconsin graduate student Mildred Fish marries brilliant German economist Arvid Harnack, she accompanies him to his German homeland, where a promising future awaits. In the thriving intellectual culture of 1930s Berlin, the newlyweds create a rich new life filled with love, friendships, and rewarding work—but the rise of a malevolent new political faction inexorably changes their fate.\nAs Adolf Hitler and his Nazi Party wield violence and lies to seize power, Mildred, Arvid, and their friends resolve to resist. Mildred gathers intelligence for her American contacts, including Martha Dodd, the vivacious and very modern daughter of the US ambassador. Her German friends, aspiring author Greta Kuckoff and literature student Sara Weitz, risk their lives to collect information from journalists, military officers, and officials within the highest levels of the Nazi regime.\nFor years, Mildred’s network stealthily fights to bring down the Third Reich from within. But when Nazi radio operatives detect an errant Russian signal, the Harnack resistance cell is exposed, with fatal consequences.\nInspired by actual events, Resistance Women is an enthralling, unforgettable story of ordinary people determined to resist the rise of evil, sacrificing their own lives and liberty to fight injustice and defend the oppressed.",
+    description: "After Wisconsin graduate student Mildred Fish marries brilliant German economist Arvid Harnack, she accompanies him to his German homeland, where a promising future awaits. In the thriving intellectual culture of 1930s Berlin, the newlyweds create a rich new life filled with love, friendships, and rewarding work—but the rise of a malevolent new political faction inexorably changes their fate.\nAs Adolf Hitler and his Nazi Party wield violence and lies to seize power, Mildred, Arvid, and their friends resolve to resist. Mildred gathers intelligence for her American contacts, including Martha Dodd, the vivacious and very modern daughter of the US ambassador. Her German friends, aspiring author Greta Kuckoff and literature student Sara Weitz, risk their lives to collect information from journalists, military officers, and officials within the highest levels of the Nazi regime.\nFor years, Mildred’s network stealthily fights to bring down the Third Reich from within. But when Nazi radio operatives detect an errant Russian signal, the Harnack resistance cell is exposed, with fatal consequences.\nInspired by actual events, Resistance Women is an enthralling, unforgettable story of ordinary people determined to resist the rise of evil, sacrificing their own lives and liberty to fight injustice and defend the oppressed.",
     img: "https://m.media-amazon.com/images/I/91j6mz3oFfL.jpg",
     authors: [
       "Jennifer Chiaverini"
@@ -728,7 +728,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.466 Inches, Weight: 1.7 Pounds",
+    dimensions: "9 x 6 x 1.46 Inches",
     pages: 608,
     price: 13.49,
     count: 36,
@@ -737,7 +737,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0670026190",
     title: "A Gentleman in Moscow",
-    synopsis: "In 1922, Count Alexander Rostov is deemed an unrepentant aristocrat by a Bolshevik tribunal, and is sentenced to house arrest in the Metropol, a grand hotel across the street from the Kremlin. Rostov, an indomitable man of erudition and wit, has never worked a day in his life, and must now live in an attic room while some of the most tumultuous decades in Russian history are unfolding outside the hotel’s doors. Unexpectedly, his reduced circumstances provide him entry into a much larger world of emotional discovery.\nBrimming with humor, a glittering cast of characters, and one beautifully rendered scene after another, this singular novel casts a spell as it relates the count’s endeavor to gain a deeper understanding of what it means to be a man of purpose.",
+    description: "In 1922, Count Alexander Rostov is deemed an unrepentant aristocrat by a Bolshevik tribunal, and is sentenced to house arrest in the Metropol, a grand hotel across the street from the Kremlin. Rostov, an indomitable man of erudition and wit, has never worked a day in his life, and must now live in an attic room while some of the most tumultuous decades in Russian history are unfolding outside the hotel’s doors. Unexpectedly, his reduced circumstances provide him entry into a much larger world of emotional discovery.\nBrimming with humor, a glittering cast of characters, and one beautifully rendered scene after another, this singular novel casts a spell as it relates the count’s endeavor to gain a deeper understanding of what it means to be a man of purpose.",
     img: "https://m.media-amazon.com/images/I/A1fs-ErenkL.jpg",
     authors: [
       "Amor Towles"
@@ -745,7 +745,7 @@ export const products: Product[] = [
     publisher: "Viking",
     date_published: 2016,
     language: "english",
-    dimensions: "Height: 9.27 Inches, Length: 6.32 Inches, Width: 1.44 Inches, Weight: 1.6 Pounds",
+    dimensions: "9.27 x 6.32 x 1.44 Inches",
     pages: 480,
     price: 9.99,
     count: 26,
@@ -754,7 +754,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "9780307388629",
     title: "Beloved",
-    synopsis: "Sethe was born a slave and escaped to Ohio, but eighteen years later she is still not free. Sethe has too many memories of Sweet Home, the beautiful farm where so many hideous things happened. And Sethe’s new home is haunted by the ghost of her baby, who died nameless and whose tombstone is engraved with a single word: Beloved.\n“A masterwork.... Wonderful.... I can’t imagine American literature without it.” —John Leonard, Los Angeles Times",
+    description: "Sethe was born a slave and escaped to Ohio, but eighteen years later she is still not free. Sethe has too many memories of Sweet Home, the beautiful farm where so many hideous things happened. And Sethe’s new home is haunted by the ghost of her baby, who died nameless and whose tombstone is engraved with a single word: Beloved.\n“A masterwork.... Wonderful.... I can’t imagine American literature without it.” —John Leonard, Los Angeles Times",
     img: "https://m.media-amazon.com/images/I/71bLLs9dYDL.jpg",
     authors: [
       "Toni Morrison"
@@ -762,7 +762,7 @@ export const products: Product[] = [
     publisher: "VincategoryIde",
     date_published: 2004,
     language: "english",
-    dimensions: "Height: 8 Inches, Length: 5.2 Inches, Width: 0.7 Inches, Weight: 0.75 Pounds",
+    dimensions: "8 x 5.2 x 0.7 Inches",
     pages: 321,
     price: 16.99,
     count: 0,
@@ -771,7 +771,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "1525809784",
     title: "The Wives",
-    synopsis: "You’ve never met the other wives. None of you know each other, and because of this unconventional arrangement, you can see your husband only one day a week. But you love him so much you don’t care. Or at least that’s what you’ve told yourself.\nBut one day, while you’re doing laundry, you find a scrap of paper in his pocket—an appointment reminder for a woman named Hannah, and you just know it’s another of the wives.\nYou thought you were fine with your arrangement, but you can’t help yourself: you track her down, and, under false pretenses, you strike up a friendship. Hannah has no idea who you really are. Then Hannah starts showing up to your coffee dates with telltale bruises, and you realize she’s being abused by her husband. Who, of course, is also your husband. But you’ve never known him to be violent, ever.\nWho exactly is your husband, and how far would you be willing to go to find out?\nAnd who is his mysterious third wife?",
+    description: "You’ve never met the other wives. None of you know each other, and because of this unconventional arrangement, you can see your husband only one day a week. But you love him so much you don’t care. Or at least that’s what you’ve told yourself.\nBut one day, while you’re doing laundry, you find a scrap of paper in his pocket—an appointment reminder for a woman named Hannah, and you just know it’s another of the wives.\nYou thought you were fine with your arrangement, but you can’t help yourself: you track her down, and, under false pretenses, you strike up a friendship. Hannah has no idea who you really are. Then Hannah starts showing up to your coffee dates with telltale bruises, and you realize she’s being abused by her husband. Who, of course, is also your husband. But you’ve never known him to be violent, ever.\nWho exactly is your husband, and how far would you be willing to go to find out?\nAnd who is his mysterious third wife?",
     img: "https://m.media-amazon.com/images/I/81vbLXlKS6L.jpg",
     authors: [
       "Tarryn Fisher"
@@ -779,7 +779,7 @@ export const products: Product[] = [
     publisher: "Graydon House",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 8.9 Inches, Length: 5.9 Inches, Width: 0.8, Weight: 0.7 Pounds",
+    dimensions: "8.9 x 5.9 x 0.8 Inches",
     pages: 336,
     price: 9.99,
     count: 5,
@@ -788,7 +788,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0593321200",
     title: "Tomorrow, and Tomorrow, and Tomorrow",
-    synopsis: "From the best-selling author of The Storied Life of A. J. Fikry: On a bitter-cold day, in the December of his junior year at Harvard, Sam Masur exits a subway car and sees, amid the hordes of people waiting on the platform, Sadie Green. He calls her name. For a moment, she pretends she hasn’t heard him, but then, she turns, and a game begins: a legendary collaboration that will launch them to stardom.\nThese friends, intimates since childhood, borrow money, beg favors, and, before even graduating college, they have created their first blockbuster, Ichigo. Overnight, the world is theirs. Not even twenty-five years old, Sam and Sadie are brilliant, successful, and rich, but these qualities won’t protect them from their own creative ambitions or the betrayals of their hearts.\nSpanning thirty years, from Cambridge, Massachusetts, to Venice Beach, California, and lands in between and far beyond, Gabrielle Zevin’s Tomorrow, and Tomorrow, and Tomorrow examines the multifarious nature of identity, disability, failure, the redemptive possibilities in play, and above all, our need to connect: to be loved and to love.",
+    description: "From the best-selling author of The Storied Life of A. J. Fikry: On a bitter-cold day, in the December of his junior year at Harvard, Sam Masur exits a subway car and sees, amid the hordes of people waiting on the platform, Sadie Green. He calls her name. For a moment, she pretends she hasn’t heard him, but then, she turns, and a game begins: a legendary collaboration that will launch them to stardom.\nThese friends, intimates since childhood, borrow money, beg favors, and, before even graduating college, they have created their first blockbuster, Ichigo. Overnight, the world is theirs. Not even twenty-five years old, Sam and Sadie are brilliant, successful, and rich, but these qualities won’t protect them from their own creative ambitions or the betrayals of their hearts.\nSpanning thirty years, from Cambridge, Massachusetts, to Venice Beach, California, and lands in between and far beyond, Gabrielle Zevin’s Tomorrow, and Tomorrow, and Tomorrow examines the multifarious nature of identity, disability, failure, the redemptive possibilities in play, and above all, our need to connect: to be loved and to love.",
     img: "https://m.media-amazon.com/images/I/91VcwLdcNHL.jpg",
     authors: [
       "Gabrielle Zevin"
@@ -796,7 +796,7 @@ export const products: Product[] = [
     publisher: "Knopf",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.1 Inches, Width: 1.15 Inches, Weight: 1.6 Pounds",
+    dimensions: "9.25 x 6.1 x 1.15 Inches",
     pages: 416,
     price: 13.99,
     count: 10,
@@ -805,7 +805,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0525520376",
     title: "There There",
-    synopsis: "Among them is Jacquie Red Feather, newly sober and trying to make it back to the family she left behind. Dene Oxendene, pulling his life together after his uncle’s death and working at the powwow to honor his memory. Fourteen-year-old Orvil, coming to perform traditional dance for the very first time. They converge and collide on one fateful day at the Big Oakland Powwow and together this chorus of voices tells of the plight of the urban Native American—grappling with a complex and painful history, with an inheritance of beauty and spirituality, with communion and sacrifice and heroism\nA book with“so much jangling energy and brings so much news from a distinct corner of American life that it’s a revelation” (The New York Times).It is fierce, funny, suspenseful, and impossible to put down--full of poetry and rage, exploding onto the page with urgency and force. There There is at once poignant and unflinching, utterly contemporary and truly unforgettable.",
+    description: "Among them is Jacquie Red Feather, newly sober and trying to make it back to the family she left behind. Dene Oxendene, pulling his life together after his uncle’s death and working at the powwow to honor his memory. Fourteen-year-old Orvil, coming to perform traditional dance for the very first time. They converge and collide on one fateful day at the Big Oakland Powwow and together this chorus of voices tells of the plight of the urban Native American—grappling with a complex and painful history, with an inheritance of beauty and spirituality, with communion and sacrifice and heroism\nA book with“so much jangling energy and brings so much news from a distinct corner of American life that it’s a revelation” (The New York Times).It is fierce, funny, suspenseful, and impossible to put down--full of poetry and rage, exploding onto the page with urgency and force. There There is at once poignant and unflinching, utterly contemporary and truly unforgettable.",
     img: "https://m.media-amazon.com/images/I/81btm3sXYxL.jpg",
     authors: [
       "Tommy Orange"
@@ -813,7 +813,7 @@ export const products: Product[] = [
     publisher: "Knopf",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 8.52 Inches, Length: 5.75 Inches, Width: 1.15 Inches, Weight: 1 Pounds",
+    dimensions: "8.52 x 5.75 x 1.15 Inches",
     pages: 304,
     price: 25.95,
     count: 14,
@@ -822,7 +822,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0312577230",
     title: "The Great Alone",
-    synopsis: "Ernt Allbright, a former POW, comes home from the Vietnam war a changed and volatile man. When he loses yet another job, he makes an impulsive decision: he will move his family north, to Alaska, where they will live off the grid in America’s last true frontier.\nThirteen-year-old Leni, a girl coming of age in a tumultuous time, caught in the riptide of her parents’ passionate, stormy relationship, dares to hope that a new land will lead to a better future for her family. She is desperate for a place to belong. Her mother, Cora, will do anything and go anywhere for the man she loves, even if means following him into the unknown.\nAt first, Alaska seems to be the answer to their prayers. In a wild, remote corner of the state, they find a fiercely independent community of strong men and even stronger women. The long, sunlit days and the generosity of the locals make up for the Allbrights’ lack of preparation and dwindling resources.\nBut as winter approaches and darkness descends on Alaska, Ernt’s fragile mental state deteriorates and the family begins to fracture. Soon the perils outside pale in comparison to threats from within. In their small cabin, covered in snow, blanketed in eighteen hours of night, Leni and her mother learn the terrible truth: they are on their own. In the wild, there is no one to save them but themselves.\nIn this unforgettable portrait of human frailty and resilience, Kristin Hannah reveals the indomitable character of the modern American pioneer and the spirit of a vanishing Alaska―a place of incomparable beauty and danger. The Great Alone is a daring, beautiful, stay-up-all-night story about love and loss, the fight for survival, and the wildness that lives in both man and nature.Age Range: Adult .",
+    description: "Ernt Allbright, a former POW, comes home from the Vietnam war a changed and volatile man. When he loses yet another job, he makes an impulsive decision: he will move his family north, to Alaska, where they will live off the grid in America’s last true frontier.\nThirteen-year-old Leni, a girl coming of age in a tumultuous time, caught in the riptide of her parents’ passionate, stormy relationship, dares to hope that a new land will lead to a better future for her family. She is desperate for a place to belong. Her mother, Cora, will do anything and go anywhere for the man she loves, even if means following him into the unknown.\nAt first, Alaska seems to be the answer to their prayers. In a wild, remote corner of the state, they find a fiercely independent community of strong men and even stronger women. The long, sunlit days and the generosity of the locals make up for the Allbrights’ lack of preparation and dwindling resources.\nBut as winter approaches and darkness descends on Alaska, Ernt’s fragile mental state deteriorates and the family begins to fracture. Soon the perils outside pale in comparison to threats from within. In their small cabin, covered in snow, blanketed in eighteen hours of night, Leni and her mother learn the terrible truth: they are on their own. In the wild, there is no one to save them but themselves.\nIn this unforgettable portrait of human frailty and resilience, Kristin Hannah reveals the indomitable character of the modern American pioneer and the spirit of a vanishing Alaska―a place of incomparable beauty and danger. The Great Alone is a daring, beautiful, stay-up-all-night story about love and loss, the fight for survival, and the wildness that lives in both man and nature.Age Range: Adult .",
     img: "https://m.media-amazon.com/images/I/91lFMYj1XtL.jpg",
     authors: [
       "Kristin Hannah"
@@ -830,7 +830,7 @@ export const products: Product[] = [
     publisher: "St. Martin's Press",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 9.48 Inches, Length: 6.44 Inches, Width: 1.38 Inches, Weight: 1.55 Pounds",
+    dimensions: "9.48 x 6.44 x 1.38 Inches",
     pages: 448,
     price: 28.99,
     count: 35,
@@ -839,7 +839,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0063045699",
     title: "Hook, Line, and Sinker",
-    synopsis: "King crab fisherman Fox Thornton has a reputation as a sexy, carefree flirt. Everyone knows he’s a guaranteed good time—in bed and out—and that’s exactly how he prefers it. Until he meets Hannah Bellinger. She’s immune to his charm and looks, but she seems to enjoy his… personality? And wants to be friends? Bizarre. But he likes her too much to risk a fling, so platonic pals it is.\nNow, Hannah's in town for work, crashing in Fox’s spare bedroom. She knows he’s a notorious ladies’ man, but they’re definitely just friends. In fact, she's nursing a hopeless crush on a colleague and Fox is just the person to help with her lackluster love life. Armed with a few tips from Westport’s resident Casanova, Hannah sets out to catch her coworker’s eye… yet the more time she spends with Fox, the more she wants him instead. As the line between friendship and flirtation begins to blur, Hannah can't deny she loves everything about Fox, but she refuses to be another notch on his bedpost.\nLiving with his best friend should have been easy. Except now she’s walking around in a towel, sleeping right across the hall, and Fox is fantasizing about waking up next to her for the rest of his life and… and… man overboard! He’s fallen for her, hook, line, and sinker. Helping her flirt with another guy is pure torture, but maybe if Fox can tackle his inner demons and show Hannah he’s all in, she'll choose him instead?",
+    description: "King crab fisherman Fox Thornton has a reputation as a sexy, carefree flirt. Everyone knows he’s a guaranteed good time—in bed and out—and that’s exactly how he prefers it. Until he meets Hannah Bellinger. She’s immune to his charm and looks, but she seems to enjoy his… personality? And wants to be friends? Bizarre. But he likes her too much to risk a fling, so platonic pals it is.\nNow, Hannah's in town for work, crashing in Fox’s spare bedroom. She knows he’s a notorious ladies’ man, but they’re definitely just friends. In fact, she's nursing a hopeless crush on a colleague and Fox is just the person to help with her lackluster love life. Armed with a few tips from Westport’s resident Casanova, Hannah sets out to catch her coworker’s eye… yet the more time she spends with Fox, the more she wants him instead. As the line between friendship and flirtation begins to blur, Hannah can't deny she loves everything about Fox, but she refuses to be another notch on his bedpost.\nLiving with his best friend should have been easy. Except now she’s walking around in a towel, sleeping right across the hall, and Fox is fantasizing about waking up next to her for the rest of his life and… and… man overboard! He’s fallen for her, hook, line, and sinker. Helping her flirt with another guy is pure torture, but maybe if Fox can tackle his inner demons and show Hannah he’s all in, she'll choose him instead?",
     img: "https://m.media-amazon.com/images/I/71DxOnGLc7L.jpg",
     authors: [
       "Tessa Bailey"
@@ -847,7 +847,7 @@ export const products: Product[] = [
     publisher: "Avon",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 8 Inches, Length: 5.31 Inches, Width: 0.83 Inches, Weight: 0.65 Pounds",
+    dimensions: "8 x 5.31 x 0.83 Inches",
     pages: 368,
     price: 10.99,
     count: 36,
@@ -856,7 +856,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0062913263",
     title: "Valentine",
-    synopsis: "It’s February 1976, and Odessa, Texas, stands on the cusp of the next great oil boom. While the town’s men embrace the coming prosperity, its women intimately know and fear the violence that always seems to follow.\nIn the early hours of the morning after Valentine’s Day, fourteen-year-old Gloria Ramírez appears on the front porch of Mary Rose Whitehead’s ranch house, broken and barely alive. The teenager had been viciously attacked in a nearby oil field—an act of brutality that is tried in the churches and barrooms of Odessa before it can reach a court of law. When justice is evasive, the scategoryIde is set for a showdown with potentially devastating consequences.\nValentine is a haunting exploration of the intersections of violence and race, class and region in a story that plumbs the depths of darkness and fear, yet offers a window into beauty and hope. Told through the alternating points of view of indelible characters who burrow deep in the reader’s heart, this fierce, unflinching, and surprisingly tender novel illuminates women’s strength and vulnerability, and reminds us that it is the stories we tell ourselves that keep us alive.",
+    description: "It’s February 1976, and Odessa, Texas, stands on the cusp of the next great oil boom. While the town’s men embrace the coming prosperity, its women intimately know and fear the violence that always seems to follow.\nIn the early hours of the morning after Valentine’s Day, fourteen-year-old Gloria Ramírez appears on the front porch of Mary Rose Whitehead’s ranch house, broken and barely alive. The teenager had been viciously attacked in a nearby oil field—an act of brutality that is tried in the churches and barrooms of Odessa before it can reach a court of law. When justice is evasive, the scategoryIde is set for a showdown with potentially devastating consequences.\nValentine is a haunting exploration of the intersections of violence and race, class and region in a story that plumbs the depths of darkness and fear, yet offers a window into beauty and hope. Told through the alternating points of view of indelible characters who burrow deep in the reader’s heart, this fierce, unflinching, and surprisingly tender novel illuminates women’s strength and vulnerability, and reminds us that it is the stories we tell ourselves that keep us alive.",
     img: "https://m.media-amazon.com/images/I/81VHbRLS-FL.jpg",
     authors: [
       "Elizabeth Wetmore"
@@ -864,7 +864,7 @@ export const products: Product[] = [
     publisher: "Harper",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.05 Inches, Weight: 1.05 Pounds",
+    dimensions: "9 x 6 x 1.05 Inches",
     pages: 320,
     price: 13.99,
     count: 26,
@@ -873,7 +873,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "9780735212749",
     title: "Salt River",
-    synopsis: "Marine biologist and former government agent Doc Ford is sure he's beyond the point of being surprised by his longtime pal Tomlinson's madcap tales of his misspent youth. But he's stunned anew when avowed bachelor Tomlinson reveals that as a younger man strapped for cash, he'd unwittingly fathered multiple children via for-profit sperm bank donations. Thanks to genealogy websites, Tomlinson's now-grown offspring have tracked him down, seeking answers about their roots. . . but Doc quickly grows suspicious that one of them might be planning something far more nefarious than a family reunion.\nWith recent history on his mind, Doc is unsurprised when his own dicey past is called into question. Months ago, he'd quietly \"liberated\" a cache of precious Spanish coins from a felonious treasure hunter, and now a number of unsavory individuals, including a disgraced IRS investigator and a corrupt Bahamian customs agent, are after their cut. Caught between watching his own back and Tomlinson's, Doc has no choice but to get creative--before rash past decisions escalate to deadly present-day dangers.",
+    description: "Marine biologist and former government agent Doc Ford is sure he's beyond the point of being surprised by his longtime pal Tomlinson's madcap tales of his misspent youth. But he's stunned anew when avowed bachelor Tomlinson reveals that as a younger man strapped for cash, he'd unwittingly fathered multiple children via for-profit sperm bank donations. Thanks to genealogy websites, Tomlinson's now-grown offspring have tracked him down, seeking answers about their roots. . . but Doc quickly grows suspicious that one of them might be planning something far more nefarious than a family reunion.\nWith recent history on his mind, Doc is unsurprised when his own dicey past is called into question. Months ago, he'd quietly \"liberated\" a cache of precious Spanish coins from a felonious treasure hunter, and now a number of unsavory individuals, including a disgraced IRS investigator and a corrupt Bahamian customs agent, are after their cut. Caught between watching his own back and Tomlinson's, Doc has no choice but to get creative--before rash past decisions escalate to deadly present-day dangers.",
     img: "https://m.media-amazon.com/images/I/91xH6QQ6rWL.jpg",
     authors: [
       "Randy Wayne White"
@@ -881,7 +881,7 @@ export const products: Product[] = [
     publisher: "G.P. Putnam's Sons",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.29 Inches, Length: 6.3 Inches, Width: 1.17 Inches, Weight: 1.3 Pounds",
+    dimensions: "9.29 x 6.3 x 1.17 Inches",
     pages: 368,
     price: 27.99,
     count: 5,
@@ -890,7 +890,7 @@ export const products: Product[] = [
     categoryId: "1",
     id: "0062824619",
     title: "Cemetery Road",
-    synopsis: "Sometimes the price of justice is a good man’s soul.\nWhen Marshall McEwan left his Mississippi hometown at eighteen, he vowed never to return. The trauma that drove him away spurred him to become one of the most successful journalists in Washington, DC. But as the ascendancy of a chaotic administration lifts him from print fame to television stardom, Marshall discovers that his father is terminally ill, and he must return home to face the unfinished business of his past.\nOn arrival, he finds Bienville, Mississippi very much changed.  His family’s 150-year-old newspaper is failing; and Jet Talal, the love of his youth, has married into the family of Max Matheson, one of a dozen powerful patriarchs who rule the town through the exclusive Bienville Poker Club.  To Marshall’s surprise, the Poker Club has taken a town on the brink of extinction and offered it salvation, in the form of a billion-dollar Chinese paper mill.  But on the verge of the deal being consummated, two murders rock Bienville to its core, threatening far more than the city’s economic future.\nAn experienced journalist, Marshall has seen firsthand how the corrosive power of money and politics can sabocategoryIde investigations. Joining forces with his former lover—who through her husband has access to the secrets of the Poker Club—Marshall begins digging for the truth behind those murders.  But he and Jet soon discover that the soil of Mississippi is a minefield where explosive secrets can destroy far more than injustice.  The South is a land where everyone hides truths: of blood and children, of love and shame, of hate and murder—of damnation and redemption.  The Poker Club’s secret reaches all the way to Washington, D.C., and could shake the foundations of the U.S. Senate.  But by the time Marshall grasps the long-buried truth about his own history, he would give almost anything not to have to face it.",
+    description: "Sometimes the price of justice is a good man’s soul.\nWhen Marshall McEwan left his Mississippi hometown at eighteen, he vowed never to return. The trauma that drove him away spurred him to become one of the most successful journalists in Washington, DC. But as the ascendancy of a chaotic administration lifts him from print fame to television stardom, Marshall discovers that his father is terminally ill, and he must return home to face the unfinished business of his past.\nOn arrival, he finds Bienville, Mississippi very much changed.  His family’s 150-year-old newspaper is failing; and Jet Talal, the love of his youth, has married into the family of Max Matheson, one of a dozen powerful patriarchs who rule the town through the exclusive Bienville Poker Club.  To Marshall’s surprise, the Poker Club has taken a town on the brink of extinction and offered it salvation, in the form of a billion-dollar Chinese paper mill.  But on the verge of the deal being consummated, two murders rock Bienville to its core, threatening far more than the city’s economic future.\nAn experienced journalist, Marshall has seen firsthand how the corrosive power of money and politics can sabocategoryIde investigations. Joining forces with his former lover—who through her husband has access to the secrets of the Poker Club—Marshall begins digging for the truth behind those murders.  But he and Jet soon discover that the soil of Mississippi is a minefield where explosive secrets can destroy far more than injustice.  The South is a land where everyone hides truths: of blood and children, of love and shame, of hate and murder—of damnation and redemption.  The Poker Club’s secret reaches all the way to Washington, D.C., and could shake the foundations of the U.S. Senate.  But by the time Marshall grasps the long-buried truth about his own history, he would give almost anything not to have to face it.",
     img: "https://m.media-amazon.com/images/I/81REtI1VjKL.jpg",
     authors: [
       "Greg Iles"
@@ -898,7 +898,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.466 Inches, Weight: 1.65 Pounds",
+    dimensions: "9 x 6 x 1.466 Inches",
     pages: 608,
     price: 28.99,
     count: 8,
@@ -907,7 +907,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0735215952",
     title: "Tom Clancy Oath of Office",
-    synopsis: "Freedom may have finally arrived in Iran. As protests break out across the country, the media rejoices over the so-called Persian Spring. Western leaders are ecstatic. Members of Congress and the Cabinet clamor to back the rebels. Only President Jack Ryan remains wary.\nMeanwhile, he has plenty to handle at home. A deadly strain of flu is ravaging the United States as spring floods decimate the Southeast. An unethical senator wants to bring down the Ryan presidency and is willing to lean on fabricated bot-planted stories to do it.\nBut the scariest story is the most closely guarded one. Two Russian nuclear missiles have been hijacked. The Campus gets their first break when Jack Junior connects with a rogue Russian intelligence officer in Afghanistan--only to be abducted soon after arriving. John Clark and the rest of the Campus team race to track the missiles and rescue their colleague.\nAs sensationalized stories spin out of control and the stolen missiles remain out of reach, President Ryan's toughest challenge emerges: How do you meet an enemy head on, when he won't even show you his face?",
+    description: "Freedom may have finally arrived in Iran. As protests break out across the country, the media rejoices over the so-called Persian Spring. Western leaders are ecstatic. Members of Congress and the Cabinet clamor to back the rebels. Only President Jack Ryan remains wary.\nMeanwhile, he has plenty to handle at home. A deadly strain of flu is ravaging the United States as spring floods decimate the Southeast. An unethical senator wants to bring down the Ryan presidency and is willing to lean on fabricated bot-planted stories to do it.\nBut the scariest story is the most closely guarded one. Two Russian nuclear missiles have been hijacked. The Campus gets their first break when Jack Junior connects with a rogue Russian intelligence officer in Afghanistan--only to be abducted soon after arriving. John Clark and the rest of the Campus team race to track the missiles and rescue their colleague.\nAs sensationalized stories spin out of control and the stolen missiles remain out of reach, President Ryan's toughest challenge emerges: How do you meet an enemy head on, when he won't even show you his face?",
     img: "https://m.media-amazon.com/images/I/81oIBoI6tDL.jpg",
     authors: [
       "Marc Cameron"
@@ -915,7 +915,7 @@ export const products: Product[] = [
     publisher: "G.P. Putnam's Sons",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 9.34 Inches, Length: 6.4 Inches, Width: 1.6 Inches, Weight: 1.65 Pounds",
+    dimensions: "9.34 x 6.4 x 1.6 Inches",
     pages: 528,
     price: 29.95,
     count: 14,
@@ -924,7 +924,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1250130921",
     title: "The Wife Between Us",
-    synopsis: "When you read this book, you will make many assumptions.\nYou will assume you are reading about a jealous ex-wife.\nYou will assume she is obsessed with her replacement – a beautiful, younger woman who is about to marry the man they both love.\nYou will assume you know the anatomy of this tangled love triangle.\nAssume nothing.\nTwisted and deliciously chilling, Greer Hendricks and Sarah Pekkanen's The Wife Between Us exposes the secret complexities of an enviable marriage - and the dangerous truths we ignore in the name of love.",
+    description: "When you read this book, you will make many assumptions.\nYou will assume you are reading about a jealous ex-wife.\nYou will assume she is obsessed with her replacement – a beautiful, younger woman who is about to marry the man they both love.\nYou will assume you know the anatomy of this tangled love triangle.\nAssume nothing.\nTwisted and deliciously chilling, Greer Hendricks and Sarah Pekkanen's The Wife Between Us exposes the secret complexities of an enviable marriage - and the dangerous truths we ignore in the name of love.",
     img: "https://m.media-amazon.com/images/I/81MKsquRHIL.jpg",
     authors: [
       "Greer Hendricks",
@@ -933,7 +933,7 @@ export const products: Product[] = [
     publisher: "St. Martin's Press",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 9.5901383 Inches, Length: 6.43 Inches, Width: 1.31 Inches, Weight: 1.2 Pounds",
+    dimensions: "9.6 x 6.43 x 1.31 Inches",
     pages: 352,
     price: 26.99,
     count: 36,
@@ -942,7 +942,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1501190075",
     title: "Watching You",
-    synopsis: "Melville Heights is one of the nicest neighborhoods in Bristol, England; home to doctors and lawyers and old-money academics. It’s not the sort of place where people are brutally murdered in their own kitchens. But it is the sort of place where everyone has a secret. And everyone is watching you.\nAs the headmaster credited with turning around the local school, Tom Fitzwilliam is beloved by one and all—including Joey Mullen, his new neighbor, who quickly develops an intense infatuation with this thoroughly charming yet unavailable man. Joey thinks her crush is a secret, but Tom’s teenaged son Freddie—a prodigy with aspirations of becoming a spy for MI5—excels in observing people and has witnessed Joey behaving strangely around his father.\nOne of Tom’s students, Jenna Tripp, also lives on the same street, and she’s not convinced her teacher is as squeaky clean as he seems. For one thing, he has taken a particular liking to her best friend and fellow classmate, and Jenna’s mother—whose mental health has admittedly been deteriorating in recent years—is convinced that Mr. Fitzwilliam is stalking her.\nMeanwhile, twenty years earlier, a schoolgirl writes in her diary, charting her doomed obsession with a handsome young English teacher named Mr. Fitzwilliam…\nIn Lisa Jewell’s latest brilliant “bone-chilling suspense” (People) no one is who they seem—and everyone is hiding something. Who has been murdered—and who would have wanted one of their neighbors dead? As “Jewell teases out her twisty plot at just the right pace” (Booklist, starred review), you will be kept guessing until the startling revelation on the very last page.",
+    description: "Melville Heights is one of the nicest neighborhoods in Bristol, England; home to doctors and lawyers and old-money academics. It’s not the sort of place where people are brutally murdered in their own kitchens. But it is the sort of place where everyone has a secret. And everyone is watching you.\nAs the headmaster credited with turning around the local school, Tom Fitzwilliam is beloved by one and all—including Joey Mullen, his new neighbor, who quickly develops an intense infatuation with this thoroughly charming yet unavailable man. Joey thinks her crush is a secret, but Tom’s teenaged son Freddie—a prodigy with aspirations of becoming a spy for MI5—excels in observing people and has witnessed Joey behaving strangely around his father.\nOne of Tom’s students, Jenna Tripp, also lives on the same street, and she’s not convinced her teacher is as squeaky clean as he seems. For one thing, he has taken a particular liking to her best friend and fellow classmate, and Jenna’s mother—whose mental health has admittedly been deteriorating in recent years—is convinced that Mr. Fitzwilliam is stalking her.\nMeanwhile, twenty years earlier, a schoolgirl writes in her diary, charting her doomed obsession with a handsome young English teacher named Mr. Fitzwilliam…\nIn Lisa Jewell’s latest brilliant “bone-chilling suspense” (People) no one is who they seem—and everyone is hiding something. Who has been murdered—and who would have wanted one of their neighbors dead? As “Jewell teases out her twisty plot at just the right pace” (Booklist, starred review), you will be kept guessing until the startling revelation on the very last page.",
     img: "https://m.media-amazon.com/images/I/81Xw5eBQKVL.jpg",
     authors: [
       "Lisa Jewell"
@@ -950,7 +950,7 @@ export const products: Product[] = [
     publisher: "Atria Books",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.3 Inches, Weight: 1.08 Pounds",
+    dimensions: "9 x 6 x 1.3 Inches",
     pages: 336,
     price: 26.99,
     count: 10,
@@ -959,7 +959,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0316539422",
     title: "Fair Warning",
-    synopsis: "Veteran reporter Jack McEvoy has taken down killers before, but when a woman he had a one-night stand with is murdered in a particularly brutal way, McEvoy realizes he might be facing a criminal mind unlike any he's ever encountered.\nJack investigates—against the warnings of the police and his own editor—and makes a shocking discovery that connects the crime to other mysterious deaths across the country. Undetected by law enforcement, a vicious killer has been hunting women, using genetic data to select and stalk his targets.\nUncovering the murkiest corners of the dark web, Jack races to find and protect the last source who can lead him to his quarry. But the killer has already chosen his next target, and he's ready to strike.\nTerrifying and unputdownable, Fair Warning shows once again why \"Michael Connelly has earned his place in the pantheon of great crime fiction writers\" (Chicago Sun-Times).\n",
+    description: "Veteran reporter Jack McEvoy has taken down killers before, but when a woman he had a one-night stand with is murdered in a particularly brutal way, McEvoy realizes he might be facing a criminal mind unlike any he's ever encountered.\nJack investigates—against the warnings of the police and his own editor—and makes a shocking discovery that connects the crime to other mysterious deaths across the country. Undetected by law enforcement, a vicious killer has been hunting women, using genetic data to select and stalk his targets.\nUncovering the murkiest corners of the dark web, Jack races to find and protect the last source who can lead him to his quarry. But the killer has already chosen his next target, and he's ready to strike.\nTerrifying and unputdownable, Fair Warning shows once again why \"Michael Connelly has earned his place in the pantheon of great crime fiction writers\" (Chicago Sun-Times).\n",
     img: "https://m.media-amazon.com/images/I/61p3CllAnlL.jpg",
     authors: [
       "Michael Connelly"
@@ -967,7 +967,7 @@ export const products: Product[] = [
     publisher: "Little, Brown and Company",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.7 Inches, Length: 6.7 Inches, Width: 1.65 Inches, Weight: 1.4 Pounds",
+    dimensions: "9.7 x 6.7 x 1.65 Inches",
     pages: 416,
     price: 29.99,
     count: 26,
@@ -976,7 +976,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1524797189",
     title: "Something in the Water",
-    synopsis: "If you could make one simple choice that would change your life forever, would you?\nErin is a documentary filmmaker on the brink of a professional breakthrough, Mark a handsome investment banker with big plans. Passionately in love, they embark on a dream honeymoon to the tropical island of Bora Bora, where they enjoy the sun, the sand, and each other. Then, while scuba diving in the crystal blue sea, they find something in the water. . . .\nCould the life of your dreams be the stuff of nightmares?\nSuddenly the newlyweds must make a dangerous choice: to speak out or to protect their secret. After all, if no one else knows, who would be hurt? Their decision will trigger a devastating chain of events. . . .\nHave you ever wondered how long it takes to dig a grave?\nWonder no longer. Catherine Steadman’s enthralling voice shines throughout this spellbinding debut novel. With piercing insight and fascinating twists, Something in the Water challenges the reader to confront the hopes we desperately cling to, the ideals we’re tempted to abandon, and the perfect lies we tell ourselves.",
+    description: "If you could make one simple choice that would change your life forever, would you?\nErin is a documentary filmmaker on the brink of a professional breakthrough, Mark a handsome investment banker with big plans. Passionately in love, they embark on a dream honeymoon to the tropical island of Bora Bora, where they enjoy the sun, the sand, and each other. Then, while scuba diving in the crystal blue sea, they find something in the water. . . .\nCould the life of your dreams be the stuff of nightmares?\nSuddenly the newlyweds must make a dangerous choice: to speak out or to protect their secret. After all, if no one else knows, who would be hurt? Their decision will trigger a devastating chain of events. . . .\nHave you ever wondered how long it takes to dig a grave?\nWonder no longer. Catherine Steadman’s enthralling voice shines throughout this spellbinding debut novel. With piercing insight and fascinating twists, Something in the Water challenges the reader to confront the hopes we desperately cling to, the ideals we’re tempted to abandon, and the perfect lies we tell ourselves.",
     img: "https://m.media-amazon.com/images/I/91Vsad2fBCL.jpg",
     authors: [
       "Catherine Steadman"
@@ -984,7 +984,7 @@ export const products: Product[] = [
     publisher: "Ballantine Books",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 9.5 Inches, Length: 6.4 Inches, Width: 1.13 Inches, Weight: 1.27 Pounds",
+    dimensions: "9.5 x 6.4 x 1.13 Inches",
     pages: 352,
     price: 26.99,
     count: 35,
@@ -993,7 +993,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1501193651",
     title: "Labyrinth",
-    synopsis: "On a Tuesday afternoon, Agent Sherlock is driving in downtown Washington when her Volvo is suddenly T-boned at an intersection. As her car spins out of control, a man’s body slams against her windshield and then—blackness. When she finally regains consciousness in the hospital, she’s told about the accident and the man she struck. No one knows yet who he is or where he is because he ran away. From DNA, they discover his name is Justice Cummings and he’s a CIA analyst at Langley…and he’s still missing.\nMeanwhile, in the small town of Gaffer’s Ridge, Virginia, Special Agent Griffin Hammersmith rescues a kidnapped woman claiming her captor had probably murdered three missing teenage girls. However, the man she accuses is the local sheriff’s nephew and a member of a very powerful family, reputed to have psychic powers. When the sheriff arrests Griffin and the rescued woman, Carson DaSilva, he calls Savich for help. Together they have to weave their way through a labyrinth of lies to find the truth of a terrible secret.\n“If there’s one thing that readers can count on in a Coulter novel it is that she always delivers amazingly eerie and complex thrillers” (RT Book Reviews), and Labyrinth is no different. With white-knuckled pacing and shocking twists and turns, this is another electrifying novel that will sink its teeth in you.",
+    description: "On a Tuesday afternoon, Agent Sherlock is driving in downtown Washington when her Volvo is suddenly T-boned at an intersection. As her car spins out of control, a man’s body slams against her windshield and then—blackness. When she finally regains consciousness in the hospital, she’s told about the accident and the man she struck. No one knows yet who he is or where he is because he ran away. From DNA, they discover his name is Justice Cummings and he’s a CIA analyst at Langley…and he’s still missing.\nMeanwhile, in the small town of Gaffer’s Ridge, Virginia, Special Agent Griffin Hammersmith rescues a kidnapped woman claiming her captor had probably murdered three missing teenage girls. However, the man she accuses is the local sheriff’s nephew and a member of a very powerful family, reputed to have psychic powers. When the sheriff arrests Griffin and the rescued woman, Carson DaSilva, he calls Savich for help. Together they have to weave their way through a labyrinth of lies to find the truth of a terrible secret.\n“If there’s one thing that readers can count on in a Coulter novel it is that she always delivers amazingly eerie and complex thrillers” (RT Book Reviews), and Labyrinth is no different. With white-knuckled pacing and shocking twists and turns, this is another electrifying novel that will sink its teeth in you.",
     img: "https://m.media-amazon.com/images/I/81Y-reD0V+L.jpg",
     authors: [
       "Catherine Coulter"
@@ -1001,7 +1001,7 @@ export const products: Product[] = [
     publisher: "Gallery Books",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.7 Inches, Weight: 1.5 Pounds",
+    dimensions: "9 x 6 x 1.7 Inches",
     pages: 512,
     price: 27.99,
     count: 5,
@@ -1010,7 +1010,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0525541721",
     title: "Tom Clancy Code of Honor",
-    synopsis: "Father Pat West, S.J. was a buddy of the young Jack Ryan when they were both undergraduates at Boston College. Father West left a comfortable job in the philosophy department at Georgetown to work with the poor in Indonesia. Now he's been arrested and accused of blasphemy against Islam.\nPresident Ryan is desperate to rescue his old friend, but he can't move officially against the Indonesians. Instead he relies on the Campus team to find out who is framing the priest.\nThere's one other twist to the story. President Ryan discovers a text on his private cell phone from the priest warning about a coming attack against America...",
+    description: "Father Pat West, S.J. was a buddy of the young Jack Ryan when they were both undergraduates at Boston College. Father West left a comfortable job in the philosophy department at Georgetown to work with the poor in Indonesia. Now he's been arrested and accused of blasphemy against Islam.\nPresident Ryan is desperate to rescue his old friend, but he can't move officially against the Indonesians. Instead he relies on the Campus team to find out who is framing the priest.\nThere's one other twist to the story. President Ryan discovers a text on his private cell phone from the priest warning about a coming attack against America...",
     img: "https://m.media-amazon.com/images/I/91RvSC4FSGL.jpg",
     authors: [
       "Marc Cameron"
@@ -1018,7 +1018,7 @@ export const products: Product[] = [
     publisher: "G.P. Putnam's Sons",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.32 Inches, Length: 6.32 Inches, Width: 1.6 Inches, Weight: 1.65 Pounds",
+    dimensions: "9.32 x 6.32 x 1.6 Inches",
     pages: 512,
     price: 9.99,
     count: 8,
@@ -1027,7 +1027,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1982102314",
     title: "Elevation",
-    synopsis: "Although Scott Carey doesn’t look any different, he’s been steadily losing weight. There are a couple of other odd things, too. He weighs the same in his clothes and out of them, no matter how heavy they are. Scott doesn’t want to be poked and prodded. He mostly just wants someone else to know, and he trusts Doctor Bob Ellis.\nIn the small town of Castle Rock, the setting of many of King’s most iconic stories, Scott is engaged in a low grade—but escalating—battle with the lesbians next door whose dog regularly drops his business on Scott’s lawn. One of the women is friendly; the other, cold as ice. Both are trying to launch a new restaurant, but the people of Castle Rock want no part of a gay married couple, and the place is in trouble. When Scott finally understands the prejudices they face—including his own—he tries to help. Unlikely alliances, the annual foot race, and the mystery of Scott’s affliction bring out the best in people who have indulged the worst in themselves and others.\n“Written in masterly Stephen King’s signature translucent…this uncharacteristically glimmering fairy tale calls unabashedly for us to rise above our differences” (Booklist, starred review). Elevation is an antidote to our divisive culture, an “elegant whisper of a story” (Kirkus Reviews, starred review), “perfect for any fan of small towns, magic, and the joys and challenges of doing the right thing” (Publishers Weekly, starred review).",
+    description: "Although Scott Carey doesn’t look any different, he’s been steadily losing weight. There are a couple of other odd things, too. He weighs the same in his clothes and out of them, no matter how heavy they are. Scott doesn’t want to be poked and prodded. He mostly just wants someone else to know, and he trusts Doctor Bob Ellis.\nIn the small town of Castle Rock, the setting of many of King’s most iconic stories, Scott is engaged in a low grade—but escalating—battle with the lesbians next door whose dog regularly drops his business on Scott’s lawn. One of the women is friendly; the other, cold as ice. Both are trying to launch a new restaurant, but the people of Castle Rock want no part of a gay married couple, and the place is in trouble. When Scott finally understands the prejudices they face—including his own—he tries to help. Unlikely alliances, the annual foot race, and the mystery of Scott’s affliction bring out the best in people who have indulged the worst in themselves and others.\n“Written in masterly Stephen King’s signature translucent…this uncharacteristically glimmering fairy tale calls unabashedly for us to rise above our differences” (Booklist, starred review). Elevation is an antidote to our divisive culture, an “elegant whisper of a story” (Kirkus Reviews, starred review), “perfect for any fan of small towns, magic, and the joys and challenges of doing the right thing” (Publishers Weekly, starred review).",
     img: "https://m.media-amazon.com/images/I/81fYoNMo0+L.jpg",
     authors: [
       "Stephen King"
@@ -1035,7 +1035,7 @@ export const products: Product[] = [
     publisher: "Scribner",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 7 Inches, Length: 5 Inches, Width: 1 Inches, Weight: 0.5 Pounds",
+    dimensions: "7 x 5 x 1 Inches",
     pages: 160,
     price: 11.98,
     count: 14,
@@ -1044,7 +1044,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1501171704",
     title: "Kiss the Girls and Make Them Cry",
-    synopsis: "When investigative journalist Gina Kane receives an email from a “CRyan” describing her “terrible experience” while working at REL, a high-profile television news network, including the comment “and I’m not the only one,” Gina knows she has to pursue the story. But when Ryan goes silent, Gina is shocked to discover the young woman has died tragically in a Jet Ski accident while on holiday.\nMeanwhile, REL counsel Michael Carter finds himself in a tricky spot. Several female employees have come forward with allegations of sexual misconduct. Carter approaches the CEO, offering to persuade the victims to accept settlements in exchange for their silence. It’s a risky endeavor, but it could well make him rich.\nAs more allegations emerge and the company’s IPO draws near, Carter’s attempts to keep the story from making headlines are matched only by Gina Kane’s determination to uncover the truth. Was Ryan’s death truly an accident? And when another accuser turns up dead, Gina realizes someone—or some people—will go to depraved lengths to keep the story from seeing the light.",
+    description: "When investigative journalist Gina Kane receives an email from a “CRyan” describing her “terrible experience” while working at REL, a high-profile television news network, including the comment “and I’m not the only one,” Gina knows she has to pursue the story. But when Ryan goes silent, Gina is shocked to discover the young woman has died tragically in a Jet Ski accident while on holiday.\nMeanwhile, REL counsel Michael Carter finds himself in a tricky spot. Several female employees have come forward with allegations of sexual misconduct. Carter approaches the CEO, offering to persuade the victims to accept settlements in exchange for their silence. It’s a risky endeavor, but it could well make him rich.\nAs more allegations emerge and the company’s IPO draws near, Carter’s attempts to keep the story from making headlines are matched only by Gina Kane’s determination to uncover the truth. Was Ryan’s death truly an accident? And when another accuser turns up dead, Gina realizes someone—or some people—will go to depraved lengths to keep the story from seeing the light.",
     img: "https://m.media-amazon.com/images/I/71rY2KemXlL.jpg",
     authors: [
       "Mary Higgins Clark"
@@ -1052,7 +1052,7 @@ export const products: Product[] = [
     publisher: "Simon & Schuster",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.3 Inches, Weight: 1.2 Pounds",
+    dimensions: "9 x 6 x 1.3 Inches",
     pages: 400,
     price: 26.99,
     count: 0,
@@ -1061,7 +1061,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1538747278",
     title: "The Scorpion's Tail",
-    synopsis: "Following the acclaimed debut of Old Bones, this second \"happily anticipated\" new thriller in Preston & Child's series features Nora Kelly, archaeologist at the Santa Fe Archeological Institute, and rookie FBI Agent Corrie Swanson, as they team up to solve a mystery that quickly escalates into nightmare (Booklist).\nA mummified corpse, over half a century old, is found in the cellar of an abandoned building in a remote New Mexico ghost town. Corrie is assigned what seems to her a throwaway case: to ID the body and determine cause of death. She brings archaeologist Nora Kelly to excavate the body and lend her expertise to the investigation, and together they uncover something unexpected and shocking: the deceased apparently died in agony, in a fetal position, skin coming off in sheets, with a rictus of horror frozen on his face.\nHidden on the corpse lies a 16th century Spanish gold cross of immense value.\nWhen they at last identify the body -- and the bizarre cause of death -- Corrie and Nora open a door into a terrifying, secret world of ancient treasure and modern obsession: a world centered on arguably the most defining, frightening, and transformative moment in American history.",
+    description: "Following the acclaimed debut of Old Bones, this second \"happily anticipated\" new thriller in Preston & Child's series features Nora Kelly, archaeologist at the Santa Fe Archeological Institute, and rookie FBI Agent Corrie Swanson, as they team up to solve a mystery that quickly escalates into nightmare (Booklist).\nA mummified corpse, over half a century old, is found in the cellar of an abandoned building in a remote New Mexico ghost town. Corrie is assigned what seems to her a throwaway case: to ID the body and determine cause of death. She brings archaeologist Nora Kelly to excavate the body and lend her expertise to the investigation, and together they uncover something unexpected and shocking: the deceased apparently died in agony, in a fetal position, skin coming off in sheets, with a rictus of horror frozen on his face.\nHidden on the corpse lies a 16th century Spanish gold cross of immense value.\nWhen they at last identify the body -- and the bizarre cause of death -- Corrie and Nora open a door into a terrifying, secret world of ancient treasure and modern obsession: a world centered on arguably the most defining, frightening, and transformative moment in American history.",
     img: "https://m.media-amazon.com/images/I/51KgmJT4wHL.jpg",
     authors: [
       "Lincoln Child",
@@ -1070,7 +1070,7 @@ export const products: Product[] = [
     publisher: "Grand Central Publishing",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.3 Inches, Length: 6.45 Inches, Width: 1.65 Inches, Weight: 1.3 Pounds",
+    dimensions: "9.3 x 6.45 x 1.65 Inches",
     pages: 416,
     price: 11.99,
     count: 26,
@@ -1079,7 +1079,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1250069823",
     title: "Nine Perfect Strangers",
-    synopsis: "Nine people gather at a remote health resort. Some are here to lose weight, some are here to get a reboot on life, some are here for reasons they can’t even admit to themselves. Amidst all of the luxury and pampering, the mindfulness and meditation, they know these ten days might involve some real work. But none of them could imagine just how challenging the next ten days are going to be.\nFrances Welty, the formerly best-selling romantic novelist, arrives at Tranquillum House nursing a bad back, a broken heart, and an exquisitely painful paper cut. She’s immediately intrigued by her fellow guests. Most of them don’t look to be in need of a health resort at all. But the person that intrigues her most is the strange and charismatic owner/director of Tranquillum House. Could this person really have the answers Frances didn’t even know she was seeking? Should Frances put aside her doubts and immerse herself in everything Tranquillum House has to offer – or should she run while she still can?\nIt’s not long before every guest at Tranquillum House is asking exactly the same question.\nCombining all of the hallmarks that have made her writing a go-to for anyone looking for wickedly smart, page-turning fiction that will make you laugh and gasp, Liane Moriarty’s Nine Perfect Strangers once again shows why she is a master of her craft.",
+    description: "Nine people gather at a remote health resort. Some are here to lose weight, some are here to get a reboot on life, some are here for reasons they can’t even admit to themselves. Amidst all of the luxury and pampering, the mindfulness and meditation, they know these ten days might involve some real work. But none of them could imagine just how challenging the next ten days are going to be.\nFrances Welty, the formerly best-selling romantic novelist, arrives at Tranquillum House nursing a bad back, a broken heart, and an exquisitely painful paper cut. She’s immediately intrigued by her fellow guests. Most of them don’t look to be in need of a health resort at all. But the person that intrigues her most is the strange and charismatic owner/director of Tranquillum House. Could this person really have the answers Frances didn’t even know she was seeking? Should Frances put aside her doubts and immerse herself in everything Tranquillum House has to offer – or should she run while she still can?\nIt’s not long before every guest at Tranquillum House is asking exactly the same question.\nCombining all of the hallmarks that have made her writing a go-to for anyone looking for wickedly smart, page-turning fiction that will make you laugh and gasp, Liane Moriarty’s Nine Perfect Strangers once again shows why she is a master of her craft.",
     img: "https://m.media-amazon.com/images/I/81z06hDTvoL.jpg",
     authors: [
       "Liane Moriarty"
@@ -1087,7 +1087,7 @@ export const products: Product[] = [
     publisher: "Flatiron Books",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 9.41 Inches, Length: 6.5 Inches, Width: 1.4 Inches, Weight: 1.45 Pounds",
+    dimensions: "9.41 x 6.5 x 1.4 Inches",
     pages: 464,
     price: 9.99,
     count: 5,
@@ -1096,7 +1096,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1524745049",
     title: "Before She Disappeared",
-    synopsis: "Frankie Elkin is an average middle-aged woman, a recovering alcoholic with more regrets than belongings. But she spends her life doing what no one else will--searching for missing people the world has stopped looking for. When the police have given up, when the public no longer remembers, when the media has never paid attention, Frankie starts looking.\nA new case brings her to Mattapan, a Boston neighborhood with a rough reputation. She is searching for Angelique Badeau, a Haitian teenager who vanished from her high school months earlier. Resistance from the Boston PD and the victim's wary family tells Frankie she's on her own--and she soon learns she's asking questions someone doesn't want answered. But Frankie will stop at nothing to discover the truth, even if it means the next person to go missing could be her.",
+    description: "Frankie Elkin is an average middle-aged woman, a recovering alcoholic with more regrets than belongings. But she spends her life doing what no one else will--searching for missing people the world has stopped looking for. When the police have given up, when the public no longer remembers, when the media has never paid attention, Frankie starts looking.\nA new case brings her to Mattapan, a Boston neighborhood with a rough reputation. She is searching for Angelique Badeau, a Haitian teenager who vanished from her high school months earlier. Resistance from the Boston PD and the victim's wary family tells Frankie she's on her own--and she soon learns she's asking questions someone doesn't want answered. But Frankie will stop at nothing to discover the truth, even if it means the next person to go missing could be her.",
     img: "https://m.media-amazon.com/images/I/81Khkg+OCML.jpg",
     authors: [
       "Lisa Gardner"
@@ -1104,7 +1104,7 @@ export const products: Product[] = [
     publisher: "Dutton",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.27 Inches, Length: 6.27 Inches, Width: 1.33 Inches, Weight: 1.32 Pounds",
+    dimensions: "9.27 x 6.27 x 1.33 Inches",
     pages: 400,
     price: 9.99,
     count: 35,
@@ -1113,7 +1113,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1250145260",
     title: "The Madness of Crowds",
-    synopsis: "You’re a coward.\nTime and again, as the New Year approaches, that charge is leveled against Armand Gamache.\nIt starts innocently enough.\nWhile the residents of the Québec village of Three Pines take advancategoryIde of the deep snow to ski and toboggan, to drink hot chocolate in the bistro and share meals together, the Chief Inspector finds his holiday with his family interrupted by a simple request.\nHe’s asked to provide security for what promises to be a non-event. A visiting Professor of Statistics will be giving a lecture at the nearby university.\nWhile he is perplexed as to why the head of homicide for the Sûreté du Québec would be assigned this task, it sounds easy enough. That is until Gamache starts looking into Professor Abigail Robinson and discovers an agenda so repulsive he begs the university to cancel the lecture.\nThey refuse, citing academic freedom, and accuse Gamache of censorship and intellectual cowardice. Before long, Professor Robinson’s views start seeping into conversations. Spreading and infecting. So that truth and fact, reality and delusion are so confused it’s near impossible to tell them apart.\nDiscussions become debates, debates become arguments, which turn into fights. As sides are declared, a madness takes hold.\nAbigail Robinson promises that, if they follow her, ça va bien aller. All will be well. But not, Gamache and his team know, for everyone.\nWhen a murder is committed it falls to Armand Gamache, his second-in-command Jean-Guy Beauvoir, and their team to investigate the crime as well as this extraordinary popular delusion.\nAnd the madness of crowds.",
+    description: "You’re a coward.\nTime and again, as the New Year approaches, that charge is leveled against Armand Gamache.\nIt starts innocently enough.\nWhile the residents of the Québec village of Three Pines take advancategoryIde of the deep snow to ski and toboggan, to drink hot chocolate in the bistro and share meals together, the Chief Inspector finds his holiday with his family interrupted by a simple request.\nHe’s asked to provide security for what promises to be a non-event. A visiting Professor of Statistics will be giving a lecture at the nearby university.\nWhile he is perplexed as to why the head of homicide for the Sûreté du Québec would be assigned this task, it sounds easy enough. That is until Gamache starts looking into Professor Abigail Robinson and discovers an agenda so repulsive he begs the university to cancel the lecture.\nThey refuse, citing academic freedom, and accuse Gamache of censorship and intellectual cowardice. Before long, Professor Robinson’s views start seeping into conversations. Spreading and infecting. So that truth and fact, reality and delusion are so confused it’s near impossible to tell them apart.\nDiscussions become debates, debates become arguments, which turn into fights. As sides are declared, a madness takes hold.\nAbigail Robinson promises that, if they follow her, ça va bien aller. All will be well. But not, Gamache and his team know, for everyone.\nWhen a murder is committed it falls to Armand Gamache, his second-in-command Jean-Guy Beauvoir, and their team to investigate the crime as well as this extraordinary popular delusion.\nAnd the madness of crowds.",
     img: "https://m.media-amazon.com/images/I/91E6E-yXJyS.jpg",
     authors: [
       "Louise Penny"
@@ -1121,7 +1121,7 @@ export const products: Product[] = [
     publisher: "Minotaur Books",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.6 Inches, Length: 6.6 Inches, Width: 1.4 Inches, Weight: 1.41 Pounds",
+    dimensions: "9.6 x 6.6 x 1.4 Inches",
     pages: 448,
     price: 9.99,
     count: 8,
@@ -1130,7 +1130,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1250140269",
     title: "The Malta Exchange",
-    synopsis: "The pope is dead. A conclave to select his replacement is about to begin. Cardinals are beginning to arrive at the Vatican, but one has fled Rome for Malta in search of a document that dates back to the 4th century and Constantine the Great.\nFormer Justice Department operative, Cotton Malone, is at Lake Como, Italy, on the trail of legendary letters between Winston Churchill and Benito Mussolini that disappeared in 1945 and could re-write history. But someone else seems to be after the same letters and, when Malone obtains then loses them, he’s plunged into a hunt that draws the attention of the legendary Knights of Malta.\nThe knights have existed for over nine hundred years, the only warrior-monks to survive into modern times. Now they are a global humanitarian organization, but within their ranks lurks trouble ― the Secreti ― an ancient sect intent on affecting the coming papal conclave. With the help of Magellan Billet agent Luke Daniels, Malone races the rogue cardinal, the knights, the Secreti, and the clock to find what has been lost for centuries. The final confrontation culminates behind the walls of the Vatican where the election of the next pope hangs in the balance.",
+    description: "The pope is dead. A conclave to select his replacement is about to begin. Cardinals are beginning to arrive at the Vatican, but one has fled Rome for Malta in search of a document that dates back to the 4th century and Constantine the Great.\nFormer Justice Department operative, Cotton Malone, is at Lake Como, Italy, on the trail of legendary letters between Winston Churchill and Benito Mussolini that disappeared in 1945 and could re-write history. But someone else seems to be after the same letters and, when Malone obtains then loses them, he’s plunged into a hunt that draws the attention of the legendary Knights of Malta.\nThe knights have existed for over nine hundred years, the only warrior-monks to survive into modern times. Now they are a global humanitarian organization, but within their ranks lurks trouble ― the Secreti ― an ancient sect intent on affecting the coming papal conclave. With the help of Magellan Billet agent Luke Daniels, Malone races the rogue cardinal, the knights, the Secreti, and the clock to find what has been lost for centuries. The final confrontation culminates behind the walls of the Vatican where the election of the next pope hangs in the balance.",
     img: "https://m.media-amazon.com/images/I/61WUXYEtHiL.jpg",
     authors: [
       "Steve Berry"
@@ -1138,7 +1138,7 @@ export const products: Product[] = [
     publisher: "Minotaur Books",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.6 Inches, Length: 6.5 Inches, Width: 1.3 Inches, Weight: 1.35 Pounds",
+    dimensions: "9.6 x 6.5 x 1.3 Inches",
     pages: 416,
     price: 28.99,
     count: 26,
@@ -1147,7 +1147,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0525538194",
     title: "Wolf Pack",
-    synopsis: "The good news is that Joe Pickett has his job back, after his last adventure in The Disappeared. The bad news is that he's come to learn that a drone is killing wildlife--and the drone belongs to a mysterious and wealthy man whose son is dating Joe's own daughter, Lucy.\nWhen Joe tries to lay down the rules for the drone operator, he's asked by the FBI and the DOJ to stand down, which only makes him more suspicious. Meanwhile, bodies are piling up in and around Joe's district in shocking numbers. He begins to fear that a pack of four vicious killers working on behalf of the Sinaloa cartel known as the Wolf Pack has arrived. Their target seems to be the mystery man and everyone--including Joe, Nate, and others--who is associated with him.\nTeaming up with a female game warden (based on a real person, one of the few female game wardens at work in Wyoming today) to confront these assassins, Joe finds himself in the most violent and dangerous predicament he's ever faced.",
+    description: "The good news is that Joe Pickett has his job back, after his last adventure in The Disappeared. The bad news is that he's come to learn that a drone is killing wildlife--and the drone belongs to a mysterious and wealthy man whose son is dating Joe's own daughter, Lucy.\nWhen Joe tries to lay down the rules for the drone operator, he's asked by the FBI and the DOJ to stand down, which only makes him more suspicious. Meanwhile, bodies are piling up in and around Joe's district in shocking numbers. He begins to fear that a pack of four vicious killers working on behalf of the Sinaloa cartel known as the Wolf Pack has arrived. Their target seems to be the mystery man and everyone--including Joe, Nate, and others--who is associated with him.\nTeaming up with a female game warden (based on a real person, one of the few female game wardens at work in Wyoming today) to confront these assassins, Joe finds himself in the most violent and dangerous predicament he's ever faced.",
     img: "https://m.media-amazon.com/images/I/81LZ9cw6GJL.jpg",
     authors: [
       "C. J. Box"
@@ -1155,7 +1155,7 @@ export const products: Product[] = [
     publisher: "G.P. Putnam's Sons",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.3 Inches, Length: 6.2 Inches, Width: 1.2 Inches, Weight: 1.2 Pounds",
+    dimensions: "9.3 x 6.2 x 1.2 Inches",
     pages: 384,
     price: 9.99,
     count: 36,
@@ -1164,7 +1164,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0525539670",
     title: "What Happened to the Bennetts",
-    synopsis: "Jason Bennett is a suburban dad who owns a court-reporting business, but one night, his life takes a horrific turn. He is driving his family home after his daughter’s field hockey game when a pickup truck begins tailgating them, on a dark stretch of road. Suddenly two men jump from the pickup and pull guns on Jason, demanding the car. A horrific flash of violence changes his life forever.\nLater that awful night, Jason and his family receive a visit from the FBI. The agents tell them that the carjackers were members of a dangerous drug-trafficking organization—and now Jason and his family are in their crosshairs.\nThe agents advise the Bennetts to enter the witness protection program right away, and they have no choice but to agree. But WITSEC was designed to protect criminal informants, not law-abiding families. Taken from all they know, trapped in an unfamiliar life, the Bennetts begin to fall apart at the seams. Then Jason learns a shocking truth and realizes that he has to take matters into his own hands.",
+    description: "Jason Bennett is a suburban dad who owns a court-reporting business, but one night, his life takes a horrific turn. He is driving his family home after his daughter’s field hockey game when a pickup truck begins tailgating them, on a dark stretch of road. Suddenly two men jump from the pickup and pull guns on Jason, demanding the car. A horrific flash of violence changes his life forever.\nLater that awful night, Jason and his family receive a visit from the FBI. The agents tell them that the carjackers were members of a dangerous drug-trafficking organization—and now Jason and his family are in their crosshairs.\nThe agents advise the Bennetts to enter the witness protection program right away, and they have no choice but to agree. But WITSEC was designed to protect criminal informants, not law-abiding families. Taken from all they know, trapped in an unfamiliar life, the Bennetts begin to fall apart at the seams. Then Jason learns a shocking truth and realizes that he has to take matters into his own hands.",
     img: "https://m.media-amazon.com/images/I/81z7XieB0HL.jpg",
     authors: [
       "Lisa Scottoline"
@@ -1172,7 +1172,7 @@ export const products: Product[] = [
     publisher: "G.P. Putnam's Sons",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1 Inches, Weight: 1.39 Pounds",
+    dimensions: "9 x 6 x 1 Inches",
     pages: 400,
     price: 9.99,
     count: 10,
@@ -1181,7 +1181,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0778333116",
     title: "Just the Nicest Couple",
-    synopsis: "Jake Hayes is missing. This much is certain. At first, his wife, Nina, thinks he is blowing off steam at a friend’s house after their heated fight the night before. But then a day goes by. Two days. Five. And Jake is still nowhere to be found.\nLily Scott, Nina’s friend and coworker, thinks she may have been the last to see Jake before he went missing. After Lily confesses everything to her husband, Christian, the two decide that nobody can find out what happened leading up to Jake’s disappearance, especially not Nina. But Nina is out there looking for her husband, and she won’t stop until the truth is discovered.",
+    description: "Jake Hayes is missing. This much is certain. At first, his wife, Nina, thinks he is blowing off steam at a friend’s house after their heated fight the night before. But then a day goes by. Two days. Five. And Jake is still nowhere to be found.\nLily Scott, Nina’s friend and coworker, thinks she may have been the last to see Jake before he went missing. After Lily confesses everything to her husband, Christian, the two decide that nobody can find out what happened leading up to Jake’s disappearance, especially not Nina. But Nina is out there looking for her husband, and she won’t stop until the truth is discovered.",
     img: "https://m.media-amazon.com/images/I/81oYdQkc7hL.jpg",
     authors: [
       "Mary Kubica"
@@ -1189,7 +1189,7 @@ export const products: Product[] = [
     publisher: "Park Row",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.13 Inches, Width: 1.2 Inches, Weight: 1.22 Pounds",
+    dimensions: "9.25 x 6.13 x 1.2 Inches",
     pages: 320,
     price: 14.99,
     count: 8,
@@ -1198,7 +1198,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1250099560",
     title: "One Perfect Lie",
-    synopsis: "On paper, Chris Brennan looks perfect. He's applying for a job as a high school government teacher, he's ready to step in as an assistant baseball coach, and his references are impeccable.\nBut everything about Chris Brennan is a lie.\nSusan Sematov is proud of her son Raz, a high school pitcher so athletically talented that he's being recruited for a full-ride scholarship to a Division I college, with a future in major-league baseball. But Raz’s father died only a few months ago, leaving her son in a vulnerable place where any new father figure might influence him for good, or evil.\nHeather Larkin is a struggling single mother who lives for her son Jordan's baseball games. But Jordan is shy, and Heather fears he is being lured down a dark path by one of his teammates, a young man from an affluent family whose fun-loving manner might possibly conceal his violent plans.\nMindy Kostis succumbs to the pressure of being a surgeon's wife by filling her days with social events and too many gin and tonics. But she doesn’t know that her husband and her son, Evan, are keeping secrets from her – secrets that might destroy all of them.\nAt the center of all of them is Chris Brennan. Why is he there? What does he want? And what is he willing to do to get it?",
+    description: "On paper, Chris Brennan looks perfect. He's applying for a job as a high school government teacher, he's ready to step in as an assistant baseball coach, and his references are impeccable.\nBut everything about Chris Brennan is a lie.\nSusan Sematov is proud of her son Raz, a high school pitcher so athletically talented that he's being recruited for a full-ride scholarship to a Division I college, with a future in major-league baseball. But Raz’s father died only a few months ago, leaving her son in a vulnerable place where any new father figure might influence him for good, or evil.\nHeather Larkin is a struggling single mother who lives for her son Jordan's baseball games. But Jordan is shy, and Heather fears he is being lured down a dark path by one of his teammates, a young man from an affluent family whose fun-loving manner might possibly conceal his violent plans.\nMindy Kostis succumbs to the pressure of being a surgeon's wife by filling her days with social events and too many gin and tonics. But she doesn’t know that her husband and her son, Evan, are keeping secrets from her – secrets that might destroy all of them.\nAt the center of all of them is Chris Brennan. Why is he there? What does he want? And what is he willing to do to get it?",
     img: "https://m.media-amazon.com/images/I/81gavsxa5QS.jpg",
     authors: [
       "Lisa Scottoline"
@@ -1206,7 +1206,7 @@ export const products: Product[] = [
     publisher: "St. Martin's Press",
     date_published: 2017,
     language: "english",
-    dimensions: "Height: 9.6 Inches, Length: 6.5 Inches, Width: 1.2 Inches, Weight: 1.25 Pounds",
+    dimensions: "9.6 x 6.5 x 1.2 Inches",
     pages: 368,
     price: 27.99,
     count: 26,
@@ -1215,7 +1215,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1668003228",
     title: "The Twyford Code",
-    synopsis: "Forty years ago, Steven “Smithy” Smith found a copy of a famous children’s book by disgraced author Edith Twyford, its margins full of strange markings and annotations. When he showed it to his remedial English teacher Miss Iles, she believed that it was part of a secret code that ran through all of Twyford’s novels. And when she later disappeared on a class field trip, Smithy becomes convinced that she had been right.\nNow, out of prison after a long stretch, Smithy decides to investigate the mystery that has haunted him for decades. In a series of voice recordings on an old iPhone, Smithy alternates between visiting the people of his childhood and looking back on the events that later landed him in prison. But it soon becomes clear that Edith Twyford wasn’t just a writer of forgotten children’s stories. The Twyford Code holds a great secret, and Smithy may just have the key.\n“Filled with numerous clues, acrostics, and red herrings, this thrilling scavenger hunt for the truth is delightfully deceptive and thoroughly immersive” (Publishers Weekly, starred review).",
+    description: "Forty years ago, Steven “Smithy” Smith found a copy of a famous children’s book by disgraced author Edith Twyford, its margins full of strange markings and annotations. When he showed it to his remedial English teacher Miss Iles, she believed that it was part of a secret code that ran through all of Twyford’s novels. And when she later disappeared on a class field trip, Smithy becomes convinced that she had been right.\nNow, out of prison after a long stretch, Smithy decides to investigate the mystery that has haunted him for decades. In a series of voice recordings on an old iPhone, Smithy alternates between visiting the people of his childhood and looking back on the events that later landed him in prison. But it soon becomes clear that Edith Twyford wasn’t just a writer of forgotten children’s stories. The Twyford Code holds a great secret, and Smithy may just have the key.\n“Filled with numerous clues, acrostics, and red herrings, this thrilling scavenger hunt for the truth is delightfully deceptive and thoroughly immersive” (Publishers Weekly, starred review).",
     img: "https://m.media-amazon.com/images/I/717nrodAA+L.jpg",
     authors: [
       "Janice Hallett"
@@ -1223,7 +1223,7 @@ export const products: Product[] = [
     publisher: "Atria Books",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Weight: 1.13 Pounds, Width: 0.825 Inches",
+    dimensions: "9 x 6 Inches x 0.82 Inches",
     pages: 336,
     price: 14.99,
     count: 14,
@@ -1232,7 +1232,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "125028029X",
     title: "All Hallows",
-    synopsis: "It’s Halloween night, 1984, in Coventry, Massachusetts, and two families are unraveling. Up and down the street, secrets are being revealed, and all the while, mixed in with the trick-or-treaters of all ages, four children who do not belong are walking door to door, merging with the kids of Parmenter Road. Children in vincategoryIde costumes with faded, eerie makeup. They seem terrified, and beg the neighborhood kids to hide them away, to keep them safe from The Cunning Man.\nThere’s a small clearing in the woods now that was never there before, and a blackthorn tree that doesn’t belong at all. These odd children claim that The Cunning Man is coming for them...and they want the local kids to protect them. But with families falling apart and the neighborhood splintered by bitterness, who will save the children of Parmenter Road?",
+    description: "It’s Halloween night, 1984, in Coventry, Massachusetts, and two families are unraveling. Up and down the street, secrets are being revealed, and all the while, mixed in with the trick-or-treaters of all ages, four children who do not belong are walking door to door, merging with the kids of Parmenter Road. Children in vincategoryIde costumes with faded, eerie makeup. They seem terrified, and beg the neighborhood kids to hide them away, to keep them safe from The Cunning Man.\nThere’s a small clearing in the woods now that was never there before, and a blackthorn tree that doesn’t belong at all. These odd children claim that The Cunning Man is coming for them...and they want the local kids to protect them. But with families falling apart and the neighborhood splintered by bitterness, who will save the children of Parmenter Road?",
     img: "https://m.media-amazon.com/images/I/91sobDkm9NL.jpg",
     authors: [
       "Christopher Golden"
@@ -1240,7 +1240,7 @@ export const products: Product[] = [
     publisher: "St. Martin's Press",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.1 Inches, Width: 1 Inch, Weight: 1 Pounds",
+    dimensions: "9.25 x 6.1 x 1 Inch",
     pages: 336,
     price: 14.99,
     count: 8,
@@ -1249,7 +1249,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1662500440",
     title: "The House at the End of the World",
-    synopsis: "In retreat from a devastating loss and crushing injustice, Katie lives alone in a fortresslike stone house on Jacob’s Ladder island. Once a rising star in the art world, she finds refuge in her painting.\nThe neighboring island of Ringrock houses a secret: a government research facility. And now two agents have arrived on Jacob’s Ladder in search of someone―or something―they refuse to identify. Although an air of menace hangs over these men, an infinitely greater threat has arrived, one so strange even the island animals are in a state of high alarm.\nKatie soon finds herself in an epic and terrifying battle with a mysterious enemy. But Katie’s not alone after all: a brave young girl appears out of the violent squall. As Katie and her companion struggle across a dark and eerie landscape, against them is an omnipresent terror that could bring about the end of the world.",
+    description: "In retreat from a devastating loss and crushing injustice, Katie lives alone in a fortresslike stone house on Jacob’s Ladder island. Once a rising star in the art world, she finds refuge in her painting.\nThe neighboring island of Ringrock houses a secret: a government research facility. And now two agents have arrived on Jacob’s Ladder in search of someone―or something―they refuse to identify. Although an air of menace hangs over these men, an infinitely greater threat has arrived, one so strange even the island animals are in a state of high alarm.\nKatie soon finds herself in an epic and terrifying battle with a mysterious enemy. But Katie’s not alone after all: a brave young girl appears out of the violent squall. As Katie and her companion struggle across a dark and eerie landscape, against them is an omnipresent terror that could bring about the end of the world.",
     img: "https://m.media-amazon.com/images/I/A1q4rOnb89L.jpg",
     authors: [
       "Dean Koontz"
@@ -1257,7 +1257,7 @@ export const products: Product[] = [
     publisher: "Thomas & Mercer",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1 Inches, Weight: 1.37 Pounds",
+    dimensions: "9 x 6 x 1 Inches",
     pages: 416,
     price: 17.55,
     count: 5,
@@ -1266,7 +1266,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0063221985",
     title: "The Devil's Ransom",
-    synopsis: "Conducting a routine cover development trip to Tajikistan, Pike and Jennifer learn that Afghanistan has fallen, and there’s a man on the run. One that has done more for the United States in Afghanistan than anyone else. Pulled in to extract him, Pike collides headlong into a broader mystery: His covert company, along with every other entity in the Taskforce, has been hit with a ransomware attack, and there’s some connection between the Taliban and the hack. Given the order to track down the perpetrators, he has no idea that the problem set is much, much larger and more dangerous than a simple attack on his organization. That hack was just a test-run, and the real one is coming soon, engendered by a former NSA specialist in the U.S. government.\nA man who wants to return to the bipolar world of the Cold War, the turncoat has cloaked his attack behind hackers from Serbia and Russia, and if successful, his target will alter the balance of power on the global scategoryIde. So far, the specialist has remained one step ahead of the Taskforce, but he has just made one massive mistake: hitting Pike Logan. ",
+    description: "Conducting a routine cover development trip to Tajikistan, Pike and Jennifer learn that Afghanistan has fallen, and there’s a man on the run. One that has done more for the United States in Afghanistan than anyone else. Pulled in to extract him, Pike collides headlong into a broader mystery: His covert company, along with every other entity in the Taskforce, has been hit with a ransomware attack, and there’s some connection between the Taliban and the hack. Given the order to track down the perpetrators, he has no idea that the problem set is much, much larger and more dangerous than a simple attack on his organization. That hack was just a test-run, and the real one is coming soon, engendered by a former NSA specialist in the U.S. government.\nA man who wants to return to the bipolar world of the Cold War, the turncoat has cloaked his attack behind hackers from Serbia and Russia, and if successful, his target will alter the balance of power on the global scategoryIde. So far, the specialist has remained one step ahead of the Taskforce, but he has just made one massive mistake: hitting Pike Logan. ",
     img: "https://m.media-amazon.com/images/I/81KtYar2uDL.jpg",
     authors: [
       "Brad Taylor"
@@ -1274,7 +1274,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.4 Inches, Weight: 1.4 Pounds",
+    dimensions: "9 x 6 x 1.4 Inches",
     pages: 464,
     price: 14.99,
     count: 0,
@@ -1283,7 +1283,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1613163738",
     title: "Murder Grove",
-    synopsis: "In 1990, within the deceptively peaceful woods of her Sussex neighborhood, Mia witnesses the brutal murder of her mother and wakes up in a shallow grave. A man confesses to the murder and later dies in prison, but Mia never comes to terms with her mother’s death.\nAfter another brush with tragedy in 2021, Mia and her boyfriend Rich move from London to a small Spanish village where they can begin a new life. At first, Val Verde seems to be everything they could wish for. But when a body is found in the olive grove outside of town, they realize that their would-be safe haven harbors a terrible secret. Will they discover the deadly root of evil before it’s too late?\nBreathlessly paced with an atmospheric setting, Murder Grove is a twisty psychological thriller from the author of Five Strangers.",
+    description: "In 1990, within the deceptively peaceful woods of her Sussex neighborhood, Mia witnesses the brutal murder of her mother and wakes up in a shallow grave. A man confesses to the murder and later dies in prison, but Mia never comes to terms with her mother’s death.\nAfter another brush with tragedy in 2021, Mia and her boyfriend Rich move from London to a small Spanish village where they can begin a new life. At first, Val Verde seems to be everything they could wish for. But when a body is found in the olive grove outside of town, they realize that their would-be safe haven harbors a terrible secret. Will they discover the deadly root of evil before it’s too late?\nBreathlessly paced with an atmospheric setting, Murder Grove is a twisty psychological thriller from the author of Five Strangers.",
     img: "https://m.media-amazon.com/images/I/718SPqo6i9L.jpg",
     authors: [
       "E. V. Adamson"
@@ -1291,7 +1291,7 @@ export const products: Product[] = [
     publisher: "Scarlet",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.4 Inches, Length: 6.4 Inches, Width: 1.2 Inches, Weight: 1.35 Pounds",
+    dimensions: "9.4 x 6.4 x 1.2 Inches",
     pages: 312,
     price: 17.49,
     count: 26,
@@ -1300,7 +1300,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1610885376",
     title: "Particles in the Air",
-    synopsis: "Dr. Mallory Hayes, a Centers for Disease Control and Prevention (CDC) medical investigator, is a committed physician and researcher quietly battling height and air-flight anxiety. When a tsunami devastates the coast of Southern California, the Federal Emergency Management Agency (FEMA) establishes a camp to house the tens of thousands of people displaced by the disaster, and the Army is brought in to provide medical services.\nMallory is dispatched to the camp by the CDC to prevent the potential spread of disease from contaminated water. What she discovers is far worse than anything she could have imagined―an accelerated HIV-like virus, and a common, everyday microbe, which are proving to be unfailingly deadly.\nSoon, Mallory is called upon to determine the virus' origins. But it turns out to be a complicated story involving a scientist with psychopathic tendencies, a devout Islamic extremist, and a misguided adolescent. Will the virus itself continue to spread throughout the country, without either a cure or a treatment?\nParticles in the Air is a shockingly realistic tale only an immunologist could write―a tense, high-concept thriller meant to appeal to fans of A.G Riddle, Michael Crichton, Terry Hayes, Richard Preston, and others.",
+    description: "Dr. Mallory Hayes, a Centers for Disease Control and Prevention (CDC) medical investigator, is a committed physician and researcher quietly battling height and air-flight anxiety. When a tsunami devastates the coast of Southern California, the Federal Emergency Management Agency (FEMA) establishes a camp to house the tens of thousands of people displaced by the disaster, and the Army is brought in to provide medical services.\nMallory is dispatched to the camp by the CDC to prevent the potential spread of disease from contaminated water. What she discovers is far worse than anything she could have imagined―an accelerated HIV-like virus, and a common, everyday microbe, which are proving to be unfailingly deadly.\nSoon, Mallory is called upon to determine the virus' origins. But it turns out to be a complicated story involving a scientist with psychopathic tendencies, a devout Islamic extremist, and a misguided adolescent. Will the virus itself continue to spread throughout the country, without either a cure or a treatment?\nParticles in the Air is a shockingly realistic tale only an immunologist could write―a tense, high-concept thriller meant to appeal to fans of A.G Riddle, Michael Crichton, Terry Hayes, Richard Preston, and others.",
     img: "https://m.media-amazon.com/images/I/617yvoqjUyL.jpg",
     authors: [
       "Dr. Jenna Podjasek"
@@ -1308,7 +1308,7 @@ export const products: Product[] = [
     publisher: "Bancroft Press",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.2 Inches, Weight: 1.19 Pounds",
+    dimensions: "9 x 6 x 1.2 Inches",
     pages: 285,
     price: 9.95,
     count: 14,
@@ -1317,7 +1317,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1609458354",
     title: "My Father’s House",
-    synopsis: "September 1943: German forces have Rome under their control. Gestapo boss Paul Hauptmann rules over the Eternal City with vicious efficiency. Hunger is widespread. Rumors fester. The war’s outcome is far from certain. Diplomats, refugees, Jews, and escaped Allied prisoners flee for protection into Vatican City, the world’s smallest state, a neutral, independent country nestled within the city of Rome. A small band of unlikely friends led by a courageous Irish priest is drawn into deadly battle of wits as they attempt to aid those seeking refuge.\nMy Father’s House is inspired by the extraordinary true story of Monsignor Hugh O’Flaherty, who, together with his accomplices, risked his life to smuggle Jews and escaped Allied prisoners out of Italy right under the nose of his Nazi nemesis. Suspenseful and beautifully written, My Father’s House tells an unforgettable story of love, faith, sacrifice, and courage.",
+    description: "September 1943: German forces have Rome under their control. Gestapo boss Paul Hauptmann rules over the Eternal City with vicious efficiency. Hunger is widespread. Rumors fester. The war’s outcome is far from certain. Diplomats, refugees, Jews, and escaped Allied prisoners flee for protection into Vatican City, the world’s smallest state, a neutral, independent country nestled within the city of Rome. A small band of unlikely friends led by a courageous Irish priest is drawn into deadly battle of wits as they attempt to aid those seeking refuge.\nMy Father’s House is inspired by the extraordinary true story of Monsignor Hugh O’Flaherty, who, together with his accomplices, risked his life to smuggle Jews and escaped Allied prisoners out of Italy right under the nose of his Nazi nemesis. Suspenseful and beautifully written, My Father’s House tells an unforgettable story of love, faith, sacrifice, and courage.",
     img: "https://m.media-amazon.com/images/I/91bMuT7FzlL.jpg",
     authors: [
       "Joseph O’Connor"
@@ -1326,7 +1326,7 @@ export const products: Product[] = [
     date_published: 2023,
     language: "english",
     pages: 440,
-    dimensions: "Height: 8.75 Inches, Length: 8.5 Inches, Width: 1.25 Inches, Weight: 1.05 Pounds",
+    dimensions: "8.75 x 8.5 x 1.25 Inches",
     price: 14.99,
     count: 10,
   },
@@ -1334,7 +1334,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1668007169",
     title: "Stolen",
-    synopsis: "On a winter day north of the Arctic Circle, nine-year-old Elsa—daughter of Sámi reindeer herders—sees a man brutally kill her beloved reindeer calf and threaten her into silence. When her father takes her to report the crime, local police tell them that there is nothing they can do about these “stolen” animals. Killings like these are classified as theft in the reports that continue to pile up, uninvestigated. But reindeer are not just the Sámi’s livelihood, they also hold spiritual significance; attacking a reindeer is an attack on the culture itself.\nTen years later, hatred and threats against the Sámi keep escalating, and more reindeer are tortured and killed in Elsa’s community. Finally, she’s had enough and decides to push back on the apathetic police force. The hunter comes after her this time, leading to a catastrophic final confrontation.\nBased on real events, Ann-Helén Laestadius’s award-winning novel Stolen is part coming-of-age story, part love song to a disappearing natural world, and part electrifying countdown to a dramatic resolution—a searing depiction of a forgotten part of Sweden.",
+    description: "On a winter day north of the Arctic Circle, nine-year-old Elsa—daughter of Sámi reindeer herders—sees a man brutally kill her beloved reindeer calf and threaten her into silence. When her father takes her to report the crime, local police tell them that there is nothing they can do about these “stolen” animals. Killings like these are classified as theft in the reports that continue to pile up, uninvestigated. But reindeer are not just the Sámi’s livelihood, they also hold spiritual significance; attacking a reindeer is an attack on the culture itself.\nTen years later, hatred and threats against the Sámi keep escalating, and more reindeer are tortured and killed in Elsa’s community. Finally, she’s had enough and decides to push back on the apathetic police force. The hunter comes after her this time, leading to a catastrophic final confrontation.\nBased on real events, Ann-Helén Laestadius’s award-winning novel Stolen is part coming-of-age story, part love song to a disappearing natural world, and part electrifying countdown to a dramatic resolution—a searing depiction of a forgotten part of Sweden.",
     img: "https://m.media-amazon.com/images/I/714TXUg9AvL.jpg",
     authors: [
       "Ann-Helén Laestadius"
@@ -1342,7 +1342,7 @@ export const products: Product[] = [
     publisher: "Scribner",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.4 Inches, Length: 5.5 Inches, Width: 1.1 Inches, Weight: 1.36 Pounds",
+    dimensions: "8.4 x 5.5 x 1.1 Inches",
     pages: 432,
     price: 13.99,
     count: 8,
@@ -1351,7 +1351,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1662501080",
     title: "Someone Else's Life",
-    synopsis: "Blow by blow, Annie Lin’s life crumbles. Her dance studio goes bankrupt. Her mother and beloved dog are gone the same year. Then a terrible accident leaves her young son traumatized.\nIt’s time for a change.\nPalm trees, mai tais, peace and quiet―Annie should be at ease, safe in her new Kauai home with her husband and son. She hopes proximity to her family can provide them all with a sense of belonging and calm. But soon items from her past start turning up―her dog’s collar, a bracelet that disappeared years ago―and she has the unnerving sensation she’s being watched. Reality begins to fracture, and Annie’s panic attacks return. When, during a brewing storm, a woman appears on her doorstep looking for shelter, Annie is relieved to have the company and feels an unexplainable bond with her visitor.\nAs the night progresses, Annie realizes the woman is no stranger. Their lives are inextricably intertwined―and Annie might just lose everything.",
+    description: "Blow by blow, Annie Lin’s life crumbles. Her dance studio goes bankrupt. Her mother and beloved dog are gone the same year. Then a terrible accident leaves her young son traumatized.\nIt’s time for a change.\nPalm trees, mai tais, peace and quiet―Annie should be at ease, safe in her new Kauai home with her husband and son. She hopes proximity to her family can provide them all with a sense of belonging and calm. But soon items from her past start turning up―her dog’s collar, a bracelet that disappeared years ago―and she has the unnerving sensation she’s being watched. Reality begins to fracture, and Annie’s panic attacks return. When, during a brewing storm, a woman appears on her doorstep looking for shelter, Annie is relieved to have the company and feels an unexplainable bond with her visitor.\nAs the night progresses, Annie realizes the woman is no stranger. Their lives are inextricably intertwined―and Annie might just lose everything.",
     img: "https://m.media-amazon.com/images/I/81fbBnAjQSL.jpg",
     authors: [
       "Lyn Liao Butler"
@@ -1359,7 +1359,7 @@ export const products: Product[] = [
     publisher: "Thomas & Mercer",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.65 Pounds",
+    dimensions: "8.25 x 5.5 x 1 Inches",
     pages: 299,
     price: 14.35,
     count: 5,
@@ -1368,7 +1368,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "166250456X",
     title: "No Home for Killers",
-    synopsis: "The murder of jazz musician and social activist Markus Peña doesn’t come as a surprise to his estranged sisters. Melinda and Emily Peña know their controversial brother had enemies. After all, even they hadn’t spoken to Markus since their mother’s funeral two years ago.\nWho killed Markus? Was it someone trying to keep his latest protest song from publication? Was it the powerful and secretive uncle of his ex-girlfriend Rebecca? Or was it one of the other women Markus had callously abandoned?\nTo unravel the truth, Melinda and Emily must first face their own demons. Melinda, a former social worker, suffers from PTSD―haunted by the people she failed to help and unable to maintain meaningful relationships. Emily also pushes people away―afraid she’ll get hurt and afraid they’ll find out she’s Three Strikes: a masked vigilante who violently punishes abusive men.\nMarkus wasn’t a good man, but he was family. And it’s up to his sisters to uncover his lifetime of lies and the truth of his death.\nHaunting, gripping, and relevant, No Home for Killers explores the conflicts that tear families apart―and the tragedies that force them back together.",
+    description: "The murder of jazz musician and social activist Markus Peña doesn’t come as a surprise to his estranged sisters. Melinda and Emily Peña know their controversial brother had enemies. After all, even they hadn’t spoken to Markus since their mother’s funeral two years ago.\nWho killed Markus? Was it someone trying to keep his latest protest song from publication? Was it the powerful and secretive uncle of his ex-girlfriend Rebecca? Or was it one of the other women Markus had callously abandoned?\nTo unravel the truth, Melinda and Emily must first face their own demons. Melinda, a former social worker, suffers from PTSD―haunted by the people she failed to help and unable to maintain meaningful relationships. Emily also pushes people away―afraid she’ll get hurt and afraid they’ll find out she’s Three Strikes: a masked vigilante who violently punishes abusive men.\nMarkus wasn’t a good man, but he was family. And it’s up to his sisters to uncover his lifetime of lies and the truth of his death.\nHaunting, gripping, and relevant, No Home for Killers explores the conflicts that tear families apart―and the tragedies that force them back together.",
     img: "https://m.media-amazon.com/images/I/916-wtZZQoL.jpg",
     authors: [
       "E.A. Aymar"
@@ -1376,7 +1376,7 @@ export const products: Product[] = [
     publisher: "Thomas & Mercer",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches",
+    dimensions: "8.25 x 5.5 x 1 Inches",
     pages: 335,
     price: 14.35,
     count: 36,
@@ -1385,7 +1385,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1950627616",
     title: "To Kill A Unicorn",
-    synopsis: "My name is Cain Sthyldor, a former assassin for the fae. I may not be a wizard from Chicago, an iron druid on the run, a hot-tempered maker who hates girl scouts, or part of a destructive duo from New York City, but I guarantee you'll be entertained.\nI've been donkey-kicked by the Minotaur and met Death in person. I'm cursed by Cthulhu, know a gorgon, and have a pet octopus named Fred.\nThe fae hate me because I started a war to free myself from their clutches. The humans hate me because I used to work for the fae. My only real friends are a bartending elf and a half-fae assassin who claims she'll kill me for the price on my head--one day. Until then, we'll be sipping mangoritas at Voltaire's.\nThese days I'm a tracker and bounty hunter for a supernatural agency called Eclipse. I may not assassinate anymore, but I find elusive targets and what Eclipse does with them is none of my business. At least until now. My target is a teenaged girl, and I don't like the thought of ordinary kids being taken or killed. But when I refuse to do the deed, I'm suddenly being hunted by a demigod who can hurl lightning like nobody's business.\nThe fae told us the gods are dead. Apparently, they're very much alive, and Zeus is still up to his dirty little shenanigans. His kid is now an assassin for a group called the Divine Council, and they want this girl dead.\nStupidly, I take her under my protection, and now I've got Eclipse, a demigod, and several other competing factions who all want the girl for their own nefarious purposes. And it doesn't take long for me to find out why.\nThe factions are weaponizing demigods. Some want to use them against the fae. Some want to rule the world. And others want to kill the gods themselves.\nTo top it off, the curse of Cthulhu is eating me to the bone, and the only way to cure it is to eat a living unicorn heart. Unfortunately, unicorns are thought extinct—all but one. The girl, it turns out, is the key to me getting that last unicorn heart so mine can keep on beating.\nWith the gods, the fae, and the rest of the supernatural world hunting me, the odds look grim. But I've survived too much and outsmarted too many to give up now.\nI will not run. I will not hide. It's time the high and mighty find out what real fear feels like.",
+    description: "My name is Cain Sthyldor, a former assassin for the fae. I may not be a wizard from Chicago, an iron druid on the run, a hot-tempered maker who hates girl scouts, or part of a destructive duo from New York City, but I guarantee you'll be entertained.\nI've been donkey-kicked by the Minotaur and met Death in person. I'm cursed by Cthulhu, know a gorgon, and have a pet octopus named Fred.\nThe fae hate me because I started a war to free myself from their clutches. The humans hate me because I used to work for the fae. My only real friends are a bartending elf and a half-fae assassin who claims she'll kill me for the price on my head--one day. Until then, we'll be sipping mangoritas at Voltaire's.\nThese days I'm a tracker and bounty hunter for a supernatural agency called Eclipse. I may not assassinate anymore, but I find elusive targets and what Eclipse does with them is none of my business. At least until now. My target is a teenaged girl, and I don't like the thought of ordinary kids being taken or killed. But when I refuse to do the deed, I'm suddenly being hunted by a demigod who can hurl lightning like nobody's business.\nThe fae told us the gods are dead. Apparently, they're very much alive, and Zeus is still up to his dirty little shenanigans. His kid is now an assassin for a group called the Divine Council, and they want this girl dead.\nStupidly, I take her under my protection, and now I've got Eclipse, a demigod, and several other competing factions who all want the girl for their own nefarious purposes. And it doesn't take long for me to find out why.\nThe factions are weaponizing demigods. Some want to use them against the fae. Some want to rule the world. And others want to kill the gods themselves.\nTo top it off, the curse of Cthulhu is eating me to the bone, and the only way to cure it is to eat a living unicorn heart. Unfortunately, unicorns are thought extinct—all but one. The girl, it turns out, is the key to me getting that last unicorn heart so mine can keep on beating.\nWith the gods, the fae, and the rest of the supernatural world hunting me, the odds look grim. But I've survived too much and outsmarted too many to give up now.\nI will not run. I will not hide. It's time the high and mighty find out what real fear feels like.",
     img: "https://m.media-amazon.com/images/I/61-S7Q+8LwL.jpg",
     authors: [
       "DC Palter"
@@ -1393,7 +1393,7 @@ export const products: Product[] = [
     publisher: "Pandamoon Publishing",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.6 Inches, Weight: 0.9 Pounds",
+    dimensions: "9 x 6 x 0.6 Inches",
     pages: 262,
     price: 24.99,
     count: 35,
@@ -1402,7 +1402,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0802160522",
     title: "Alligator Alley",
-    synopsis: "When Andie Moore, a 23-year-old working in the DOJ’s Inspector General’s Office, is murdered in cold blood in Florida’s Everglades, it falls on DeMarco to get to the bottom of things. Paired with Emma, an enigmatic, retired ex-spy with seemingly endless connections in the military and intelligence communities, they venture south to the scene of Andie’s murder: Alligator Alley.\nDeMarco and Emma waste no time in identifying a two suspects—a pair of crooked, near-retirement FBI agents named McIntyre and McGruder. But as they keep digging, it becomes clear that these FBI agents weren’t acting alone, and that this goes much deeper than just the murder of an innocent 23-year old woman.",
+    description: "When Andie Moore, a 23-year-old working in the DOJ’s Inspector General’s Office, is murdered in cold blood in Florida’s Everglades, it falls on DeMarco to get to the bottom of things. Paired with Emma, an enigmatic, retired ex-spy with seemingly endless connections in the military and intelligence communities, they venture south to the scene of Andie’s murder: Alligator Alley.\nDeMarco and Emma waste no time in identifying a two suspects—a pair of crooked, near-retirement FBI agents named McIntyre and McGruder. But as they keep digging, it becomes clear that these FBI agents weren’t acting alone, and that this goes much deeper than just the murder of an innocent 23-year old woman.",
     img: "https://m.media-amazon.com/images/I/91WjhqVRsQL.jpg",
     authors: [
       "Mike Lawson"
@@ -1410,7 +1410,7 @@ export const products: Product[] = [
     publisher: "Atlantic Monthly Press",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.5 Inches, Length: 6.25 Inches, Width: 1 Inch, Weight: 0.8 Pounds",
+    dimensions: "9.5 x 6.25 x 1 Inch",
     pages: 288,
     price: 20.76,
     count: 26,
@@ -1419,7 +1419,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0593653785",
     title: "Essex Dogs",
-    synopsis: "July 1346. Ten men land on the beaches of Normandy. They call themselves the Essex Dogs: an unruly platoon of archers and men-at-arms led by a battle-scarred captain whose best days are behind him. The fight for the throne of the largest kingdom in Western Europe has begun.\nHeading ever deeper into enemy territory toward Crécy, this band of brothers knows they are off to fight a battle that will forge nations, and shape the very fabric of human lives. But first they must survive a bloody war in which rules are abandoned and chivalry itself is slaughtered.\nRooted in historical accuracy and told through an unforgettable cast, Essex Dogs delivers the stark reality of medieval war on the ground – and shines a light on the fighters and ordinary people caught in the storm.",
+    description: "July 1346. Ten men land on the beaches of Normandy. They call themselves the Essex Dogs: an unruly platoon of archers and men-at-arms led by a battle-scarred captain whose best days are behind him. The fight for the throne of the largest kingdom in Western Europe has begun.\nHeading ever deeper into enemy territory toward Crécy, this band of brothers knows they are off to fight a battle that will forge nations, and shape the very fabric of human lives. But first they must survive a bloody war in which rules are abandoned and chivalry itself is slaughtered.\nRooted in historical accuracy and told through an unforgettable cast, Essex Dogs delivers the stark reality of medieval war on the ground – and shines a light on the fighters and ordinary people caught in the storm.",
     img: "https://m.media-amazon.com/images/I/81kwwzdS4NL.jpg",
     authors: [
       "Dan Jones"
@@ -1427,7 +1427,7 @@ export const products: Product[] = [
     publisher: "Viking",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inchess, Width: 1.1563 Inches, Weight: 1.25 Pound",
+    dimensions: "9 x 6 x 1.15 Inches",
     pages: 448,
     price: 14.99,
     count: 36,
@@ -1436,7 +1436,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1250284082",
     title: "Encore in Death",
-    synopsis: "It was a glittering event full of A-listers, hosted by Eliza Lane and Brant Fitzhugh, a celebrity couple who'd conquered both Hollywood and Broadway. And now Eve Dallas has made her entrance--but not as a guest. After raising a toast, Fitzhugh fell to the floor and died, with physical symptoms pointing to cyanide, and the police have crashed the party.\nFrom all accounts, he wasn't the kind of star who made enemies. Everyone loved him--even his ex-wife. And since the champagne cocktail that killed him was originally intended for Eliza, it's possible she was the real target, with a recently fired assistant, a bitter rival, and an obsessed fan in the picture. With so many attendees, staff, and servers, Eve has her work cut out determining who committed murder in the middle of the crowd--and what was their motivation. As one who's not fond of the spotlight herself, she dreads the media circus surrounding a case like this. All she wants is to figure out who's truly innocent, and who's only acting that way...",
+    description: "It was a glittering event full of A-listers, hosted by Eliza Lane and Brant Fitzhugh, a celebrity couple who'd conquered both Hollywood and Broadway. And now Eve Dallas has made her entrance--but not as a guest. After raising a toast, Fitzhugh fell to the floor and died, with physical symptoms pointing to cyanide, and the police have crashed the party.\nFrom all accounts, he wasn't the kind of star who made enemies. Everyone loved him--even his ex-wife. And since the champagne cocktail that killed him was originally intended for Eliza, it's possible she was the real target, with a recently fired assistant, a bitter rival, and an obsessed fan in the picture. With so many attendees, staff, and servers, Eve has her work cut out determining who committed murder in the middle of the crowd--and what was their motivation. As one who's not fond of the spotlight herself, she dreads the media circus surrounding a case like this. All she wants is to figure out who's truly innocent, and who's only acting that way...",
     img: "https://m.media-amazon.com/images/I/91qQN+eqq9L.jpg",
     authors: [
       "J. D. Robb"
@@ -1444,7 +1444,7 @@ export const products: Product[] = [
     publisher: "St. Martin's Press",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.1 Inches, Width: 1 Inch, Weight: 1 Pound",
+    dimensions: "9.25 x 6.1 x 1 Inch",
     pages: 384,
     price: 14.99,
     count: 26,
@@ -1453,7 +1453,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1982198400",
     title: "Cold People",
-    synopsis: "The world has fallen. Without warning, a mysterious and omnipotent force has claimed the planet for their own. There are no negotiations, no demands, no reasons given for their actions. All they have is a message: humanity has thirty days to reach the one place on Earth where they will be allowed to exist…Antarctica.\nCold People follows the perilous journeys of a handful of those who endure the frantic exodus to the most extreme environment on the planet. But their goal is not merely to survive the present. Because as they cling to life on the ice, the remnants of their past swept away, they must also confront the urgent challenge: can they change and evolve rapidly enough to ensure humanity’s future? Can they build a new society in the sub-zero cold?\nOriginal and imaginative, as profoundly intimate as it is grand in scope, Cold People is a masterful and unforgettable epic.",
+    description: "The world has fallen. Without warning, a mysterious and omnipotent force has claimed the planet for their own. There are no negotiations, no demands, no reasons given for their actions. All they have is a message: humanity has thirty days to reach the one place on Earth where they will be allowed to exist…Antarctica.\nCold People follows the perilous journeys of a handful of those who endure the frantic exodus to the most extreme environment on the planet. But their goal is not merely to survive the present. Because as they cling to life on the ice, the remnants of their past swept away, they must also confront the urgent challenge: can they change and evolve rapidly enough to ensure humanity’s future? Can they build a new society in the sub-zero cold?\nOriginal and imaginative, as profoundly intimate as it is grand in scope, Cold People is a masterful and unforgettable epic.",
     img: "https://m.media-amazon.com/images/I/81kOo2UQ98L.jpg",
     authors: [
       "Tom Rob Smith"
@@ -1461,7 +1461,7 @@ export const products: Product[] = [
     publisher: "Scribner",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.825 Inches, Weight: 1.16 Pound",
+    dimensions: "9 x 6 x 0.8 Inches",
     pages: 368,
     price: 14.99,
     count: 10,
@@ -1470,7 +1470,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1538726238",
     title: "More Than Meets the Eye",
-    synopsis: "After scoring a plea deal in a high-profile murder trial, serial killer James Michael Barrett leads a grim parade of law enforcement officers to the body of his last victim. At the alleged burial site, the officers swing their shovels down and are met with a strange metallic sound they weren’t expecting. In a blink, a terrific explosion rocks the woods, killing Barrett and most of the officers instantly.\nThe detonation is only the beginning of a shocking case for FBI consultant Kendra Michaels—a string of heinous murders in the style of the very-dead Barrett mysteriously continue, and it becomes clear that he may not have been working alone. As the crimes accelerate, Kendra reluctantly accepts help from college student Tricia Walton, the only survivor of Barrett’s attacks. But the killer has a terrifying plan that Kendra and her team are only beginning to understand.",
+    description: "After scoring a plea deal in a high-profile murder trial, serial killer James Michael Barrett leads a grim parade of law enforcement officers to the body of his last victim. At the alleged burial site, the officers swing their shovels down and are met with a strange metallic sound they weren’t expecting. In a blink, a terrific explosion rocks the woods, killing Barrett and most of the officers instantly.\nThe detonation is only the beginning of a shocking case for FBI consultant Kendra Michaels—a string of heinous murders in the style of the very-dead Barrett mysteriously continue, and it becomes clear that he may not have been working alone. As the crimes accelerate, Kendra reluctantly accepts help from college student Tricia Walton, the only survivor of Barrett’s attacks. But the killer has a terrifying plan that Kendra and her team are only beginning to understand.",
     img: "https://m.media-amazon.com/images/I/812ZksOWV2L.jpg",
     authors: [
       "Iris Johansen",
@@ -1479,7 +1479,7 @@ export const products: Product[] = [
     publisher: "Grand Central Publishing",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.0625 Inches, Weight: 1.1 Pound",
+    dimensions: "9 x 6 x 1.1 Inches",
     pages: 320,
     price: 14.99,
     count: 14,
@@ -1488,7 +1488,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0525618619",
     title: "Unnatural History",
-    synopsis: "Los Angeles is a city of stark contrast, the palaces of the affluent coexisting uneasily with the hellholes of the mad and the needy. That shadow world and the violence it breeds draw brilliant psychologist Dr. Alex Delaware and Detective Milo Sturgis into an unsettling case of altruism gone wrong.\nOn a superficially lovely morning, a woman shows up for work with her usual enthusiasm. She’s the newly hired personal assistant to a handsome, wealthy photographer and is ready to greet her boss with coffee and good cheer. Instead, she finds him slumped in bed, shot to death.\nThe victim had recently received rave media attention for his latest project: images of homeless people in their personal “dream” situations, elaborately costumed and enacting unfulfilled fantasies. There are some, however, who view the whole thing as nothing more than crass exploitation, citing token payments and the victim’s avoidance of any long-term relationships with his subjects.\nHas disgruntlement blossomed into homicidal rage? Or do the roots of violence reach down to the victim’s family—a clan, sired by an elusive billionaire, that is bizarre in its own right?\nThen new murders arise, and Alex and Milo begin peeling back layer after layer of intrigue and complexity, culminating in one of the deadliest threats they’ve ever faced.",
+    description: "Los Angeles is a city of stark contrast, the palaces of the affluent coexisting uneasily with the hellholes of the mad and the needy. That shadow world and the violence it breeds draw brilliant psychologist Dr. Alex Delaware and Detective Milo Sturgis into an unsettling case of altruism gone wrong.\nOn a superficially lovely morning, a woman shows up for work with her usual enthusiasm. She’s the newly hired personal assistant to a handsome, wealthy photographer and is ready to greet her boss with coffee and good cheer. Instead, she finds him slumped in bed, shot to death.\nThe victim had recently received rave media attention for his latest project: images of homeless people in their personal “dream” situations, elaborately costumed and enacting unfulfilled fantasies. There are some, however, who view the whole thing as nothing more than crass exploitation, citing token payments and the victim’s avoidance of any long-term relationships with his subjects.\nHas disgruntlement blossomed into homicidal rage? Or do the roots of violence reach down to the victim’s family—a clan, sired by an elusive billionaire, that is bizarre in its own right?\nThen new murders arise, and Alex and Milo begin peeling back layer after layer of intrigue and complexity, culminating in one of the deadliest threats they’ve ever faced.",
     img: "https://m.media-amazon.com/images/I/812cOceB83L.jpg",
     authors: [
       "Jonathan Kellerman"
@@ -1496,7 +1496,7 @@ export const products: Product[] = [
     publisher: "Ballantine Books",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.54 Inches, Length: 6.35 Inches, Width: 1.12 Inches, Weight: 1.15 Pound",
+    dimensions: "9.54 x 6.35 x 1.12 Inches",
     pages: 320,
     price: 18.25,
     count: 8,
@@ -1505,7 +1505,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1639102302",
     title: "Every Missing Girl",
-    synopsis: "The stunning landscape of Colorado’s Rocky Mountains are among our greatest natural treasures. But there are deadly secrets lurking in the craggy heights, and FBI Special Agent Kendall Beck and Denver Homicide Detective Adam Taylor team up to investigate a kidnapping. When Taylor’s niece, Frankie, suddenly vanishes at a local hockey rink, it’s clear that there’s a predator on the loose—and now, the case has turned personal.\nOne discovery after another leads Beck and Taylor closer to the truth, as they close in on the devastating truth about the fates of the missing girls—and the many who came before them. Will they be able to find Frankie before it’s too late? In this thrilling story,  Leanne Kale Sparks weaves the threads of this harrowing drama and builds the intensity to a fever pitch.",
+    description: "The stunning landscape of Colorado’s Rocky Mountains are among our greatest natural treasures. But there are deadly secrets lurking in the craggy heights, and FBI Special Agent Kendall Beck and Denver Homicide Detective Adam Taylor team up to investigate a kidnapping. When Taylor’s niece, Frankie, suddenly vanishes at a local hockey rink, it’s clear that there’s a predator on the loose—and now, the case has turned personal.\nOne discovery after another leads Beck and Taylor closer to the truth, as they close in on the devastating truth about the fates of the missing girls—and the many who came before them. Will they be able to find Frankie before it’s too late? In this thrilling story,  Leanne Kale Sparks weaves the threads of this harrowing drama and builds the intensity to a fever pitch.",
     img: "https://m.media-amazon.com/images/I/91eAcl1GMnL.jpg",
     authors: [
       "Leanne Kale Sparks"
@@ -1513,7 +1513,7 @@ export const products: Product[] = [
     publisher: "Crooked Lane Books",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.5 Inches, Length: 6.35 Inches, Width: 0.96 Inches, Weight: 1.25 Pound",
+    dimensions: "9.5 x 6.35 x 0.96 Inches",
     pages: 272,
     price: 13.99,
     count: 35,
@@ -1522,7 +1522,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0593547500",
     title: "Stone Cold Fox",
-    synopsis: "Like any enterprising woman, Bea knows what she’s worth and is determined to get all she deserves—it just so happens that what she deserves is to marry rich. Filthy rich. After years of forced instruction by her mother in the art of swindling men, a now-solo Bea wants nothing more than to close and lock the door on their sordid partnership so she can disappear safely into old-money domesticity, sealing the final phase of her escape.\nWhen Bea chooses her ultimate target in the fully loaded, thoroughly dull and blue-blooded Collin Case, she’s ready to deploy all of her tricks one last time. The challenge isn’t getting the ring, but rather the approval of Collin’s family and everyone else in their 1 percent tax bracket, particularly his childhood best friend, Gale Wallace-Leicester.\nGoing toe-to-toe with Gale isn’t a threat to an expert like Bea, but what begins as an amusing cat-and-mouse game quickly develops into a dangerous pursuit of the grisly truth. Finding herself at a literal life-and-death crossroads with everything on the line, Bea must finally decide who she really wants to be.\nLike mother, like daughter?",
+    description: "Like any enterprising woman, Bea knows what she’s worth and is determined to get all she deserves—it just so happens that what she deserves is to marry rich. Filthy rich. After years of forced instruction by her mother in the art of swindling men, a now-solo Bea wants nothing more than to close and lock the door on their sordid partnership so she can disappear safely into old-money domesticity, sealing the final phase of her escape.\nWhen Bea chooses her ultimate target in the fully loaded, thoroughly dull and blue-blooded Collin Case, she’s ready to deploy all of her tricks one last time. The challenge isn’t getting the ring, but rather the approval of Collin’s family and everyone else in their 1 percent tax bracket, particularly his childhood best friend, Gale Wallace-Leicester.\nGoing toe-to-toe with Gale isn’t a threat to an expert like Bea, but what begins as an amusing cat-and-mouse game quickly develops into a dangerous pursuit of the grisly truth. Finding herself at a literal life-and-death crossroads with everything on the line, Bea must finally decide who she really wants to be.\nLike mother, like daughter?",
     img: "https://m.media-amazon.com/images/I/91eyaPrQgNL.jpg",
     authors: [
       "Rachel Koller Croft"
@@ -1530,7 +1530,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.9 Inches, Weight: 1.35 Pounds",
+    dimensions: "9 x 6 x 0.9 Inches",
     pages: 368,
     price: 14.99,
     count: 0,
@@ -1539,7 +1539,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1982166487",
     title: "Lying Beside You",
-    synopsis: "If I could tell you one thing about my brother, it would be this. Two days after his nineteenth birthday, he killed our parents and twin sisters because he heard voices in his head. As defining events go, nothing else comes close for Elias, or for me.\nAs a boy, Cyrus Haven survived a family massacre and slowly pieced his life back together. Now, after almost twenty years, his brother is applying to be released from a secure psychiatric hospital—and Cyrus is expected to forgive Elias and welcome him home.\nElias is returning to a very different world. Cyrus is now a successful psychologist, working with the police, sharing his house with Evie Cormac, a damaged and gifted teenager who can tell when someone is lying. Evie has gone back to school and is working part-time at an inner-city bar, but she continues to struggle with authority and following rules.\nWhen a man is murdered and his daughter disappears, Cyrus is called in to profile the killer and help piece together Maya Kirk’s last hours. Police believe she was drugged and driven away from the same bar where Evie is working. Soon, a second victim is taken, and Evie is the only person who glimpsed the man behind the wheel.\nBut there’s a problem. Only two people believe her. One is Cyrus.\nThe other is the killer.",
+    description: "If I could tell you one thing about my brother, it would be this. Two days after his nineteenth birthday, he killed our parents and twin sisters because he heard voices in his head. As defining events go, nothing else comes close for Elias, or for me.\nAs a boy, Cyrus Haven survived a family massacre and slowly pieced his life back together. Now, after almost twenty years, his brother is applying to be released from a secure psychiatric hospital—and Cyrus is expected to forgive Elias and welcome him home.\nElias is returning to a very different world. Cyrus is now a successful psychologist, working with the police, sharing his house with Evie Cormac, a damaged and gifted teenager who can tell when someone is lying. Evie has gone back to school and is working part-time at an inner-city bar, but she continues to struggle with authority and following rules.\nWhen a man is murdered and his daughter disappears, Cyrus is called in to profile the killer and help piece together Maya Kirk’s last hours. Police believe she was drugged and driven away from the same bar where Evie is working. Soon, a second victim is taken, and Evie is the only person who glimpsed the man behind the wheel.\nBut there’s a problem. Only two people believe her. One is Cyrus.\nThe other is the killer.",
     img: "https://m.media-amazon.com/images/I/71FEXCMBrUL.jpg",
     authors: [
       "Michael Robotham"
@@ -1547,7 +1547,7 @@ export const products: Product[] = [
     publisher: "Scribner",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.905 Inches, Weight: 1.21 Pounds",
+    dimensions: "9 x 6 x 0.9 Inches",
     pages: 352,
     price: 14.99,
     count: 36,
@@ -1556,7 +1556,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1542009472",
     title: "Chance",
-    synopsis: "Cloning is a luxury for the wealthy. For Chance Harker, it’s a way of getting on with his lives. Five years ago, when he was sixteen, he and his brother, Marley, were murdered in a kidnapping gone wrong. Chance was revived―and his grieving parents met his existence with anger, neglect, and aversion. The public, though? They can’t get enough of the death-defying stunts he has parlayed into a social media spectacle.\nBut after Chance’s latest “refresh,” he awakens to accusations that he’s killed Lee Conway, a stranger Chance has never met. Has one of his clones? With no memory of his previous selves, and working fast before he’s arrested, Chance digs into Conway’s background, the mysteries of his own life―and death―and the tragic abduction that tore his family apart.\nAll Chance has to do is stay ahead of the LAPD; his kidnappers, who are back on the hunt; and a growing mob of incensed protesters outraged that a rich clone appears to be getting away with murder.",
+    description: "Cloning is a luxury for the wealthy. For Chance Harker, it’s a way of getting on with his lives. Five years ago, when he was sixteen, he and his brother, Marley, were murdered in a kidnapping gone wrong. Chance was revived―and his grieving parents met his existence with anger, neglect, and aversion. The public, though? They can’t get enough of the death-defying stunts he has parlayed into a social media spectacle.\nBut after Chance’s latest “refresh,” he awakens to accusations that he’s killed Lee Conway, a stranger Chance has never met. Has one of his clones? With no memory of his previous selves, and working fast before he’s arrested, Chance digs into Conway’s background, the mysteries of his own life―and death―and the tragic abduction that tore his family apart.\nAll Chance has to do is stay ahead of the LAPD; his kidnappers, who are back on the hunt; and a growing mob of incensed protesters outraged that a rich clone appears to be getting away with murder.",
     img: "https://m.media-amazon.com/images/I/71sHk6kvHUL.jpg",
     authors: [
       "Matthew FitzSimmons"
@@ -1564,7 +1564,7 @@ export const products: Product[] = [
     publisher: "Thomas & Mercer",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.95 Pounds",
+    dimensions: "8.25 x 5.5 x 1 Inches",
     pages: 316,
     price: 20.35,
     count: 26,
@@ -1573,7 +1573,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1250252326",
     title: "The Last Orphan",
-    synopsis: "As a child, Evan Smoak was plucked out of a group home, raised and trained as an off-the-books assassin for the government as part of the Orphan program. When he broke with the program and went deep underground, he left with a lot of secrets in his head that the government would do anything to make sure never got out.\nWhen he remade himself as The Nowhere Man, dedicated to helping the most desperate in their times of trouble, Evan found himself slowly back on the government's radar. Having eliminated most of the Orphans in the program, the government will stop at nothing to eliminate the threat they see in Evan. But Orphan X has always been several steps ahead of his pursuers.\nUntil he makes one little mistake...\nNow the President has him in her control and offers Evan a deal - eliminate a rich, powerful man she says is too dangerous to live and, in turn, she'll let Evan survive. But when Evan left the Program he swore to only use his skills against those who really deserve it. Now he has to decide what's more important - his principles or his life.",
+    description: "As a child, Evan Smoak was plucked out of a group home, raised and trained as an off-the-books assassin for the government as part of the Orphan program. When he broke with the program and went deep underground, he left with a lot of secrets in his head that the government would do anything to make sure never got out.\nWhen he remade himself as The Nowhere Man, dedicated to helping the most desperate in their times of trouble, Evan found himself slowly back on the government's radar. Having eliminated most of the Orphans in the program, the government will stop at nothing to eliminate the threat they see in Evan. But Orphan X has always been several steps ahead of his pursuers.\nUntil he makes one little mistake...\nNow the President has him in her control and offers Evan a deal - eliminate a rich, powerful man she says is too dangerous to live and, in turn, she'll let Evan survive. But when Evan left the Program he swore to only use his skills against those who really deserve it. Now he has to decide what's more important - his principles or his life.",
     img: "https://m.media-amazon.com/images/I/71mWllG6mQL.jpg",
     authors: [
       "Gregg Hurwitz"
@@ -1581,7 +1581,7 @@ export const products: Product[] = [
     publisher: "Minotaur Books",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.1247909 Inches, Width: 1 Inch, Weight: 1 Pounds",
+    dimensions: "9.25 x 6.13 x 1 Inch",
     pages: 352,
     price: 14.99,
     count: 8,
@@ -1590,7 +1590,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1094009261",
     title: "Bloody Martini",
-    synopsis: "Coalville is on fire -- from below. The old mines are burning, and everyone has poison gas in their brain. Maybe that's why the town is so corrupt. Now that he's a Benedictine monk, Tommy Martini never wants to see the place again -- hell-raisers there hold a grudge till they die, and he's on their wish list. But a girl he once loved has gone missing, and his best friend from childhood has been murdered. Among the living is a shy girl from Tommy's past, who wants to help. Together, they learn the secret of the elephant's graveyard, and it's not in Africa.\nAt the heart of Coalville is Parade Square, with plenty of pigeons, drugs, and child prostitution. It's the new small-town America, where Dionysus is dancing once again. William Kotzwinkle's insight into this paradigm shift is shot through with the humor he is famous for, and the result is a spicy brew, a bloody martini -- just one sip may keep you up all night.",
+    description: "Coalville is on fire -- from below. The old mines are burning, and everyone has poison gas in their brain. Maybe that's why the town is so corrupt. Now that he's a Benedictine monk, Tommy Martini never wants to see the place again -- hell-raisers there hold a grudge till they die, and he's on their wish list. But a girl he once loved has gone missing, and his best friend from childhood has been murdered. Among the living is a shy girl from Tommy's past, who wants to help. Together, they learn the secret of the elephant's graveyard, and it's not in Africa.\nAt the heart of Coalville is Parade Square, with plenty of pigeons, drugs, and child prostitution. It's the new small-town America, where Dionysus is dancing once again. William Kotzwinkle's insight into this paradigm shift is shot through with the humor he is famous for, and the result is a spicy brew, a bloody martini -- just one sip may keep you up all night.",
     img: "https://m.media-amazon.com/images/I/81fhhG46DZL.jpg",
     authors: [
       "Kotzwinkle William"
@@ -1598,7 +1598,7 @@ export const products: Product[] = [
     publisher: "Blackstone Publishing",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.5 Inches, Length: 6.5 Inches, Width: 1 Inch, Weight: 1.55 Pounds",
+    dimensions: "9.5 x 6.5 x 1 Inch",
     pages: 350,
     price: 5.99,
     count: 10,
@@ -1607,7 +1607,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0316280216",
     title: "Black Wolf",
-    synopsis: "It is 1990 when Melvina Donleavy arrives in Soviet Belarus on her first undercover mission with the CIA, alongside three fellow agents—none of whom know she is playing two roles. To the prying eyes of the KGB, she is merely a secretary; to her CIA minders, she is the only one who can stop the flow of nuclear weapons from the crumbling Soviet Union into the Middle East.\nFor Mel has a secret; she is a “super recognizer,” someone who never forgets a face. But no training could prepare her for the reality of life undercover, and for the streets of Minsk, where women have been disappearing. Soviet law enforcement is firm: murder is a capitalist disease. But could a serial killer be at work? Especially if he knew no one was watching? As Mel searches for answers, she catches the eye of an entirely different kind of threat: the elusive and petrifying “Black Wolf,” head of the KGB.\nFilled with insider details from the author’s own time working under the direction of the U.S. Department of Defense, Black Wolf is a riveting new spy thriller from an Edgar-nominated crime writer, and a biting exploration of the divide between two nations, two masterminds, and two roles played by a woman pushed to her breaking point, where she’ll learn that you can only ever trust one person: yourself.",
+    description: "It is 1990 when Melvina Donleavy arrives in Soviet Belarus on her first undercover mission with the CIA, alongside three fellow agents—none of whom know she is playing two roles. To the prying eyes of the KGB, she is merely a secretary; to her CIA minders, she is the only one who can stop the flow of nuclear weapons from the crumbling Soviet Union into the Middle East.\nFor Mel has a secret; she is a “super recognizer,” someone who never forgets a face. But no training could prepare her for the reality of life undercover, and for the streets of Minsk, where women have been disappearing. Soviet law enforcement is firm: murder is a capitalist disease. But could a serial killer be at work? Especially if he knew no one was watching? As Mel searches for answers, she catches the eye of an entirely different kind of threat: the elusive and petrifying “Black Wolf,” head of the KGB.\nFilled with insider details from the author’s own time working under the direction of the U.S. Department of Defense, Black Wolf is a riveting new spy thriller from an Edgar-nominated crime writer, and a biting exploration of the divide between two nations, two masterminds, and two roles played by a woman pushed to her breaking point, where she’ll learn that you can only ever trust one person: yourself.",
     img: "https://m.media-amazon.com/images/I/817EJLsSBQL.jpg",
     authors: [
       "Kathleen Kent"
@@ -1615,7 +1615,7 @@ export const products: Product[] = [
     publisher: "Mulholland Books",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6 Inches, Width: 1.3125 Inches, Weight: 1.15 Pounds",
+    dimensions: "9.25 x 6 x 1.3 Inches",
     pages: 400,
     price: 14.99,
     count: 26,
@@ -1624,7 +1624,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1638930244",
     title: "Scorched Cross",
-    synopsis: "When Saint Sebastian’s School becomes the target of a shocking arson spree, the Sisters of the Sublime Blood and their surrounding New Orleans community are thrust into chaos.\nPatience is a virtue, but punk rocker turned nun Sister Holiday isn’t satisfied to just wait around for officials to return her home and sanctuary to its former peace, instead deciding to unveil the mysterious attacker herself. Her investigation leads her down a twisty path of suspicion and secrets, turning her against colleagues, students, and even fellow Sisters along the way. And to piece together the clues of this high-stakes mystery, she must at last reckon with the sins of her own past.\nAn exciting start to a bold series that breathes new life into the hard-boiled genre, Scorched Grace is a fast-paced and punchy whodunnit that will keep readers guessing until the very end.",
+    description: "When Saint Sebastian’s School becomes the target of a shocking arson spree, the Sisters of the Sublime Blood and their surrounding New Orleans community are thrust into chaos.\nPatience is a virtue, but punk rocker turned nun Sister Holiday isn’t satisfied to just wait around for officials to return her home and sanctuary to its former peace, instead deciding to unveil the mysterious attacker herself. Her investigation leads her down a twisty path of suspicion and secrets, turning her against colleagues, students, and even fellow Sisters along the way. And to piece together the clues of this high-stakes mystery, she must at last reckon with the sins of her own past.\nAn exciting start to a bold series that breathes new life into the hard-boiled genre, Scorched Grace is a fast-paced and punchy whodunnit that will keep readers guessing until the very end.",
     img: "https://m.media-amazon.com/images/I/81t7IGTNkSL.jpg",
     authors: [
       "Margot Douaihy"
@@ -1632,7 +1632,7 @@ export const products: Product[] = [
     publisher: "Gillian Flynn Books",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.8 Inches, Weight: 1.25 Pounds",
+    dimensions: "9 x 6 x 0.8 Inches",
     pages: 320,
     price: 9.99,
     count: 8,
@@ -1641,7 +1641,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0999695339",
     title: "A Town Called Why",
-    synopsis: "Colleagues of Frank Gaines, a half-Apache, Arizona desert town police detective, know him as a courageous man. Gaines doubts that. He suspects he's afraid of not behaving courageously. He goes into therapy. This creates a new problem: he is falling in love with his therapist, a striking, full-blooded Apache woman, Sunny Kacheenay, granddaughter of a great shaman, who has mystical gifts of her own.\nA distant maternal relative of Gaines dies by shotgun blast. Against her own best professional instincts, Sunny is forced to tell Gaines that by ancient, ancestral law, his sacred duty is to find, torture and kill the murderer.\nJokingly, Gaines tells her it's not the 1800s anymore.\nSunny doesn't laugh.\nIn the process of trying to hunt down the most malignant villain Gaines has ever heard of, he begins to test his courage for real and to recognize his true feelings about life, love, and courage.",
+    description: "Colleagues of Frank Gaines, a half-Apache, Arizona desert town police detective, know him as a courageous man. Gaines doubts that. He suspects he's afraid of not behaving courageously. He goes into therapy. This creates a new problem: he is falling in love with his therapist, a striking, full-blooded Apache woman, Sunny Kacheenay, granddaughter of a great shaman, who has mystical gifts of her own.\nA distant maternal relative of Gaines dies by shotgun blast. Against her own best professional instincts, Sunny is forced to tell Gaines that by ancient, ancestral law, his sacred duty is to find, torture and kill the murderer.\nJokingly, Gaines tells her it's not the 1800s anymore.\nSunny doesn't laugh.\nIn the process of trying to hunt down the most malignant villain Gaines has ever heard of, he begins to test his courage for real and to recognize his true feelings about life, love, and courage.",
     img: "https://m.media-amazon.com/images/I/71shCdCDuBL.jpg",
     authors: [
       "Rick Lenz"
@@ -1649,7 +1649,7 @@ export const products: Product[] = [
     publisher: "Chromodroid Press",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.5 Inches, Length: 5.5 Inches, Width: 0.62 Inches, Weight: 0.7 Pounds",
+    dimensions: "8.5 x 5.5 x 0.62",
     pages: 248,
     price: 13.82,
     count: 5,
@@ -1658,7 +1658,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0805243690",
     title: "The Red Balcony",
-    synopsis: "It’s 1933, and Ivor Castle, Oxford-educated and Jewish, arrives in Palestine to take up a position as assistant to the defense counsel in the trial of the two men accused of murdering Haim Arlosoroff, a leader of the Jewish community in Palestine whose efforts to get Jews out of Hitler’s Germany and into Palestine may have been controversial enough to get him killed.\nWhile preparing for the trial, Ivor, an innocent to the politics of the case, falls into bed and deeply in love with Tsiona, a free-spirited artist who happened to sketch the accused men in a Jerusalem café on the night of the murder and may be a key witness. As Ivor learns the hard way about the violence simmering just beneath the surface of British colonial rule, Jonathan Wilson dazzles with his mastery of the sun-drenched landscape and the subtleties of the warring agendas among the Jews, Arabs, and British.\nAnd as he travels between the crime scene in Tel Aviv and the mazelike streets of Jerusalem, between the mounting mysteries surrounding this notorious case and clandestine lovemaking in Tsiona’s studio, Ivor must discover where his heart lies: whether he cares more for the law or the truth, whether he is more an Englishman or a Jew, and where and with whom he truly belongs.",
+    description: "It’s 1933, and Ivor Castle, Oxford-educated and Jewish, arrives in Palestine to take up a position as assistant to the defense counsel in the trial of the two men accused of murdering Haim Arlosoroff, a leader of the Jewish community in Palestine whose efforts to get Jews out of Hitler’s Germany and into Palestine may have been controversial enough to get him killed.\nWhile preparing for the trial, Ivor, an innocent to the politics of the case, falls into bed and deeply in love with Tsiona, a free-spirited artist who happened to sketch the accused men in a Jerusalem café on the night of the murder and may be a key witness. As Ivor learns the hard way about the violence simmering just beneath the surface of British colonial rule, Jonathan Wilson dazzles with his mastery of the sun-drenched landscape and the subtleties of the warring agendas among the Jews, Arabs, and British.\nAnd as he travels between the crime scene in Tel Aviv and the mazelike streets of Jerusalem, between the mounting mysteries surrounding this notorious case and clandestine lovemaking in Tsiona’s studio, Ivor must discover where his heart lies: whether he cares more for the law or the truth, whether he is more an Englishman or a Jew, and where and with whom he truly belongs.",
     img: "https://m.media-amazon.com/images/I/91uvdXA5BYL.jpg",
     authors: [
       "Jonathan Wilson"
@@ -1666,7 +1666,7 @@ export const products: Product[] = [
     publisher: "Schocken",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 0.75 Inches, Weight: 0.96 Pounds",
+    dimensions: "8.25 x 5.5 x 0.75 Inches",
     pages: 272,
     price: 13.99,
     count: 14,
@@ -1675,7 +1675,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1982199458",
     title: "The Writing Retreat",
-    synopsis: "Alex has all but given up on her dreams of becoming a published author when she receives a once-in-a-lifetime opportunity: attend an exclusive, month-long writing retreat at the estate of feminist horror writer Roza Vallo. Even the knowledge that Wren, her former best friend and current rival, is attending doesn’t dampen her excitement.\nBut when the attendees arrive, Roza drops a bombshell—they must all complete an entire novel from scratch during the next month, and the author of the best one will receive a life-changing seven-figure publishing deal. Determined to win this seemingly impossible contest, Alex buckles down and tries to ignore the strange happenings at the estate, including Roza’s erratic behavior, Wren’s cruel mind games, and the alleged haunting of the mansion itself. But when one of the writers vanishes during a snowstorm, Alex realizes that something very sinister is afoot. With the clock running out, she must discover the truth—or suffer the same fate.\nA claustrophobic and propulsive thriller exploring the dark side of female relationships and fame, The Writing Retreat is the unputdownable debut novel from a compelling new talent.",
+    description: "Alex has all but given up on her dreams of becoming a published author when she receives a once-in-a-lifetime opportunity: attend an exclusive, month-long writing retreat at the estate of feminist horror writer Roza Vallo. Even the knowledge that Wren, her former best friend and current rival, is attending doesn’t dampen her excitement.\nBut when the attendees arrive, Roza drops a bombshell—they must all complete an entire novel from scratch during the next month, and the author of the best one will receive a life-changing seven-figure publishing deal. Determined to win this seemingly impossible contest, Alex buckles down and tries to ignore the strange happenings at the estate, including Roza’s erratic behavior, Wren’s cruel mind games, and the alleged haunting of the mansion itself. But when one of the writers vanishes during a snowstorm, Alex realizes that something very sinister is afoot. With the clock running out, she must discover the truth—or suffer the same fate.\nA claustrophobic and propulsive thriller exploring the dark side of female relationships and fame, The Writing Retreat is the unputdownable debut novel from a compelling new talent.",
     img: "https://m.media-amazon.com/images/I/71FxKdyOZ9L.jpg",
     authors: [
       "Julia Bartz"
@@ -1683,7 +1683,7 @@ export const products: Product[] = [
     publisher: "Atria/Emily Bestler Books",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.625 Inches, Weight: 0.94 Pounds",
+    dimensions: "9 x 6 x 0.625 Inches",
     pages: 320,
     price: 12.99,
     count: 26,
@@ -1692,7 +1692,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "0593548108",
     title: "Burner",
-    synopsis: "When you kick over a rock, you never know what's going to crawl out.\nAlex Velesky is about to discover that the hard way. He's stolen records from the Swiss bank that employs him, thinking that he'll uncover a criminal conspiracy. But he soon finds that he's tapped into the mother lode of corruption. Before he knows it, he's being hunted by everyone from the Russian mafia to the CIA.\nCourt Gentry and his erstwhile lover, Zoya Zakharova, find themselves on opposites poles when it comes to Velesky. They both want him but for different reasons.\nThat's a problem for tomorrow. Today they need to keep him and themselves alive. Right now, it's not looking good.",
+    description: "When you kick over a rock, you never know what's going to crawl out.\nAlex Velesky is about to discover that the hard way. He's stolen records from the Swiss bank that employs him, thinking that he'll uncover a criminal conspiracy. But he soon finds that he's tapped into the mother lode of corruption. Before he knows it, he's being hunted by everyone from the Russian mafia to the CIA.\nCourt Gentry and his erstwhile lover, Zoya Zakharova, find themselves on opposites poles when it comes to Velesky. They both want him but for different reasons.\nThat's a problem for tomorrow. Today they need to keep him and themselves alive. Right now, it's not looking good.",
     img: "https://m.media-amazon.com/images/I/91VrjunYZwL.jpg",
     authors: [
       "Mark Greaney"
@@ -1700,7 +1700,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.3 Inches, Weight: 1.72 Pounds",
+    dimensions: "9 x 6 x 1.3 Inches",
     pages: 528,
     price: 14.99,
     count: 10,
@@ -1709,7 +1709,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "153872099X",
     title: "The Last Kingdom",
-    synopsis: "In the middle years of the ninth century, the fierce Danes stormed onto British soil, hungry for spoils and conquest. Kingdom after kingdom fell to the ruthless invaders until but one realm remained. And suddenly the fate of all England—and the course of history—depended upon one man, one king.\nFrom New York Times bestselling storyteller Bernard Cornwell comes a rousing epic adventure of courage, treachery, duty, devotion, majesty, love, and battle as seen through the eyes of a young warrior who straddled two worlds.",
+    description: "In the middle years of the ninth century, the fierce Danes stormed onto British soil, hungry for spoils and conquest. Kingdom after kingdom fell to the ruthless invaders until but one realm remained. And suddenly the fate of all England—and the course of history—depended upon one man, one king.\nFrom New York Times bestselling storyteller Bernard Cornwell comes a rousing epic adventure of courage, treachery, duty, devotion, majesty, love, and battle as seen through the eyes of a young warrior who straddled two worlds.",
     img: "https://m.media-amazon.com/images/I/81O+4UIg9lL.jpg",
     authors: [
       "Steve Berry"
@@ -1717,7 +1717,7 @@ export const products: Product[] = [
     publisher: "Grand Central Publishing",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8 Inches, Length: 5.31 Inches, Width: 0.82 Inches, Weight: 0.62 Pounds",
+    dimensions: "8 x 5.31 x 0.82 Inches",
     pages: 400,
     price: 6.99,
     count: 8,
@@ -1726,7 +1726,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1662506414",
     title: "Sea Castle",
-    synopsis: "When a young woman washes ashore on a Fort Lauderdale beach, Sloan McPherson of the Underwater Investigation Unit is called in to consult. Sloan’s instinct says murder, but even then, there are too many questions.\nFor answers she reaches out to Gwen Wylder. The Miami homicide detective is notorious for being manipulative, bitter, a tyrant to her peers, and wicked smart. And she demands something in return from Sloan: fresh insight into seemingly unrelated cold-case murders and disappearances―and a possible serial killer trolling the Florida coast.\nAs loose ends of the old files begin to come together, another woman disappears. Sloan and Gwen are certain she’s the newest link in a deadly chain. They are determined to track her down before she dies, but they soon find themselves in uncharted waters. And the deeper Sloan and Gwen go, the stranger the case gets.",
+    description: "When a young woman washes ashore on a Fort Lauderdale beach, Sloan McPherson of the Underwater Investigation Unit is called in to consult. Sloan’s instinct says murder, but even then, there are too many questions.\nFor answers she reaches out to Gwen Wylder. The Miami homicide detective is notorious for being manipulative, bitter, a tyrant to her peers, and wicked smart. And she demands something in return from Sloan: fresh insight into seemingly unrelated cold-case murders and disappearances―and a possible serial killer trolling the Florida coast.\nAs loose ends of the old files begin to come together, another woman disappears. Sloan and Gwen are certain she’s the newest link in a deadly chain. They are determined to track her down before she dies, but they soon find themselves in uncharted waters. And the deeper Sloan and Gwen go, the stranger the case gets.",
     img: "https://m.media-amazon.com/images/I/91gmHx3LA-L.jpg",
     authors: [
       "Andrew Mayne"
@@ -1734,7 +1734,7 @@ export const products: Product[] = [
     publisher: "Thomas & Mercer",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.7 Pounds",
+    dimensions: "8.25 x 5.5 x 1 Inches",
     pages: 315,
     price: 11.89,
     count: 35,
@@ -1743,7 +1743,7 @@ export const products: Product[] = [
     categoryId: "2",
     id: "1645994511",
     title: "Misfortune's Wake",
-    synopsis: "A young American, seeking escape from a tragic event, takes a job with an international conservation organization in the foreign port of Retiro de Santos. There, he becomes romantically involved with a local artist, and platonically involved with a young girl pursuing a better life. Soon his environmental group is sabocategoryIded, his coworker dies mysteriously, and his young friend is shanghaied. Finding himself on the wrong side of unjust laws, he must decide whether to act or abdicate responsibility. As he teeters precariously on the edge of a decision, a raging storm barrels ashore to threaten everyone and everything in its path.",
+    description: "A young American, seeking escape from a tragic event, takes a job with an international conservation organization in the foreign port of Retiro de Santos. There, he becomes romantically involved with a local artist, and platonically involved with a young girl pursuing a better life. Soon his environmental group is sabocategoryIded, his coworker dies mysteriously, and his young friend is shanghaied. Finding himself on the wrong side of unjust laws, he must decide whether to act or abdicate responsibility. As he teeters precariously on the edge of a decision, a raging storm barrels ashore to threaten everyone and everything in its path.",
     img: "https://m.media-amazon.com/images/I/61vO9dlQgiL.jpg",
     authors: [
       "Joe Kilgore"
@@ -1751,7 +1751,7 @@ export const products: Product[] = [
     publisher: "Encircle Publications",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.5 Inches, Length: 5.5 Inches, Width: 0.64 Inches, Weight: 0.72 Pounds",
+    dimensions: "8.5 x 5.5 x 0.64 Inches",
     pages: 256,
     price: 17.99,
     count: 10,
@@ -1760,7 +1760,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1448309824",
     title: "The Deadly Weed",
-    synopsis: "1920s. Cork, Ireland. Early one morning the Reverend Mother receives news of a deadly fire at the local cigarette factory, a place where she'd been so proud that some of her pupils had been given a steady job. In a city full of poverty, unemployment and political unrest, these ex pupils of hers had surely been blessed with such prospects. Now, though, she is worried . . . What happened at the cigarette factory and why are there rumours circulating that one of her 'girls' was responsible?\nInspector Patrick Cashman is under pressure to quickly find the cause of the fire - and identify a suspect - to placate the visiting Lord Mayor and Commissioner and secure his hopes of promotion. Patrick turns to his friend, the journalist and law student Eileen MacSweeney, for help, along with the ever insightful and calm Reverend Mother. From the fog-ridden streets of the slums to the green pastures and prosperity of nearby Youghal, together they begin to unravel a seedy history of greed, ambition and a desire for power.",
+    description: "1920s. Cork, Ireland. Early one morning the Reverend Mother receives news of a deadly fire at the local cigarette factory, a place where she'd been so proud that some of her pupils had been given a steady job. In a city full of poverty, unemployment and political unrest, these ex pupils of hers had surely been blessed with such prospects. Now, though, she is worried . . . What happened at the cigarette factory and why are there rumours circulating that one of her 'girls' was responsible?\nInspector Patrick Cashman is under pressure to quickly find the cause of the fire - and identify a suspect - to placate the visiting Lord Mayor and Commissioner and secure his hopes of promotion. Patrick turns to his friend, the journalist and law student Eileen MacSweeney, for help, along with the ever insightful and calm Reverend Mother. From the fog-ridden streets of the slums to the green pastures and prosperity of nearby Youghal, together they begin to unravel a seedy history of greed, ambition and a desire for power.",
     img: "https://m.media-amazon.com/images/I/7153+y+k+9L.jpg",
     authors: [
       "Cora Harrison"
@@ -1768,7 +1768,7 @@ export const products: Product[] = [
     publisher: "Severn House",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.6 Inches, Length: 5.6 Inches, Width: 0.9 Inches, Weight: 0.8 Pounds",
+    dimensions: "8.6 x 5.6 x 0.9 Inches",
     pages: 240,
     price: 6.49,
     count: 10,
@@ -1777,7 +1777,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1662508824",
     title: "The Nature of Secrets",
-    synopsis: "Legal investigator Finley O’Sullivan has had a difficult year in the wake of her husband’s murder. But in her line of work, there’s no time to grieve. Her job is to protect the firm’s clients and defend their innocence through grueling investigative work.\nEllen Winthrop is a force to be reckoned with in the financial world. In a male-dominated industry, she shattered the glass ceiling by empowering and promoting women. But now her husband is dead, killed in the Winthrop family home―and she stands accused of his murder.\nFinley, as the investigator at the firm Ellen Winthrop hired to defend her, has a clear objective: prove that Ellen didn’t do it. But the deeper Finley digs into the Winthrops’ marriage, the more she starts to doubt Ellen’s story. The uncomfortable truth is that Ellen Winthrop may in fact have killed her husband.\nAnd he might not have been the first.",
+    description: "Legal investigator Finley O’Sullivan has had a difficult year in the wake of her husband’s murder. But in her line of work, there’s no time to grieve. Her job is to protect the firm’s clients and defend their innocence through grueling investigative work.\nEllen Winthrop is a force to be reckoned with in the financial world. In a male-dominated industry, she shattered the glass ceiling by empowering and promoting women. But now her husband is dead, killed in the Winthrop family home―and she stands accused of his murder.\nFinley, as the investigator at the firm Ellen Winthrop hired to defend her, has a clear objective: prove that Ellen didn’t do it. But the deeper Finley digs into the Winthrops’ marriage, the more she starts to doubt Ellen’s story. The uncomfortable truth is that Ellen Winthrop may in fact have killed her husband.\nAnd he might not have been the first.",
     img: "https://m.media-amazon.com/images/I/916oGLX4evL.jpg",
     authors: [
       "Debra Webb"
@@ -1785,7 +1785,7 @@ export const products: Product[] = [
     publisher: "Thomas & Mercer",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.9 Pounds",
+    dimensions: "8.25 x 5.5 x 1 Inches",
     pages: 351,
     price: 4.99,
     count: 10,
@@ -1794,7 +1794,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1448310334",
     title: "After He's Gone",
-    synopsis: "Charles and I were law students when I fell for him. He was handsome, charming, sure of himself - and he deigned to look at me. We had a dream-come-true courtship, wedding, and honeymoon, all orchestrated and paid for by his wealthy parents. Then he brought me home . . . And I woke up.\nNineteen months and a baby later, I'm standing in our pristine living room, looking at Charles lying in a pool of blood. I don't remember how I got here. The police are bound to think I killed him. But I didn't . . . did I?",
+    description: "Charles and I were law students when I fell for him. He was handsome, charming, sure of himself - and he deigned to look at me. We had a dream-come-true courtship, wedding, and honeymoon, all orchestrated and paid for by his wealthy parents. Then he brought me home . . . And I woke up.\nNineteen months and a baby later, I'm standing in our pristine living room, looking at Charles lying in a pool of blood. I don't remember how I got here. The police are bound to think I killed him. But I didn't . . . did I?",
     img: "https://m.media-amazon.com/images/I/812RwT3Yr3L.jpg",
     authors: [
       "Katherine Bolger Hyde"
@@ -1802,7 +1802,7 @@ export const products: Product[] = [
     publisher: "Severn House",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.75 Inches, Length: 5.75 Inches, Width: 0.75 Inches, Weight: 0.85 Pounds",
+    dimensions: "8.75 x 5.75 x 0.75 Inches",
     pages: 224,
     price: 18.99,
     count: 14,
@@ -1811,7 +1811,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1448310024",
     title: "Eat, Drink and Drop Dead",
-    synopsis: "Food critic and blogger Tiffany Austin has the best job in the world: she gets to eat for a living. At least, she hopes she has a job. Her trial period at Southern Style magazine is up - and rumors are swirling that management are making a choice between Tiffany and a rival columnist: the ambitious Jenny Lee Plumm.\nFormer chef Tiffany knows she has a battle on her hands . . . but she didn't realize it was to the death! When her rival's body is discovered after the two have a very public argument, Tiffany finds herself the prime suspect in a murder investigation. The lead detective might be very hot - but Tiffany's definitely not ready to go down for a crime she didn't commit.\nAbly assisted by Hilary, her best friend and partner in (non) crime, and bolstered by the unconditional love of her Siamese cat Lily and King Charles Cavalier puppy Cooper, Tiffany plunges into an investigation of her own. After all, she has a degree from the CIA - the Culinary Institute of America - and she's not afraid to use it. But can she find the real killer before she's served up to the cops on a silver platter?",
+    description: "Food critic and blogger Tiffany Austin has the best job in the world: she gets to eat for a living. At least, she hopes she has a job. Her trial period at Southern Style magazine is up - and rumors are swirling that management are making a choice between Tiffany and a rival columnist: the ambitious Jenny Lee Plumm.\nFormer chef Tiffany knows she has a battle on her hands . . . but she didn't realize it was to the death! When her rival's body is discovered after the two have a very public argument, Tiffany finds herself the prime suspect in a murder investigation. The lead detective might be very hot - but Tiffany's definitely not ready to go down for a crime she didn't commit.\nAbly assisted by Hilary, her best friend and partner in (non) crime, and bolstered by the unconditional love of her Siamese cat Lily and King Charles Cavalier puppy Cooper, Tiffany plunges into an investigation of her own. After all, she has a degree from the CIA - the Culinary Institute of America - and she's not afraid to use it. But can she find the real killer before she's served up to the cops on a silver platter?",
     img: "https://m.media-amazon.com/images/I/81G6CuypKbL.jpg",
     authors: [
       "Toni LoTempio"
@@ -1819,7 +1819,7 @@ export const products: Product[] = [
     publisher: "Severn House",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.6 Inches, Length: 5.4 Inches, Width: 1 Inches, Weight: 0.95 Pounds",
+    dimensions: "8.6 x 5.4 x 1 Inches",
     pages: 256,
     price: 18.99,
     count: 23,
@@ -1828,7 +1828,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0593548760",
     title: "Murder in Postscript",
-    synopsis: "Amelia Amesbury—widow, mother, and countess—has a secret. Amelia writes for a London penny paper, doling out advice on fashion, relationships, and manners under the pen name Lady Agony. But when a lady’s maid writes Amelia to ask for advice when she believes her mistress has been murdered—and then ends up a victim herself—Amelia is determined to solve the case.\nWith the help of her best friend and a handsome marquis, Amelia begins to piece together the puzzle, but as each new thread of inquiry ends with a different suspect, the investigation grows ever more daunting. From London’s docks and ballrooms to grand country houses, Amelia tracks a killer, putting her reputation—and her life—on the line.",
+    description: "Amelia Amesbury—widow, mother, and countess—has a secret. Amelia writes for a London penny paper, doling out advice on fashion, relationships, and manners under the pen name Lady Agony. But when a lady’s maid writes Amelia to ask for advice when she believes her mistress has been murdered—and then ends up a victim herself—Amelia is determined to solve the case.\nWith the help of her best friend and a handsome marquis, Amelia begins to piece together the puzzle, but as each new thread of inquiry ends with a different suspect, the investigation grows ever more daunting. From London’s docks and ballrooms to grand country houses, Amelia tracks a killer, putting her reputation—and her life—on the line.",
     img: "https://m.media-amazon.com/images/I/81yodV5KU-L.jpg",
     authors: [
       "Mary Winters"
@@ -1836,7 +1836,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8 Inches, Length: 5.2 Inches, Width: 0.8 Inches, Weight: 0.58 Pounds",
+    dimensions: "8 x 5.2 x 0.8 Inches",
     pages: 320,
     price: 11.99,
     count: 17,
@@ -1845,7 +1845,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1728269903",
     title: "Lost in Paris",
-    synopsis: "Paris, 1922: Zoe Barlow knows the pain of loss. By the age of eighteen, she'd already lost her father to suicide, and her reputation to an ill-fated love affair―not to mention other losses, too devastating for words. Exiled from her home and her beloved younger sister by their stepmother, she was unceremoniously dumped in Paris without a friend to help her find her way.\nFour years later, Zoe has forged a new life as a painter amidst fellow artists, expats, and revolutionary thinkers struggling to make sense of the world in the aftermath of war. She's adopted this Lost Generation as her new family, so when her dear friend Hadley Hemingway loses a valise containing all of her husband Ernest's writings, Zoe happily volunteers to track it down. But her search for the bag keeps leading to murder victims, and Zoe must again face hard losses―this time among her adopted tribe. If she persists in her reckless quest to find the killer, the next life lost may be her own.",
+    description: "Paris, 1922: Zoe Barlow knows the pain of loss. By the age of eighteen, she'd already lost her father to suicide, and her reputation to an ill-fated love affair―not to mention other losses, too devastating for words. Exiled from her home and her beloved younger sister by their stepmother, she was unceremoniously dumped in Paris without a friend to help her find her way.\nFour years later, Zoe has forged a new life as a painter amidst fellow artists, expats, and revolutionary thinkers struggling to make sense of the world in the aftermath of war. She's adopted this Lost Generation as her new family, so when her dear friend Hadley Hemingway loses a valise containing all of her husband Ernest's writings, Zoe happily volunteers to track it down. But her search for the bag keeps leading to murder victims, and Zoe must again face hard losses―this time among her adopted tribe. If she persists in her reckless quest to find the killer, the next life lost may be her own.",
     img: "https://m.media-amazon.com/images/I/812AXYqguEL.jpg",
     authors: [
       "Betty Webb"
@@ -1853,7 +1853,7 @@ export const products: Product[] = [
     publisher: "Poisoned Pen Press",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 8.5 Inches, Length: 5.5 Inches, Width: 0.84 Inches, Weight: 0.43 Pounds",
+    dimensions: "8.5 x 5.5 x 0.84 Inches",
     pages: 336,
     price: 7.99,
     count: 8,
@@ -1862,7 +1862,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0062994980",
     title: "Standing in the Shadows",
-    synopsis: "In November 1980, Nick Hartley returns home from a university lecture to find his house crawling with police. His ex-girlfriend, Alice Poole, has been found murdered, and her new boyfriend Mark Woodcroft is missing. Nick is the prime suspect. The case quickly goes cold, but Nick cannot let it go. He embarks on a career in investigative journalism, determined to find Alice’s murderer—but his obsession leads him down a dangerous path.\nDecades later, in November 2019, an archaeologist unearths a skeleton that turns out to be far more contemporary than the Roman remains she is seeking. Detective Superintendent Alan Banks and his team are called in to investigate, but there is little to be gleaned from the remains themselves. Left with few clues, Banks and his team must rely on their wits to hunt down a killer. \nAs the two cases unfurl, the investigations twist and turn to an explosive conclusion.",
+    description: "In November 1980, Nick Hartley returns home from a university lecture to find his house crawling with police. His ex-girlfriend, Alice Poole, has been found murdered, and her new boyfriend Mark Woodcroft is missing. Nick is the prime suspect. The case quickly goes cold, but Nick cannot let it go. He embarks on a career in investigative journalism, determined to find Alice’s murderer—but his obsession leads him down a dangerous path.\nDecades later, in November 2019, an archaeologist unearths a skeleton that turns out to be far more contemporary than the Roman remains she is seeking. Detective Superintendent Alan Banks and his team are called in to investigate, but there is little to be gleaned from the remains themselves. Left with few clues, Banks and his team must rely on their wits to hunt down a killer. \nAs the two cases unfurl, the investigations twist and turn to an explosive conclusion.",
     img: "https://m.media-amazon.com/images/I/81EEwPHfHvL.jpg",
     authors: [
       "Peter Robinson"
@@ -1870,7 +1870,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.05 Inches, Weight: 1 Pounds",
+    dimensions: "9 x 6 x 1.05 Inches",
     pages: 320,
     price: 14.99,
     count: 49,
@@ -1879,7 +1879,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0593333268",
     title: "Fiddling with Fate",
-    synopsis: "It’s August in Chattanooga, Tennessee and moonshiner Hattie Hayes has collaborated with a nearby vineyard to serve her moonshine at a Wine and 'Shine event. Not only is this an opportunity for Hattie to gain more moonshine fans, but she’s also excited to hear the Bootlegging Brothers, a popular bluegrass band. But not every attendee is looking for harmony. When one of the brothers disappears and is presumed dead, Hattie realizes her grace note gathering has suddenly turned more sour than her mash.\nUnearthing what happened to the missing musician is more difficult than Hattie first expected. Hattie’s moonshine is tied to the crime and there’s no time to fiddle around—she has to step up to solve the case. Luckily, Hattie’s cool head and quick mind help her understand that when investigating a musical crime, always stay sharp.",
+    description: "It’s August in Chattanooga, Tennessee and moonshiner Hattie Hayes has collaborated with a nearby vineyard to serve her moonshine at a Wine and 'Shine event. Not only is this an opportunity for Hattie to gain more moonshine fans, but she’s also excited to hear the Bootlegging Brothers, a popular bluegrass band. But not every attendee is looking for harmony. When one of the brothers disappears and is presumed dead, Hattie realizes her grace note gathering has suddenly turned more sour than her mash.\nUnearthing what happened to the missing musician is more difficult than Hattie first expected. Hattie’s moonshine is tied to the crime and there’s no time to fiddle around—she has to step up to solve the case. Luckily, Hattie’s cool head and quick mind help her understand that when investigating a musical crime, always stay sharp.",
     img: "https://m.media-amazon.com/images/I/91uG6nKZReL.jpg",
     authors: [
       "Diane Kelly"
@@ -1887,7 +1887,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2023,
     language: "english",
-    dimensions: "Height: 6.75 Inches, Length: 4.12 Inches, Width: 0.72 Inches, Weight: 0.32 Pounds",
+    dimensions: "6.75 x 4.12 x 0.72 Inches",
     pages: 288,
     price: 8.99,
     count: 10,
@@ -1896,7 +1896,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1250022134",
     title: "A Great Reckoning",
-    synopsis: "#1 New York Times bestselling author Louise Penny pulls back the layers to reveal a brilliant and emotionally powerful truth in her latest spellbinding novel.\nWhen an intricate old map is found stuffed into the walls of the bistro in Three Pines, it at first seems no more than a curiosity. But the closer the villagers look, the stranger it becomes.\nGiven to Armand Gamache as a gift the first day of his new job, the map eventually leads him to shattering secrets. To an old friend and older adversary. It leads the former Chief of Homicide for the Sûreté du Québec to places even he is afraid to go. But must.\nAnd there he finds four young cadets in the Sûreté academy, and a dead professor. And, with the body, a copy of the old, odd map.\nEverywhere Gamache turns, he sees Amelia Choquet, one of the cadets. Tattooed and pierced. Guarded and angry. Amelia is more likely to be found on the other side of a police line-up. And yet she is in the academy. A protégée of the murdered professor.\nThe focus of the investigation soon turns to Gamache himself and his mysterious relationship with Amelia, and his possible involvement in the crime. The frantic search for answers takes the investigators back to Three Pines and a stained glass window with its own horrific secrets.\nFor both Amelia Choquet and Armand Gamache, the time has come for a great reckoning.",
+    description: "#1 New York Times bestselling author Louise Penny pulls back the layers to reveal a brilliant and emotionally powerful truth in her latest spellbinding novel.\nWhen an intricate old map is found stuffed into the walls of the bistro in Three Pines, it at first seems no more than a curiosity. But the closer the villagers look, the stranger it becomes.\nGiven to Armand Gamache as a gift the first day of his new job, the map eventually leads him to shattering secrets. To an old friend and older adversary. It leads the former Chief of Homicide for the Sûreté du Québec to places even he is afraid to go. But must.\nAnd there he finds four young cadets in the Sûreté academy, and a dead professor. And, with the body, a copy of the old, odd map.\nEverywhere Gamache turns, he sees Amelia Choquet, one of the cadets. Tattooed and pierced. Guarded and angry. Amelia is more likely to be found on the other side of a police line-up. And yet she is in the academy. A protégée of the murdered professor.\nThe focus of the investigation soon turns to Gamache himself and his mysterious relationship with Amelia, and his possible involvement in the crime. The frantic search for answers takes the investigators back to Three Pines and a stained glass window with its own horrific secrets.\nFor both Amelia Choquet and Armand Gamache, the time has come for a great reckoning.",
     img: "https://m.media-amazon.com/images/I/91MSUc+-yFL.jpg",
     authors: [
       "Louise Penny"
@@ -1904,7 +1904,7 @@ export const products: Product[] = [
     publisher: "Minotaur Books",
     date_published: 2016,
     language: "english",
-    dimensions: "Height: 9.62 Inches, Length: 6.42 Inches, Width: 1.3 Inches, Weight: 1.3 Pounds",
+    dimensions: "9.62 x 6.42 x 1.3 Inches",
     pages: 400,
     price: 9.99,
     count: 35,
@@ -1913,7 +1913,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0062858084",
     title: "The Last Widow",
-    synopsis: "A mysterious kidnapping\nOn a hot summer night, a scientist from the Centers for Disease Control is grabbed by unknown assailants in a shopping center parking lot. The authorities are desperate to save the doctor who’s been vanished into thin air.\nA devastating explosion\nOne month later, the serenity of a sunny Sunday afternoon is shattered by the boom of a ground-shaking blast—followed by another seconds later. One of Atlanta’s busiest and most important neighborhoods has been bombed—the location of Emory University, two major hospitals, the FBI headquarters, and the CDC.\nA diabolical enemy\nMedical examiner Sara Linton and her partner Will Trent, an investigator with the Georgia Bureau of Investigation, rush to the scene—and into the heart of a deadly conspiracy that threatens to destroy thousands of innocent lives. When the assailants abduct Sara, Will goes undercover to save her and prevent a massacre—putting his own life on the line for the woman and the country he loves.",
+    description: "A mysterious kidnapping\nOn a hot summer night, a scientist from the Centers for Disease Control is grabbed by unknown assailants in a shopping center parking lot. The authorities are desperate to save the doctor who’s been vanished into thin air.\nA devastating explosion\nOne month later, the serenity of a sunny Sunday afternoon is shattered by the boom of a ground-shaking blast—followed by another seconds later. One of Atlanta’s busiest and most important neighborhoods has been bombed—the location of Emory University, two major hospitals, the FBI headquarters, and the CDC.\nA diabolical enemy\nMedical examiner Sara Linton and her partner Will Trent, an investigator with the Georgia Bureau of Investigation, rush to the scene—and into the heart of a deadly conspiracy that threatens to destroy thousands of innocent lives. When the assailants abduct Sara, Will goes undercover to save her and prevent a massacre—putting his own life on the line for the woman and the country he loves.",
     img: "https://m.media-amazon.com/images/I/91OqEFFUndL.jpg",
     authors: [
       "Karin Slaughter"
@@ -1921,7 +1921,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.41 Inches, Weight: 1.35 Pounds",
+    dimensions: "9 x 6 x 1.41 Inches",
     pages: 464,
     price: 27.99,
     count: 0,
@@ -1930,7 +1930,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0399152911",
     title: "Out of Range",
-    synopsis: "Receiving the news that a good friend and fellow game warden has committed suicide, Joe Pickett is temporarily assigned to the man's district in Jackson, Wyoming, and finds himself rendered a pawn in a struggle between environmental extremists and their wealthy, powerful adversaries, a situation that poses clues about his friend's death.",
+    description: "Receiving the news that a good friend and fellow game warden has committed suicide, Joe Pickett is temporarily assigned to the man's district in Jackson, Wyoming, and finds himself rendered a pawn in a struggle between environmental extremists and their wealthy, powerful adversaries, a situation that poses clues about his friend's death.",
     img: "https://m.media-amazon.com/images/I/81TmL9NyS+L.jpg",
     authors: [
       "C. J. Box"
@@ -1938,7 +1938,7 @@ export const products: Product[] = [
     publisher: "G. P. Putnam's Sons",
     date_published: 2005,
     language: "english",
-    dimensions: "Height: 9.5 Inches, Length: 6.4 Inches, Width: 1 Inches, Weight: 1.25 Pounds",
+    dimensions: "9.5 x 6.4 x 1 Inches",
     pages: 305,
     price: 9.99,
     count: 17,
@@ -1947,7 +1947,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1542023866",
     title: "Infinite",
-    synopsis: "One rainy night, the unthinkable happens: Dylan Moran’s car plunges off the road into a raging river, his beautiful wife drowning as he struggles to shore.\nIn the aftermath, through his grief, Dylan experiences sudden, strange visions: wherever he goes, he’s haunted by glimpses of himself. Dylan initially chalks it up to trauma, but that changes when he runs into a psychiatrist who claims he’s her patient. She says he has been undergoing a unique hypnotherapy treatment built on the idea that with every choice, he creates an infinite number of parallel universes.\nNow those parallel universes are unlocked―and Dylan’s doppelgänger has staked a claim to his world. Can Dylan use these alternate realities to get a second chance at the life that was stolen from him? Or will he lose himself…to himself?",
+    description: "One rainy night, the unthinkable happens: Dylan Moran’s car plunges off the road into a raging river, his beautiful wife drowning as he struggles to shore.\nIn the aftermath, through his grief, Dylan experiences sudden, strange visions: wherever he goes, he’s haunted by glimpses of himself. Dylan initially chalks it up to trauma, but that changes when he runs into a psychiatrist who claims he’s her patient. She says he has been undergoing a unique hypnotherapy treatment built on the idea that with every choice, he creates an infinite number of parallel universes.\nNow those parallel universes are unlocked―and Dylan’s doppelgänger has staked a claim to his world. Can Dylan use these alternate realities to get a second chance at the life that was stolen from him? Or will he lose himself…to himself?",
     img: "https://m.media-amazon.com/images/I/913Vd3RTfpL.jpg",
     authors: [
       "Brian Freeman"
@@ -1955,7 +1955,7 @@ export const products: Product[] = [
     publisher: "Thomas & Mercer",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 1 Pounds",
+    dimensions: "8.25 x 5.5 x 1 Inches",
     pages: 336,
     price: 18.17,
     count: 14,
@@ -1964,7 +1964,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0316523097",
     title: "Big Sky",
-    synopsis: "Jackson Brodie has relocated to a quiet seaside village, in the occasional company of his recalcitrant teenage son and an aging Labrador, both at the discretion of his ex-partner Julia. It's picturesque, but there's something darker lurking behind the scenes.\nJackson's current job, gathering proof of an unfaithful husband for his suspicious wife, is fairly standard-issue, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network -- and back across the path of his old friend Reggie. Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today.\n",
+    description: "Jackson Brodie has relocated to a quiet seaside village, in the occasional company of his recalcitrant teenage son and an aging Labrador, both at the discretion of his ex-partner Julia. It's picturesque, but there's something darker lurking behind the scenes.\nJackson's current job, gathering proof of an unfaithful husband for his suspicious wife, is fairly standard-issue, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network -- and back across the path of his old friend Reggie. Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today.\n",
     img: "https://m.media-amazon.com/images/I/51Xu1QUICgL.jpg",
     authors: [
       "Kate Atkinson"
@@ -1972,16 +1972,16 @@ export const products: Product[] = [
     publisher: "Little, Brown and Company",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.65 Inches, Length: 6.6 Inches, Width: 1.55 Inches, Weight: 1.4 Pounds",
+    dimensions: "9.65 x 6.6 x 1.55 Inches",
     pages: 400,
-    price: 28,
+    price: 27.89,
     count: 23,
   },
   {
     categoryId: "3",
     id: "0062430270",
     title: "Pieces of Her",
-    synopsis: "What if the person you thought you knew best turns out to be someone you never knew at all ... ?\nAndrea knows everything about her mother, Laura. She knows she’s spent her whole life in the small beachside town of Belle Isle; she knows she’s never wanted anything more than to live a quiet life as a pillar of the community; she knows she’s never kept a secret in her life. Because we all know our mothers, don’t we?\nBut all that changes when a trip to the mall explodes into violence and Andrea suddenly sees a completely different side to Laura. Because it turns out that before Laura was Laura, she was someone completely different. For nearly thirty years she’s been hiding from her previous identity, lying low in the hope that no one would ever find her. But now she’s been exposed, and nothing will ever be the same again.\nThe police want answers and Laura’s innocence is on the line, but she won’t speak to anyone, including her own daughter. Andrea is on a desperate journey following the breadcrumb trail of her mother’s past. And if she can’t uncover the secrets hidden there, there may be no future for either one of them. . . .",
+    description: "What if the person you thought you knew best turns out to be someone you never knew at all ... ?\nAndrea knows everything about her mother, Laura. She knows she’s spent her whole life in the small beachside town of Belle Isle; she knows she’s never wanted anything more than to live a quiet life as a pillar of the community; she knows she’s never kept a secret in her life. Because we all know our mothers, don’t we?\nBut all that changes when a trip to the mall explodes into violence and Andrea suddenly sees a completely different side to Laura. Because it turns out that before Laura was Laura, she was someone completely different. For nearly thirty years she’s been hiding from her previous identity, lying low in the hope that no one would ever find her. But now she’s been exposed, and nothing will ever be the same again.\nThe police want answers and Laura’s innocence is on the line, but she won’t speak to anyone, including her own daughter. Andrea is on a desperate journey following the breadcrumb trail of her mother’s past. And if she can’t uncover the secrets hidden there, there may be no future for either one of them. . . .",
     img: "https://m.media-amazon.com/images/I/91BGemgaOgL.jpg",
     authors: [
       "Karin Slaughter"
@@ -1989,7 +1989,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 8.7 Inches, Length: 1.6 Inches, Width: 6.1 Inches, Weight: 1.4 Pounds",
+    dimensions: "8.7 x 1.6 x 6.1 Inches",
     pages: 480,
     price: 27.99,
     count: 10,
@@ -1998,7 +1998,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1643133357",
     title: "The Coldest Warrior",
-    synopsis: "In 1953, Dr. Charles Wilson, a government scientist, died when he “jumped or fell” from the ninth floor of a Washington hotel. As his wife and children grieve, the details of the incident remain buried for twenty-two years. With the release of the Rockefeller Commission report on illegal CIA activities in 1975, the Wilson case suddenly becomes news again. Wilson’s family and the public are demanding answers, especially as some come to suspect the CIA of foul play, and agents in the CIA, FBI, and White House will do anything to make sure the truth doesn’t get out.\nEnter agent Jack Gabriel, an old friend of the Wilson family who is instructed by the CIA director to find out what really happened to Wilson. It’s Gabriel’s last mission before he retires from the agency and his most perilous. Key witnesses connected to the case die from suspicious causes, and Gabriel realizes that the closer he gets to the truth, the more his entire family is at risk.\nFollowing in the footsteps of spy fiction greats like Graham Green, John Le Carré, and Alan Furst, Paul Vidich presents a tale—based on the unbelievable true story told in Netflix’s Wormwood—that doesn’t shy away from the true darkness in the shadows of espionage.",
+    description: "In 1953, Dr. Charles Wilson, a government scientist, died when he “jumped or fell” from the ninth floor of a Washington hotel. As his wife and children grieve, the details of the incident remain buried for twenty-two years. With the release of the Rockefeller Commission report on illegal CIA activities in 1975, the Wilson case suddenly becomes news again. Wilson’s family and the public are demanding answers, especially as some come to suspect the CIA of foul play, and agents in the CIA, FBI, and White House will do anything to make sure the truth doesn’t get out.\nEnter agent Jack Gabriel, an old friend of the Wilson family who is instructed by the CIA director to find out what really happened to Wilson. It’s Gabriel’s last mission before he retires from the agency and his most perilous. Key witnesses connected to the case die from suspicious causes, and Gabriel realizes that the closer he gets to the truth, the more his entire family is at risk.\nFollowing in the footsteps of spy fiction greats like Graham Green, John Le Carré, and Alan Furst, Paul Vidich presents a tale—based on the unbelievable true story told in Netflix’s Wormwood—that doesn’t shy away from the true darkness in the shadows of espionage.",
     img: "https://m.media-amazon.com/images/I/814F11UIgOL.jpg",
     authors: [
       "Paul Vidich"
@@ -2006,7 +2006,7 @@ export const products: Product[] = [
     publisher: "Pegasus Crime",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.3 Inches, Length: 6.3 Inches, Width: 0.9 Inches, Weight: 0.85 Pounds",
+    dimensions: "9.3 x 6.3 x 0.9 Inches",
     pages: 224,
     price: 9.99,
     count: 2,
@@ -2015,7 +2015,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0316509531",
     title: "Hi Five",
-    synopsis: "Christiana is the daughter of the biggest arms dealer on the West Coast, Angus Byrne. She's also the sole witness and number one suspect in the murder of her boyfriend, found dead in her Newport Beach boutique. Isaiah Quintabe is coerced into taking the case to prove her innocence. If he can't, Angus will harm the brilliant PI's new girlfriend, ending her career.\nThe catch: Christiana has multiple personalities. Among them, a naïve, beautiful shopkeeper, an obnoxious drummer in a rock band, and a wanton seductress.\nIsaiah's dilemma: no one personality saw the entire incident. To find out what really happened the night of the murder, Isaiah must piece together clues from each of the personalities . . . before the cops close in on him.",
+    description: "Christiana is the daughter of the biggest arms dealer on the West Coast, Angus Byrne. She's also the sole witness and number one suspect in the murder of her boyfriend, found dead in her Newport Beach boutique. Isaiah Quintabe is coerced into taking the case to prove her innocence. If he can't, Angus will harm the brilliant PI's new girlfriend, ending her career.\nThe catch: Christiana has multiple personalities. Among them, a naïve, beautiful shopkeeper, an obnoxious drummer in a rock band, and a wanton seductress.\nIsaiah's dilemma: no one personality saw the entire incident. To find out what really happened the night of the murder, Isaiah must piece together clues from each of the personalities . . . before the cops close in on him.",
     img: "https://m.media-amazon.com/images/I/818ZNu4ExRL.jpg",
     authors: [
       "Joe Ide"
@@ -2023,7 +2023,7 @@ export const products: Product[] = [
     publisher: "Mulholland Books",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.5 Inches, Length: 6.25 Inches, Width: 1.25 Inches, Weight: 1.35 Pounds",
+    dimensions: "9.5 x 6.25 x 1.25 Inches",
     pages: 352,
     price: 11.99,
     count: 14,
@@ -2032,7 +2032,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0062645226",
     title: "Magpie Murders",
-    synopsis: "When editor Susan Ryeland is given the manuscript of Alan Conway’s latest novel, she has no reason to think it will be much different from any of his others. After working with the bestselling crime writer for years, she’s intimately familiar with his detective, Atticus Pünd, who solves mysteries disturbing sleepy English villages. An homage to queens of classic British crime such as Agatha Christie and Dorothy Sayers, Alan’s traditional formula has proved hugely successful. So successful that Susan must continue to put up with his troubling behavior if she wants to keep her job.\nConway’s latest tale has Atticus Pünd investigating a murder at Pye Hall, a local manor house. Yes, there are dead bodies and a host of intriguing suspects, but the more Susan reads, the more she’s convinced that there is another story hidden in the pages of the manuscript: one of real-life jealousy, greed, ruthless ambition, and murder.\nMasterful, clever, and relentlessly suspenseful, Magpie Murders is a deviously dark take on vincategoryIde English crime fiction in which the reader becomes the detective.",
+    description: "When editor Susan Ryeland is given the manuscript of Alan Conway’s latest novel, she has no reason to think it will be much different from any of his others. After working with the bestselling crime writer for years, she’s intimately familiar with his detective, Atticus Pünd, who solves mysteries disturbing sleepy English villages. An homage to queens of classic British crime such as Agatha Christie and Dorothy Sayers, Alan’s traditional formula has proved hugely successful. So successful that Susan must continue to put up with his troubling behavior if she wants to keep her job.\nConway’s latest tale has Atticus Pünd investigating a murder at Pye Hall, a local manor house. Yes, there are dead bodies and a host of intriguing suspects, but the more Susan reads, the more she’s convinced that there is another story hidden in the pages of the manuscript: one of real-life jealousy, greed, ruthless ambition, and murder.\nMasterful, clever, and relentlessly suspenseful, Magpie Murders is a deviously dark take on vincategoryIde English crime fiction in which the reader becomes the detective.",
     img: "https://m.media-amazon.com/images/I/71VksxQMBUL.jpg",
     authors: [
       "Anthony Horowitz"
@@ -2040,7 +2040,7 @@ export const products: Product[] = [
     publisher: "Harper",
     date_published: 2017,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.49 Inches, Weight: 1.55 Pounds",
+    dimensions: "9 x 6 x 1.49 Inches",
     pages: 496,
     price: 27.99,
     count: 2,
@@ -2049,7 +2049,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1496713818",
     title: "Some Choose Darkness",
-    synopsis: "The truth is easy to miss, even when it’s right in front of us. As a forensic reconstructionist, Rory Moore sheds light on cold-case homicides by piecing together crime scene details others fail to see. Cleaning out her late father’s law office a week after his burial, she receives a call that plunges her into a decades-old case come to life once more.\nIn the summer of 1979, five Chicago women went missing. The predator, nicknamed The Thief, left no bodies and no clues behind—until police received a package from a mysterious woman named Angela Mitchell, whose unorthodox investigation skills appear to have led to his identity. But before they could question her, Angela disappeared. Forty years later, The Thief is about to be paroled for Angela’s murder—the only crime the DA could pin on him. But the cryptic file Rory finds in her father’s law office suggests there is more to the case, and Angela Mitchell, than what was fed to the public, the details of which have been buried for four decades.\nRory’s talents are tested as she begins reconstructing Angela’s last days. Making one startling discovery after another, Rory becomes helplessly entangled in the enigma of Angela Mitchell and what happened to her. Drawing connections between the past and present, Rory uncovers dark truths about the reclusive victim, her father, and the man called The Thief that send her down a twisting trail where things may not be as they appear. As she continues to dig, even Rory can’t be prepared for the full, terrifying truth that is emerging . . .",
+    description: "The truth is easy to miss, even when it’s right in front of us. As a forensic reconstructionist, Rory Moore sheds light on cold-case homicides by piecing together crime scene details others fail to see. Cleaning out her late father’s law office a week after his burial, she receives a call that plunges her into a decades-old case come to life once more.\nIn the summer of 1979, five Chicago women went missing. The predator, nicknamed The Thief, left no bodies and no clues behind—until police received a package from a mysterious woman named Angela Mitchell, whose unorthodox investigation skills appear to have led to his identity. But before they could question her, Angela disappeared. Forty years later, The Thief is about to be paroled for Angela’s murder—the only crime the DA could pin on him. But the cryptic file Rory finds in her father’s law office suggests there is more to the case, and Angela Mitchell, than what was fed to the public, the details of which have been buried for four decades.\nRory’s talents are tested as she begins reconstructing Angela’s last days. Making one startling discovery after another, Rory becomes helplessly entangled in the enigma of Angela Mitchell and what happened to her. Drawing connections between the past and present, Rory uncovers dark truths about the reclusive victim, her father, and the man called The Thief that send her down a twisting trail where things may not be as they appear. As she continues to dig, even Rory can’t be prepared for the full, terrifying truth that is emerging . . .",
     img: "https://m.media-amazon.com/images/I/A1fZ4rWfX2L.jpg",
     authors: [
       "Charlie Donlea"
@@ -2057,7 +2057,7 @@ export const products: Product[] = [
     publisher: "Kensington",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.32 Inches, Length: 6.26 Inches, Width: 1.09 Inches, Weight: 1 Pounds",
+    dimensions: "9.32 x 6.26 x 1.09 Inches",
     pages: 304,
     price: 25.99,
     count: 49,
@@ -2066,7 +2066,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0525535683",
     title: "A Dangerous Man",
-    synopsis: "Joe Pike didn't expect to rescue a woman that day. He went to the bank same as anyone goes to the bank, and returned to his Jeep. So when Isabel Roland, the lonely young teller who helped him, steps out of the bank on her way to lunch, Joe is on hand when two men abduct her. Joe chases them down, and the two men are arrested. But instead of putting the drama to bed, the arrests are only the beginning of the trouble for Joe and Izzy.\nAfter posting bail, the two abductors are murdered and Izzy disappears. Pike calls on his friend, Elvis Cole, to help learn the truth. What Elvis uncovers is a twisted family story that involves corporate whistleblowing, huge amounts of cash, the Witness Relocation Program, and a long line of lies. But what of all that did Izzy know? Is she a perpetrator or a victim? And how far will Joe go to find out?",
+    description: "Joe Pike didn't expect to rescue a woman that day. He went to the bank same as anyone goes to the bank, and returned to his Jeep. So when Isabel Roland, the lonely young teller who helped him, steps out of the bank on her way to lunch, Joe is on hand when two men abduct her. Joe chases them down, and the two men are arrested. But instead of putting the drama to bed, the arrests are only the beginning of the trouble for Joe and Izzy.\nAfter posting bail, the two abductors are murdered and Izzy disappears. Pike calls on his friend, Elvis Cole, to help learn the truth. What Elvis uncovers is a twisted family story that involves corporate whistleblowing, huge amounts of cash, the Witness Relocation Program, and a long line of lies. But what of all that did Izzy know? Is she a perpetrator or a victim? And how far will Joe go to find out?",
     img: "https://m.media-amazon.com/images/I/91Wrnmv-g2L.jpg",
     authors: [
       "Robert Crais"
@@ -2074,7 +2074,7 @@ export const products: Product[] = [
     publisher: "G.P. Putnam's Sons",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.27 Inches, Length: 6.42 Inches, Width: 1.33 Inches, Weight: 1.25 Pounds",
+    dimensions: "9.27 x 6.42 x 1.33 Inches",
     pages: 352,
     price: 28.99,
     count: 10,
@@ -2083,7 +2083,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1250801745",
     title: "Secret Identity",
-    synopsis: "It’s 1975 and the comic book industry is struggling, but Carmen Valdez doesn’t care. She’s an assistant at Triumph Comics, which doesn’t have the creative zeal of Marvel nor the buttoned-up efficiency of DC, but it doesn’t matter. Carmen is tantalizingly close to fulfilling her dream of writing a superhero book.\nThat dream is nearly a reality when one of the Triumph writers enlists her help to create a new character, which they call “The Lethal Lynx,” Triumph's first female hero. But her colleague is acting strangely and asking to keep her involvement a secret. And then he’s found dead, with all of their scripts turned into the publisher without her name. Carmen is desperate to piece together what happened to him, to hang on to her piece of the Lynx, which turns out to be a runaway hit. But that’s complicated by a surprise visitor from her home in Miami, a tenacious cop who is piecing everything together too quickly for Carmen, and the tangled web of secrets and resentments among the passionate eccentrics who write comics for a living.\nAlex Segura uses his expertise as a comics creator as well as his unabashed love of noir fiction to create a truly one-of-a-kind novel--hard-edged and bright-eyed, gritty and dangerous, and utterly absorbing.",
+    description: "It’s 1975 and the comic book industry is struggling, but Carmen Valdez doesn’t care. She’s an assistant at Triumph Comics, which doesn’t have the creative zeal of Marvel nor the buttoned-up efficiency of DC, but it doesn’t matter. Carmen is tantalizingly close to fulfilling her dream of writing a superhero book.\nThat dream is nearly a reality when one of the Triumph writers enlists her help to create a new character, which they call “The Lethal Lynx,” Triumph's first female hero. But her colleague is acting strangely and asking to keep her involvement a secret. And then he’s found dead, with all of their scripts turned into the publisher without her name. Carmen is desperate to piece together what happened to him, to hang on to her piece of the Lynx, which turns out to be a runaway hit. But that’s complicated by a surprise visitor from her home in Miami, a tenacious cop who is piecing everything together too quickly for Carmen, and the tangled web of secrets and resentments among the passionate eccentrics who write comics for a living.\nAlex Segura uses his expertise as a comics creator as well as his unabashed love of noir fiction to create a truly one-of-a-kind novel--hard-edged and bright-eyed, gritty and dangerous, and utterly absorbing.",
     img: "https://m.media-amazon.com/images/I/91uV3nR1kxS.jpg",
     authors: [
       "Alex Segura"
@@ -2091,7 +2091,7 @@ export const products: Product[] = [
     publisher: "Flatiron Books",
     date_published: 2022,
     language: "english",
-    dimensions: "Height: 9.25 Inches, Length: 6.12 Inches, Width: 1,25 Inches, Weight: 1.29 Pounds",
+    dimensions: "9.25 x 6.12 x 1,25 Inches",
     pages: 336,
     price: 12.99,
     count: 17,
@@ -2100,7 +2100,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0312655452",
     title: "A Trick of the Light",
-    synopsis: "\"Hearts are broken,\" Lillian Dyson carefully underlined in a book. \"Sweet relationships are dead.\"\nBut now Lillian herself is dead. Found among the bleeding hearts and lilacs of Clara Morrow's garden in Three Pines, shattering the celebrations of Clara's solo show at the famed Musée in Montreal. Chief Inspector Gamache, the head of homicide at the Sûreté du Québec, is called to the tiny Quebec village and there he finds the art world gathered, and with it a world of shading and nuance, a world of shadow and light. Where nothing is as it seems. Behind every smile there lurks a sneer. Inside every sweet relationship there hides a broken heart.\nAnd even when facts are slowly exposed, it is no longer clear to Gamache and his team if what they've found is the truth, or simply a trick of the light.",
+    description: "\"Hearts are broken,\" Lillian Dyson carefully underlined in a book. \"Sweet relationships are dead.\"\nBut now Lillian herself is dead. Found among the bleeding hearts and lilacs of Clara Morrow's garden in Three Pines, shattering the celebrations of Clara's solo show at the famed Musée in Montreal. Chief Inspector Gamache, the head of homicide at the Sûreté du Québec, is called to the tiny Quebec village and there he finds the art world gathered, and with it a world of shading and nuance, a world of shadow and light. Where nothing is as it seems. Behind every smile there lurks a sneer. Inside every sweet relationship there hides a broken heart.\nAnd even when facts are slowly exposed, it is no longer clear to Gamache and his team if what they've found is the truth, or simply a trick of the light.",
     img: "https://m.media-amazon.com/images/I/81ktdPsxLEL.jpg",
     authors: [
       "Louise Penny"
@@ -2108,7 +2108,7 @@ export const products: Product[] = [
     publisher: "Minotaur Books",
     date_published: 2011,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 0.9 Inches, Weight: 1.45 Pounds",
+    dimensions: "9 x 6 x 0.9 Inches",
     pages: 352,
     price: 26.99,
     count: 14,
@@ -2117,7 +2117,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0812988906",
     title: "The Last Days of Night",
-    synopsis: "From Graham Moore, the Oscar-winning screenwriter of The Imitation Game and New York Times bestselling author of The Sherlockian, comes a thrilling novel—based on actual events—about the nature of genius, the cost of ambition, and the battle to electrify America.\nNew York, 1888. Gas lamps still flicker in the city streets, but the miracle of electric light is in its infancy. The person who controls the means to turn night into day will make history—and a vast fortune. A young untested lawyer named Paul Cravath, fresh out of Columbia Law School, takes a case that seems impossible to win. Paul’s client, George Westinghouse, has been sued by Thomas Edison over a billion-dollar question: Who invented the light bulb and holds the right to power the country?\nThe case affords Paul entry to the heady world of high society—the glittering parties in Gramercy Park mansions, and the more insidious dealings done behind closed doors. The task facing him is beyond daunting. Edison is a wily, dangerous opponent with vast resources at his disposal—private spies, newspapers in his pocket, and the backing of J. P. Morgan himself. Yet this unknown lawyer shares with his famous adversary a compulsion to win at all costs. How will he do it?\nIn obsessive pursuit of victory, Paul crosses paths with Nikola Tesla, an eccentric, brilliant inventor who may hold the key to defeating Edison, and with Agnes Huntington, a beautiful opera singer who proves to be a flawless performer on scategoryIde and off. As Paul takes greater and greater risks, he’ll find that everyone in his path is playing their own game, and no one is quite who they seem.",
+    description: "From Graham Moore, the Oscar-winning screenwriter of The Imitation Game and New York Times bestselling author of The Sherlockian, comes a thrilling novel—based on actual events—about the nature of genius, the cost of ambition, and the battle to electrify America.\nNew York, 1888. Gas lamps still flicker in the city streets, but the miracle of electric light is in its infancy. The person who controls the means to turn night into day will make history—and a vast fortune. A young untested lawyer named Paul Cravath, fresh out of Columbia Law School, takes a case that seems impossible to win. Paul’s client, George Westinghouse, has been sued by Thomas Edison over a billion-dollar question: Who invented the light bulb and holds the right to power the country?\nThe case affords Paul entry to the heady world of high society—the glittering parties in Gramercy Park mansions, and the more insidious dealings done behind closed doors. The task facing him is beyond daunting. Edison is a wily, dangerous opponent with vast resources at his disposal—private spies, newspapers in his pocket, and the backing of J. P. Morgan himself. Yet this unknown lawyer shares with his famous adversary a compulsion to win at all costs. How will he do it?\nIn obsessive pursuit of victory, Paul crosses paths with Nikola Tesla, an eccentric, brilliant inventor who may hold the key to defeating Edison, and with Agnes Huntington, a beautiful opera singer who proves to be a flawless performer on scategoryIde and off. As Paul takes greater and greater risks, he’ll find that everyone in his path is playing their own game, and no one is quite who they seem.",
     img: "https://m.media-amazon.com/images/I/A1aDx9an2xL.jpg",
     authors: [
       "Graham Moore"
@@ -2125,7 +2125,7 @@ export const products: Product[] = [
     publisher: "Random House",
     date_published: 2016,
     language: "english",
-    dimensions: "Height: 9.54 Inches, Length: 6.46 Inches, Width: 1.29 Inches, Weight: 1.4 Pounds",
+    dimensions: "9.54 x 6.46 x 1.29 Inches",
     pages: 384,
     price: 27.99,
     count: 23,
@@ -2134,7 +2134,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0062796003",
     title: "Naked Came the Florida Man",
-    synopsis: "Though another devastating hurricane is raking Florida, its awesome power can’t deter the Sunshine State’s most loyal son, Serge A. Storms, from his latest scenic road trip: a cemetery tour. With his best bro Coleman riding shotgun, Serge hits the highway in his gold ’69 Plymouth Satellite, putting pedal to the metal on a grand tour of the past. Beginning in Key West, the sunshine boys’ odyssey includes a forgotten mass grave in Palm Beach County holding the remains of African Americans killed by the Great Hurricane of 1928, and the resting place of one world-famous television dolphin (RIP Flipper) from the 1960s.\nBut one deadland—a haunted old sugar field—holds more than just the bones of those who’ve passed. For years, local children have whispered about a boogeyman hiding among the stalks. Could it be the same maniac known as Naked Florida Man, who’s been raising hell all over the place?\nThere are few things Serge loves more than solving a good mystery and bestowing justice on miscreants who sully his beloved home’s good name. With his partner Bong Man, Florida’s psycho superhero will find the truth in this hilariously violent delight—packed with history, lore, and plenty of motel antics—from the insanely ingenious Tim Dorsey.",
+    description: "Though another devastating hurricane is raking Florida, its awesome power can’t deter the Sunshine State’s most loyal son, Serge A. Storms, from his latest scenic road trip: a cemetery tour. With his best bro Coleman riding shotgun, Serge hits the highway in his gold ’69 Plymouth Satellite, putting pedal to the metal on a grand tour of the past. Beginning in Key West, the sunshine boys’ odyssey includes a forgotten mass grave in Palm Beach County holding the remains of African Americans killed by the Great Hurricane of 1928, and the resting place of one world-famous television dolphin (RIP Flipper) from the 1960s.\nBut one deadland—a haunted old sugar field—holds more than just the bones of those who’ve passed. For years, local children have whispered about a boogeyman hiding among the stalks. Could it be the same maniac known as Naked Florida Man, who’s been raising hell all over the place?\nThere are few things Serge loves more than solving a good mystery and bestowing justice on miscreants who sully his beloved home’s good name. With his partner Bong Man, Florida’s psycho superhero will find the truth in this hilariously violent delight—packed with history, lore, and plenty of motel antics—from the insanely ingenious Tim Dorsey.",
     img: "https://m.media-amazon.com/images/I/817iKtgMhuL.jpg",
     authors: [
       "Tim Dorsey"
@@ -2142,7 +2142,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.09 Inches, Weight: 1.06 Pounds",
+    dimensions: "9 x 6 x 1.09 Inches",
     pages: 336,
     price: 26.99,
     count: 35,
@@ -2151,7 +2151,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0451492498",
     title: "Murder on Cold Street",
-    synopsis: "Inspector Treadles, Charlotte Holmes’s friend and collaborator, has been found locked in a room with two dead men, both of whom worked with his wife at the great manufacturing enterprise she has recently inherited. \nRumors fly. Had Inspector Treadles killed the men because they had opposed his wife’s initiatives at every turn? Had he killed in a fit of jealous rage, because he suspected Mrs. Treadles of harboring deeper feelings for one of the men? To make matters worse, he refuses to speak on his own behalf, despite the overwhelming evidence against him.\nCharlotte finds herself in a case strewn with lies and secrets. But which lies are to cover up small sins, and which secrets would flay open a past better left forgotten? Not to mention, how can she concentrate on these murders, when Lord Ingram, her oldest friend and sometime lover, at last dangles before her the one thing she has always wanted?",
+    description: "Inspector Treadles, Charlotte Holmes’s friend and collaborator, has been found locked in a room with two dead men, both of whom worked with his wife at the great manufacturing enterprise she has recently inherited. \nRumors fly. Had Inspector Treadles killed the men because they had opposed his wife’s initiatives at every turn? Had he killed in a fit of jealous rage, because he suspected Mrs. Treadles of harboring deeper feelings for one of the men? To make matters worse, he refuses to speak on his own behalf, despite the overwhelming evidence against him.\nCharlotte finds herself in a case strewn with lies and secrets. But which lies are to cover up small sins, and which secrets would flay open a past better left forgotten? Not to mention, how can she concentrate on these murders, when Lord Ingram, her oldest friend and sometime lover, at last dangles before her the one thing she has always wanted?",
     img: "https://m.media-amazon.com/images/I/81r9ogsf4oL.jpg",
     authors: [
       "Sherry Thomas"
@@ -2159,7 +2159,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 8.2 Inches, Length: 5.5 Inches, Width: 0.9 Inches, Weight: 0.7 Pounds",
+    dimensions: "8.2 x 5.5 x 0.9 Inches",
     pages: 352,
     price: 15.99,
     count: 17,
@@ -2168,7 +2168,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0062435922",
     title: "Dead Land",
-    synopsis: "Chicago may be the city of broad shoulders, but its political law is “Pay to Play.” Money changes hands in the middle of the night, and by morning, buildings and parks are replaced by billion-dollar projects.\nChicago PI V.I. Warshawski gets pulled into one of these clandestine deals through her impetuous goddaughter, Bernie Fouchard. Bernie tries to rescue Lydia Zamir, a famed singer-songwriter now living on the streets; Zamir’s life fell apart when her lover was murdered next to her in a mass shooting at an outdoor concert. Not only does Bernie plunge her and V.I. headlong into the path of some ruthless developers, they lead to the murder of the young man Bernie is dating. He’s a computer geek working for a community group called SLICK.\nV.I. is desperate to find a mysterious man named Coop, who roams the lakefront in the middle of the night with his dog. She’s sure he holds the key to the mounting body count within SLICK. Coop may even know why an international law firm is representing the mass murderer responsible for Lydia’s lover’s death. Instead, the detective finds a terrifying conspiracy stretching from Chicago’s parks to a cover-up of the dark chapters in America’s meddling in South American politics. Before she finds answers, this electrifying novel pushes V.I. close to the breaking point: People who pay to play take no prisoners.",
+    description: "Chicago may be the city of broad shoulders, but its political law is “Pay to Play.” Money changes hands in the middle of the night, and by morning, buildings and parks are replaced by billion-dollar projects.\nChicago PI V.I. Warshawski gets pulled into one of these clandestine deals through her impetuous goddaughter, Bernie Fouchard. Bernie tries to rescue Lydia Zamir, a famed singer-songwriter now living on the streets; Zamir’s life fell apart when her lover was murdered next to her in a mass shooting at an outdoor concert. Not only does Bernie plunge her and V.I. headlong into the path of some ruthless developers, they lead to the murder of the young man Bernie is dating. He’s a computer geek working for a community group called SLICK.\nV.I. is desperate to find a mysterious man named Coop, who roams the lakefront in the middle of the night with his dog. She’s sure he holds the key to the mounting body count within SLICK. Coop may even know why an international law firm is representing the mass murderer responsible for Lydia’s lover’s death. Instead, the detective finds a terrifying conspiracy stretching from Chicago’s parks to a cover-up of the dark chapters in America’s meddling in South American politics. Before she finds answers, this electrifying novel pushes V.I. close to the breaking point: People who pay to play take no prisoners.",
     img: "https://m.media-amazon.com/images/I/814g8-2a4+L.jpg",
     authors: [
       "Sara Paretsky"
@@ -2176,7 +2176,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.29 Inches, Weight: 1.25 Pounds",
+    dimensions: "9 x 6 x 1.29 Inches",
     pages: 416,
     price: 28.99,
     count: 0,
@@ -2185,7 +2185,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1492684449",
     title: "One Day You'll Burn",
-    synopsis: "A body so badly burned that it could be mistaken for a movie prop... except for the smell. That's not something California law enforcement finds lying on the street every day. And when Detective Tully Jarsdel is called to the scene, it's clear to him that something about the placement of the corpse is intentional, even ritualistic. Jarsdel isn't a classic noir detective, but his former career in academia seems to finally be coming in handy, rather than serving as material for jokes from his partner, Morales.\nBut nothing Jarsdel learned in school can prepare him for the deep evil behind this case, which appears to be as hopeless as it is violent. As Jarsdel and Morales attempt to settle their differences and uncover the motive behind the horrendous crime, they find themselves dragged into the underbelly of a city notorious for chewing up and spitting out anyone dumb enough to turn their back on survival.\nOne Day You'll Burn is a shimmering debut that captures the glitz and squalor of Los Angeles while introducing an unforgettable detective readers will rank among the best in the genre.",
+    description: "A body so badly burned that it could be mistaken for a movie prop... except for the smell. That's not something California law enforcement finds lying on the street every day. And when Detective Tully Jarsdel is called to the scene, it's clear to him that something about the placement of the corpse is intentional, even ritualistic. Jarsdel isn't a classic noir detective, but his former career in academia seems to finally be coming in handy, rather than serving as material for jokes from his partner, Morales.\nBut nothing Jarsdel learned in school can prepare him for the deep evil behind this case, which appears to be as hopeless as it is violent. As Jarsdel and Morales attempt to settle their differences and uncover the motive behind the horrendous crime, they find themselves dragged into the underbelly of a city notorious for chewing up and spitting out anyone dumb enough to turn their back on survival.\nOne Day You'll Burn is a shimmering debut that captures the glitz and squalor of Los Angeles while introducing an unforgettable detective readers will rank among the best in the genre.",
     img: "https://m.media-amazon.com/images/I/81Phwf63sLL.jpg",
     authors: [
       "Joseph Schneider"
@@ -2193,7 +2193,7 @@ export const products: Product[] = [
     publisher: "Poisoned Pen Press",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1.5 Inches, Weight: 0.75 Pounds",
+    dimensions: "8.25 x 5.5 x 1.5 Inches",
     pages: 336,
     price: 15.99,
     count: 2,
@@ -2202,7 +2202,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0451491157",
     title: "Careless Whiskers",
-    synopsis: "Charlie Harris has sworn off investigating murder and mayhem after a recent close call. Instead, he's delighted to cheer on his daughter, Laura, who's starring in a production of Careless Whispers. The theater department at Athena College is debuting the play written by a fledgling playwright with local connections and Charlie's son-in-law, Frank Salisbury, will be calling the directorial shots.  \nLaura is upset to learn that Luke Lombardi, an overbearing actor she knew from her time in Hollywood will also be taking part in the production as a guest artist. Lombardi arrives with an entourage in tow and promptly proceeds to annoy everyone involved with the production. When he collapses and dies on scategoryIde, after drinking from a glass Laura handed him, she becomes the chief suspect in his murder.  \nCharlie knows his daughter is innocent, and  he’s not going to let anyone railroad his little girl. So,  despite his intentions to put his amateur sleuthing days behind him, Charlie has to take center scategoryIde, and with Diesel’s help, shine a  spotlight on the real killer.",
+    description: "Charlie Harris has sworn off investigating murder and mayhem after a recent close call. Instead, he's delighted to cheer on his daughter, Laura, who's starring in a production of Careless Whispers. The theater department at Athena College is debuting the play written by a fledgling playwright with local connections and Charlie's son-in-law, Frank Salisbury, will be calling the directorial shots.  \nLaura is upset to learn that Luke Lombardi, an overbearing actor she knew from her time in Hollywood will also be taking part in the production as a guest artist. Lombardi arrives with an entourage in tow and promptly proceeds to annoy everyone involved with the production. When he collapses and dies on scategoryIde, after drinking from a glass Laura handed him, she becomes the chief suspect in his murder.  \nCharlie knows his daughter is innocent, and  he’s not going to let anyone railroad his little girl. So,  despite his intentions to put his amateur sleuthing days behind him, Charlie has to take center scategoryIde, and with Diesel’s help, shine a  spotlight on the real killer.",
     img: "https://m.media-amazon.com/images/I/91UeqZjVmAL.jpg",
     authors: [
       "Miranda James"
@@ -2210,7 +2210,7 @@ export const products: Product[] = [
     publisher: "Berkley",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.27 Inches, Length: 6.29 Inches, Width: 0.99 Inches, Weight: 0.9 Pounds",
+    dimensions: "9.27 x 6.29 x 0.99 Inches",
     pages: 304,
     price: 25.99,
     count: 14,
@@ -2219,7 +2219,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0316206849",
     title: "The Cuckoo's Calling",
-    synopsis: "After losing his leg to a land mine in Afghanistan, Cormoran Strike is barely scraping by as a private investigator. Strike is down to one client, creditors are calling, and after a breakup with his longtime girlfriend, he's living in his office.\nThen John Bristow walks through his door with a shocking story: His sister, the legendary supermodel Lula Landry -- known to her friends as the Cuckoo -- famously fell to her death a few months earlier. The police ruled it a suicide, but John refuses to believe that. The case plunges Strike into the world of multimillionaire beauties, rock-star boyfriends, and desperate designers, and it introduces him to every variety of pleasure, enticement, seduction, and delusion known to man.\nYou may think you know detectives, but you've never met one quite like Strike. You may think you know about the wealthy and famous, but you've never seen them under an investigation like this.\nFast-paced and sharply drawn, this dazzling detective novel inspired Strike, the BBC crime drama series that has captivated millions of viewers worldwide.",
+    description: "After losing his leg to a land mine in Afghanistan, Cormoran Strike is barely scraping by as a private investigator. Strike is down to one client, creditors are calling, and after a breakup with his longtime girlfriend, he's living in his office.\nThen John Bristow walks through his door with a shocking story: His sister, the legendary supermodel Lula Landry -- known to her friends as the Cuckoo -- famously fell to her death a few months earlier. The police ruled it a suicide, but John refuses to believe that. The case plunges Strike into the world of multimillionaire beauties, rock-star boyfriends, and desperate designers, and it introduces him to every variety of pleasure, enticement, seduction, and delusion known to man.\nYou may think you know detectives, but you've never met one quite like Strike. You may think you know about the wealthy and famous, but you've never seen them under an investigation like this.\nFast-paced and sharply drawn, this dazzling detective novel inspired Strike, the BBC crime drama series that has captivated millions of viewers worldwide.",
     img: "https://m.media-amazon.com/images/I/81XSPAcp3tL.jpg",
     authors: [
       "Galbraith Robert"
@@ -2227,7 +2227,7 @@ export const products: Product[] = [
     publisher: "Mulholland Books",
     date_published: 2013,
     language: "english",
-    dimensions: "Height: 9.5 Inches, Length: 6.325 Inches, Width: 2.125 Inches, Weight: 1.7 Pounds",
+    dimensions: "9.5 x 6.325 x 2.125 Inches",
     pages: 464,
     price: 27.99,
     count: 10,
@@ -2236,7 +2236,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0802147402",
     title: "The Old Success",
-    synopsis: "When the body of a French woman washes up on a wild inlet off the Cornish coast, Brian Macalvie, divisional commander with the Devon-Cornwall police is called in. Who could have killed this beautiful tourist, the only visible footprints nearby belonging to the two little girls who found her?\nWhile Macalvie stands in the Scilly Islands, inspector Richard Jury–twenty miles away on Land’s End―is at The Old Success pub, sharing a drink with the legendary former CID detective Tom Brownell, a man renowned for solving every case he undertook. Except one.\nIn the days following the mysterious slaying of the Parisian tourist, two other murders take place: first, a man is shot on a Northhamptonshire estate, then a holy duster turns up murdered at Exeter Cathedral in Devon. Macalvie, Jury and Bronwell set out to discover whether these three killings, though very different in execution, are connected. Written with Grimes’s signature wit, sly plotting, and gloriously offbeat characters, The Old Success is prime fare from “one of the most fascinating mystery writers today” (Houston Chronicle).",
+    description: "When the body of a French woman washes up on a wild inlet off the Cornish coast, Brian Macalvie, divisional commander with the Devon-Cornwall police is called in. Who could have killed this beautiful tourist, the only visible footprints nearby belonging to the two little girls who found her?\nWhile Macalvie stands in the Scilly Islands, inspector Richard Jury–twenty miles away on Land’s End―is at The Old Success pub, sharing a drink with the legendary former CID detective Tom Brownell, a man renowned for solving every case he undertook. Except one.\nIn the days following the mysterious slaying of the Parisian tourist, two other murders take place: first, a man is shot on a Northhamptonshire estate, then a holy duster turns up murdered at Exeter Cathedral in Devon. Macalvie, Jury and Bronwell set out to discover whether these three killings, though very different in execution, are connected. Written with Grimes’s signature wit, sly plotting, and gloriously offbeat characters, The Old Success is prime fare from “one of the most fascinating mystery writers today” (Houston Chronicle).",
     img: "https://m.media-amazon.com/images/I/817YztAA8SL.jpg",
     authors: [
       "Martha Grimes"
@@ -2244,7 +2244,7 @@ export const products: Product[] = [
     publisher: "Atlantic Monthly Press",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 8.9 Inches, Length: 6.2 Inches, Width: 1.2 Inches, Weight: 0.9 Pounds",
+    dimensions: "8.9 x 6.2 x 1.2 Inches",
     pages: 243,
     price: 26.99,
     count: 14,
@@ -2253,7 +2253,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0312022824",
     title: "The Silence of the Lambs",
-    synopsis: "A serial murderer known only by a grotesquely apt nickname-Buffalo Bill-is stalking women. He has a purpose, but no one can fathom it, for the bodies are discovered in different states. Clarice Starling, a young trainee at the FBI Academy, is surprised to be summoned by Jack Crawford, chief of the Bureau's Behavioral Science section. Her assignment: to interview Dr. Hannibal Lecter-Hannibal the Cannibal-who is kept under close watch in the Baltimore State Hospital for the Criminally Insane.\nDr. Lecter is a former psychiatrist with a grisly history, unusual tastes, and an intense curiosity about the darker corners of the mind. His intimate understanding of the killer and of Clarice herself form the core of The Silence of the Lambs-and ingenious, masterfully written book and an unforgettable classic of suspense fiction.",
+    description: "A serial murderer known only by a grotesquely apt nickname-Buffalo Bill-is stalking women. He has a purpose, but no one can fathom it, for the bodies are discovered in different states. Clarice Starling, a young trainee at the FBI Academy, is surprised to be summoned by Jack Crawford, chief of the Bureau's Behavioral Science section. Her assignment: to interview Dr. Hannibal Lecter-Hannibal the Cannibal-who is kept under close watch in the Baltimore State Hospital for the Criminally Insane.\nDr. Lecter is a former psychiatrist with a grisly history, unusual tastes, and an intense curiosity about the darker corners of the mind. His intimate understanding of the killer and of Clarice herself form the core of The Silence of the Lambs-and ingenious, masterfully written book and an unforgettable classic of suspense fiction.",
     img: "https://m.media-amazon.com/images/I/81s1Ek1deWL.jpg",
     authors: [
       "Thomas Harris"
@@ -2261,7 +2261,7 @@ export const products: Product[] = [
     publisher: "St. Martin's Press",
     date_published: 1988,
     language: "english",
-    dimensions: "Height: 9.56 Inches, Length: 6.14 Inches, Width: 1.195 Inches, Weight: 1.45 Pounds",
+    dimensions: "9.56 x 6.14 x 1.195 Inches",
     pages: 352,
     price: 16.32,
     count: 49,
@@ -2270,7 +2270,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0385541694",
     title: "I Was Anastasia",
-    synopsis: "Russia, July 17, 1918: Under direct orders from Vladimir Lenin, Bolshevik secret police force Anastasia Romanov, along with the entire imperial family, into a damp basement in Siberia, where they face a merciless firing squad. None survive. At least that is what the executioners have always claimed.\nGermany, February 17, 1920: A young woman bearing an uncanny resemblance to Anastasia Romanov is pulled shivering and senseless from a canal. Refusing to explain her presence in the freezing water or even acknowledge her rescuers, she is taken to the hospital where an examination reveals that her body is riddled with countless horrific scars. When she finally does speak, this frightened, mysterious young woman claims to be the Russian grand duchess.\nAs rumors begin to circulate through European society that the youngest Romanov daughter has survived the massacre at Ekaterinburg, old enemies and new threats are awakened. The question of who Anna Anderson is and what actually happened to Anastasia Romanov spans fifty years and touches three continents. This thrilling saga is every bit as moving and momentous as it is harrowing and twisted.",
+    description: "Russia, July 17, 1918: Under direct orders from Vladimir Lenin, Bolshevik secret police force Anastasia Romanov, along with the entire imperial family, into a damp basement in Siberia, where they face a merciless firing squad. None survive. At least that is what the executioners have always claimed.\nGermany, February 17, 1920: A young woman bearing an uncanny resemblance to Anastasia Romanov is pulled shivering and senseless from a canal. Refusing to explain her presence in the freezing water or even acknowledge her rescuers, she is taken to the hospital where an examination reveals that her body is riddled with countless horrific scars. When she finally does speak, this frightened, mysterious young woman claims to be the Russian grand duchess.\nAs rumors begin to circulate through European society that the youngest Romanov daughter has survived the massacre at Ekaterinburg, old enemies and new threats are awakened. The question of who Anna Anderson is and what actually happened to Anastasia Romanov spans fifty years and touches three continents. This thrilling saga is every bit as moving and momentous as it is harrowing and twisted.",
     img: "https://m.media-amazon.com/images/I/91HB-+re1XL.jpg",
     authors: [
       "Ariel Lawhon"
@@ -2278,7 +2278,7 @@ export const products: Product[] = [
     publisher: "Doubleday",
     date_published: 2018,
     language: "english",
-    dimensions: "Height: 9.56 Inches, Length: 6.47 Inches, Width: 1.29 Inches, Weight: 1.3 Pounds",
+    dimensions: "9.56 x 6.47 x 1.29 Inches",
     pages: 352,
     price: 26.95,
     count: 8,
@@ -2287,7 +2287,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1250105609",
     title: "The Dry",
-    synopsis: "After getting a note demanding his presence, Federal Agent Aaron Falk arrives in his hometown for the first time in decades to attend the funeral of his best friend, Luke. Twenty years ago when Falk was accused of murder, Luke was his alibi. Falk and his father fled under a cloud of suspicion, saved from prosecution only because of Luke’s steadfast claim that the boys had been together at the time of the crime. But now more than one person knows they didn’t tell the truth back then, and Luke is dead.\nAmid the worst drought in a century, Falk and the local detective question what really happened to Luke. As Falk reluctantly investigates to see if there’s more to Luke’s death than there seems to be, long-buried mysteries resurface, as do the lies that have haunted them. And Falk will find that small towns have always hidden big secrets.",
+    description: "After getting a note demanding his presence, Federal Agent Aaron Falk arrives in his hometown for the first time in decades to attend the funeral of his best friend, Luke. Twenty years ago when Falk was accused of murder, Luke was his alibi. Falk and his father fled under a cloud of suspicion, saved from prosecution only because of Luke’s steadfast claim that the boys had been together at the time of the crime. But now more than one person knows they didn’t tell the truth back then, and Luke is dead.\nAmid the worst drought in a century, Falk and the local detective question what really happened to Luke. As Falk reluctantly investigates to see if there’s more to Luke’s death than there seems to be, long-buried mysteries resurface, as do the lies that have haunted them. And Falk will find that small towns have always hidden big secrets.",
     img: "https://m.media-amazon.com/images/I/A1h14NkJGEL.jpg",
     authors: [
       "Jane Harper"
@@ -2295,7 +2295,7 @@ export const products: Product[] = [
     publisher: "Flatiron Books",
     date_published: 2017,
     language: "english",
-    dimensions: "Height: 9.58 Inches, Length: 6.5 Inches, Width: 1.21, Weight: 1.15 Pounds",
+    dimensions: "9.58 x 6.5 x 1.21",
     pages: 336,
     price: 25.99,
     count: 43,
@@ -2304,7 +2304,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0062073478",
     title: "And Then There Were None",
-    synopsis: "Ten people, each with something to hide and something to fear, are invited to an isolated mansion on Indian Island by a host who, surprisingly, fails to appear. On the island they are cut off from everything but each other and the inescapable shadows of their own past lives. One by one, the guests share the darkest secrets of their wicked pasts. And one by one, they die…\nWhich among them is the killer and will any of them survive?",
+    description: "Ten people, each with something to hide and something to fear, are invited to an isolated mansion on Indian Island by a host who, surprisingly, fails to appear. On the island they are cut off from everything but each other and the inescapable shadows of their own past lives. One by one, the guests share the darkest secrets of their wicked pasts. And one by one, they die…\nWhich among them is the killer and will any of them survive?",
     img: "https://m.media-amazon.com/images/I/81QbgfCoVXL.jpg",
     authors: [
       "Agatha Christie"
@@ -2312,7 +2312,7 @@ export const products: Product[] = [
     publisher: "William Morrow Paperbacks",
     date_published: 2011,
     language: "english",
-    dimensions: "Height: 0.7 Inches, Length: 8 Inches, Width: 5.36 Inches, Weight: 0.45 Pounds",
+    dimensions: "0.7 x 8 x 5.36 Inches",
     pages: 247,
     price: 14.99,
     count: 23,
@@ -2321,7 +2321,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0399147489",
     title: "Open Season",
-    synopsis: "As Wyoming game warden Joe Pickett races against time to save an endangered species, he finds himself plunged into a deadly mystery that soon threatens his family and the life he loves. A first novel. 15,000 first printing.",
+    description: "As Wyoming game warden Joe Pickett races against time to save an endangered species, he finds himself plunged into a deadly mystery that soon threatens his family and the life he loves. A first novel. 15,000 first printing.",
     img: "https://m.media-amazon.com/images/I/812Ijyax5CL.jpg",
     authors: [
       "C. J. Box"
@@ -2329,7 +2329,7 @@ export const products: Product[] = [
     publisher: "Putnam Adult",
     date_published: 2001,
     language: "english",
-    dimensions: "Height: 9.32 Inches, Length: 6.24 Inches, Width: 1.13 Inches, Weight: 1 Pounds",
+    dimensions: "9.32 x 6.24 x 1.13 Inches",
     pages: 293,
     price: 9.99,
     count: 10,
@@ -2338,7 +2338,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "030758836X",
     title: "Gone Girl",
-    synopsis: "On a warm summer morning in North Carthage, Missouri, it is Nick and Amy Dunne’s fifth wedding anniversary. Presents are being wrapped and reservations are being made when Nick’s clever and beautiful wife disappears. Husband-of-the-Year Nick isn’t doing himself any favors with cringe-worthy daydreams about the slope and shape of his wife’s head, but passages from Amy's diary reveal the alpha-girl perfectionist could have put anyone dangerously on edge. Under mounting pressure from the police and the media—as well as Amy’s fiercely doting parents—the town golden boy parades an endless series of lies, deceits, and inappropriate behavior. Nick is oddly evasive, and he’s definitely bitter—but is he really a killer?",
+    description: "On a warm summer morning in North Carthage, Missouri, it is Nick and Amy Dunne’s fifth wedding anniversary. Presents are being wrapped and reservations are being made when Nick’s clever and beautiful wife disappears. Husband-of-the-Year Nick isn’t doing himself any favors with cringe-worthy daydreams about the slope and shape of his wife’s head, but passages from Amy's diary reveal the alpha-girl perfectionist could have put anyone dangerously on edge. Under mounting pressure from the police and the media—as well as Amy’s fiercely doting parents—the town golden boy parades an endless series of lies, deceits, and inappropriate behavior. Nick is oddly evasive, and he’s definitely bitter—but is he really a killer?",
     img: "https://m.media-amazon.com/images/I/81IgnYiW-6L.jpg",
     authors: [
       "Gillian Flynn"
@@ -2346,7 +2346,7 @@ export const products: Product[] = [
     publisher: "Ballantine Books",
     date_published: 2012,
     language: "english",
-    dimensions: "Height: 9.41 Inches, Length: 6.45 Inches, Width: 1.32 Inches, Weight: 1.45 Pounds",
+    dimensions: "9.41 x 6.45 x 1.32 Inches",
     pages: 419,
     price: 12.99,
     count: 35,
@@ -2355,7 +2355,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0062978209",
     title: "Perfect Little Children",
-    synopsis: "All Beth has to do is drive her son to his soccer game, watch him play, and then return home. Just because she knows her ex-best friend lives near the field, that doesn’t mean she has to drive past her house and try to catch a glimpse of her.\nWhy would Beth do that and risk dredging up painful memories? She hasn’t seen Flora for twelve years. She doesn’t want to see her today—or ever again. But she can’t resist. She parks outside the open gates of Newnham House, watches from across the road as Flora arrives and calls to her children Thomas and Emily to get out of the car.\nExcept . . . There’s something terribly wrong. Flora looks the same, only older. Twelve years ago, Thomas and Emily were five and three years old. Today, they look precisely as they did then. They are Thomas and Emily without a doubt, but they haven’t changed at all. They are no taller, no older. Why haven’t they grown? How is it possible that they haven’t grown up?",
+    description: "All Beth has to do is drive her son to his soccer game, watch him play, and then return home. Just because she knows her ex-best friend lives near the field, that doesn’t mean she has to drive past her house and try to catch a glimpse of her.\nWhy would Beth do that and risk dredging up painful memories? She hasn’t seen Flora for twelve years. She doesn’t want to see her today—or ever again. But she can’t resist. She parks outside the open gates of Newnham House, watches from across the road as Flora arrives and calls to her children Thomas and Emily to get out of the car.\nExcept . . . There’s something terribly wrong. Flora looks the same, only older. Twelve years ago, Thomas and Emily were five and three years old. Today, they look precisely as they did then. They are Thomas and Emily without a doubt, but they haven’t changed at all. They are no taller, no older. Why haven’t they grown? How is it possible that they haven’t grown up?",
     img: "https://m.media-amazon.com/images/I/9162XOkiO6L.jpg",
     authors: [
       "Sophie Hannah"
@@ -2363,7 +2363,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.09 Inches, Weight: 1.05 Pounds",
+    dimensions: "9 x 6 x 1.09 Inches",
     pages: 336,
     price: 27.99,
     count: 2,
@@ -2372,7 +2372,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1542008255",
     title: "Above the Bay of Angels",
-    synopsis: "Isabella Waverly only means to comfort the woman felled on a London street. In her final dying moments, she thrusts a letter into Bella’s hand. It’s an offer of employment in the kitchens of Buckingham Palace, and everything the budding young chef desperately wants: an escape from the constrictions of her life as a lowly servant. In the stranger’s stead, Bella can spread her wings.\nArriving as Helen Barton from Yorkshire, she pursues her passion for creating culinary delights, served to the delighted Queen Victoria herself. Best of all, she’s been chosen to accompany the queen to Nice. What fortune! Until the threat of blackmail shadows Bella to the Riviera, and a member of the queen’s retinue falls ill and dies.\nHaving prepared the royal guest’s last meal, Bella is suspected of the poisonous crime. An investigation is sure to follow. Her charade will be over. And her new life will come crashing down—if it doesn’t send her to the gallows.",
+    description: "Isabella Waverly only means to comfort the woman felled on a London street. In her final dying moments, she thrusts a letter into Bella’s hand. It’s an offer of employment in the kitchens of Buckingham Palace, and everything the budding young chef desperately wants: an escape from the constrictions of her life as a lowly servant. In the stranger’s stead, Bella can spread her wings.\nArriving as Helen Barton from Yorkshire, she pursues her passion for creating culinary delights, served to the delighted Queen Victoria herself. Best of all, she’s been chosen to accompany the queen to Nice. What fortune! Until the threat of blackmail shadows Bella to the Riviera, and a member of the queen’s retinue falls ill and dies.\nHaving prepared the royal guest’s last meal, Bella is suspected of the poisonous crime. An investigation is sure to follow. Her charade will be over. And her new life will come crashing down—if it doesn’t send her to the gallows.",
     img: "https://m.media-amazon.com/images/I/91daUYpGdzS.jpg",
     authors: [
       "Rhys Bowen"
@@ -2380,7 +2380,7 @@ export const products: Product[] = [
     publisher: "Lake Union Publishing",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 8.25 Inches, Length: 5.5 Inches, Width: 1 Inches, Weight: 0.75 Pounds",
+    dimensions: "8.25 x 5.5 x 1 Inches",
     pages: 347,
     price: 14.95,
     count: 10,
@@ -2389,7 +2389,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1250317991",
     title: "The Whisper Man",
-    synopsis: "After the sudden death of his wife, Tom Kennedy believes a fresh start will help him and his young son Jake heal. A new beginning, a new house, a new town. Featherbank.\nBut the town has a dark past. Twenty years ago, a serial killer abducted and murdered five residents. Until Frank Carter was finally caught, he was nicknamed \"The Whisper Man,\" for he would lure his victims out by whispering at their windows at night.\nJust as Tom and Jake settle into their new home, a young boy vanishes. His disappearance bears an unnerving resemblance to Frank Carter's crimes, reigniting old rumors that he preyed with an accomplice. Now, detectives Amanda Beck and Pete Willis must find the boy before it is too late, even if that means Pete has to revisit his great foe in prison: The Whisper Man.\nAnd then Jake begins acting strangely. He hears a whispering at his window...",
+    description: "After the sudden death of his wife, Tom Kennedy believes a fresh start will help him and his young son Jake heal. A new beginning, a new house, a new town. Featherbank.\nBut the town has a dark past. Twenty years ago, a serial killer abducted and murdered five residents. Until Frank Carter was finally caught, he was nicknamed \"The Whisper Man,\" for he would lure his victims out by whispering at their windows at night.\nJust as Tom and Jake settle into their new home, a young boy vanishes. His disappearance bears an unnerving resemblance to Frank Carter's crimes, reigniting old rumors that he preyed with an accomplice. Now, detectives Amanda Beck and Pete Willis must find the boy before it is too late, even if that means Pete has to revisit his great foe in prison: The Whisper Man.\nAnd then Jake begins acting strangely. He hears a whispering at his window...",
     img: "https://m.media-amazon.com/images/I/81MBamZ7IIL.jpg",
     authors: [
       "Alex North"
@@ -2397,7 +2397,7 @@ export const products: Product[] = [
     publisher: "Celadon Books",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.6 Inches, Length: 6.5 Inches, Width: 1.25 Inches, Weight: 1.2 Pounds",
+    dimensions: "9.6 x 6.5 x 1.25 Inches",
     pages: 368,
     price: 26.99,
     count: 23,
@@ -2406,7 +2406,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0316528501",
     title: "Conviction",
-    synopsis: "The day Anna McDonald's quiet, respectable life exploded started off like all the days before: Packing up the kids for school, making breakfast, listening to yet another true crime podcast. Then her husband comes downstairs with an announcement, and Anna is suddenly, shockingly alone.\nReeling, desperate for distraction, Anna returns to the podcast. Other people's problems are much better than one's own -- a sunken yacht, a murdered family, a hint of international conspiracy. But this case actually is Anna's problem. She knows one of the victims from an earlier life, a life she's taken great pains to leave behind. And she is convinced that she knows what really happened.\nThen an unexpected visitor arrives on her front stoop, a meddling neighbor intervenes, and life as Anna knows it is well and truly over. The devils of her past are awakened -- and they're in hot pursuit. Convinced she has no other options, Anna goes on the run, and in pursuit of the truth, with a washed-up musician at her side and the podcast as her guide.\nConviction is \"daredevil storytelling at its finest\" (NPR's Fresh Air), a breathtaking thriller from one of the most \"superbly talented\" writers of our time (Hank Phillippi Ryan, bestselling author of Trust Me).",
+    description: "The day Anna McDonald's quiet, respectable life exploded started off like all the days before: Packing up the kids for school, making breakfast, listening to yet another true crime podcast. Then her husband comes downstairs with an announcement, and Anna is suddenly, shockingly alone.\nReeling, desperate for distraction, Anna returns to the podcast. Other people's problems are much better than one's own -- a sunken yacht, a murdered family, a hint of international conspiracy. But this case actually is Anna's problem. She knows one of the victims from an earlier life, a life she's taken great pains to leave behind. And she is convinced that she knows what really happened.\nThen an unexpected visitor arrives on her front stoop, a meddling neighbor intervenes, and life as Anna knows it is well and truly over. The devils of her past are awakened -- and they're in hot pursuit. Convinced she has no other options, Anna goes on the run, and in pursuit of the truth, with a washed-up musician at her side and the podcast as her guide.\nConviction is \"daredevil storytelling at its finest\" (NPR's Fresh Air), a breathtaking thriller from one of the most \"superbly talented\" writers of our time (Hank Phillippi Ryan, bestselling author of Trust Me).",
     img: "https://m.media-amazon.com/images/I/61CntC9rG1L.jpg",
     authors: [
       "Denise Mina"
@@ -2414,7 +2414,7 @@ export const products: Product[] = [
     publisher: "Mulholland Books",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.7 Inches, Length: 6.5 Inches, Width: 1.55 Inches, Weight: 1.3 Pounds",
+    dimensions: "9.7 x 6.5 x 1.55 Inches",
     pages: 384,
     price: 26.99,
     count: 0,
@@ -2423,7 +2423,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1524761508",
     title: "The Paris Diversion",
-    synopsis: "American expat Kate Moore drops her kids at the international school, makes her rounds of chores, and meets her husband Dexter at their regular café: a leisurely start to a normal day, St-Germain-des-Prés.\nAcross the Seine, tech CEO Hunter Forsyth stands on his balcony, wondering why his police escort just departed, and frustrated that his cell service has cut out; Hunter has important calls to make, not all of them technically legal.\nAnd on the nearby rue de Rivoli, Mahmoud Khalid climbs out of an electrician’s van and elbows his way into the crowded courtyard of the world’s largest museum. He sets down his metal briefcase, and removes his windbreaker.\nThat’s when people start to scream.\nEveryone has big plans for the day. Dexter is going to make a small fortune, finally digging himself out of a deep financial hole, via an extremely risky investment. Hunter is going to make a huge fortune, with a major corporate acquisition that will send his company’s stock soaring. Kate has less ambitious plans: preparations for tonight’s dinner party—one of those homemaker obligations she still hasn’t embraced, even after a half-decade of this life—and an uneventful workday at the Paris Substation, the clandestine cadre of operatives that she’s been running, not entirely successfully, increasingly convinced that every day could be the last of her career. But every day is also a fresh chance to prove her own relevance, never more so than during today’s momentous events.\nAnd Mahmoud? He is planning to die today. And he won’t be the only one.",
+    description: "American expat Kate Moore drops her kids at the international school, makes her rounds of chores, and meets her husband Dexter at their regular café: a leisurely start to a normal day, St-Germain-des-Prés.\nAcross the Seine, tech CEO Hunter Forsyth stands on his balcony, wondering why his police escort just departed, and frustrated that his cell service has cut out; Hunter has important calls to make, not all of them technically legal.\nAnd on the nearby rue de Rivoli, Mahmoud Khalid climbs out of an electrician’s van and elbows his way into the crowded courtyard of the world’s largest museum. He sets down his metal briefcase, and removes his windbreaker.\nThat’s when people start to scream.\nEveryone has big plans for the day. Dexter is going to make a small fortune, finally digging himself out of a deep financial hole, via an extremely risky investment. Hunter is going to make a huge fortune, with a major corporate acquisition that will send his company’s stock soaring. Kate has less ambitious plans: preparations for tonight’s dinner party—one of those homemaker obligations she still hasn’t embraced, even after a half-decade of this life—and an uneventful workday at the Paris Substation, the clandestine cadre of operatives that she’s been running, not entirely successfully, increasingly convinced that every day could be the last of her career. But every day is also a fresh chance to prove her own relevance, never more so than during today’s momentous events.\nAnd Mahmoud? He is planning to die today. And he won’t be the only one.",
     img: "https://m.media-amazon.com/images/I/814h0XG-vvL.jpg",
     authors: [
       "Chris Pavone"
@@ -2431,7 +2431,7 @@ export const products: Product[] = [
     publisher: "Crown",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.43 Inches, Length: 6.37 Inches, Width: 1.18 Inches, Weight: 1.35 Pounds",
+    dimensions: "9.43 x 6.37 x 1.18 Inches",
     pages: 384,
     price: 26.99,
     count: 8,
@@ -2440,7 +2440,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1982127570",
     title: "The Tenant",
-    synopsis: "When a young woman is discovered brutally murdered in her own apartment with an intricate pattern of lines carved into her face, Copenhagen police detectives Jeppe Korner and Anette Werner are assigned to the case. In short order, they establish a link between the victim, Julie Stender, and her landlady, Esther de Laurenti, who’s a bit too fond of drink and the host of raucous dinner parties with her artist friends. Esther also turns out to be a budding novelist—and when Julie turns up as a murder victim in the still-unfinished mystery she’s writing, the link between fiction and real life grows both more urgent and more dangerous.\nBut Esther’s role in this twisted scenario is not quite as clear as it first seems. Is she the culprit or just another victim, trapped in a twisted game of vengeance? Anette and Jeppe must dig more deeply into the two women’s pasts to discover the identity of the brutal puppet-master pulling the strings.\nEvocative and original, The Tenant promises “dark family secrets—and a smorgasbord of surprises” (People).",
+    description: "When a young woman is discovered brutally murdered in her own apartment with an intricate pattern of lines carved into her face, Copenhagen police detectives Jeppe Korner and Anette Werner are assigned to the case. In short order, they establish a link between the victim, Julie Stender, and her landlady, Esther de Laurenti, who’s a bit too fond of drink and the host of raucous dinner parties with her artist friends. Esther also turns out to be a budding novelist—and when Julie turns up as a murder victim in the still-unfinished mystery she’s writing, the link between fiction and real life grows both more urgent and more dangerous.\nBut Esther’s role in this twisted scenario is not quite as clear as it first seems. Is she the culprit or just another victim, trapped in a twisted game of vengeance? Anette and Jeppe must dig more deeply into the two women’s pasts to discover the identity of the brutal puppet-master pulling the strings.\nEvocative and original, The Tenant promises “dark family secrets—and a smorgasbord of surprises” (People).",
     img: "https://m.media-amazon.com/images/I/713o4IUwopL.jpg",
     authors: [
       "Katrine Engberg"
@@ -2448,7 +2448,7 @@ export const products: Product[] = [
     publisher: "Gallery/Scout Press",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1 Inches, Weight: 1.1 Pounds",
+    dimensions: "9 x 6 x 1 Inches",
     pages: 368,
     price: 26.99,
     count: 10,
@@ -2457,7 +2457,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1982121289",
     title: "Things in Jars",
-    synopsis: "Bridie Devine—flame-haired, pipe-smoking detective extraordinaire—is confronted with the most baffling puzzle yet: the kidnapping of Christabel Berwick, secret daughter of Sir Edmund Athelstan Berwick, and a peculiar child whose reputed supernatural powers have captured the unwanted attention of collectors in this age of discovery.\nWinding her way through the sooty streets of Victorian London, Bridie won’t rest until she finds the young girl, even if it means unearthing secrets about her past that she’d rather keep buried. Luckily, her search is aided by an enchanting cast of characters, including a seven-foot-tall housemaid; a melancholic, tattoo-covered ghost; and an avuncular apothecary. But secrets abound in this foggy underworld where nothing is quite what it seems.\nBlending darkness and light, Things in Jars is a stunning, “richly woven tapestry of fantasy, folklore, and history” (Booklist, starred review) that explores what it means to be human in inhumane times.",
+    description: "Bridie Devine—flame-haired, pipe-smoking detective extraordinaire—is confronted with the most baffling puzzle yet: the kidnapping of Christabel Berwick, secret daughter of Sir Edmund Athelstan Berwick, and a peculiar child whose reputed supernatural powers have captured the unwanted attention of collectors in this age of discovery.\nWinding her way through the sooty streets of Victorian London, Bridie won’t rest until she finds the young girl, even if it means unearthing secrets about her past that she’d rather keep buried. Luckily, her search is aided by an enchanting cast of characters, including a seven-foot-tall housemaid; a melancholic, tattoo-covered ghost; and an avuncular apothecary. But secrets abound in this foggy underworld where nothing is quite what it seems.\nBlending darkness and light, Things in Jars is a stunning, “richly woven tapestry of fantasy, folklore, and history” (Booklist, starred review) that explores what it means to be human in inhumane times.",
     img: "https://m.media-amazon.com/images/I/91E9NfcKVhL.jpg",
     authors: [
       "Jess Kidd"
@@ -2465,7 +2465,7 @@ export const products: Product[] = [
     publisher: "Atria Books",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.3 Inches, Weight: 1.1 Pounds",
+    dimensions: "9 x 6 x 1.3 Inches",
     pages: 384,
     price: 13.99,
     count: 23,
@@ -2474,7 +2474,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0062905538",
     title: "A Divided Loyalty",
-    synopsis: "A woman has been murdered at the foot of a megalith shaped like a great shrouded figure. Chief Inspector Brian Leslie, one of the Yard’s best men, is sent to investigate the site in Avebury, a village set inside a prehistoric stone circle not far from Stonehenge. In spite of his efforts, Leslie is not able to identify her, much less discover how she got to Avebury—or why she died there. Her killer has simply left no trace. \nSeveral weeks later, when Ian Rutledge has returned from successfully concluding a similar case with an unidentified victim, he is asked to take a second look at Leslie’s inquiry. But Rutledge suspects Chief Superintendent Markham simply wants him to fail.\nLeslie was right—Avebury refuses to yield its secrets. But Rutledge slowly widens his search, until he discovers an unexplained clue that seems to point toward an impossible solution. If he pursues it and he is wrong, he will draw the wrath of the Yard down on his head. But even if he is right, he can’t be certain what he can prove, and that will play right into Markham’s game. The easy answer is to let the first verdict stand: Person or persons unknown. But what about the victim? What does Rutledge owe this tragic young woman? Where must his loyalty lie?",
+    description: "A woman has been murdered at the foot of a megalith shaped like a great shrouded figure. Chief Inspector Brian Leslie, one of the Yard’s best men, is sent to investigate the site in Avebury, a village set inside a prehistoric stone circle not far from Stonehenge. In spite of his efforts, Leslie is not able to identify her, much less discover how she got to Avebury—or why she died there. Her killer has simply left no trace. \nSeveral weeks later, when Ian Rutledge has returned from successfully concluding a similar case with an unidentified victim, he is asked to take a second look at Leslie’s inquiry. But Rutledge suspects Chief Superintendent Markham simply wants him to fail.\nLeslie was right—Avebury refuses to yield its secrets. But Rutledge slowly widens his search, until he discovers an unexplained clue that seems to point toward an impossible solution. If he pursues it and he is wrong, he will draw the wrath of the Yard down on his head. But even if he is right, he can’t be certain what he can prove, and that will play right into Markham’s game. The easy answer is to let the first verdict stand: Person or persons unknown. But what about the victim? What does Rutledge owe this tragic young woman? Where must his loyalty lie?",
     img: "https://m.media-amazon.com/images/I/91Ankk+du+L.jpg",
     authors: [
       "Charles Todd"
@@ -2482,7 +2482,7 @@ export const products: Product[] = [
     publisher: "William Morrow",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9 Inches, Length: 6 Inches, Width: 1.09 Inches, Weight: 1.1 Pounds",
+    dimensions: "9 x 6 x 1.09 Inches",
     pages: 336,
     price: 13.99,
     count: 2,
@@ -2491,7 +2491,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "152476101X",
     title: "The Hiding Place",
-    synopsis: "Joe never wanted to come back to Arnhill. After the way things ended with his old gang—the betrayal, the suicide—and what happened when his sister went missing, the last thing he wanted to do was return to his hometown. But Joe doesn’t have a choice, not after a chilling email surfaces in his inbox: I know what happened to your sister. It’s happening again . . .\nLying his way into a teaching job at his former high school is the easy part. Facing off with onetime friends who aren’t too happy to have him back in town—while avoiding the enemies he’s made in the years since—is tougher. But the hardest part of all will be returning to the abandoned mine where his life changed forever, and finally confronting the horrifying truth about Arnhill, his sister, and himself. Because for Joe, the worst moment of his life wasn’t the day his sister went missing.\nIt was the day she came back.",
+    description: "Joe never wanted to come back to Arnhill. After the way things ended with his old gang—the betrayal, the suicide—and what happened when his sister went missing, the last thing he wanted to do was return to his hometown. But Joe doesn’t have a choice, not after a chilling email surfaces in his inbox: I know what happened to your sister. It’s happening again . . .\nLying his way into a teaching job at his former high school is the easy part. Facing off with onetime friends who aren’t too happy to have him back in town—while avoiding the enemies he’s made in the years since—is tougher. But the hardest part of all will be returning to the abandoned mine where his life changed forever, and finally confronting the horrifying truth about Arnhill, his sister, and himself. Because for Joe, the worst moment of his life wasn’t the day his sister went missing.\nIt was the day she came back.",
     img: "https://m.media-amazon.com/images/I/81aqOQvUsBL.jpg",
     authors: [
       "C. J. Tudor"
@@ -2499,7 +2499,7 @@ export const products: Product[] = [
     publisher: "Crown",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.6 Inches, Length: 6.5 Inches, Width: 0.94 Inches, Weight: 1.1 Pounds",
+    dimensions: "9.6 x 6.5 x 0.94 Inches",
     pages: 288,
     price: 26.99,
     count: 17,
@@ -2508,7 +2508,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1984878875",
     title: "Agent Running in the Field",
-    synopsis: "Nat, a 47 year-old veteran of Britain’s Secret Intelligence Service, believes his years as an agent runner are over. He is back in London with his wife, the long-suffering Prue. But with the growing threat from Moscow Centre, the office has one more job for him. Nat is to take over The Haven, a defunct substation of London General with a rag-categoryId band of spies. The only bright light on the team is young Florence, who has her eye on Russia Department and a Ukrainian oligarch with a finger in the Russia pie.\nNat is not only a spy, he is a passionate badminton player. His regular Monday evening opponent is half his age: the introspective and solitary Ed. Ed hates Brexit, hates Trump and hates his job at some soulless media agency. And it is Ed, of all unlikely people, who will take Prue, Florence and Nat himself down the path of political anger that will ensnare them all. Agent Running in the Field is a chilling portrait of our time, now heartbreaking, now darkly humorous, told to us with unflagging tension by the greatest chronicler of our age.",
+    description: "Nat, a 47 year-old veteran of Britain’s Secret Intelligence Service, believes his years as an agent runner are over. He is back in London with his wife, the long-suffering Prue. But with the growing threat from Moscow Centre, the office has one more job for him. Nat is to take over The Haven, a defunct substation of London General with a rag-categoryId band of spies. The only bright light on the team is young Florence, who has her eye on Russia Department and a Ukrainian oligarch with a finger in the Russia pie.\nNat is not only a spy, he is a passionate badminton player. His regular Monday evening opponent is half his age: the introspective and solitary Ed. Ed hates Brexit, hates Trump and hates his job at some soulless media agency. And it is Ed, of all unlikely people, who will take Prue, Florence and Nat himself down the path of political anger that will ensnare them all. Agent Running in the Field is a chilling portrait of our time, now heartbreaking, now darkly humorous, told to us with unflagging tension by the greatest chronicler of our age.",
     img: "https://m.media-amazon.com/images/I/71f-z10sFYL.jpg",
     authors: [
       "John le Carré"
@@ -2516,7 +2516,7 @@ export const products: Product[] = [
     publisher: "Viking",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.3 Inches, Length: 6.3 Inches, Width: 1.2 Inches, Weight: 1.26 Pounds",
+    dimensions: "9.3 x 6.3 x 1.2 Inches",
     pages: 288,
     price: 28.99,
     count: 14,
@@ -2525,7 +2525,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1538747251",
     title: "Crooked River",
-    synopsis: "A startling crime with dozens of victims. Appearing out of nowhere to horrify the quiet resort town of Sanibel Island, Florida, dozens of identical, ordinary-looking shoes float in on the tide and are washed up on the tropical beach—each one with a crudely severed human foot inside.\nA ghastly enigma with no apparent solution. Called away from vacation elsewhere in the state, Agent Pendergast reluctantly agrees to visit the crime scene—and, despite himself, is quickly drawn in by the incomprehensible puzzle. An early pathology report only adds to the mystery. With an ocean of possibilities confronting the investigation, no one is sure what happened, why, or from where the feet originated. And they desperately need to know: are the victims still alive?\nA worthy challenge for a brilliant mind. In short order, Pendergast finds himself facing the most complex and inexplicable challenge of his career: a tangled thread of evidence that spans seas and traverses continents, connected to one of the most baffling mysteries in modern medical science. Through shocking twists and turns, all trails lead back to a powerful adversary with a sadistic agenda and who—in a cruel irony—ultimately sees in Pendergast the ideal subject for their malevolent research.",
+    description: "A startling crime with dozens of victims. Appearing out of nowhere to horrify the quiet resort town of Sanibel Island, Florida, dozens of identical, ordinary-looking shoes float in on the tide and are washed up on the tropical beach—each one with a crudely severed human foot inside.\nA ghastly enigma with no apparent solution. Called away from vacation elsewhere in the state, Agent Pendergast reluctantly agrees to visit the crime scene—and, despite himself, is quickly drawn in by the incomprehensible puzzle. An early pathology report only adds to the mystery. With an ocean of possibilities confronting the investigation, no one is sure what happened, why, or from where the feet originated. And they desperately need to know: are the victims still alive?\nA worthy challenge for a brilliant mind. In short order, Pendergast finds himself facing the most complex and inexplicable challenge of his career: a tangled thread of evidence that spans seas and traverses continents, connected to one of the most baffling mysteries in modern medical science. Through shocking twists and turns, all trails lead back to a powerful adversary with a sadistic agenda and who—in a cruel irony—ultimately sees in Pendergast the ideal subject for their malevolent research.",
     img: "https://m.media-amazon.com/images/I/81rpRZDPphL.jpg",
     authors: [
       "Douglas Preston",
@@ -2534,7 +2534,7 @@ export const products: Product[] = [
     publisher: "Grand Central Publishing",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.35 Inches, Length: 6.4 Inches, Width: 1.55 Inches, Weight: 1.35 Pounds",
+    dimensions: "9.35 x 6.4 x 1.55 Inches",
     pages: 416,
     price: 28.99,
     count: 14,
@@ -2543,7 +2543,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1984880969",
     title: "The Thursday Murder Club",
-    synopsis: "In a peaceful retirement village, four unlikely friends meet weekly in the Jigsaw Room to discuss unsolved crimes; together they call themselves the Thursday Murder Club.\nWhen a local developer is found dead with a mysterious photograph left next to the body, the Thursday Murder Club suddenly find themselves in the middle of their first live case.\nAs the bodies begin to pile up, can our unorthodox but brilliant gang catch the killer, before it's too late?",
+    description: "In a peaceful retirement village, four unlikely friends meet weekly in the Jigsaw Room to discuss unsolved crimes; together they call themselves the Thursday Murder Club.\nWhen a local developer is found dead with a mysterious photograph left next to the body, the Thursday Murder Club suddenly find themselves in the middle of their first live case.\nAs the bodies begin to pile up, can our unorthodox but brilliant gang catch the killer, before it's too late?",
     img: "https://m.media-amazon.com/images/I/81AAF4cgENL.jpg",
     authors: [
       "Richard Osman"
@@ -2551,7 +2551,7 @@ export const products: Product[] = [
     publisher: "Pamela Dorman Books",
     date_published: 2020,
     language: "english",
-    dimensions: "Height: 9.32 Inches, Length: 6.14 Inches, Width: 1.25 Inches, Weight: 0.8 Pounds",
+    dimensions: "9.32 x 6.14 x 1.25 Inches",
     pages: 368,
     price: 12.99,
     count: 0,
@@ -2560,7 +2560,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "0316485616",
     title: "The Night Fire",
-    synopsis: "Back when Harry Bosch was just a rookie homicide detective, he had an inspiring mentor who taught him to take the work personally and light the fire of relentlessness for every case. Now that mentor, John Jack Thompson, is dead, and his widow gives Bosch a murder book, one that Thompson took with him when he left the LAPD twenty years before -- the unsolved killing of a troubled young man.\nBosch takes the murder book to Detective Renée Ballard and asks her to help him discover what about this crime lit Thompson's fire all those years ago. As she begins her inqueries -- while still working her own cases on the midnight shift -- Ballad finds aspects of the initial investigation that just don't add up.\nThe bond between Bosch and Ballard tightens as they become a formidable investigation team. And they soon arrive at a disturbing question: Did Thompson steal the murder book to work the case in retirement, or to make sure it never got solved?",
+    description: "Back when Harry Bosch was just a rookie homicide detective, he had an inspiring mentor who taught him to take the work personally and light the fire of relentlessness for every case. Now that mentor, John Jack Thompson, is dead, and his widow gives Bosch a murder book, one that Thompson took with him when he left the LAPD twenty years before -- the unsolved killing of a troubled young man.\nBosch takes the murder book to Detective Renée Ballard and asks her to help him discover what about this crime lit Thompson's fire all those years ago. As she begins her inqueries -- while still working her own cases on the midnight shift -- Ballad finds aspects of the initial investigation that just don't add up.\nThe bond between Bosch and Ballard tightens as they become a formidable investigation team. And they soon arrive at a disturbing question: Did Thompson steal the murder book to work the case in retirement, or to make sure it never got solved?",
     img: "https://m.media-amazon.com/images/I/81Htoon9g1L.jpg",
     authors: [
       "Michael Connelly"
@@ -2568,7 +2568,7 @@ export const products: Product[] = [
     publisher: "Little, Brown and Company",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.5 Inches, Length: 6.25 Inches, Width: 1.25 Inches, Weight: 1.44 Pounds",
+    dimensions: "9.5 x 6.25 x 1.25 Inches",
     pages: 416,
     price: 28.99,
     count: 35,
@@ -2577,7 +2577,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1538747278",
     title: "The Scorpion's Tail",
-    synopsis: "Following the acclaimed debut of Old Bones, this second \"happily anticipated\" new thriller in Preston & Child's series features Nora Kelly, archaeologist at the Santa Fe Archeological Institute, and rookie FBI Agent Corrie Swanson, as they team up to solve a mystery that quickly escalates into nightmare (Booklist).\nA mummified corpse, over half a century old, is found in the cellar of an abandoned building in a remote New Mexico ghost town. Corrie is assigned what seems to her a throwaway case: to ID the body and determine cause of death. She brings archaeologist Nora Kelly to excavate the body and lend her expertise to the investigation, and together they uncover something unexpected and shocking: the deceased apparently died in agony, in a fetal position, skin coming off in sheets, with a rictus of horror frozen on his face.\nHidden on the corpse lies a 16th century Spanish gold cross of immense value.\nWhen they at last identify the body -- and the bizarre cause of death -- Corrie and Nora open a door into a terrifying, secret world of ancient treasure and modern obsession: a world centered on arguably the most defining, frightening, and transformative moment in American history.",
+    description: "Following the acclaimed debut of Old Bones, this second \"happily anticipated\" new thriller in Preston & Child's series features Nora Kelly, archaeologist at the Santa Fe Archeological Institute, and rookie FBI Agent Corrie Swanson, as they team up to solve a mystery that quickly escalates into nightmare (Booklist).\nA mummified corpse, over half a century old, is found in the cellar of an abandoned building in a remote New Mexico ghost town. Corrie is assigned what seems to her a throwaway case: to ID the body and determine cause of death. She brings archaeologist Nora Kelly to excavate the body and lend her expertise to the investigation, and together they uncover something unexpected and shocking: the deceased apparently died in agony, in a fetal position, skin coming off in sheets, with a rictus of horror frozen on his face.\nHidden on the corpse lies a 16th century Spanish gold cross of immense value.\nWhen they at last identify the body -- and the bizarre cause of death -- Corrie and Nora open a door into a terrifying, secret world of ancient treasure and modern obsession: a world centered on arguably the most defining, frightening, and transformative moment in American history.",
     img: "https://m.media-amazon.com/images/I/81XvXEWIVeL.jpg",
     authors: [
       "Lincoln Child",
@@ -2586,7 +2586,7 @@ export const products: Product[] = [
     publisher: "Grand Central Publishing",
     date_published: 2021,
     language: "english",
-    dimensions: "Height: 9.3 Inches, Length: 6.45 Inches, Width: 1.65 Inches, Weight: 1.3 Pounds",
+    dimensions: "9.3 x 6.45 x 1.65 Inches",
     pages: 416,
     price: 11.99,
     count: 10,
@@ -2595,7 +2595,7 @@ export const products: Product[] = [
     categoryId: "3",
     id: "1250105684",
     title: "The Lost Man",
-    synopsis: "Brothers Nathan and Bub Bright meet for the first time in months at the remote fence line separating their cattle ranches in the lonely outback.\nTheir third brother, Cameron, lies dead at their feet.\nIn an isolated belt of Australia, their homes a three-hour drive apart, the brothers were one another’s nearest neighbors. Cameron was the middle child, the one who ran the family homestead. But something made him head out alone under the unrelenting sun.\nNathan, Bub and Nathan’s son return to Cameron’s ranch and to those left behind by his passing: his wife, his daughters, and his mother, as well as their long-time employee and two recently hired seasonal workers.\nWhile they grieve Cameron’s loss, suspicion starts to take hold, and Nathan is forced to examine secrets the family would rather leave in the past. Because if someone forced Cameron to his death, the isolation of the outback leaves few suspects.\nA powerful and brutal story of suspense set against a formidable landscape, The Lost Man confirms Jane Harper, author of The Dry and Force of Nature, is one of the best new voices in writing today.",
+    description: "Brothers Nathan and Bub Bright meet for the first time in months at the remote fence line separating their cattle ranches in the lonely outback.\nTheir third brother, Cameron, lies dead at their feet.\nIn an isolated belt of Australia, their homes a three-hour drive apart, the brothers were one another’s nearest neighbors. Cameron was the middle child, the one who ran the family homestead. But something made him head out alone under the unrelenting sun.\nNathan, Bub and Nathan’s son return to Cameron’s ranch and to those left behind by his passing: his wife, his daughters, and his mother, as well as their long-time employee and two recently hired seasonal workers.\nWhile they grieve Cameron’s loss, suspicion starts to take hold, and Nathan is forced to examine secrets the family would rather leave in the past. Because if someone forced Cameron to his death, the isolation of the outback leaves few suspects.\nA powerful and brutal story of suspense set against a formidable landscape, The Lost Man confirms Jane Harper, author of The Dry and Force of Nature, is one of the best new voices in writing today.",
     img: "https://m.media-amazon.com/images/I/817YssadhUL.jpg",
     authors: [
       "Jane Harper"
@@ -2603,9 +2603,911 @@ export const products: Product[] = [
     publisher: "Flatiron Books",
     date_published: 2019,
     language: "english",
-    dimensions: "Height: 9.42 Inches, Length: 6.37 Inches, Width: 1.17 Inches, Weight: 1.1 Pounds",
+    dimensions: "9.42 x 6.37 x 1.17 Inches",
     pages: 352,
     price: 11.99,
     count: 14,
   },
+  {
+    categoryId: "4",
+    id: "1682815706",
+    title: "Highland Warrior",
+    description: "Joshua Sinclair was once the fiercest and most notorious warrior of the mighty Sinclair clan of Northern Scotland. But now there’s nothing and no one that can make him take up arms again. Except a beautiful woman, it seems.\nWhen Kára Flett, daughter of a fallen Norse chief, finds herself unexpectedly sheltering the strongest, most brutal warrior in the land, she throws together a risky and outrageous plan to bring him to her side. Threats of violence bounce right off him. Offers of gold seem to entice him even less. Desperate enough to use the pleas of the village children to sway him, she’s shocked when he’s completely unmoved. There’s only one tactic left for her: seduction.\nHer hasty proposition falls completely by the wayside, though, as she and the Highlander come together in a carnal inferno. But bringing him into her life also brings his enemies to her clan’s doorstep—the very clan Kára is trying to protect. And as their feelings deepen, Joshua will have to decide between duty and love once and for all.",
+    img: "https://m.media-amazon.com/images/I/81645FyEknL.jpg",
+    authors: [
+      "Heather McCollum"
+    ],
+    publisher: "Entangled: Amara",
+    date_published: 2021,
+    language: "english",
+    dimensions: "6.75 x 4.12 x 1 Inches",
+    pages: 400,
+    price: 14.97,
+    count: 16,
+  },
+  {
+    categoryId: "4",
+    id: "1640635335",
+    title: "The Last Letter",
+    description: "Beckett,\nIf you’re reading this, well, you know the last-letter drill. You made it. I didn’t. Get off the guilt train, because I know if there was any chance you could have saved me, you would have.\nI need one thing from you: get out of the army and get to Telluride.\nMy little sister Ella’s raising the twins alone. She’s too independent and won’t accept help easily, but she has lost our grandmother, our parents, and now me. It’s too much for anyone to endure. It’s not fair.\nAnd here’s the kicker: there’s something else you don’t know that’s tearing her family apart. She’s going to need help.\nSo if I’m gone, that means I can’t be there for Ella. I can’t help them through this. But you can. So I’m begging you, as my best friend, go take care of my sister, my family.\nPlease don’t make her go through it alone.\nRyan",
+    img: "https://m.media-amazon.com/images/I/81FbJmT7OtL.jpg",
+    authors: [
+      "Rebecca Yarros"
+    ],
+    publisher: "Entangled: Amara",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8.2 x 5.3 x 1.2 Inches",
+    pages: 432,
+    price: 9.69,
+    count: 23,
+  },
+  {
+    categoryId: "4",
+    id: "1492695211",
+    title: "Season of the Wolf",
+    description: "For Alpha Evie Kitwanasdottir, things are never easy. The Great North Pack has just survived a deadly attack. Evie is determined to do whatever is necessary to keep her Pack safe, especially from the four Shifters who are their prisoners.\nConstantine lost his parents and his humanity on the same devastating day. He has been a thoughtless killer ever since. When Constantine is moved to live under Evie's watchful eye, he discovers that taking directions and having a purpose are not the same",
+    img: "https://m.media-amazon.com/images/I/81t3jevGzoL.jpg",
+    authors: [
+      "Maria Vale"
+    ],
+    publisher: "Sourcebooks Casablanca",
+    date_published: 2020,
+    language: "english",
+    dimensions: "6.8 x 4.2 x 1.5 Inches",
+    pages: 320,
+    price: 7.89,
+    count: 10,
+  },
+  {
+    categoryId: "4",
+    id: "1640637435",
+    title: "The Two-Date Rule",
+    description: "Willa Frank has one simple rule: never go on a date with anyone more than twice. Now that her business is providing the stability she’s always needed, she can’t afford distractions. Her two-date rule will protect her just fine…until she meets smokejumper Grady Billman.\nAfter one date—one amazing, unforgettable date—Grady isn’t ready to call it quits, despite his own no-attachments policy, and he’s found a sneaky way around both their rules.\nThrowing gutter balls with pitchers of beer? Not a real date. Everyone knows bowling doesn’t count.\nWatching a band play at a local show? They just happen to have the same great taste in music. Definitely not a date.\nHiking? Nope. How can exercise be considered a date?\nWith every \"non-date\" Grady suggests, his reasoning gets more ridiculous, and Willa must admit she’s having fun playing along. But when their time together costs Willa two critical clients, it's clear she needs to focus on the only thing that matters—her future. And really, he should do the same.\nBut what is she supposed to do with a future that looks gray without Grady in it?",
+    img: "https://m.media-amazon.com/images/I/81To81V+jUL.jpg",
+    authors: [
+      "Tawna Fenske"
+    ],
+    publisher: "Entangled: Amara",
+    date_published: 2020,
+    language: "english",
+    dimensions: "6.85 x 4.12 x 0.97 Inches",
+    pages: 320,
+    price: 7.99,
+    count: 4,
+  },
+  {
+    categoryId: "4",
+    id: "0062457403",
+    title: "Ten Things I Hate About the Duke",
+    description: "Cassandra Pomfret holds strong opinions she isn’t shy about voicing. But her extremely plain speaking has caused an uproar, and her exasperated father, hoping a husband will rein her in, has ruled that her beloved sister can’t marry until Cassandra does.\nNow, thanks to a certain wild-living nobleman, the last shreds of Cassandra’s reputation are about to disintegrate, taking her sister’s future and her family’s good name along with them.\nThe Duke of Ashmont’s looks make women swoon. His character flaws are beyond counting. He’s lost a perfectly good bride through his own carelessness. He nearly killed one of his two best friends. Still, troublemaker that he is, he knows that damaging a lady’s good name isn’t sporting.\nThe only way to right the wrong is to marry her…and hope she doesn’t smother him in his sleep on their wedding night.",
+    img: "https://m.media-amazon.com/images/I/91rgnyiGnPL.jpg",
+    authors: [
+      "Loretta Chase"
+    ],
+    publisher: "Avon",
+    date_published: 2020,
+    language: "english",
+    dimensions: "6.62 x 4.19 x 0.96 Inches",
+    pages: 400,
+    price: 7.99,
+    count: 27,
+  },
+  {
+    categoryId: "4",
+    id: "1984898329",
+    title: "The Mister",
+    description: "London, present day. Life has always been easy for Maxim Trevelyan, the \"spare\" to the earldom of Trevethick. With his good looks, aristocratic connections, and money, he's never had to work, and he's rarely slept alone. But all that changes when tragedy strikes and Maxim inherits his family's title, wealth, and estates, and the responsibility that entails. It's a role he's not prepared for and one he struggles to face.\nBut his biggest challenge is fighting his desire for an unexpected, enigmatic young woman who's recently joined his staff. Reticent, beautiful, and musically gifted, she's an alluring mystery, possessing little more than a dangerous and troublesome past. As Maxim's longing for her deepens into a passion he's never experienced and dares not name, he's left to wonder just who is Alessia Demachi? And can he protect her from the malevolence that threatens her?",
+    img: "https://m.media-amazon.com/images/I/91RtOYa7A4L.jpg",
+    authors: [
+      "E L James"
+    ],
+    publisher: "Vintage",
+    date_published: 2019,
+    language: "english",
+    dimensions: "7.94 x 5.2 x 0.9 Inches",
+    pages: 512,
+    price: 7.99,
+    count: 0,
+  },
+  {
+    categoryId: "4",
+    id: "0399587667",
+    title: "The Wedding Date",
+    description: "Agreeing to go to a wedding with a guy she gets stuck with in an elevator is something Alexa Monroe wouldn't normally do. But there's something about Drew Nichols that's too hard to resist.\nOn the eve of his ex's wedding festivities, Drew is minus a plus one. Until a power outage strands him with the perfect candidate for a fake girlfriend....\nAfter Alexa and Drew have more fun than they ever thought possible, Drew has to fly back to Los Angeles and his job as a pediatric surgeon, and Alexa heads home to Berkeley, where she's the mayor's chief of staff. Too bad they can't stop thinking about the other....\nThey're just two high-powered professionals on a collision course toward the long distance dating disaster of the century--or closing the gap between what they think they need and what they truly want....",
+    img: "https://m.media-amazon.com/images/I/91jXp4FWzdL.jpg",
+    authors: [
+      "Jasmine Guillory"
+    ],
+    publisher: "Berkley",
+    date_published: 2018,
+    language: "english",
+    dimensions: "8.25 x 5.5 x 0.76 Inches",
+    pages: 336,
+    price: 18.51,
+    count: 12,
+  },
+  {
+    categoryId: "4",
+    id: "1640638210",
+    title: "Cowboy for Hire",
+    description: "Sarah Turner has led a very sheltered life. So when her parents pass away tragically, suddenly she’s left in charge of the family ranch with little know-how but plenty of will to keep it afloat. Determined not to lose her parents’ legacy or her newfound independence, she needs a hero fast―not to save her, but to show her how to save herself. But she’s unprepared for the ruggedly handsome cowboy who answers her ad.\n“Cowboy for Hire,” the ad said, and Cade Walker is quick to respond. Betrayed as ranch manager by his former boss, he’s looking for a new place to put down roots―without the pressure to prove himself again. Except when he meets his new boss, it’s clear he’s not only there to run a ranch but to also teach Miss Independent how to run it. But as they struggle to make the ranch flourish, they’ll both need courage if they hope to find a family...together.",
+    img: "https://m.media-amazon.com/images/I/81al3kkGaJL.jpg",
+    authors: [
+      "Victoria James"
+    ],
+    publisher: "Entangled: Amara",
+    date_published: 2020,
+    language: "english",
+    dimensions: "7 x 4.15 x 0.96 Inches",
+    pages: 359,
+    price: 7.99,
+    count: 17,
+  },
+  {
+    categoryId: "4",
+    id: "0399587683",
+    title: "The Proposal",
+    description: "When someone asks you to spend your life with him, it shouldn't come as a surprise—or happen in front of 45,000 people.\nWhen freelance writer Nikole Paterson goes to a Dodgers game with her actor boyfriend, his man bun, and his bros, the last thing she expects is a scoreboard proposal. Saying no isn't the hard part—they've only been dating for five months, and he can’t even spell her name correctly. The hard part is having to face a stadium full of disappointed fans...\nAt the game with his sister, Carlos Ibarra comes to Nik’s rescue and rushes her away from a camera crew. He’s even there for her when the video goes viral and Nik’s social media blows up—in a bad way. Nik knows that in the wilds of LA, a handsome doctor like Carlos can't be looking for anything serious, so she embarks on an epic rebound with him, filled with food, fun, and fantastic sex. But when their glorified hookups start breaking the rules, one of them has to be smart enough to put on the brakes...",
+    img: "https://m.media-amazon.com/images/I/81rXsrY2D1L.jpg",
+    authors: [
+      "Jasmine Guillory"
+    ],
+    publisher: "Berkley",
+    date_published: 2018,
+    language: "english",
+    dimensions: "8.2 x 5.5 x 0.9 Inches",
+    pages: 352,
+    price: 15.72,
+    count: 21,
+  },
+  {
+    categoryId: "4",
+    id: "1501128035",
+    title: "The Unhoneymooners",
+    description: "Olive Torres is used to being the unlucky twin: from inexplicable mishaps to a recent layoff, her life seems to be almost comically jinxed. By contrast, her sister Ami is an eternal champion...she even managed to finance her entire wedding by winning a slew of contests. Unfortunately for Olive, the only thing worse than constant bad luck is having to spend the wedding day with the best man (and her nemesis), Ethan Thomas.\nOlive braces herself for wedding hell, determined to put on a brave face, but when the entire wedding party gets food poisoning, the only people who aren’t affected are Olive and Ethan. Suddenly there’s a free honeymoon up for grabs, and Olive will be damned if Ethan gets to enjoy paradise solo.\nAgreeing to a temporary truce, the pair head for Maui. After all, ten days of bliss is worth having to assume the role of loving newlyweds, right? But the weird thing is...Olive doesn’t mind playing pretend. In fact, the more she pretends to be the luckiest woman alive, the more it feels like she might be.\nWith Christina Lauren’s “uniquely hilarious and touching voice” (Entertainment Weekly), The Unhoneymooners is a romance for anyone who has ever felt unlucky in love.",
+    img: "https://m.media-amazon.com/images/I/71fokdGaAnL.jpg",
+    authors: [
+      "Christina Lauren"
+    ],
+    publisher: "Gallery Books",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8.25 x 5.3 x 1 Inches",
+    pages: 416,
+    price: 10.99,
+    count: 35,
+  },
+  {
+    categoryId: "4",
+    id: "1250161592",
+    title: "Shelter in Place",
+    description: "It was a typical evening at a mall outside Portland, Maine. Three teenage friends waited for the movie to start. A boy flirted with the girl selling sunglasses. Mothers and children shopped together, and the manager at the video-game store tended to customers. Then the shooters arrived.\nThe chaos and carnage lasted only eight minutes before the killers were taken down. But for those who lived through it, the effects would last forever. In the years that followed, one would dedicate himself to a law enforcement career. Another would close herself off, trying to bury the memory of huddling in a ladies' room, hopelessly clutching her cell phone--until she finally found a way to pour her emotions into her art.\nBut one person wasn't satisfied with the shockingly high death toll at the DownEast Mall. And as the survivors slowly heal, find shelter, and rebuild, they will discover that another conspirator is lying in wait--and this time, there might be nowhere safe to hide.",
+    img: "https://m.media-amazon.com/images/I/91c+i8Yr+HL.jpg",
+    authors: [
+      "Nora Roberts"
+    ],
+    publisher: "St. Martin's Press",
+    date_published: 2018,
+    language: "english",
+    dimensions: "9.5 x 6.4 x 1.38 Inches",
+    pages: 448,
+    price: 27.99,
+    count: 8,
+  },
+  {
+    categoryId: "4",
+    id: "0062872834",
+    title: "Fix Her Up",
+    description: "Living her best life means facing the truth: Georgie hasn’t been on a date since, well, ever. Nobody’s asking the town clown out for a night of hot sex, that’s for sure. Maybe if people think she’s having a steamy love affair, they’ll acknowledge she’s not just the “little sister” who paints faces for a living. And who better to help demolish that image than the resident sports star and tabloid favorite?\nTravis Ford was major league baseball’s hottest rookie when an injury ended his career. Now he’s flipping houses to keep busy and trying to forget his glory days. But he can’t even cross the street without someone recapping his greatest hits. Or making a joke about his… bat. And then there's Georgie, his best friend’s sister, who is not a kid anymore. When she proposes a wild scheme—that they pretend to date, to shock her family and help him land a new job—he agrees. What’s the harm? It’s not like it’s real. But the girl Travis used to tease is now a funny, full-of-life woman and there’s nothing fake about how much he wants her...",
+    img: "https://m.media-amazon.com/images/I/71NZz2i9K3L.jpg",
+    authors: [
+      "Tessa Bailey"
+    ],
+    publisher: "Avon",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8 x 5.3 x 0.9 Inches",
+    pages: 400,
+    price: 12.49,
+    count: 21
+  },
+  {
+    categoryId: "4",
+    id: "1542006945",
+    title: "Cross Her Heart",
+    description: "For more than twenty-five years, Philadelphia homicide detective Bree Taggert has tucked away the nightmarish childhood memories of her parents’ murder-suicide…Until her younger sister, Erin, is killed in a crime that echoes that tragic night: innocent witnesses and a stormy marriage that ended in gunfire. There’s just one chilling difference. Erin’s husband, Justin, has vanished.\nBree knows how explosive the line between love and hate can be, yet the evidence against her troubled brother-in-law isn’t adding up. Teaming up with Justin’s old friend, former sheriff’s investigator and K-9 handler Matt Flynn, Bree vows to uncover the secrets of her sister’s life and death, as she promised Erin’s children. But as her investigation unfolds, the danger hits close to home. Once again, Bree’s family is caught in a death grip. And this time, it could be fatal for her.",
+    img: "https://m.media-amazon.com/images/I/81cSyj7HB8S.jpg",
+    authors: [
+      "Melinda Leigh"
+    ],
+    publisher: "Montlake",
+    date_published: 2020,
+    language: "english",
+    dimensions: "8.25 x 5.5 x 1 Inches",
+    pages: 332,
+    price: 24.95,
+    count: 24,
+  },
+  {
+    categoryId: "4",
+    id: "1524799017",
+    title: "I Owe You One",
+    description: "Fixie Farr has always lived by her father’s motto: “Family first”. And since her dad passed away, leaving his charming housewares store in the hands of his wife and children, Fixie spends all her time picking up the slack from her siblings instead of striking out on her own. The way Fixie sees it, if she doesn’t take care of her father’s legacy, who will?\nIt’s simply not in Fixie’s nature to say no to people. So when a handsome stranger in a coffee shop asks her to watch his laptop for a moment, she not only agrees - she ends up saving it from certain disaster. To thank Fixie for her quick thinking, the computer’s owner, Sebastian, an investment manager, scribbles an IOU on a coffee sleeve and attaches his business card. Fixie laughs it off - she’d never actually claim an IOU from a stranger. Would she? \nBut then Fixie’s childhood crush, Ryan, comes back into her life, and his lack of a profession pushes all of Fixie’s buttons. As always, she wants nothing for herself - but she’d love Seb to give Ryan a job. No sooner has Seb agreed than the tables are turned once more and a new series of IOUs between Seb and Fixie - from small favors to life-changing moments - ensues. Soon Fixie, Ms. Fixit for everyone else, is torn between her family and the life she really wants. Does she have the courage to take a stand? Will she finally grab the life, and love, she really wants?",
+    img: "https://m.media-amazon.com/images/I/81d4S8PAi2L.jpg",
+    authors: [
+      "Sophie Kinsella"
+    ],
+    publisher: "The Dial Press",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8.54 x 5.82 x 1.5 Inches",
+    pages: 448,
+    price: 11.99,
+    count: 12,
+  },
+  {
+    categoryId: "4",
+    id: "0062941208",
+    title: "Get a Life, Chloe Brown",
+    description: "Chloe Brown is a chronically ill computer geek with a goal, a plan, and a list. After almost—but not quite—dying, she’s come up with seven directives to help her “Get a Life”, and she’s already completed the first: finally moving out of her glamorous family’s mansion.\nBut it’s not easy being bad, even when you’ve written step-by-step guidelines on how to do it correctly. What Chloe needs is a teacher, and she knows just the man for the job.\nRedford ‘Red’ Morgan is a handyman with tattoos, a motorcycle, and more sex appeal than ten-thousand Hollywood heartthrobs. He’s also an artist who paints at night and hides his work in the light of day, which Chloe knows because she spies on him occasionally. Just the teeniest, tiniest bit.\nBut when she enlists Red in her mission to rebel, she learns things about him that no spy session could teach her. Like why he clearly resents Chloe’s wealthy background. And why he never shows his art to anyone. And what really lies beneath his rough exterior…",
+    img: "https://m.media-amazon.com/images/I/716sly+TmcL.jpg",
+    authors: [
+      "Talia Hibbert"
+    ],
+    publisher: "Avon",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8 x 5.3 x 0.8 Inches",
+    pages: 384,
+    price: 13.49,
+    count: 18,
+  },
+  {
+    categoryId: "4",
+    id: "1250129419",
+    title: "The Other Bennet Sister",
+    description: "What if Mary Bennet’s life took a different path from that laid out for her in Pride and Prejudice? What if the frustrated intellectual of the Bennet family, the marginalized middle daughter, the plain girl who takes refuge in her books, eventually found the fulfillment enjoyed by her prettier, more confident sisters? This is the plot of Janice Hadlow's The Other Bennet Sister, a debut novel with exactly the affection and authority to satisfy Jane Austen fans.\nUltimately, Mary’s journey is like that taken by every Austen heroine. She learns that she can only expect joy when she has accepted who she really is. She must throw off the false expectations and wrong ideas that have combined to obscure her true nature and prevented her from what makes her happy. Only when she undergoes this evolution does she have a chance at finding fulfillment; only then does she have the clarity to recognize her partner when he presents himself―and only at that moment is she genuinely worthy of love.\nMary’s destiny diverges from that of her sisters. It does not involve broad acres or landed gentry. But it does include a man; and, as in all Austen novels, Mary must decide whether he is the truly the one for her. In The Other Bennet Sister, Mary is a fully rounded character―complex, conflicted, and often uncertain; but also vulnerable, supremely sympathetic, and ultimately the protagonist of an uncommonly satisfying debut novel.",
+    img: "https://m.media-amazon.com/images/I/81hSVzuM43L.jpg",
+    authors: [
+      "Janice Hadlow"
+    ],
+    publisher: "Henry Holt and Co.",
+    date_published: 2020,
+    language: "english",
+    dimensions: "9.58 x 6.35 x 1.6 Inches",
+    pages: 480,
+    price: 27.99,
+    count: 0,
+  },
+  {
+    categoryId: "4",
+    id: "1501197428",
+    title: "Twice in a Blue Moon",
+    description: "Sam Brandis was Tate Jones’s first: Her first love. Her first everything. Including her first heartbreak.\nDuring a whirlwind two-week vacation abroad, Sam and Tate fell for each other in only the way that first loves do: sharing all of their hopes, dreams, and deepest secrets along the way. Sam was the first, and only, person that Tate—the long-lost daughter of one of the world’s biggest film stars—ever revealed her identity to. So when it became clear her trust was misplaced, her world shattered for good.\nFourteen years later, Tate, now an up-and-coming actress, only thinks about her first love every once in a blue moon. When she steps onto the set of her first big break, he’s the last person she expects to see. Yet here Sam is, the same charming, confident man she knew, but even more alluring than she remembered. Forced to confront the man who betrayed her, Tate must ask herself if it’s possible to do the wrong thing for the right reason… and whether “once in a lifetime” can come around twice.\nWith Christina Lauren’s signature “beautifully written and remarkably compelling” (Sarah J. Maas, New York Times bestselling author) prose and perfect for fans of Emily Giffin and Jennifer Weiner, Twice in a Blue Moon is an unforgettable and moving novel of young love and second chances.",
+    img: "https://m.media-amazon.com/images/I/71c5MJ8kb3L.jpg",
+    authors: [
+      "Christina Lauren"
+    ],
+    publisher: "Gallery Books",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8.25 x 5.3 x 0.8 inches",
+    pages: 368,
+    price: 14.87,
+    count: 23,
+  },
+  {
+    categoryId: "4",
+    id: "1984806092",
+    title: "The Bromance Book Club",
+    description: "The first rule of book club: You don't talk about book club.\nNashville Legends second baseman Gavin Scott's marriage is in major league trouble. He’s recently discovered a humiliating secret: his wife Thea has always faked the Big O. When he loses his cool at the revelation, it’s the final straw on their already strained relationship. Thea asks for a divorce, and Gavin realizes he’s let his pride and fear get the better of him. \nWelcome to the Bromance Book Club.\nDistraught and desperate, Gavin finds help from an unlikely source: a secret romance book club made up of Nashville's top alpha men. With the help of their current read, a steamy Regency titled Courting the Countess, the guys coach Gavin on saving his marriage. But it'll take a lot more than flowery words and grand gestures for this hapless Romeo to find his inner hero and win back the trust of his wife.",
+    img: "https://m.media-amazon.com/images/I/81zRS6iAHLL.jpg",
+    authors: [
+      "Adams, Lyssa Kay"
+    ],
+    publisher: "Berkley",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8.2 x 5.45 x 0.93 Inches",
+    pages: 352,
+    price: 9.99,
+    count: 27,
+  },
+  {
+    categoryId: "4",
+    id: "0062909878",
+    title: "The Worst Best Man",
+    description: "Mia Sosa delivers a sassy, steamy #ownvoices enemies-to-lovers novel, perfect for fans of Jasmine Guillory, Helen Hoang, and Sally Thorne!\nA wedding planner left at the altar? Yeah, the irony isn’t lost on Carolina Santos, either. But despite that embarrassing blip from her past, Lina’s offered an opportunity that could change her life. There’s just one hitch… she has to collaborate with the best (make that worst) man from her own failed nuptials. \nMarketing expert Max Hartley is determined to make his mark with a coveted hotel client looking to expand its brand. Then he learns he’ll be working with his brother’s whip-smart, stunning—absolutely off-limits—ex-fiancée. And she loathes him. \nIf they can nail their presentation without killing each other, they’ll both come out ahead. Except Max has been public enemy number one ever since he encouraged his brother to jilt the bride, and Lina’s ready to dish out a little payback of her own. \nSoon Lina and Max discover animosity may not be the only emotion creating sparks between them. Still, this star-crossed couple can never be more than temporary playmates because Lina isn’t interested in falling in love and Max refuses to play runner-up to his brother ever again...",
+    img: "https://m.media-amazon.com/images/I/81sZoRkH+BL.jpg",
+    authors: [
+      "Mia Sosa"
+    ],
+    publisher: "Avon",
+    date_published: 2020,
+    language: "english",
+    dimensions: "8 x 5.3 x 0.83 Inches",
+    pages: 368,
+    price: 15.99,
+    count: 6,
+  },
+  {
+    categoryId: "4",
+    id: "0451490800",
+    title: "The Kiss Quotient",
+    description: "Stella Lane thinks math is the only thing that unites the universe. She comes up with algorithms to predict customer purchases—a job that has given her more money than she knows what to do with, and way less experience in the dating department than the average thirty-year-old.\nIt doesn't help that Stella has Asperger's and French kissing reminds her of a shark getting its teeth cleaned by pilot fish. Her conclusion: she needs lots of practice—with a professional. Which is why she hires escort Michael Phan. The Vietnamese and Swedish stunner can't afford to turn down Stella's offer, and agrees to help her check off all the boxes on her lesson plan—from foreplay to more-than-missionary position...\nBefore long, Stella not only learns to appreciate his kisses, but crave all of the other things he's making her feel. Their no-nonsense partnership starts making a strange kind of sense. And the pattern that emerges will convince Stella that love is the best kind of logic...",
+    img: "https://m.media-amazon.com/images/I/81TaR7kzn7L.jpg",
+    authors: [
+      "Helen Hoang"
+    ],
+    publisher: "Berkley",
+    date_published: 2018,
+    language: "english",
+    dimensions: "8.2 x 5.5 x 0.9 Inches",
+    pages: 352,
+    price: 12.99,
+    count: 19,
+  },
+  {
+    categoryId: "4",
+    id: "0062941232",
+    title: "Take a Hint, Dani Brown",
+    description: "Danika Brown knows what she wants: professional success, academic renown, and an occasional roll in the hay to relieve all that career-driven tension. But romance? Been there, done that, burned the T-shirt. Romantic partners, whatever their gender, are a distraction at best and a drain at worst. So Dani asks the universe for the perfect friend-with-benefits—someone who knows the score and knows their way around the bedroom. \nWhen big, brooding security guard Zafir Ansari rescues Dani from a workplace fire drill gone wrong, it’s an obvious sign: PhD student Dani and former rugby player Zaf are destined to sleep together. But before she can explain that fact to him, a video of the heroic rescue goes viral. Suddenly, half the internet is shipping #DrRugbae—and Zaf is begging Dani to play along. Turns out his sports charity for kids could really use the publicity. Lying to help children? Who on earth would refuse? \nDani’s plan is simple: fake a relationship in public, seduce Zaf behind the scenes. The trouble is, grumpy Zaf is secretly a hopeless romantic—and he’s determined to corrupt Dani’s stone-cold realism. Before long, he’s tackling her fears into the dirt. But the former sports star has issues of his own, and the walls around his heart are as thick as his... um, thighs. \nThe easy lay Dani dreamed of is now more complex than her thesis. Has her wish backfired? Is her focus being tested? Or is the universe just waiting for her to take a hint? ",
+    img: "https://m.media-amazon.com/images/I/71tcXFFuEjL.jpg",
+    authors: [
+      "Talia Hibbert"
+    ],
+    publisher: "Avon",
+    date_published: 2020,
+    language: "english",
+    dimensions: "8 x 5.3 x 0.9 Inches",
+    pages: 400,
+    price: 15.99,
+    count: 33,
+  },
+  {
+    categoryId: "4",
+    id: "0399181334",
+    title: "Window on the Bay",
+    description: "Jenna Boltz’s life is at a crossroads. After a messy divorce from her surgeon husband nearly twenty years ago, she raised her two children on her own, juggling motherhood with her beloved job as a Seattle intensive-care nurse. Now that Paul and Allie have gone to college and moved out, Jenna can’t help but wonder what her future holds.\nHer best friend, Maureen, is excited for Jenna’s newfound independence. Now is the perfect time to finally book the trip to Paris they’ve been dreaming of since their college days. But when it comes to life’s other great adventure—dating—Jenna still isn’t sure she’s ready to let love in . . . until an unexpected encounter begins to change her mind.\nWhen Jenna’s elderly mother breaks her hip, Dr. Rowan Lancaster saves the day. Despite his silent, stoic exterior, Rowan is immediately smitten with Jenna. And even though Jenna is hesitant about becoming involved with another surgeon, she has to admit that she’s more than a little intrigued. But when Jenna’s children approach her with shocking news, she realizes that she needs to have faith in love and embrace the unexpected—before the life she has always dreamed of passes her by.",
+    img: "https://m.media-amazon.com/images/I/81mZdTmqJmL.jpg",
+    authors: [
+      "Debbie Macomber"
+    ],
+    publisher: "Ballantine Books",
+    date_published: 2019,
+    language: "english",
+    dimensions: "9.53 x 6.42 x 1.15 Inches",
+    pages: 336,
+    price: 27.95,
+    count: 14,
+  },
+  {
+    categoryId: "4",
+    id: "0399181253",
+    title: "Cottage by the Sea",
+    description: "Annie Marlow has been through the worst. Rocked by tragedy, she heads to the one place that makes her happy: Oceanside in the Pacific Northwest, the destination of many family vacations when Annie was a teenager. \nOnce there, Annie begins to restore her broken spirit, thanks in part to the folks she meets: a local painter, Keaton, whose large frame is equal to his big heart - and who helps Annie fix up her rental cottage by the sea; Mellie, the reclusive, prickly landlord Annie is determined to befriend; and Britt, a teenager with a terrible secret. But it is Keaton to whom Annie feels most drawn. His quiet, peaceful nature offers her both comfort and reprieve from her grief, and the two begin to grow closer.   \nThen events threaten to undo the idyll Annie has come to enjoy. And when the opportunity of a lifetime lands in her lap, she is torn between the excitement of a new journey toward success and the safe and secure arms of the haven - and the man - she's come to call home.   \nIn this heartwarming tale, Annie finds that the surest way to fix what is damaged within is to help others rise above their pain and find a way to heal.\nPraise for Cottage by the Sea:\n“Macomber never disappoints. Tears and laughter abound in this story of loss and healing that will wrap you up and pull you in; readers will finish it in one sitting.” (Library Journal, starred review)\n“Macomber’s story of tragedy and triumph is emotionally engaging from the outset and ends with a satisfying conclusion. Readers will be most taken by the characters, particularly Annie, a heartwarming lead who bolsters the novel.” (Publishers Weekly)",
+    img: "https://m.media-amazon.com/images/I/81fmTH3ddxL.jpg",
+    authors: [
+      "Debbie Macomber"
+    ],
+    publisher: "Ballantine Books",
+    language: "english",
+    dimensions: "9.5 x 6.41 x 1.16 Inches",
+    pages: 352,
+    date_published: 2018,
+    price: 27.95,
+    count: 23,
+  },
+  {
+    categoryId: "4",
+    id: "1984826875",
+    title: "Love, Unscripted",
+    description: "Ellie had the quizzical eyebrows of Broadcast News–era Holly Hunter and the neon-red hair of Kate Winslet in Eternal Sunshine of the Spotless Mind. At least that’s what caught Nick’s attention when he met her on the night of 2008’s historic presidential election. A cinema buff and devotee of great love stories, Nick always fancied himself the Tom Hanks of his own romantic comedy, and when sparks flew with Ellie that night, he swiftly cast her as the Meg Ryan of his story. For four blissful years, Nick loved Ellie just as he loved his job as a film projectionist: wholly, earnestly, cinematically.\nBut now Ellie has moved out, convinced that “the fire’s gone,” and Nick is forced to sift through his memories to figure out where it all went wrong. That night was a perfect meet-cute, yes, but was their romance as destined for a “happily ever after” as he’d thought? Was he really the rom-com hero he believes he’d been? Or did this Harry let his Sally down? Peppered with references to beloved movies, Love, Unscripted explores how even a hopeless romantic can learn that in real life, love isn’t—shouldn’t be—like what we see in the movies.",
+    img: "https://m.media-amazon.com/images/I/81CVT7bHcEL.jpg",
+    authors: [
+      "Owen Nicholls"
+    ],
+    publisher: "Ballantine Books",
+    date_published: 2020,
+    language: "english",
+    dimensions: "8 x 5.18 x 0.77 Inches",
+    pages: 352,
+    price: 17.89,
+    count: 9,
+  },
+  {
+    categoryId: "4",
+    id: "0062984950",
+    title: "A Duchess a Day",
+    description: "An heiress with a plan…\nLady Helena Lark has spent years trying to escape her wedding to the vain and boring Duke of Lusk. She’s evaded, refused, even run away. When her family’s patience runs out, they pack her off to London to walk down the aisle. But Helena has another idea: find a more suitable bride to take her place, even if she must look for a replacement duchess every day.\nA bodyguard with a job to do…\nDeclan Shaw, better known as “The Huntsman,” is a mercenary who can pick and choose his clientele. After his last job, escorting a young noblewoman to France, landed him in jail under false accusations, he wants nothing to do with aristocrats or women. But the law isn’t done with him, and if he agrees to babysit a duke’s errant fiancé, the payout could make his legal troubles go away.\nA most unexpected alliance…\nWhen their worlds collide, Declan realizes that containing his new client is only slightly harder than keeping his hands off her. Helena senses an ally in her handsome new bodyguard and solicits his help. Together they must escape the forces that oppose them and fight for the fairy-tale love they desire.",
+    img: "https://m.media-amazon.com/images/I/912AKkG0xkL.jpg",
+    authors: [
+      "Charis Michaels"
+    ],
+    publisher: "Avon",
+    date_published: 2020,
+
+    language: "english",
+    dimensions: "6.62 x 4.19 x 0.96 Inches",
+    pages: 384,
+    price: 8.99,
+    count: 16,
+  },
+  {
+    categoryId: "4",
+    id: "0593099729",
+    title: "Someone to Remember",
+    description: "Matilda Westcott has spent her life tending to the needs of her mother, the Dowager Countess of Riverdale, never questioning the web of solitude she has spun herself. To Matilda, who considers herself an aging spinster daughter, marriage is laughable—love is a game for the young, after all. But her quiet, ordered life unravels when a dashing gentleman from her past reappears, threatening to charm his way into her heart yet again.\nCharles Sawyer, Viscount Dirkson, does not expect to face Matilda Westcott thirty-six years after their failed romance. Moreover, he does not expect decades-old feelings to emerge at the very sight of her. When encountering Matilda at a dinner hosted by the Earl of Riverdale, he finds himself as fascinated by her as he was the first day they met, and wonders whether, after all these years, they have a chance at happiness together. Charles is determined to crack the hard exterior Matilda has built up for more than three decades, or he will risk losing her once again....",
+    img: "https://m.media-amazon.com/images/I/91H834qQoEL.jpg",
+    authors: [
+      "Mary Balogh"
+    ],
+    publisher: "Berkley",
+    date_published: 2019,
+    language: "english",
+    dimensions: "9.32 x 6.14 x 0.99 Inches",
+    pages: 272,
+    price: 23.54,
+    count: 0,
+  },
+  {
+    categoryId: "4",
+    id: "1728214971",
+    title: "Big Bad Wolf",
+    description: "Joe Peluso has blood on his hands. He took out the mobsters responsible for killing his foster brother, and that one act of vigilante justice has earned him countless enemies in New York's supernatural-controlled underworld. He knows that shifters like him deserve the worst. Darkness. Pain. Solitude. But meeting Neha makes him feel human for the first time in forever.\nLawyer and psychologist Neha Ahluwalia knows Joe is guilty, but she's determined to help him craft a solid defense...even if she can't defend her own obsession. Just one look from the wolf shifter makes her skin burn hot and her pulse race. When a payback hit goes wrong, Neha's forced to make a choice: help Joe escape or leave him to his fate. Before long they're on the run?from the monsters who want him dead, from their own traitorous hearts, and from an attraction that threatens to destroy them.",
+    img: "https://m.media-amazon.com/images/I/81TYCMlrKUL.jpg",
+    authors: [
+      "Suleikha Snyder"
+    ],
+    publisher: "Sourcebooks Casablanca",
+    date_published: 2021,
+    language: "english",
+    dimensions: "7 x 4.75 x 1.5 Inches",
+    pages: 312,
+    price: 22.74,
+    count: 31,
+  },
+  {
+    categoryId: "4",
+    id: "0062439596",
+    title: "The Hating Game",
+    description: "Lucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can’t understand Joshua’s joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy’s overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn’t hate Joshua. And maybe, he doesn’t hate her either. Or maybe this is just another game.",
+    img: "https://m.media-amazon.com/images/I/71Yp-JHLwrL.jpg",
+    authors: [
+      "Sally Thorne"
+    ],
+    publisher: "William Morrow Paperbacks",
+    date_published: 2016,
+    language: "english",
+    dimensions: "8 x 5.3 x 0.86 Inches",
+    pages: 384,
+    price: 12.49,
+    count: 15,
+  },
+  {
+    categoryId: "4",
+    id: "0525542310",
+    title: "Would Like to Meet",
+    description: "It's Evie Summers's job to find out. Because if she can't convince her film agency's biggest client, Ezra Chester, to write the romantic-comedy screenplay he owes producers, her career will be over. The catch? He thinks rom-coms are unrealistic--and he'll only put pen to paper if Evie shows him that it's possible to meet a man in real life the way it happens on the big screen.\nCynical Evie might not believe in happily ever after, but she'll do what it takes to save the job that's been her lifeline . . . even if it means reenacting iconic rom-com scenes in public. Spilling orange juice on a cute stranger? No problem. Leaving her number in books all over London to see who calls? Done. With a little help from her well-meaning friends--and Ben and Anette, the adorable father-daughter duo who keep witnessing her humiliations--Evie is determined to prove she can meet a man the way Sally met Harry. But can a workaholic who's given up on love find a meet-cute of her very own?",
+    img: "https://m.media-amazon.com/images/I/816n6lT-68L.jpg",
+    authors: [
+      "Rachel Winters"
+    ],
+    publisher: "G.P. Putnam's Sons",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8.18 x 5.45 x 0.86 Inches",
+    pages: 368,
+    price: 7.99,
+    count: 27,
+  },
+  {
+    categoryId: "4",
+    id: "0062872850",
+    title: "Love Her or Lose Her",
+    description: "Rosie and Dominic Vega are the perfect couple: high school sweethearts, best friends, madly in love. Well, they used to be anyway. Now Rosie’s lucky to get a caveman grunt from the ex-soldier every time she walks in the door. Dom is faithful and a great provider, but the man she fell in love with ten years ago is nowhere to be found. When her girlfriends encourage Rosie to demand more out of life and pursue her dream of opening a restaurant, she decides to demand more out of love, too. Three words: marriage boot camp. \nNever in a million years did Rosie believe her stoic, too-manly-to-emote husband would actually agree to relationship rehab with a weed-smoking hippie. Dom talking about feelings? Sitting on pillows? Communing with nature? Learning love languages? Nope. But to her surprise, he’s all in, and it forces her to admit her own role in their cracked foundation. As they complete one ridiculous—yet surprisingly helpful—assignment after another, their remodeled relationship gets stronger than ever. Except just as they’re getting back on track, Rosie discovers Dom has a secret... and it could demolish everything.",
+    img: "https://m.media-amazon.com/images/I/71VD1HsM5ZL.jpg",
+    authors: [
+      "Tessa Bailey"
+    ],
+    publisher: "Avon",
+    date_published: 2020,
+    language: "english",
+    dimensions: "8 x 5.3 x 0.8 Inches",
+    pages: 352,
+    price: 15.99,
+    count: 9,
+  },
+  {
+    categoryId: "4",
+    id: "0062872931",
+    title: "Tools of Engagement",
+    description: "Hair, makeup, clothing, decor... everything in Bethany Castle's world is organized, planned, and styled to perfection. Which is why the homes she designs for her family's real estate business are the most coveted in town. The only thing not perfect? Her track record with men. She's on a dating hiatus and after helping her friends achieve their dreams, Bethany finally has time to focus on her own: flip a house, from framework to furnishings, all by herself. Except her older brother runs the company and refuses to take her seriously.\nWhen a television producer gets wind of the Castle sibling rivalry, they’re invited on Flip Off, a competition to see who can do the best renovation. Bethany wants bragging rights, but she needs a crew and the only member of her brother's construction team willing to jump ship is Wes Daniels, the new guy in town. His Texas drawl and handsome face got under Bethany's skin on day one, and the last thing she needs is some cocky young cowboy in her way.\nAs the race to renovate heats up, Wes and Bethany are forced into close quarters, trading barbs and biting banter as they remodel the ugliest house on the block. It's a labor of love, hate, and everything in between, and soon sparks are flying. But Bethany's perfectly structured life is one kiss away from going up in smoke and she knows falling for a guy like Wes would be a flipping disaster.",
+    img: "https://m.media-amazon.com/images/I/71HT2yRgPUL.jpg",
+    authors: [
+      "Tessa Bailey"
+    ],
+    publisher: "Avon",
+    date_published: 2020,
+    language: "english",
+    dimensions: "8 x 5.3 x 0.8 Inches",
+    pages: 368,
+    price: 13.99,
+    count: 18,
+  },
+  {
+    categoryId: "4",
+    id: "1640637419",
+    title: "The Beast of Beswick",
+    description: "Lord Nathaniel Harte, the disagreeable Duke of Beswick, spends his days smashing porcelain, antagonizing his servants, and snarling at anyone who gets too close. With a ruined face like his, it's hard to like much about the world. Especially smart-mouthed harpies—with lips better suited to kissing than speaking—who brave his castle with indecent proposals.\nBut Lady Astrid Everleigh will stop at nothing to see her younger sister safe from a notorious scoundrel, even if it means offering herself up on a silver platter to the forbidding Beast of Beswick himself. And by offer, she means what no highborn lady of sound and sensible mind would ever dream of—a tender of marriage with her as his bride.",
+    img: "https://m.media-amazon.com/images/I/81sFVdf745L.jpg",
+    authors: [
+      "Amalie Howard"
+    ],
+    publisher: "Entangled: Amara",
+    date_published: 2019,
+    language: "english",
+    dimensions: "7.2 x 4.84 x 1.1 Inches",
+    pages: 384,
+    price: 22.99,
+    count: 22,
+  },
+  {
+    categoryId: "4",
+    id: "0670026603",
+    title: "Me Before You",
+    description: "They had nothing in common until love gave them everything to lose . . .\nLouisa Clark is an ordinary girl living an exceedingly ordinary life—steady boyfriend, close family—who has never been farther afield than their tiny village. She takes a badly needed job working for ex–Master of the Universe Will Traynor, who is wheelchair bound after an accident. Will has always lived a huge life—big deals, extreme sports, worldwide travel—and now he’s pretty sure he cannot live the way he is.\nWill is acerbic, moody, bossy—but Lou refuses to treat him with kid gloves, and soon his happiness means more to her than she expected. When she learns that Will has shocking plans of his own, she sets out to show him that life is still worth living.\nA Love Story for this generation, Me Before You brings to life two people who couldn’t have less in common—a heartbreakingly romantic novel that asks, What do you do when making the person you love happy also means breaking your own heart?",
+    img: "https://m.media-amazon.com/images/I/81JlzP8-FxL.jpg",
+    authors: [
+      "Jojo Moyes"
+    ],
+    publisher: "Pamela Dorman Books",
+    date_published: 2012,
+    language: "english",
+    dimensions: "9.31 x 6.31 x 1.25 Inches",
+    pages: 384,
+    price: 27.95,
+    count: 15,
+  },
+  {
+    categoryId: "4",
+    id: "0063005549",
+    title: "Spoiler Alert",
+    description: "Marcus Caster-Rupp has a secret. The world may know him as Aeneas, star of the biggest show on television, but fanfiction readers call him something else: Book!AeneasWouldNever. Marcus gets out his frustrations with the show through anonymous stories about the internet’s favorite couple, Aeneas and Lavinia. But if anyone discovered his online persona, he’d be finished in Hollywood.\nApril Whittier has secrets of her own. A hardcore Lavinia fan, she’s long hidden her fanfic and cosplay hobbies from her “real life”—but not anymore. When she dares to post her latest costume creation on Twitter, her plus-size take goes viral. And when Marcus asks her out to spite her internet critics, truth officially becomes stranger than fanfiction.\nOn their date, Marcus quickly realizes he wants more from April than a one-time publicity stunt. But when he discovers she’s Unapologetic Lavinia Stan, his closest fandom friend, he has one more huge secret to keep from her.\nWith love and Marcus’s career on the line, can the two of them stop hiding once and for all, or will a match made in fandom end up prematurely cancelled?",
+    img: "https://m.media-amazon.com/images/I/71jtj-b+g4L.jpg",
+    authors: [
+      "Olivia Dade"
+    ],
+    publisher: "Avon",
+    date_published: 2020,
+    language: "english",
+    dimensions: "8 x 5.3 x 0.9 Inches",
+    pages: 416,
+    price: 12.99,
+    count: 22,
+  },
+  {
+    categoryId: "4",
+    id: "1538715600",
+    title: "The Friend Zone",
+    description: "Kristen Peterson doesn't do drama, will fight to the death for her friends, and has no room in her life for guys who just don't get her. She's also keeping a big secret: facing a medically necessary procedure that will make it impossible for her to have children.\nPlanning her best friend's wedding is bittersweet for Kristen -- especially when she meets the best man, Josh Copeland. He's funny, sexy, never offended by her mile-wide streak of sarcasm, and always one chicken enchilada ahead of her hangry. Even her dog, Stuntman Mike, adores him. The only catch: Josh wants a big family someday. Kristen knows he'd be better off with someone else, but as their attraction grows, it's harder and harder to keep him at arm's length.\nThe Friend Zone will have you laughing one moment and grabbing for tissues the next as it tackles the realities of infertility and loss with wit, heart, and a lot of sass.",
+    img: "https://m.media-amazon.com/images/I/71MH8Q9M-iL.jpg",
+    authors: [
+      "Abby Jimenez"
+    ],
+    publisher: "Forever",
+    date_published: 2019,
+    language: "english",
+    dimensions: "9 x 6 x 1.25 Inches",
+    pages: 384,
+    price: 14.99,
+    count: 18,
+  },
+  {
+    categoryId: "4",
+    id: "0778314936",
+    title: "The Apple Orchard",
+    description: "Tess Delaney makes a living restoring stolen treasures to their owners. People like Annelise Winther, who has just been reunited with her mother’s long gone necklace, worth a sum that could change her life. To Annelise, whose family was torn apart during WWII, the necklace represents her history, and the value is in its memories.\nBut Tess’s own history is filled with gaps: a father she never met, a mother who spent more time traveling than with her daughter. Then the enigmatic Dominic Rossi arrives on her San Francisco doorstep with the news that the grandfather she never knew is in a coma and that she’s destined to inherit half of his apple orchard estate called Bella Vista. The rest is willed to Isabel Johansen, the half-sister she didn’t know she had.\nWith Dominic and Isabel by her side, Tess discovers world where family comes first and the roots of history run deep. A place where falling in love is not only possible, but inevitable. And in a season filled with new experiences, Tess begins to see the truth in something Annelise once told her: if you don’t believe memories are worth more than money, then perhaps you’ve not made the right kind of memories.\nWiggs deftly weaves a narrative that takes the reader from present day California to Denmark during WWII to tell a story of family ties both old and new—and the moments that connect our hearts.",
+    img: "https://m.media-amazon.com/images/I/71HUpsuHtKS.jpg",
+    authors: [
+      "Susan Wiggs"
+    ],
+    publisher: "MIRA",
+    date_published: 2013,
+    language: "english",
+    dimensions: "9.5 x 6.5 x 1.35 Inches",
+    pages: 432,
+    price: 15.85,
+    count: 16.54,
+  },
+  {
+    categoryId: "4",
+    id: "1250207096",
+    title: "Under Currents",
+    description: "Zane Bigelow grew up in a beautiful, perfectly kept house in North Carolina’s Blue Ridge Mountains. Strangers and even Zane’s own aunt across the lake see his parents as a successful surgeon and his stylish wife, making appearances at their children’s ballet recitals and baseball games. Only Zane and his sister know the truth, until one brutal night finally reveals cracks in the facade, and Zane escapes for college without a thought of looking back...\nYears later, Zane returns to his hometown determined to reconnect with the place and people that mean so much to him, despite the painful memories. As he resumes life in the colorful town, he meets a gifted landscape artist named Darby, who is on the run from ghosts of her own.\nTogether they will have to teach each other what it means to face the past, and stand up for the ones they love.",
+    img: "https://m.media-amazon.com/images/I/81YKP3VpxAL.jpg",
+    authors: [
+      "Nora Roberts"
+    ],
+    publisher: "St. Martin's Press",
+    date_published: 2019,
+    language: "english",
+    dimensions: "9.5 x 6.2 x 1.42 Inches",
+    pages: 448,
+    price: 28.99,
+    count: 0,
+  },
+  {
+    categoryId: "4",
+    id: "1984805703",
+    title: "A Rogue of One's Own",
+    description: "Lady Lucie is fuming. She and her band of Oxford suffragists have finally scraped together enough capital to control one of London's major publishing houses, with one purpose: to use it in a coup against Parliament. But who could have predicted that the one person standing between her and success is her old nemesis, Lord Ballentine? Or that he would be willing to hand over the reins for an outrageous price--a night in her bed.\nLucie tempts Tristan like no other woman, burning him up with her fierceness and determination every time they clash. But as their battle of wills and words fans the flames of long-smoldering devotion, the silver-tongued seducer runs the risk of becoming caught in his own snare.\nAs Lucie tries to out-maneuver Tristan in the boardroom and the bedchamber, she soon discovers there's truth in what the poets say: all is fair in love and war...",
+    img: "https://m.media-amazon.com/images/I/A1iUjnVC1VL.jpg",
+    authors: [
+      "Evie Dunmore"
+    ],
+    publisher: "Berkley",
+    date_published: 2020,
+    language: "english",
+    dimensions: "8.24 x 5.46 x 0.92 Inches",
+    pages: 448,
+    price: 16.89,
+    count: 12,
+  },
+  {
+    categoryId: "4",
+    id: "0593102525",
+    title: "Something to Talk About",
+    description: "Hollywood powerhouse Jo is photographed making her assistant Emma laugh on the red carpet, and just like that, the tabloids declare them a couple. The so-called scandal couldn't come at a worse time—threatening Emma's promotion and Jo's new movie.\nAs the gossip spreads, it starts to affect all areas of their lives. Paparazzi are following them outside the office, coworkers are treating them differently, and a “source” is feeding information to the media. But their only comment is “no comment”.\nWith the launch of Jo’s film project fast approaching, the two women begin to spend even more time together, getting along famously. Emma seems to have a sixth sense for knowing what Jo needs. And Jo, known for being aloof and outwardly cold, opens up to Emma in a way neither of them expects. They begin to realize the rumor might not be so off base after all…but is acting on the spark between them worth fanning the gossip flames?",
+    img: "https://m.media-amazon.com/images/I/71gWQQaF3HL.jpg",
+    authors: [
+      "Wilsner, Meryl"
+    ],
+    publisher: "Berkley",
+    date_published: 2020,
+    language: "english",
+    dimensions: "8.24 x 5.45 x 0.86 Inches",
+    pages: 336,
+    price: 16.89,
+    count: 23,
+  },
+  {
+    categoryId: "4",
+    id: "1984805681",
+    title: "Bringing Down the Duke",
+    description: "England, 1879. Annabelle Archer, the brilliant but destitute daughter of a country vicar, has earned herself a place among the first cohort of female students at the renowned University of Oxford. In return for her scholarship, she must support the rising women's suffrage movement. Her charge: recruit men of influence to champion their cause. Her target: Sebastian Devereux, the cold and calculating Duke of Montgomery who steers Britain's politics at the Queen's command. Her challenge: not to give in to the powerful attraction she can't deny for the man who opposes everything she stands for.\nSebastian is appalled to find a suffragist squad has infiltrated his ducal home, but the real threat is his impossible feelings for green-eyed beauty Annabelle. He is looking for a wife of equal standing to secure the legacy he has worked so hard to rebuild, not an outspoken commoner who could never be his duchess. But he wouldn't be the greatest strategist of the Kingdom if he couldn't claim this alluring bluestocking without the promise of a ring...or could he?\nLocked in a battle with rising passion and a will matching her own, Annabelle will learn just what it takes to topple a duke....",
+    img: "https://m.media-amazon.com/images/I/A1e0fcGuGIL.jpg",
+    authors: [
+      "Evie Dunmore"
+    ],
+    publisher: "Berkley",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8.22 x 5.49 x 0.95 Inches",
+    pages: 368,
+    price: 7.99,
+    count: 0,
+  },
+  {
+    categoryId: "4",
+    id: "1496725174",
+    title: "Love Lettering",
+    description: "In this warm and witty romance from acclaimed author Kate Clayborn, one little word puts a woman’s business—and her heart—in jeopardy ...\nMeg Mackworth’s hand-lettering skill has made her famous as the Planner of Park Slope, designing custom journals for her New York City clientele. She has another skill too: reading signs that other people miss. Knowing the upcoming marriage of Reid Sutherland and his polished fiancée was doomed to fail is one thing, but weaving a secret word of warning into their wedding program is another. Meg may have thought no one would spot it, but she hadn’t counted on sharp-eyed, pattern-obsessed Reid.\nA year later, Reid has tracked Meg down to find out how she knew that his meticulously planned future was about to implode. But with a looming deadline and a bad case of creative block, Meg doesn’t have time for Reid’s questions—unless he can help her find her missing inspiration. As they gradually open up to each other, both try to ignore a deepening connection between them. But the signs are there—irresistible, indisputable, urging Meg to heed the messages Reid is sending her, before it’s too late . . .  ",
+    img: "https://m.media-amazon.com/images/I/81nGBRwMCdL.jpg",
+    authors: [
+      "Kate Clayborn"
+    ],
+    publisher: "Kensington",
+    date_published: 2019,
+    language: "english",
+    dimensions: "8.25 x 5.5 x 0.8 Inches",
+    pages: 320,
+    price: 7.69,
+    count: 16,
+  },
+  {
+    categoryId: "4",
+    id: "0593098005",
+    title: "Walk Me Home",
+    description: "Firefighter Jake Braddock is used to fixing things, and he's never met a problem he couldn't solve—except for his sweet ex-girlfriend Charlotte Nash.\nCharlie Nash has been a big-city girl ever since her family made a clean break from their small town, after the tragedy that drove a wedge between Jake and her wealthy parents. She's never gotten over abandoning Jake—and he hasn't, either.\nThen Charlie returns to Silverlake to stand as a bridesmaid opposite Jake in her cousin's wedding. The event sparks awkwardness, laughter, and heartbreak as they dance to the tune of the craziest bride in the west...and repair broken family bonds.\nCan their long-lost love find a second chance?",
+    img: "https://m.media-amazon.com/images/I/81lZoYc9MrL.jpg",
+    authors: [
+      "Liza Kendall"
+    ],
+    publisher: "Berkley",
+    date_published: 2020,
+    language: "english",
+    dimensions: "6.75 x 4.19 x 0.87 Inches",
+    pages: 336,
+    price: 7.99,
+    count: 11,
+  },
+  {
+    categoryId: "4",
+    id: "0399152059",
+    title: "Northern Lights",
+    description: "Seeking to rebuild his life, ex-Baltimore cop Nate Burke takes a job as Chief of Police in the tiny, remote Alaskan town of Lunacy, where he comes face to face with the independent Meg Galloway, an unsolved fifteen-year-old crime, and someone who will do anything to keep the truth from being revealed. 750,000 first printing. Lit Guild & Doubleday Main.",
+    img: "https://m.media-amazon.com/images/I/91Yus8lOffL.jpg",
+    authors: [
+      "Nora Roberts"
+    ],
+    publisher: "Putnam Adult",
+    date_published: 2004,
+    language: "english",
+    dimensions: "9.38 x 6.34 x 1.74 Inches",
+    pages: 576,
+    price: 14.35,
+    count: 25,
+  },
+  {
+    categoryId: "4",
+    id: "1492665436",
+    title: "Sugar, Spice, and Can't Play Nice",
+    description: "When her parents insist she marry fellow Londoner and serial dater Ayaan Malhotra in order to save their company, Payal has a choice: stick it to her dysfunctional family but put her hard-earned fashion success on hold...or get engaged to save her family's fortune and rescue her own dream-come-true life.\nAyaan has always been seen as the reckless spare to his brother, the golden child heir to their parents' company. A little wild, a little broken, and desperate to prove himself, Ayaan agrees to get engaged to Payal -- on the condition that he gets 50 percent stake in his parents' company. \nNeither Payal nor Ayaan anticipate the challenges of keeping their respective agendas behind the engagement to themselves: a meddlesome grandmother, a spurned ex-girlfriend, two families with stakes of their own, a fashion brand on the line, and, unexpectedly, actually liking each other. But as the two race toward an impending engagement ceremony date, they realize that maybe they aren't just in this for business…and perhaps, love is in the cards after all.",
+    img: "https://m.media-amazon.com/images/I/71tbxKSKtpL.jpg",
+    authors: [
+      "Annika Sharma"
+    ],
+    publisher: "Sourcebooks Casablanca",
+    date_published: 2023,
+    language: "english",
+    dimensions: "8.25 x 5.5 x 1.08 Inches",
+    pages: 432,
+    price: 16.99,
+    count: 5,
+  },
+  {
+    categoryId: "4",
+    id: "0778333523",
+    title: "Zora Books Her Happy Ever After",
+    description: "Zora has committed every inch of her life to establishing her thriving DC bookstore, making it into a pillar of the community, and she just hasn’t had time for romance. But when a mystery author she’s been crushing on for years agrees to have an event at her store, she starts to rethink her priorities. Lawrence is every bit as charming as she imagined, even if his understanding of his own books seems just a bit shallow. When he asks her out after his reading, she’s almost elated enough to forget about the grumpy guy who sat next to her making snide comments all evening. Apparently the grouch is Lawrence’s best friend, Reid, but she can’t imagine what kind of friendship that must be. They couldn’t be more different.\nBut as she starts seeing Lawrence, and spending more and more time with Reid, Zora finds first impressions can be deceiving. Reid is smart and thoughtful—he’s also interested. After years of avoiding dating, she suddenly has two handsome men competing for her affection. But even as she struggles to choose between them, she can’t shake the feeling that they’re both hiding something—a mystery she’s determined to solve before she can find her HEA.",
+    img: "https://m.media-amazon.com/images/I/81nJNUi9BKL.jpg",
+    authors: [
+      "Taj McCoy"
+    ],
+    publisher: "MIRA",
+    date_published: 2023,
+    language: "english",
+    dimensions: "8 x 5.3 x 0.8 Inches",
+    pages: 320,
+    price: 10.99,
+    count: 13,
+  },
+  {
+    categoryId: "4",
+    id: "0063297140",
+    title: "Moorewood Family Rules",
+    description: "One day a con man met an heiress, wooed her, married her, had two kids…and kept on conning. Jillian Moorewood is the oldest child from that meet-cute-gone-wrong marriage. The stable one. The sensible and dependable one. The one who protects and fixes. The one who went to prison to save their sorry butts. Now, thirty-nine months later, she’s out and she’s more than a little pissed.\nFinally home she finds the scheming clan in full family fleecing mode. They all claim they didn’t really agree to Jillian’s previous go-legit-or-else ultimatum before she went away. They viewed it as a “suggestion” then ignored it. So, business as usual. But Jillian is done with the lies and fakery. She demands the whole messed-up crew clean up its act, and this time she’s not kidding—she has the leverage to make it happen.\nProblem is, her life is in shambles, but with the help of a great aunt (crooked but loveable), a bodyguard (who is a nice surprise after three years in prison), and a few allies (all working undercover), Jillian starts to put her life back together. She kicks out a few mooching relatives living under her roof, sets limits on everyone’s access to the money, ducks from their various attacks, and sees if that bodyguard is maybe interested in sticking around for a while. For the first time, she’s Jillian Moorewood, her own woman, and she’s ready to figure out who she is. ",
+    img: "https://m.media-amazon.com/images/I/811itIo5c+L.jpg",
+    authors: [
+      "HelenKay Dimon"
+    ],
+    publisher: "Avon",
+    date_published: 2023,
+    language: "english",
+    dimensions: "9 x 6 x 1.21 Inches",
+    pages: 384,
+    price: 11.99,
+    count: 25,
+  },
+  {
+    categoryId: "4",
+    id: "1250847044",
+    title: "The Plus One",
+    description: "Some facts are indisputable. The sun rises in the east, sets in the west. Gravity exists. Indira doesn’t like Jude. Jude doesn’t like Indira. But what happens when these childhood enemies find the only thing they can rely on is each other?\nOn paper, Indira has everything together. An amazing job, a boyfriend, and a car. What more could a late twenty-something ask for? But when she walks in on her boyfriend in an amorous embrace with a stranger, that perfect on paper image goes up in flames.\nJude has nothing together. A doctor that’s spent the last three years traveling the world to treat emergencies and humanitarian crises, a quick trip home for his best friend’s wedding has him struggling to readjust.\nThrust into an elaborate (and ridiculously drawn out) wedding event that’s stressing Jude beyond belief and has Indira seeing her ex and his new girlfriend far more frequently than any human should endure, the duo strike a bargain to be each other’s fake dates to this wedding from hell. The only problem is, their forced proximity and fake displays of affection are starting to feel a bit…real, and both are left grappling with the idea that a situation that couldn’t be worse, is made a little better with the other around.",
+    img: "https://m.media-amazon.com/images/I/7197juYV51L.jpg",
+    authors: [
+      "Mazey Eddings"
+    ],
+    publisher: "St. Martin's Griffin",
+    date_published: 2023,
+    language: "english",
+    dimensions: "8.25 x 5.38 x 1 Inch",
+    pages: 320,
+    price: 11.99,
+    count: 19,
+  },
+  {
+    categoryId: "4",
+    id: "1538704390",
+    title: "Yours Truly",
+    description: "Dr. Briana Ortiz’s life is seriously flatlining. Her divorce is just about finalized, her brother’s running out of time to find a kidney donor, and that promotion she wants? Oh, that’s probably going to the new man-doctor who’s already registering eighty-friggin’-seven on Briana’s “pain in my ass” scale. But just when all systems are set to hate, Dr. Jacob Maddox completely flips the game . . . by sending Briana a letter.\nAnd it’s a really good letter. Like the kind that proves that Jacob isn’t actually Satan. Worse, he might be this fantastically funny and subversively likeable guy who’s terrible at first impressions. Because suddenly he and Bri are exchanging letters, sharing lunch dates in her “sob closet,” and discussing the merits of freakishly tiny horses. But when Jacob decides to give Briana the best gift imaginable—a kidney for her brother—she wonders just how she can resist this quietly sexy new doctor . . . especially when he calls in a favor she can’t refuse.",
+    img: "https://m.media-amazon.com/images/I/71oBxCBe2yL.jpg",
+    authors: [
+      "Abby Jimenez"
+    ],
+    publisher: "Forever",
+    date_published: 2023,
+    language: "english",
+    dimensions: "8 x 5.25 x 1.25 Inches",
+    pages: 400,
+    price: 10.99,
+    count: 21,
+  },
+  {
+    categoryId: "4",
+    id: "1732489416",
+    title: "Leslie's Voice",
+    description: "Public relations expert Leslie Elliott is trying to adapt to her new CEO, Brad Stewart, when he tells her of his plans to take over the neighboring electric utility and make himself the state's energy kingpin. When she agrees to join the battle, Leslie finds herself dealing with the twists and turns of corporate intrigue while struggling to handle the men in her life, including an unfaithful husband and a boss whose sexual aggression matches his business ambition. Colorful characters, breezy dialogue and a plot that keeps the reader guessing are the perfect background for the introduction of the savvy and independent Leslie.",
+    img: "https://m.media-amazon.com/images/I/51Oi74i1SfL.jpg",
+    authors: [
+      "Susan Hanafee"
+    ],
+    publisher: "BookBaby",
+    date_published: 2021,
+    language: "english",
+    dimensions: "8.5 x 5.5 x 1 Inches",
+    pages: 398,
+    price: 13.26,
+    count: 18,
+  },
+  {
+    categoryId: "4",
+    id: "0593438558",
+    title: "Meet Me at the Lake",
+    description: "Fern Brookbanks has wasted far too much of her adult life thinking about Will Baxter. She spent just twenty-four hours in her early twenties with the aggravatingly attractive, idealistic artist, a chance encounter that spiraled into a daylong adventure in the city. The timing was wrong, but their connection was undeniable: they shared every secret, every dream, and made a pact to meet one year later. Fern showed up. Will didn’t.\nAt thirty-two, Fern’s life doesn’t look at all how she once imagined it would. Instead of living in the city, Fern’s back home, running her mother’s lakeside resort—something she vowed never to do. The place is in disarray, her ex-boyfriend’s the manager, and Fern doesn’t know where to begin.\nShe needs a plan—a lifeline. To her surprise, it comes in the form of Will, who arrives nine years too late, with a suitcase in tow and an offer to help on his lips. Will may be the only person who understands what Fern’s going through. But how could she possibly trust this expensive-suit wearing mirage who seems nothing like the young man she met all those years ago. Will is hiding something, and Fern’s not sure she wants to know what it is. \nBut ten years ago, Will Baxter rescued Fern. Can she do the same for him?",
+    img: "https://m.media-amazon.com/images/I/810BXt4YdeL.jpg",
+    authors: [
+      "Carley Fortune"
+    ],
+    publisher: "Berkley",
+    date_published: 2023,
+    language: "english",
+    dimensions: "8.25 x 5.5 x 0.8 Inches",
+    pages: 320,
+    price: 10.99,
+    count: 2,
+  },
+  {
+    categoryId: "4",
+    id: "0593468198",
+    title: "Sizzle Reel",
+    description: "For aspiring cinematographer Luna Roth, coming out as bisexual at twenty-four is proving more difficult than she anticipated. Sure, her best friend and fellow queer Romy is thrilled for her—but she has no interest in coming out to her backwards parents, she wouldn't know how to flirt with a girl if one fell at her feet, and she has no sexual history to build off. Not to mention she really needs to focus her energy on escaping her emotionally-abusive-but-that’s-Hollywood talent manager boss and actually get working under a real director of photography anyway.\nWhen she meets twenty-eight-year-old A-list actress Valeria Sullivan around the office, Luna thinks she’s found her solution. She'll use Valeria's interest in her cinematography to get a PA job on the set of Valeria's directorial debut—and if Valeria is as gay as Luna suspects, and she happens to be Luna's route to losing her virginity, too . . . well, that's just an added bonus. Enlisting Romy’s help, Luna starts the juggling act of her life—impress Valeria’s DP to get another job after this one, get as close to Valeria as possible, and help Romy with her own career moves.\nBut when Valeria begins to reciprocate romantic interest in Luna, the act begins to crumble—straining her relationship with Romy and leaving her job prospects precarious. Now Luna has to figure out if she can she fulfill her dreams as a filmmaker, keep her best friend, and get the girl. . . or if she’s destined to end up on the cutting room floor.",
+    img: "https://m.media-amazon.com/images/I/8165tdyMiOL.jpg",
+    authors: [
+      "Carlyn Greenwald"
+    ],
+    publisher: "Vintage",
+    date_published: 2023,
+    language: "english",
+    dimensions: "8 x 5.2 x 0.7 Inches",
+    pages: 336,
+    price: 9.99,
+    count: 28,
+  },
+  {
+    categoryId: "4",
+    id: "0593547268",
+    title: "The Secret Service of Tea and Treason",
+    description: "Known as Agent A, Alice is the top operative within the Agency of Undercover Note Takers, a secret government intelligence group that is fortunately better at espionage than at naming itself. From managing deceptive witches to bored aristocratic ladies, nothing is beyond Alice’s capabilities. She has a steely composure and a plan always up her sleeve (alongside a dagger and an embroidered handkerchief). So when rumors of an assassination plot begin to circulate, she’s immediately assigned to the case. \nBut she’s not working alone. Daniel Bixby, otherwise known as Agent B and Alice's greatest rival, is given the most challenging undercover assignment of his life— pretending to be Alice’s husband. Together they will assume the identity of a married couple, infiltrate a pirate house party, and foil their unpatriotic plans. \nDetermined to remain consummate professionals, Alice and Daniel must ignore the growing attraction between them, especially since acting on it might prove more dangerous than their target.",
+    img: "https://m.media-amazon.com/images/I/91aIyHkJSKL.jpg",
+    authors: [
+      "India Holton"
+    ],
+    publisher: "Berkley",
+    date_published: 2023,
+    language: "english",
+    dimensions: "8.25 x 5.5 x 0.9 Inches",
+    pages: 368,
+    price: 10.99,
+    count: 16,
+  },
+  {
+    categoryId: "4",
+    id: "1982171898",
+    title: "Pomegranate",
+    description: "Ranita Atwater is “getting short.”\nShe is almost done with her four-year sentence for opiate possession at Oak Hills Correctional Center. With three years of sobriety, she is determined to stay clean and regain custody of her two children.\nMy name is Ranita, and I’m an addict, she has said again and again at recovery meetings. But who else is she? Who might she choose to become? As she claims the story housed within her pomegranate-like heart, she is determined to confront the weight of the past and discover what might lie beyond mere survival.\nRanita is regaining her freedom, but she’s leaving behind her lover Maxine, who has inspired her to imagine herself and the world differently. Now she must steer clear of the temptations that have pulled her down, while atoning for her missteps and facing old wounds. With a fierce, smart, and sometimes funny voice, Ranita reveals how rocky and winding the path to wellness is for a Black woman, even as she draws on family, memory, faith, and love in order to choose life.\nPerfect for fans of Jesmyn Ward and Yaa Gyasi, Pomegranate is a complex portrayal of queer Black womanhood and marginalization in America: a story of loss, healing, redemption, and strength. In lyrical and precise prose, Helen Elaine Lee paints a humane and unflinching portrait of the devastating effects of incarceration and addiction, and of one woman’s determination to tell her story.",
+    img: "https://m.media-amazon.com/images/I/71p4SRSQF0L.jpg",
+    authors: [
+      "Helen Elaine Lee"
+    ],
+    publisher: "Atria Books",
+    date_published: 2023,
+    language: "english",
+    dimensions: "9 x 6 x 0.8 Inches",
+    pages: 320,
+    price: 14.99,
+    count: 26,
+  }
 ];
