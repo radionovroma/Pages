@@ -48,25 +48,28 @@ export const Footer: FC<FooterProps> = ({ routs, LogoSvg }) => {
             }
           </ul>
         </div>
-        <div className="col-start-3">
-          <h3 className="font-serif font-bold text-2xl text-white leading-7 cursor-default">
-            Explore
-          </h3>
-          <ul className="flex flex-col  mt-25">
-            {
-              routs.map(item => (
-                <li key={item.id}>
-                  <Link
-                    to={item.path}
-                    preventScrollReset={false}
-                    className="flex items-center gap-20 font-sans text-lg leading-9 text-lightBlue hover:text-white">
-                    <ExploreSvg/>
-                    {item.label}
-                  </Link>
-                </li>
-              ))
-            }
-          </ul>
+        <div className="col-span-2 col-start-3 justify-self-center">
+          <div className="w-200">
+            <h3 className="font-serif font-bold text-2xl text-white leading-7 cursor-default">
+              Explore
+            </h3>
+            <ul className="flex flex-col  mt-25">
+              {
+                routs.map(item => (
+                  <li key={item.id}>
+                    <Link
+                      to={item.path}
+                      preventScrollReset={false}
+                      className="flex items-center gap-20 font-sans text-lg leading-9 text-lightBlue hover:text-white">
+                      <ExploreSvg/>
+                      {item.label}
+                    </Link>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+
         </div>
         <div className="col-span-2 col-start-5">
           <h3 className="font-serif font-bold text-2xl text-white leading-7  cursor-default">
