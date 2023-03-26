@@ -26,6 +26,7 @@
       "@containers": ["./containers"],
       "@common": ["./components/common"],
       "@components": ["./components"],
+      "@hocs" : ["./hocs"],
       "@hooks" : ["./hooks"],
       "@img/*": ["./img/*"],
       "@loaders": ["./loaders"],

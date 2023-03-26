@@ -1,49 +1,26 @@
-import { ChangeEvent, FC, useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { notification } from 'antd';
-import { getSubscribeResponse, getSubscribeData, getSubscribeStatus, subscribe } from "@store/newsletterSubscription";
-import { LOAD_STATUSES } from "@types";
-
-type NotificationType = 'info' | 'warning';
+import { ChangeEvent, FC, useState } from "react";
+import { Api } from "@api";
+import { useNotification } from "@hooks";
 
 export const NewsletterBlock: FC = () => {
-  const [inputValue, setInputValue] = useState("");
-  const subscribeResponse = useSelector(getSubscribeResponse);
-  const subscriberData = useSelector(getSubscribeData);
-  const subscribeStatus = useSelector(getSubscribeStatus);
-  const dispatch = useDispatch();
-  const [api, contextHolder] = notification.useNotification();
-
-  const openNotificationWithIcon = (type: NotificationType, message: string) => {
-    api[type]({
-      message,
-      placement: "bottomRight",
-      duration: 10,
-      style: {
-        width: 400,
-        borderRadius: 0,
-      }
-    });
-  };
+  const api = new Api();
+  const [email, setEmail] = useState("");
+  const { openNotification } = useNotification();
 
   const handlerSubmit = (e: ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
-    dispatch(subscribe(inputValue) as any);
-
-    setInputValue("");
-  }
-
-  useEffect(() => {
-    if (subscribeStatus === LOAD_STATUSES.LOADED) {
-      openNotificationWithIcon('info', `Subscribed by ${subscriberData?.email}`);
-    } else if (subscribeStatus === LOAD_STATUSES.ERROR && subscribeResponse !== undefined) {
-      openNotificationWithIcon('warning', subscribeResponse);
-    }
-  }, [subscribeStatus])
+    api.subscribe({ email })
+      .then(({ subscribers: { email } }) => {
+        openNotification('info', `Subscribed by ${email}`);
+      })
+      .catch(e => {
+        openNotification('warning', e.message);
+      });
+    setEmail("");
+  };
 
   return (
     <section className="flex justify-center items-center w-full py-90">
-      { contextHolder }
       <div className="flex flex-col gap-30 w-cont p-90 bg-yellow">
         <h2 className="relative pb-20 font-serif font-bold text-5xl text-center text-blue cursor-default
             after:absolute after:bottom-0 after:left-1/2 after:-translate-x-2/4 after:w-50 after:h-[2px] after:bg-blue">
@@ -58,8 +35,8 @@ export const NewsletterBlock: FC = () => {
           <input
             type="email"
             name="email"
-            value={inputValue}
-            onChange={(e) => (setInputValue(e.target.value))}
+            value={email}
+            onChange={(e) => (setEmail(e.target.value))}
             placeholder="Your Email id..."
             required
             pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3,4}$/"
