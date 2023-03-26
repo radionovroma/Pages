@@ -1,0 +1,1 @@
+export { RegistrationBlock } from "./RegistrationBlock";

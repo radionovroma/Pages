@@ -8,3 +8,6 @@ export { NewsletterBlock } from "./NewsletterBlock";
 export { Catalog } from "./Catalog";
 export { BookBlock } from "./BookBlock";
 export { FeaturesBlock } from "./FeaturesBlock";
+export { ErrorBlock } from "./ErrorBlock";
+export { LoginBlock } from "./LoginBlock";
+export { RegistrationBlock } from "./RegistrationBlock";

@@ -1,0 +1,145 @@
+.login-form, .registration-form {
+  .ant-form-item {
+    .ant-form-item-label {
+      padding-bottom: 0;
+
+      label {
+        display: inline;
+        padding-left: 15px;
+        font-size: 16px;
+      }
+
+      .ant-form-item-required {
+        padding-left: 4px;
+      }
+    }
+
+    &-has-error {
+      .ant-form-item-explain {
+        .ant-form-item-explain-error {
+          font-family: Inter, sans-serif;
+          line-height: 20px;
+        }
+      }
+    }
+
+    .ant-form-item-control {
+      .ant-form-item-control-input-content {
+        input {
+          padding-left: 15px;
+          border-radius: 0;
+          font-family: Inter, sans-serif;
+        }
+
+        .ant-picker {
+          width: 50%;
+          border-radius: 0;
+
+          .ant-picker-input {
+            input {
+              padding-left: 4px;
+
+            }
+          }
+        }
+
+        .ant-input-password {
+          border-radius: 0;
+
+          input {
+            padding-left: 4px;
+
+          }
+        }
+
+        .ant-radio-group {
+          display: flex;
+          gap: 40px;
+
+          .ant-radio-wrapper {
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+          }
+        }
+
+        .favorites {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 5px;
+
+          .ant-tag-checkable {
+            border: 1px solid #dddfe2;
+            margin: 0;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            text-transform: capitalize;
+            color: #3266b8;
+
+            &-checked {
+              border-color: #1677ff;
+              color: #ffffff;
+            }
+          }
+        }
+
+        .ant-checkbox-wrapper {
+          span {
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            color: #1b3764;
+          }
+        }
+      }
+    }
+  }
+
+  .radio-group {
+    .ant-form-item-control {
+      .ant-form-item-control-input {
+        min-height: 22px;
+      }
+    }
+  }
+
+
+  .buttons-bar {
+    .ant-form-item {
+      width: calc(50% - 10px);
+
+      .ant-form-item-control-input-content {
+        button {
+          width: 100%;
+          min-height: 40px;
+          border-radius: 0;
+          background-color: #1677ff;
+          font-family: Inter, sans-serif;
+          font-size: 16px;
+
+          &:hover {
+            background-color: #4096ff;
+          }
+        }
+      }
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: calc(50% - 10px);
+      border: 1px solid #1677ff;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      color: #1677ff;
+      transition: none;
+
+      &:hover {
+        border: none;
+        background-color: #4096ff;
+        color: #ffffff;
+      }
+    }
+  }
+}
+

@@ -1,4 +1,4 @@
-export interface SearchParams {
+export type SearchParams = {
   ids?: string,
   categoryTypeIds?: string,
   minPrice?: number,
