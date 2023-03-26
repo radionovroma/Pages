@@ -5,8 +5,8 @@ import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } 
 import { makeServer } from "@mock";
 import { store } from "@store/store"
 import { App } from "./App";
-import { NotificationProvider } from "@hocs";
-import { MainPage, CatalogPage, BookPage, ErrorPage } from "@containers";
+import { RequireAuth, NotificationProvider } from "@hocs";
+import { MainPage, CatalogPage, BookPage, ErrorPage, LoginPage, RegistrationPage } from "@containers";
 import "./styles/index.scss";
 
 makeServer();
@@ -27,6 +27,34 @@ const router = createBrowserRouter(
       <Route
         path="book/:ids"
         element={<BookPage/>}/>
+      <Route
+        path="cart"
+        element={
+          <RequireAuth isDirectOrder={true}>
+            <ErrorPage/>
+          </RequireAuth>
+        }/>
+      <Route
+        path="profile"
+        element={
+          <RequireAuth isDirectOrder={true}>
+            <ErrorPage/>
+          </RequireAuth>
+        }/>
+      <Route
+        path="login"
+        element={
+          <RequireAuth isDirectOrder={false}>
+            <LoginPage/>
+          </RequireAuth>
+        }/>
+      <Route
+        path="registration"
+        element={
+          <RequireAuth isDirectOrder={false}>
+            <RegistrationPage/>
+          </RequireAuth>
+        }/>
       <Route
         path="*"
         element={<ErrorPage/>}/>

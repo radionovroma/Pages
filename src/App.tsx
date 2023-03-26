@@ -1,8 +1,9 @@
 import { FC, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Outlet, ScrollRestoration } from "react-router-dom";
-import { fetchCategoriesList, getCategoriesList, getCategoriesStatus } from "@store/categories";
 import { useNotification } from "@hooks";
+import { fetchCategoriesList, getCategoriesList, getCategoriesStatus } from "@store/categories";
+import { actions } from "@store/user";
 import { Footer, Header } from "@components";
 import { NavRoute } from "@types";
 import LogoSvg from "@img/logo.svg";
@@ -16,6 +17,13 @@ export const App: FC = () => {
   useEffect(() => {
     dispatch(fetchCategoriesList() as any);
   }, []);
+
+  useEffect(() => {
+    const { name, login, token } = JSON.parse(localStorage.getItem("user") || '{}');
+    if (token && login) {
+      dispatch(actions.signIn({ name, login, token }) as any);
+    }
+  }, [])
 
   const routs: NavRoute[] = [
     { label: "Home", id: "home", path: "/", },
