@@ -1,3 +1,3 @@
 export { BookCard } from "./BookCard";
-export { BookCover } from "./BoolCover";
+export { BookCover } from "./BookCover";
 export { PageBanner } from "./PageBanner";

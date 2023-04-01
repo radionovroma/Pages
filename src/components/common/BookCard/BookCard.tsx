@@ -2,7 +2,7 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 import { Book } from "@types";
 import BookmarkSVG from "@img/bookmark-icon.svg";
-import { BookCover } from "../BoolCover";
+import { BookCover } from "@common"
 
 interface BookCardProps {
   book: Book;
@@ -21,7 +21,7 @@ export const BookCard: FC<BookCardProps> = ({ book}) => {
       </Link>
       <p
         className="mt-15 font-sans text-lg text-yellow cursor-default">
-        {`${price}$`}
+        {`$${price}`}
       </p>
       <div className="h-[80px] mt-10">
         <Link

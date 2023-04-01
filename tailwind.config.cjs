@@ -9,16 +9,6 @@ module.exports = {
       'xl': '0px 20px 25px rgba(0, 0, 0, 0.2)',
       '2xl': '0 45px 25px rgba(0, 0, 0, 0.25)',
     },
-    colors: {
-      blue: '#1b3764',
-      jeans: '#3266b8',
-      lightBlue: '#b4c7e7',
-      yellow: '#ffca42',
-      gold: '#ffba00',
-      lightGray: '#dddfe2',
-      gray: '#969AA0',
-      white: '#ffffff',
-    },
     dropShadow: {
       '2xl': '0 45px 25px rgba(0, 0, 0, 0.25)',
     },
@@ -59,6 +49,16 @@ module.exports = {
       },
       backgroundImage: {
         'error-page': "url('@img/bg-error-page.jpg')",
+      },
+      colors: {
+        blue: '#1b3764',
+        jeans: '#3266b8',
+        lightBlue: '#b4c7e7',
+        yellow: '#ffca42',
+        gold: '#ffba00',
+        lightGray: '#dddfe2',
+        gray: '#969AA0',
+        white: '#ffffff',
       },
       gridTemplateColumns: {
         'catalog': '302px repeat(1, minmax(0, 1fr))',

@@ -3,10 +3,9 @@ import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Dropdown } from "antd";
 import { getUserAuthFlag, getUserName, actions } from "@store/user";
-import { InputWithIcon } from "./InputWithIcon";
+import { Search } from "./Search";
 import { DropdownMenu } from "./DropdownMenu";
 import { NavRoute } from "@types";
-import SearchSvg from "@img/search-icon.svg";
 import CartSvg from "@img/cart-icon.svg";
 import ProfileSvg from "@img/profile-icon.svg";
 
@@ -43,12 +42,7 @@ export const Header: FC<HeaderProps> = ({ routs, LogoSvg }) => {
             }
           </nav>
           <div className="flex gap-30 justify-end">
-            <InputWithIcon
-              img={<SearchSvg/>}
-              placeholder="Try an author name or a book title"
-              wrapStyles="group flex items-center gap-10 w-[330px] px-5 pb-5 border-b border-b-white cursor-text hover:border-b-yellow header-svg-stroke"
-              inputStyles="flex-1 h-[37px] bg-blue caret-white font-sans text-lg text-white outline-0 group-hover:placeholder:text-yellow"
-            />
+            <Search/>
             {
               !isUserAuth &&
               <div
@@ -100,4 +94,3 @@ export const Header: FC<HeaderProps> = ({ routs, LogoSvg }) => {
     </header>
   );
 }
-

@@ -1,6 +1,6 @@
 import { FC, useEffect, useMemo, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useLocation, Link } from "react-router-dom";
 import { Form, Pagination } from "antd";
 import { debounce, pickBy } from "lodash";
 import classNames from "classnames";
@@ -23,6 +23,14 @@ export const Catalog: FC = () => {
   const [isFirstLoading, setIsFirstLoading] = useState(true);
   const catalogRef = useRef<HTMLElement>(null);
   const [form] = Form.useForm();
+  const location = useLocation();
+  const text = location.state?.text || "";
+
+  const catalogList = useSelector(getCatalogList);
+  const catalogFilterParams = useSelector(getCatalogFilterParams);
+  const catalogTotalCount = useSelector(getCatalogTotalCount);
+  const catalogStatus = useSelector(getCatalogLoadStatus);
+  const dispatch = useDispatch();
 
   const categoriesList = useSelector(getCategoriesList);
   // const categoriesStatus = useSelector(getCategoriesStatus);
@@ -38,29 +46,26 @@ export const Catalog: FC = () => {
     if (categoryTypeIds) {
       form.setFieldValue("categoryTypeIds", categoryTypeIds);
       dispatch(fetchCatalog({categoryTypeIds}) as any);
-    } else if (!form.getFieldValue("categoryTypeIds")) {
-      dispatch(fetchCatalog() as any)
     }
-  }, [categoryTypeIds]);
+    if (text) {
+      dispatch(fetchCatalog({text}) as any);
+    } else {
+      dispatch(fetchCatalog() as any);
+    }
+  }, [text, categoryTypeIds]);
 
   useEffect(() => {
-    if (categoryTypeIds !== form.getFieldValue("categoryTypeIds")) {
+    if (categoryTypeIds && categoryTypeIds !== form.getFieldValue("categoryTypeIds")) {
       navigate("/catalog");
     }
   }, [form.getFieldValue("categoryTypeIds")]);
 
-  const catalogList = useSelector(getCatalogList);
-  const catalogFilterParams = useSelector(getCatalogFilterParams);
-  const catalogTotalCount = useSelector(getCatalogTotalCount);
-  const catalogStatus = useSelector(getCatalogLoadStatus);
-  const dispatch = useDispatch();
-
-  const sortPanelWrapStyles = "col-span-full flex justify-end gap-20 pt-20";
+  const sortPanelWrapStyles = "flex grow justify-end gap-20 pt-20";
   const filterFormWrapStyles = "sticky row-start-2 row-span-1 top-20 self-start p-20 border border-lightGray mb-[52px] rounded";
   const catalogWrapStyles = "grid grid-cols-4 pl-20 gap-30";
 
   const sortPanelLoader =
-    <div className={classNames(sortPanelWrapStyles, "py-20 animate-pulse")}>
+    <div className={classNames(sortPanelWrapStyles, "col-start-2 py-20 animate-pulse")}>
       <div className={classNames("w-[277px] h-[32px]", pulse)}></div>
       <div className={classNames("w-[132px] h-[32px]", pulse)}></div>
     </div>;
@@ -100,7 +105,7 @@ export const Catalog: FC = () => {
     const searchParams = pickBy(filterValues, (value) => {
       return value
     });
-    dispatch(fetchCatalog(searchParams) as any);
+    dispatch(fetchCatalog({...searchParams, text}) as any);
   };
 
   const debouncedCatalogFiltering = useMemo(
@@ -140,11 +145,27 @@ export const Catalog: FC = () => {
             {
               isFirstLoading ?
                 sortPanelLoader :
-                <SortPanel
-                  form={form}
-                  onFormFieldChange={debouncedCatalogFiltering}
-                  resetPagination={resetPagination}
-                  className={sortPanelWrapStyles}/>
+                <div className="col-start-2 flex justify-between ">
+                  {
+                    text &&
+                    <p
+                      className="pl-20 pt-25 font-sans text-lg text-blue cursor-default">
+                      {`Found ${catalogTotalCount} items for "${text}", `}
+                      <Link
+                        to="/catalog"
+                        className="text-gray hover:text-jeans">
+                        see all catalog
+                      </Link>
+                    </p>
+
+                  }
+                  <SortPanel
+                    form={form}
+                    onFormFieldChange={debouncedCatalogFiltering}
+                    resetPagination={resetPagination}
+                    className={sortPanelWrapStyles}/>
+                </div>
+
             }
             {
               isFirstLoading ?

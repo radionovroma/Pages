@@ -7,7 +7,7 @@ import { products, categories } from './models'
 const APP_CONFIG = {
   DEFAULT_RESPONSE_DELAY: 0,
   TOKEN_TTL: '24h',
-  USE_AUTH_CHECK: false,
+  USE_AUTH_CHECK: true,
   LOG_BE_ERRORS: true,
 }
 
@@ -126,9 +126,10 @@ export function makeServer () {
           const isMaxPriceMatch = Number.isNaN(maxPriceValue) ? true : good.price <= maxPriceValue
           const isMinYearMatch = Number.isNaN(minYearValue) ? true : good.date_published >= minYearValue
           const isMaxYearMatch = Number.isNaN(maxYearValue) ? true : good.date_published <= maxYearValue
-          const isTextMatch = text ? good.label.toLowerCase().includes(text.toLowerCase()) : true
+          const isTextMatch = text ? good.title.toLowerCase().includes(text.toLowerCase()) : true
+          const isAuthorMatch = text ? good.authors.map((item, i) => item.toLowerCase().indexOf(text.toLowerCase()) >= 0 ? i : -1).filter(item => item >= 0).length : true;
 
-          return [isIdMatch, isTypeIdMatch, isMinPriceMatch, isMaxPriceMatch, isMinYearMatch, isMaxYearMatch, isTextMatch].every(Boolean)
+          return [isIdMatch, isTypeIdMatch, isMinPriceMatch, isMaxPriceMatch, isMinYearMatch, isMaxYearMatch].every(Boolean) && (isAuthorMatch || isTextMatch);
         }).models
 
         const sortedItems = sortBy ? orderBy(filteredItems, [sortBy], [sortDirection]) : filteredItems
