@@ -1,0 +1,1 @@
+export { BannerSwiper } from "./BanerSwiper";

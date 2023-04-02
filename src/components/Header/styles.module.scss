@@ -1,0 +1,38 @@
+:global(.header-svg-stroke:hover) {
+  path {
+    stroke: #ffca42;
+  }
+}
+
+:global(.user-profile-link:hover) {
+  path {
+    stroke: #ffca42;
+  }
+}
+
+:global(.ant-dropdown) {
+  :global(.ant-dropdown-menu) {
+    :global(.ant-dropdown-menu-item) {
+      padding: 0;
+    }
+
+    :global(.ant-dropdown-menu-item-active) {
+      padding: 0;
+      background-color: rgba(#b4c7e7, 0.5) !important;
+    }
+
+    :global(.ant-dropdown-menu-title-content){
+      display: flex;
+      justify-content: center;
+
+      button {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        color: #1b3764;
+      }
+    }
+  }
+}

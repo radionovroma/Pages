@@ -1,0 +1,13 @@
+:global(.ant-pagination-item) {
+  a {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    color: #1b3764;
+  }
+
+  :global(.ant-pagination-item-active) {
+    a {
+      font-weight: 500;
+    }
+  }
+}

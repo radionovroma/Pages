@@ -1,0 +1,6 @@
+export enum LOAD_STATUSES {
+  UNKNOWN = "UNKNOWN",
+  ERROR = "ERROR",
+  LOADED = "LOADED",
+  LOADING = "LOADING"
+}

@@ -1,0 +1,28 @@
+:global(.ant-form-item){
+  :global(.ant-form-item-control){
+    :global(.ant-form-item-control-input){
+      :global(.ant-form-item) {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+:global(.ant-input-number-affix-wrapper) {
+  width: 124px;
+
+  :global(.ant-input-number-prefix) {
+    color: #969AA0;
+    width: 45px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+  }
+
+  :global(.ant-input-number-input-wrap) {
+    input {
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      color: #1b3764 !important;
+    }
+  }
+}

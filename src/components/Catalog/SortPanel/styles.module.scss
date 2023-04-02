@@ -1,0 +1,48 @@
+:global(.ant-form):global(.sort-panel) {
+  :global(.ant-form-item) {
+    :global(.ant-form-item-label) {
+      label {
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        color: #1b3764;
+      }
+    }
+
+    :global(.ant-form-item-control) {
+      :global(.ant-select) {
+        width: 200px;
+        :global(.ant-select-selector) {
+          box-shadow: none !important;
+          font-family: Inter, sans-serif;
+          font-size: 16px;
+          color: #1b3764 !important;
+        }
+
+        &:hover {
+          :global(.ant-select-selector) {
+            border-color: #1b3764 !important;
+          }
+        }
+
+        :global(.ant-select-open) {
+          .ant-select-selector {
+            border-color: #1b3764 !important;
+            box-shadow: none !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+:global(.ant-select-dropdown) {
+  :global(.ant-select-item) {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #1b3764 !important;
+
+    :global(.ant-select-dropdown-option-selected) {
+      background-color: #b4c7e7;
+    }
+  }
+}

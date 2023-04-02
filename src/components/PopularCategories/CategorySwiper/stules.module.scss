@@ -1,0 +1,32 @@
+:global(.category-swiper){
+  padding: 0 60px;
+  margin-top: 20px;
+
+  :global(.swiper-button-next), :global(.swiper-button-prev){
+    top: -5px;
+    width: 50px;
+    height: calc(100% + 27px);
+    background-color: #ffffff;
+    color: #b4c7e7;
+
+    &:hover {
+      color: #1b3764;
+    }
+  }
+
+  :global(.swiper-button-prev){
+    left: 0;
+  }
+
+  :global(.swiper-button-next){
+    right: 0;
+  }
+
+  :global(.swiper-button-disabled){
+    opacity: 1;
+
+    &:before, &:after{
+      opacity: 0.5;
+    }
+  }
+}

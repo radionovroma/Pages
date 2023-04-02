@@ -1,0 +1,11 @@
+:global(.footer-svg-fill) {
+  path {
+    fill: #b4c7e7;
+  }
+}
+
+:global(.footer-svg-fill:hover) {
+  path {
+    fill: #ffffff;
+  }
+}

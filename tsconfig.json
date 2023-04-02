@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
     "target": "es5",
     "lib": [
       "dom",
@@ -18,9 +19,24 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@api": ["./api/Api.ts"],
+      "@containers": ["./containers"],
+      "@common": ["./components/common"],
+      "@components": ["./components"],
+      "@hocs" : ["./hocs"],
+      "@hooks" : ["./hooks"],
+      "@img/*": ["./img/*"],
+      "@loaders": ["./loaders"],
+      "@mock": ["./mock-api"],
+      "@router": ["./router"],
+      "@types": ["./types"],
+      "@store/*": ["./store/*"],
+    }
   },
   "include": [
     "src"
-  ]
+  ],
 }
