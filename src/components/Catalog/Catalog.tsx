@@ -1,10 +1,10 @@
 import { FC, useEffect, useMemo, useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import { useAppDispatch } from "@store/store";
-import { useParams, useNavigate, useLocation, Link } from "react-router-dom";
+import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import { Form, Pagination } from "antd";
 import { debounce, pickBy } from "lodash";
-import { getCategoriesList } from "@store/categories";
+import { getCategoriesList, getCategoriesStatus } from "@store/categories";
 import {
   fetchCatalog,
   getCatalogFilterParams,
@@ -34,7 +34,7 @@ export const Catalog: FC = () => {
   const dispatch = useAppDispatch();
 
   const categoriesList = useSelector(getCategoriesList);
-  // const categoriesStatus = useSelector(getCategoriesStatus);
+  const categoriesStatus = useSelector(getCategoriesStatus);
   const categoriesCheckboxOptions = categoriesList.map(({ id, label }) => {
     return { value: id, label };
   });
@@ -128,7 +128,18 @@ export const Catalog: FC = () => {
       <Form.Provider>
         <div className="relative grid grid-cols-catalog w-cont">
           {
-            isFirstLoading ?
+            ((catalogStatus === LOAD_STATUSES.ERROR || categoriesStatus === LOAD_STATUSES.ERROR) && isFirstLoading) &&
+            <div className="col-span-2 p-15 mt-[70px] bg-red-600/10 border border-red-600/30 rounded">
+              <p className="pl-10 font-sans text-2xl text-blue cursor-default">
+                Failed to fetch data, please reload the page or try again later.
+                <span
+                  className="text-red-800 hover:text-red-600 cursor-pointer"
+                  onClick={() => navigate(-1)}> Return Back</span>
+              </p>
+            </div>
+          }
+          {
+            ((catalogStatus === LOAD_STATUSES.LOADING || catalogStatus === LOAD_STATUSES.UNKNOWN) && isFirstLoading) ?
               <Loader type="sortPanel"/> :
               <div className="col-start-2 flex justify-between ">
                 {
@@ -153,7 +164,7 @@ export const Catalog: FC = () => {
 
           }
           {
-            isFirstLoading ?
+            ((catalogStatus === LOAD_STATUSES.LOADING || catalogStatus === LOAD_STATUSES.UNKNOWN) && isFirstLoading) ?
               <Loader type="filterForm"/> :
               <FilterForm
                 form={form}
@@ -168,7 +179,30 @@ export const Catalog: FC = () => {
             <Loader type="catalog" itemsCount={(form.getFieldValue("limit") || 20)} />
           }
           {
-            catalogStatus === LOAD_STATUSES.LOADED &&
+            (catalogStatus === LOAD_STATUSES.LOADED && catalogTotalCount === 0) &&
+            <div className="w-full pl-20">
+              <div className="p-15 bg-jeans/10 border border-jeans/30 rounded">
+                <p className="pl-10 font-sans text-xl text-blue cursor-default">
+                  Currently empty, but we will add new products soon. Try changing the request or
+                  <span
+                    className="pl-[5px] text-jeans/80 hover:text-jeans cursor-pointer"
+                    onClick={() => navigate(0)}>go back</span>
+                </p>
+              </div>
+            </div>
+          }
+          {
+            (catalogStatus === LOAD_STATUSES.ERROR && !isFirstLoading) &&
+            <div className="w-full pl-20">
+              <div className="p-15 bg-red-600/10 border border-red-600/30 rounded">
+                <p className="pl-10 font-sans text-xl text-blue cursor-default">
+                  An error occurred, please try again later
+                </p>
+              </div>
+            </div>
+          }
+          {
+            (catalogStatus === LOAD_STATUSES.LOADED && catalogTotalCount > 0) &&
             <ul className="grid grid-cols-4 pl-20 gap-30">
               {
                 catalogList?.map((book) => {
