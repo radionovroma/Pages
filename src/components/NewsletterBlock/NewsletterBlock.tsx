@@ -44,7 +44,7 @@ export const NewsletterBlock: FC = () => {
           />
           <button
             type="submit"
-            className="flex justify-center items-center w-300 h-50 font-serif font-bold text-lg text-white bg-blue">
+            className="flex justify-center items-center w-300 h-50 font-serif font-bold text-lg text-white bg-blue hover:bg-jeans">
             Subscribe
           </button>
         </form>

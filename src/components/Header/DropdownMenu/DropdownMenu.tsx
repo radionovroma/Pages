@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
+import { ROUTES } from "@router";
 import classNames from "classnames";
 import { LOAD_STATUSES, NavRoute } from "@types";
 
@@ -31,7 +32,7 @@ export const DropdownMenu: FC<DropdownMenuProps> = ({ route }) => {
                   key={item.id}
                   className="flex w-230 h-[36px]">
                   <Link
-                    to={`${route.path}/${item.type}`}
+                    to={ROUTES.categoryCatalog(item.type)}
                     className="flex-auto flex items-center
                     font-sans text-base leading-4 text-center text-white capitalize
                     cursor-pointer hover:text-yellow">

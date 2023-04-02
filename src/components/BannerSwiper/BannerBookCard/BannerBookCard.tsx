@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
+import { ROUTES } from "@router";
 import { BookCover } from "@common";
 import { Book } from "@types";
 
@@ -31,7 +32,7 @@ export const BannerBookCard: FC<BannerBookCardProps> = ({ book }) => {
             Add To Cart
           </button>
           <Link
-            to={`/book/${book.id}`}
+            to={ROUTES.book(book.id)}
             className="flex justify-center items-center
                       w-230 h-50 font-serif font-bold text-lg leading-6 text-lightBlue
                       border border-lightBlue
@@ -64,7 +65,7 @@ export const BannerBookCard: FC<BannerBookCardProps> = ({ book }) => {
           }
         </ul>
       </div>
-      <Link to={`/book/${book.id}`}>
+      <Link to={ROUTES.book(book.id)}>
         <BookCover
           coverImg={book.img}
           alt={`Cover of the book "${book.title}"`}

@@ -1,12 +1,11 @@
 import { FC, useCallback, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
+import { ROUTES } from "@router";
 import { getSearchList, getSearchListCount, getSearchListStatus } from "@store/search";
 import { SearchInput } from "./SearchInput";
-import { BookCover } from "@common";
+import { BookCover, Loader } from "@common";
 import { LOAD_STATUSES } from "@types";
-import { pulse } from "@loaders";
-import classNames from "classnames";
 
 export const Search: FC = () => {
   const [searchValue, setSearchValue] = useState("");
@@ -67,32 +66,7 @@ export const Search: FC = () => {
           onChange={setSearchValue}
           onFocusChange={() => setIsSearchActive(!isSearchActive)}/>
         {((searchListStatus === LOAD_STATUSES.LOADING || (searchListStatus === LOAD_STATUSES.UNKNOWN && searchValue )) && isSearchActive) &&
-          <div className="absolute left-0 z-20 flex flex-col w-[350px] bg-white shadow-2xl cursor-default">
-            <div className="flex gap-10 w-full p-15 border-b border-blue">
-              <div className={classNames("w-[100px] h-[150px]", pulse)}></div>
-              <div className="flex flex-col gap-[8px] w-[210px] py-[3px]">
-                <div className={classNames("w-full h-[22px]", pulse)}></div>
-                <div className={classNames("w-1/2 h-[18px]", pulse)}></div>
-                <div className={classNames("w-1/3 h-[22px]", pulse)}></div>
-              </div>
-            </div>
-            <div className="flex gap-10 w-full p-15 border-b border-blue">
-              <div className={classNames("w-[100px] h-[150px]", pulse)}></div>
-              <div className="flex flex-col gap-[8px] w-[210px] py-[3px]">
-                <div className={classNames("w-full h-[22px]", pulse)}></div>
-                <div className={classNames("w-1/2 h-[18px]", pulse)}></div>
-                <div className={classNames("w-1/3 h-[22px]", pulse)}></div>
-              </div>
-            </div>
-            <div className="flex gap-10 w-full p-15">
-              <div className={classNames("w-[100px] h-[150px]", pulse)}></div>
-              <div className="flex flex-col gap-[8px] w-[210px] py-[3px]">
-                <div className={classNames("w-full h-[22px]", pulse)}></div>
-                <div className={classNames("w-1/2 h-[18px]", pulse)}></div>
-                <div className={classNames("w-1/3 h-[22px]", pulse)}></div>
-              </div>
-            </div>
-          </div>
+          <Loader type="search"/>
         }
         {
           (searchListStatus === LOAD_STATUSES.LOADED && searchListCount > 0 && isSearchActive) &&
@@ -104,7 +78,7 @@ export const Search: FC = () => {
                     key={id}
                     className="border-b border-b-blue last:border-0 hover:bg-lightBlue/30">
                     <Link
-                      to={`/book/${id}`}
+                      to={ROUTES.book(id)}
                       className="flex gap-10 p-15">
                       <BookCover
                         coverImg={img}
@@ -134,7 +108,8 @@ export const Search: FC = () => {
               searchListCount >= 3 &&
               <li>
                 <Link
-                  to="./catalog" state={{text: searchRequest}}
+                  to={ROUTES.CATALOG}
+                  state={{text: searchRequest}}
                   className="flex justify-center p-15 font-sans text-gray hover:bg-lightBlue/30 hover:text-blue">
                   {`Found ${searchListCount} items for "${searchRequest}", view other`}
                 </Link>

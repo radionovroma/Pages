@@ -1,13 +1,16 @@
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
+import { ROUTES } from "@router";
+import { useSelector } from "react-redux";
+import { useAppDispatch } from "@store/store";
 import { Dropdown } from "antd";
 import { getUserAuthFlag, getUserName, actions } from "@store/user";
 import { Search } from "./Search";
 import { DropdownMenu } from "./DropdownMenu";
 import { NavRoute } from "@types";
-import CartSvg from "@img/cart-icon.svg";
-import ProfileSvg from "@img/profile-icon.svg";
+import CartSvg from "@img/cartIcon.svg";
+import ProfileSvg from "@img/profileIcon.svg";
+import "./styles.module.scss";
 
 interface HeaderProps {
   routs: NavRoute[];
@@ -17,15 +20,20 @@ interface HeaderProps {
 export const Header: FC<HeaderProps> = ({ routs, LogoSvg }) => {
   const isUserAuth = useSelector(getUserAuthFlag);
   const userName = useSelector(getUserName);
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
 
   const svgHoverStyles = "cursor-pointer header-svg-stroke";
+
+  const signOutHandler = () => {
+    dispatch(actions.signOut());
+    dispatch(actions.removeUserFromLocalStorage());
+  }
 
   return (
     <header className="flex justify-center w-full pt-20 bg-blue">
       <div className="flex justify-between items-start w-cont">
         <Link
-          to="/"
+          to={ROUTES.MAIN}
           className="relative z-20 cursor-pointer">
           <LogoSvg/>
         </Link>
@@ -48,13 +56,13 @@ export const Header: FC<HeaderProps> = ({ routs, LogoSvg }) => {
               <div
                 className="flex items-center gap-15 font-sans text-2xl text-center text-white capitalize cursor-default">
                 <Link
-                  to="/login"
+                  to={ROUTES.LOGIN}
                   className="flex justify-center items-center w-[70px] h-full text-lg leading-5 hover:text-yellow cursor-pointer">
                   Sign In
                 </Link>
                 /
                 <Link
-                  to="/registration"
+                  to={ROUTES.REGISTRATION}
                   className="flex justify-center items-center w-[70px] h-full text-lg leading-5 hover:text-yellow cursor-pointer">
                   Sign Up
                 </Link>
@@ -63,7 +71,7 @@ export const Header: FC<HeaderProps> = ({ routs, LogoSvg }) => {
             {
               isUserAuth &&
               <>
-                <Link to="/cart">
+                <Link to={ROUTES.CART}>
                   <CartSvg className={svgHoverStyles}/>
                 </Link>
                 <Dropdown
@@ -72,13 +80,13 @@ export const Header: FC<HeaderProps> = ({ routs, LogoSvg }) => {
                       [
                         {
                           key: "1",
-                          label: (<button onClick={() => dispatch(actions.signOut() as any)}>Sign Out</button>)
+                          label: (<button onClick={signOutHandler}>Sign Out</button>)
                         },
                       ]
                   }}
                   className="group">
                   <Link
-                    to="/profile"
+                    to={ROUTES.PROFILE}
                     className="flex items-center gap-15 text-lg leading-5 text-white user-profile-link">
                     <ProfileSvg/>
                     <span className="group-hover:text-yellow">

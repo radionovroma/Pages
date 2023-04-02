@@ -1,2 +1,2 @@
-export { reducer, fetchPopularCategories } from "./slise";
+export { reducer, fetchPopularCategories } from "./slice";
 export * from './selectors';

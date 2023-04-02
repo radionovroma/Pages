@@ -1,7 +1,7 @@
 import { FC } from "react";
-import PaymentSvg from "@img/payment-icon.svg";
-import ShippingSvg from "@img/shipping-icon.svg";
-import SatisfactionSvg from "@img/satisfaction-icon.svg";
+import PaymentSvg from "@img/paymentIcon.svg";
+import ShippingSvg from "@img/shippingIcon.svg";
+import SatisfactionSvg from "@img/satisfactionIcon.svg";
 
 export const FeaturesBlock: FC = () => {
   const features = [

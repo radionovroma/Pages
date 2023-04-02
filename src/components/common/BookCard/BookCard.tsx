@@ -1,8 +1,10 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
+import { ROUTES } from "@router";
 import { Book } from "@types";
-import BookmarkSVG from "@img/bookmark-icon.svg";
+import BookmarkSVG from "@img/bookmarkIcon.svg";
 import { BookCover } from "@common"
+import "./styles.module.scss"
 
 interface BookCardProps {
   book: Book;
@@ -13,7 +15,7 @@ export const BookCard: FC<BookCardProps> = ({ book}) => {
   return (
     <article>
       <Link
-        to={`/book/${book.id}`}>
+        to={ROUTES.book(book.id)}>
           <BookCover
             coverImg={img}
             alt={`Cover of the book "${title}"`}
@@ -25,7 +27,7 @@ export const BookCard: FC<BookCardProps> = ({ book}) => {
       </p>
       <div className="h-[80px] mt-10">
         <Link
-          to={`/book/${book.id}`}
+          to={ROUTES.book(book.id)}
           className="font-serif font-bold text-xl text-blue hover:text-jeans line-clamp-2">
           {title}
         </Link>

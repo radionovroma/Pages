@@ -1,11 +1,13 @@
 import { FC } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
+import { ROUTES } from "@router";
 import { useDispatch } from "react-redux";
 import { Button, Form, Input } from "antd";
 import { Api } from "@api";
 import { useNotification } from "@hooks";
 import { actions } from "@store/user";
-import LogoSvg from "@img/logo-xl.svg";
+import LogoSvg from "@img/logoXl.svg";
+import "./styles.module.scss";
 
 export const LoginBlock: FC = () => {
   const [form] = Form.useForm();
@@ -20,11 +22,11 @@ export const LoginBlock: FC = () => {
     api.login(values)
       .then(data => {
         openNotification("success", "Successful login");
-        dispatch(actions.signIn(data) as any);
+        dispatch(actions.signIn(data));
+        dispatch(actions.writeUserToLocalStorage(data) as any);
         navigate(fromPage, { replace: true });
       })
       .catch(e => openNotification("error", e.message || 'Something went wrong.'));
-    dispatch(actions.signIn(values) as any);
   };
 
   return (
@@ -59,7 +61,7 @@ export const LoginBlock: FC = () => {
               </Button>
             </Form.Item>
             <Link
-              to="../registration">
+              to={ROUTES.REGISTRATION}>
               Sign Up
             </Link>
           </div>
@@ -74,7 +76,7 @@ export const LoginBlock: FC = () => {
             Don't have an account?
           </p>
           <Link
-            to="../registration"
+            to={ROUTES.REGISTRATION}
             className="mt-[5px] font-sans text-lg text-yellow/80 underline hover:text-gold">
             Sign Up
           </Link>

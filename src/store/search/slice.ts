@@ -13,7 +13,7 @@ const api = new Api();
 
 const search = createAsyncThunk(SLICE_NAME,
   (text: SearchParams["text"]) => {
-    return api.getProducts({text});
+    return api.getProducts({text, limit: 3});
   });
 
 const initialState: State = {

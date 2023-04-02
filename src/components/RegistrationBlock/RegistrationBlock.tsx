@@ -1,16 +1,16 @@
-import { FC, useState, Fragment } from "react";
+import { FC, useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
+import { ROUTES } from "@router";
 import { pickBy } from "lodash";
-import classNames from "classnames";
 import { Button, Checkbox, DatePicker, Form, Input, Radio, Tag } from "antd";
 import { Api } from "@api";
 import { useNotification } from "@hooks";
+import { Loader } from "@common";
 import { getCategoriesList, getCategoriesStatus } from "@store/categories";
-import { pulse } from "@loaders";
 import { LOAD_STATUSES } from "@types";
-import LogoSvg from "@img/logo-xl.svg";
-
+import LogoSvg from "@img/logoXl.svg";
+import "./stules.module.scss";
 
 export const RegistrationBlock: FC = () => {
   const api = new Api();
@@ -22,27 +22,13 @@ export const RegistrationBlock: FC = () => {
   const categories = useSelector(getCategoriesList);
   const categoriesStatus = useSelector(getCategoriesStatus);
 
-  const rowLoader = <div className={classNames("h-20", pulse)}></div>
-  const favorites = new Array(4).fill(rowLoader);
-  const favoritesLoader =
-    <div className="flex flex-col gap-[11px] w-full mt-[5px] animate-pulse">
-      {
-        favorites.map((item, index) =>
-          <Fragment key={index}>
-            {item}
-          </Fragment>
-        )
-      }
-    </div>
-
-
   const handleChange = (tag: string, checked: boolean) => {
-    const nextSelectedTags = checked
-      ? [...selectedTags, tag]
-      : selectedTags.filter((t) => t !== tag);
-    setSelectedTags(nextSelectedTags);
-    form.setFieldValue("interests", nextSelectedTags);
+    setSelectedTags((prevState) => checked ? [...prevState, tag] : [...prevState.filter(t => t !== tag)]);
   };
+
+  useEffect(() => {
+    form.setFieldValue("interests", selectedTags);
+  }, [selectedTags])
 
   const onFinish = (values: any) => {
     const newUserInfo = pickBy(values, (value) => {
@@ -51,7 +37,7 @@ export const RegistrationBlock: FC = () => {
     api.registration(newUserInfo)
       .then(() => {
         openNotification('success', `Registration completed successfully`);
-        navigate('../login', { replace: true });
+        navigate(ROUTES.LOGIN, { replace: true });
       })
       .catch(e => openNotification('error', e.message));
   };
@@ -69,7 +55,7 @@ export const RegistrationBlock: FC = () => {
             Already have an account?
           </p>
           <Link
-            to="../login"
+            to={ROUTES.LOGIN}
             className="mt-[5px] font-sans text-lg text-yellow/70 underline hover:text-gold">
             Log in
           </Link>
@@ -157,7 +143,7 @@ export const RegistrationBlock: FC = () => {
             <div className="favorites">
               {
                 categoriesStatus === LOAD_STATUSES.LOADING &&
-                favoritesLoader
+                <Loader type="favorites"/>
               }
               {
                 categoriesStatus === LOAD_STATUSES.LOADED &&
@@ -192,7 +178,7 @@ export const RegistrationBlock: FC = () => {
               </Button>
             </Form.Item>
             <Link
-              to="/">
+              to={ROUTES.MAIN}>
               Cancel
             </Link>
           </div>

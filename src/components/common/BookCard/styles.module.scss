@@ -1,0 +1,13 @@
+:global(.book-cover__wrap) {
+  display: flex !important;
+
+  img{
+    flex: 1;
+  }
+}
+
+:global(.bookmark-button:hover) {
+  path{
+    stroke: #fff;
+  }
+}

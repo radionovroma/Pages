@@ -1,9 +1,9 @@
 import { FC, useEffect, useMemo, useRef, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
+import { useAppDispatch } from "@store/store";
 import { useParams, useNavigate, useLocation, Link } from "react-router-dom";
 import { Form, Pagination } from "antd";
 import { debounce, pickBy } from "lodash";
-import classNames from "classnames";
 import { getCategoriesList } from "@store/categories";
 import {
   fetchCatalog,
@@ -14,9 +14,10 @@ import {
 } from "@store/catalog";
 import { SortPanel } from "./SortPanel";
 import { FilterForm } from "./FilterForm";
-import { BookCard } from "@common";
-import { bookLoader, pulse } from "@loaders";
+import { BookCard, Loader } from "@common";
 import { LOAD_STATUSES, SearchParams } from "@types";
+import "./styles.module.scss";
+import { ROUTES } from "@router";
 
 export const Catalog: FC = () => {
   const [current, setCurrent] = useState(1);
@@ -30,7 +31,7 @@ export const Catalog: FC = () => {
   const catalogFilterParams = useSelector(getCatalogFilterParams);
   const catalogTotalCount = useSelector(getCatalogTotalCount);
   const catalogStatus = useSelector(getCatalogLoadStatus);
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
 
   const categoriesList = useSelector(getCategoriesList);
   // const categoriesStatus = useSelector(getCategoriesStatus);
@@ -43,58 +44,42 @@ export const Catalog: FC = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    if ( location.pathname === "/catalog" && !isFirstLoading && !location.state?.text) {
+      form.resetFields();
+      dispatch(fetchCatalog());
+    }
+    if ( location.state?.text ) {
+      form.resetFields();
+    }
+    form.setFieldValue("price", [catalogFilterParams.minPrice, catalogFilterParams.maxPrice]);
+    form.setFieldValue("year", [catalogFilterParams.minYear, catalogFilterParams.maxYear]);
+  }, [location.key]);
+
+  useEffect(() => {
     if (categoryTypeIds) {
       form.setFieldValue("categoryTypeIds", categoryTypeIds);
-      dispatch(fetchCatalog({categoryTypeIds}) as any);
-    }
-    if (text) {
-      dispatch(fetchCatalog({text}) as any);
+      dispatch(fetchCatalog({ categoryTypeIds }));
+    } else if (text) {
+      dispatch(fetchCatalog({ text }));
     } else {
-      dispatch(fetchCatalog() as any);
+      dispatch(fetchCatalog());
     }
-  }, [text, categoryTypeIds]);
+  }, [categoryTypeIds, text]);
 
   useEffect(() => {
     if (categoryTypeIds && categoryTypeIds !== form.getFieldValue("categoryTypeIds")) {
-      navigate("/catalog");
+      navigate(ROUTES.CATALOG);
     }
   }, [form.getFieldValue("categoryTypeIds")]);
 
-  const sortPanelWrapStyles = "flex grow justify-end gap-20 pt-20";
-  const filterFormWrapStyles = "sticky row-start-2 row-span-1 top-20 self-start p-20 border border-lightGray mb-[52px] rounded";
-  const catalogWrapStyles = "grid grid-cols-4 pl-20 gap-30";
-
-  const sortPanelLoader =
-    <div className={classNames(sortPanelWrapStyles, "col-start-2 py-20 animate-pulse")}>
-      <div className={classNames("w-[277px] h-[32px]", pulse)}></div>
-      <div className={classNames("w-[132px] h-[32px]", pulse)}></div>
-    </div>;
-
-  const filterFormLoader =
-    <div className={classNames(filterFormWrapStyles, "flex-col gap-20 h-[840px] border-0 animate-pulse", pulse)}></div>;
-
-  const booksListLoader = new Array(form.getFieldValue("limit") || 20);
-  booksListLoader.fill(bookLoader);
-
-  const catalogLoader =
-    <div  className={classNames(catalogWrapStyles, "animate-pulse")}>
-      {
-        booksListLoader.map((item, index) => (
-          <div key={index}>
-            {item}
-          </div>
-        ))
-      }
-    </div>;
-
   useEffect(() => {
-    if ( catalogStatus === LOAD_STATUSES.LOADED ) {
+    if (catalogStatus === LOAD_STATUSES.LOADED) {
       setIsFirstLoading(false);
     }
   }, [catalogStatus])
 
-  const catalogFilteringHandler = () => {
-    let filterValues: SearchParams = { ...form.getFieldsValue() }
+  const catalogFilteringHandler = (text: string = "") => {
+    let filterValues: SearchParams = { ...form.getFieldsValue(), text }
     if (filterValues.sort) {
       const [sortBy, sortDirection] = filterValues.sort!.split(":");
       filterValues = { ...filterValues, sortBy, sortDirection, sort: undefined };
@@ -105,11 +90,11 @@ export const Catalog: FC = () => {
     const searchParams = pickBy(filterValues, (value) => {
       return value
     });
-    dispatch(fetchCatalog({...searchParams, text}) as any);
+    dispatch(fetchCatalog({ ...searchParams }));
   };
 
   const debouncedCatalogFiltering = useMemo(
-    () => debounce(() => catalogFilteringHandler(), 1500),
+    () => debounce((text: string) => catalogFilteringHandler(text), 1500),
     []);
 
   const scrollToCatalogStart = () => {
@@ -122,8 +107,8 @@ export const Catalog: FC = () => {
     () => debounce(() => scrollToCatalogStart(), 1000),
     []);
 
-  const formFieldsChangeHandler = () => {
-    debouncedCatalogFiltering();
+  const formFieldsChangeHandler = (text: string) => {
+    debouncedCatalogFiltering(text);
     debouncedScrollToStart();
   };
 
@@ -140,81 +125,81 @@ export const Catalog: FC = () => {
     <section
       ref={catalogRef}
       className="f-full flex justify-center mt-20">
-        <Form.Provider>
-          <div className="relative grid grid-cols-catalog w-cont">
-            {
-              isFirstLoading ?
-                sortPanelLoader :
-                <div className="col-start-2 flex justify-between ">
-                  {
-                    text &&
-                    <p
-                      className="pl-20 pt-25 font-sans text-lg text-blue cursor-default">
-                      {`Found ${catalogTotalCount} items for "${text}", `}
-                      <Link
-                        to="/catalog"
-                        className="text-gray hover:text-jeans">
-                        see all catalog
-                      </Link>
-                    </p>
-
-                  }
-                  <SortPanel
-                    form={form}
-                    onFormFieldChange={debouncedCatalogFiltering}
-                    resetPagination={resetPagination}
-                    className={sortPanelWrapStyles}/>
-                </div>
-
-            }
-            {
-              isFirstLoading ?
-                filterFormLoader :
-                <FilterForm
-                  form={form}
-                  onReset={catalogFilteringHandler}
-                  resetPagination={resetPagination}
-                  filterParams={catalogFilterParams}
-                  checkboxOptions={categoriesCheckboxOptions}
-                  className={filterFormWrapStyles}/>
-            }
-            {
-              (catalogStatus === LOAD_STATUSES.UNKNOWN || catalogStatus === LOAD_STATUSES.LOADING) &&
-              catalogLoader
-            }
-            {
-              catalogStatus === LOAD_STATUSES.LOADED &&
-              <ul className={catalogWrapStyles}>
+      <Form.Provider>
+        <div className="relative grid grid-cols-catalog w-cont">
+          {
+            isFirstLoading ?
+              <Loader type="sortPanel"/> :
+              <div className="col-start-2 flex justify-between ">
                 {
-                  catalogList?.map((book) => {
-                    return (
-                      <li key={book.id}>
-                        <BookCard
-                          book={book}/>
-                      </li>
-                    );
-                  })
+                  text &&
+                  <p
+                    className="pl-20 pt-25 font-sans text-lg text-blue cursor-default">
+                    {`Found ${catalogTotalCount} items for "${text}", `}
+                    <Link
+                      to={ROUTES.CATALOG}
+                      state={{text: null}}
+                      className="text-gray hover:text-jeans">
+                      see all catalog
+                    </Link>
+                  </p>
                 }
-              </ul>
-            }
-            <Form
-              form={form}
-              name="pagination"
-              onValuesChange={formFieldsChangeHandler}
-              className="col-start-2 flex justify-center pt-20">
-              <Form.Item
-                name="offset">
-                <Pagination
-                  current={current}
-                  pageSize={form.getFieldsValue().limit || 20}
-                  total={catalogTotalCount}
-                  hideOnSinglePage={true}
-                  showSizeChanger={false}
-                  onChange={paginationChangeHandler}/>
-              </Form.Item>
-            </Form>
-          </div>
-        </Form.Provider>
+                <SortPanel
+                  form={form}
+                  onFormFieldChange={debouncedCatalogFiltering}
+                  resetPagination={resetPagination}
+                  className="flex grow justify-end gap-20 pt-20"/>
+              </div>
+
+          }
+          {
+            isFirstLoading ?
+              <Loader type="filterForm"/> :
+              <FilterForm
+                form={form}
+                onReset={catalogFilteringHandler}
+                resetPagination={resetPagination}
+                filterParams={catalogFilterParams}
+                checkboxOptions={categoriesCheckboxOptions}
+                className="sticky row-start-2 row-span-1 top-20 self-start p-20 border border-lightGray mb-[52px] rounded"/>
+          }
+          {
+            (catalogStatus === LOAD_STATUSES.UNKNOWN || catalogStatus === LOAD_STATUSES.LOADING) &&
+            <Loader type="catalog" itemsCount={(form.getFieldValue("limit") || 20)} />
+          }
+          {
+            catalogStatus === LOAD_STATUSES.LOADED &&
+            <ul className="grid grid-cols-4 pl-20 gap-30">
+              {
+                catalogList?.map((book) => {
+                  return (
+                    <li key={book.id}>
+                      <BookCard
+                        book={book}/>
+                    </li>
+                  );
+                })
+              }
+            </ul>
+          }
+          <Form
+            form={form}
+            name="pagination"
+            onValuesChange={() => formFieldsChangeHandler(text)}
+            className="col-start-2 flex justify-center pt-20">
+            <Form.Item
+              name="offset">
+              <Pagination
+                current={current}
+                pageSize={form.getFieldsValue().limit || 20}
+                total={catalogTotalCount}
+                hideOnSinglePage={true}
+                showSizeChanger={false}
+                onChange={paginationChangeHandler}/>
+            </Form.Item>
+          </Form>
+        </div>
+      </Form.Provider>
     </section>
   );
 }

@@ -1,16 +1,13 @@
 import type { RootStore } from "../store";
 import type { State } from "./slice";
 
-const getUser = (store: RootStore): State => store.user;
+const getUserSlice = (store: RootStore): State => store.user;
 
 export const getUserName = (store: RootStore): State["name"] =>
-  getUser(store).name;
-
-export const getUserLogin = (store: RootStore): State["login"] =>
-  getUser(store).login;
+  getUserSlice(store).name;
 
 export const getUserToken = (store: RootStore): State["token"] =>
-  getUser(store).token;
+  getUserSlice(store).token;
 
 export const getUserAuthFlag = (store: RootStore): State["isAuth"] =>
-  getUser(store).isAuth;
+  getUserSlice(store).isAuth;

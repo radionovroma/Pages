@@ -1,4 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { useDispatch } from 'react-redux';
 import { reducer as categoriesReducer } from "./categories";
 import { reducer as bannerProductsReducer } from "./banerProducts";
 import { reducer as popularCategoriesReducer } from "./popularCategories";
@@ -18,3 +19,5 @@ export const store = configureStore({
 });
 
 export type RootStore = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
+export const useAppDispatch: () => AppDispatch = useDispatch;

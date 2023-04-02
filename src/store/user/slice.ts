@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk, PayloadAction } from "@reduxjs/toolkit";
 
 export interface State {
   name: string;
@@ -9,6 +9,16 @@ export interface State {
 
 const SLICE_NAME = "USER";
 
+const writeUserToLocalStorage = createAsyncThunk(SLICE_NAME,
+  (user: {name: string, login: string, token: string}) => {
+    localStorage.setItem("user", JSON.stringify(user))
+  });
+
+const removeUserFromLocalStorage = createAsyncThunk(SLICE_NAME, () => {
+  localStorage.removeItem("user");
+})
+
+
 const initialState: State = {
   name: "",
   login: "",
@@ -16,7 +26,7 @@ const initialState: State = {
   isAuth: false,
 };
 
-export const { reducer, actions } = createSlice({
+const { reducer, actions: sliceActions } = createSlice({
   name: SLICE_NAME,
   initialState,
   reducers: {
@@ -26,14 +36,15 @@ export const { reducer, actions } = createSlice({
       state.login = login;
       state.token = token;
       state.isAuth = true;
-      localStorage.setItem("user", JSON.stringify({name, login, token}))
     },
     signOut: (state) => {
       state.name = "";
       state.login = "";
       state.token = "";
       state.isAuth = false;
-      localStorage.removeItem("user");
     }
   },
 });
+
+export { reducer };
+export const actions = { ...sliceActions, writeUserToLocalStorage, removeUserFromLocalStorage };

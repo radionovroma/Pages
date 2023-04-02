@@ -1,7 +1,9 @@
 import React, { FC } from "react";
 import { Form, FormInstance, Checkbox, Button, Switch } from "antd";
+import classNames from "classnames";
 import { SliderWithInputs } from "./SliderWithInputs";
 import { FilterParams } from "@types";
+import "./styles.module.scss";
 
 interface FilterFormProps {
   form: FormInstance;
@@ -37,7 +39,7 @@ export const FilterForm: FC<FilterFormProps> = (
       form={form}
       name="filter"
       layout="vertical"
-      className={className}>
+      className={classNames(className, "filter-form")}>
       <Form.Item
         name="categoryTypeIds"
         label="Categories:">
@@ -66,12 +68,12 @@ export const FilterForm: FC<FilterFormProps> = (
         name="stock"
         label="In stock:"
         valuePropName="checked"
-        className="antd-form-item__switch">
+        className="switch">
         <Switch
           onChange={resetPagination}/>
       </Form.Item>
       <Form.Item
-        className="antd-form-item__buttons">
+        className="reset-button">
         <Button
           type="default"
           onClick={filtersResetHandler}

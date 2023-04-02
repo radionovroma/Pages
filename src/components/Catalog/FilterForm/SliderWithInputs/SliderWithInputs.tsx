@@ -1,5 +1,6 @@
 import { FC, useState, useEffect } from "react";
 import { Form, FormInstance, InputNumber, Slider } from "antd";
+import "./styles.module.scss";
 
 interface SliderWithInputsProps {
   form: FormInstance;

@@ -1,6 +1,8 @@
 import { FC } from "react";
 import { DebouncedFunc } from "lodash";
+import classNames from "classnames";
 import { Form, FormInstance, Select } from "antd";
+import "./styles.module.scss";
 
 enum SORT_BY {
   DATE_PUBLISHED_DESC = "date_published:desc",
@@ -36,7 +38,7 @@ export const SortPanel: FC<SortPanelProps> = ({form, onFormFieldChange, resetPag
     <Form
       form={form}
       name="sort"
-      className={className}>
+      className={classNames(className, "sort-panel")}>
       <Form.Item
         name="sort"
         label="Sort by:"

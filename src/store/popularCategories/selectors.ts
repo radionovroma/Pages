@@ -1,9 +1,9 @@
 import type { RootStore } from "../store";
-import type { State } from "./slise";
+import type { State } from "./slice";
 
-const getPopularCategories = (store: RootStore): State => store.popularCategories;
+const getPopularCategoriesSlice = (store: RootStore): State => store.popularCategories;
 export const getPopularCategoriesList = (store: RootStore): State["popularCategories"] =>
-  getPopularCategories(store).popularCategories;
+  getPopularCategoriesSlice(store).popularCategories;
 
 export const getPopularCategoriesStatus = (store: RootStore): State["loadStatus"] =>
-  getPopularCategories(store).loadStatus;
+  getPopularCategoriesSlice(store).loadStatus;

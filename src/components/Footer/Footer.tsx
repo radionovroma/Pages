@@ -1,11 +1,13 @@
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
+import { ROUTES } from "@router";
 import { NavRoute } from "@types";
-import FacebookSvg from "@img/facebook-icon.svg";
-import TwitterSvg from "@img/twitter-icon.svg";
-import LinkedInSvg from "@img/linkedin-icon.svg";
-import InstagramSvg from "@img/instagram-icon.svg";
-import ExploreSvg from "@img/explore-icon.svg";
+import FacebookSvg from "@img/facebookIcon.svg";
+import TwitterSvg from "@img/twitterIcon.svg";
+import LinkedInSvg from "@img/linkedinIcon.svg";
+import InstagramSvg from "@img/instagramIcon.svg";
+import ExploreSvg from "@img/exploreIcon.svg";
+import "./styles.module.scss";
 
 interface FooterProps {
   routs: NavRoute[];
@@ -30,7 +32,7 @@ export const Footer: FC<FooterProps> = ({ routs, LogoSvg }) => {
     <footer className="flex justify-center bg-blue w-full py-40">
       <div className="w-cont grid grid-cols-6 gap-65">
         <div>
-          <Link to="/">
+          <Link to={ROUTES.MAIN}>
             <LogoSvg/>
           </Link>
           <ul className="flex gap-10 mt-25">

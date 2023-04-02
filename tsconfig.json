@@ -31,6 +31,7 @@
       "@img/*": ["./img/*"],
       "@loaders": ["./loaders"],
       "@mock": ["./mock-api"],
+      "@router": ["./router"],
       "@types": ["./types"],
       "@store/*": ["./store/*"],
     }

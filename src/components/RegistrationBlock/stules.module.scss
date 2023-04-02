@@ -1,0 +1,147 @@
+:global(.ant-form):global(.registration-form) {
+  :global(.ant-form-item) {
+    margin-bottom: 22px;
+
+    :global(.ant-form-item-label) {
+      padding-bottom: 0;
+
+      label {
+        display: inline;
+        padding-left: 15px;
+        font-size: 16px;
+      }
+
+      :global(.ant-form-item-required) {
+        padding-left: 4px;
+      }
+    }
+
+    :global(.ant-form-item-has-error) {
+      :global(.ant-form-item-explain) {
+        :global(.ant-form-item-explain-error) {
+          font-family: Inter, sans-serif;
+          line-height: 20px;
+        }
+      }
+    }
+
+    :global(.ant-form-item-control) {
+      :global(.ant-form-item-control-input-content) {
+        input {
+          padding-left: 15px;
+          border-radius: 0;
+          font-family: Inter, sans-serif;
+        }
+
+        :global(.ant-picker) {
+          width: 50%;
+          border-radius: 0;
+
+          :global(.ant-picker-input) {
+            input {
+              padding-left: 4px;
+
+            }
+          }
+        }
+
+        :global(.ant-input-password) {
+          border-radius: 0;
+
+          input {
+            padding-left: 4px;
+
+          }
+        }
+
+        :global(.ant-radio-group) {
+          display: flex;
+          gap: 40px;
+
+          :global(.ant-radio-wrapper) {
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+          }
+        }
+
+        :global(.favorites) {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 5px;
+
+          :global(.ant-tag-checkable) {
+            border: 1px solid #dddfe2;
+            margin: 0;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            text-transform: capitalize;
+            color: #3266b8;
+          }
+
+          :global(.ant-tag-checkable-checked) {
+              border-color: #1677ff;
+              color: #ffffff;
+          }
+        }
+
+        :global(.ant-checkbox-wrapper) {
+          span {
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            color: #1b3764;
+          }
+        }
+      }
+    }
+  }
+
+  :global(.radio-group) {
+    :global(.ant-form-item-control) {
+      :global(.ant-form-item-control-input) {
+        min-height: 22px;
+      }
+    }
+  }
+
+
+  :global(.buttons-bar) {
+    :global(.ant-form-item) {
+      width: calc(50% - 10px);
+      margin-bottom: 0;
+
+      :global(.ant-form-item-control-input-content) {
+        button {
+          width: 100%;
+          min-height: 40px;
+          border-radius: 0;
+          background-color: #1677ff;
+          font-family: Inter, sans-serif;
+          font-size: 16px;
+
+          &:hover {
+            background-color: #579fff;
+          }
+        }
+      }
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: calc(50% - 10px);
+      border: 1px solid #1677ff;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      color: #1677ff;
+      transition: none;
+
+      &:hover {
+        border: none;
+        background-color: #579fff;
+        color: #ffffff;
+      }
+    }
+  }
+}

@@ -1,9 +1,9 @@
 import { FC, useEffect, useRef, useMemo, ChangeEvent, KeyboardEvent } from 'react';
-import { useDispatch } from "react-redux";
+import { useAppDispatch } from "@store/store";
 import { useLocation } from "react-router-dom";
 import { actions } from "@store/search";
-import SearchSvg from "@img/search-icon.svg";
-import CrossSvg from "@img/cross-icon.svg";
+import SearchSvg from "@img/searchIcon.svg";
+import CrossSvg from "@img/crossIcon.svg";
 import { debounce } from "lodash";
 
 interface SearchInputProps {
@@ -15,16 +15,18 @@ interface SearchInputProps {
 
 export const SearchInput: FC<SearchInputProps> = ({value, isSearchActive, onChange, onFocusChange}) => {
   const inputRef = useRef<HTMLInputElement>(null);
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const location = useLocation();
 
   useEffect(() => {
-    dispatch(actions.reset() as any);
-    onChange("");
+    if (value) {
+      dispatch(actions.reset());
+      onChange("");
+    }
   }, [location])
 
   const debouncedSearch = useMemo(
-    () => debounce((text: string) => dispatch(actions.search(text) as any), 1500),
+    () => debounce((text: string) => dispatch(actions.search(text)), 1500),
     []);
 
   const focusHandler = () => {
@@ -37,7 +39,7 @@ export const SearchInput: FC<SearchInputProps> = ({value, isSearchActive, onChan
       debouncedSearch(newValue);
     } else {
       debouncedSearch.cancel();
-      dispatch(actions.reset() as any);
+      dispatch(actions.reset());
     }
     onChange(newValue);
   };
@@ -61,7 +63,7 @@ export const SearchInput: FC<SearchInputProps> = ({value, isSearchActive, onChan
       onFocusChange();
     }
     debouncedSearch.cancel();
-    dispatch(actions.reset() as any);
+    dispatch(actions.reset());
   }
 
   return (

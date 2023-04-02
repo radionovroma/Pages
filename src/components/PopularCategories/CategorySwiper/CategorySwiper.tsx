@@ -1,13 +1,15 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
+import { ROUTES } from "@router";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import { BookCard } from "@common";
 import { Category, Book} from "@types";
-import LastSlideImg from "@img/category-swiper-last-slide.png";
+import LastSlideImg from "@img/categorySwiperLastSlide.png";
 import "swiper/swiper.css";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import "./stules.module.scss";
 
 interface CategorySwiperProps{
   category: Category;
@@ -19,7 +21,7 @@ export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
     <div
       className="w-cont+">
       <Link
-        to={`catalog/${category.type}`}
+        to={ROUTES.categoryCatalog(category.type)}
         className="ml-[60px] font-serif font-bold text-3xl text-blue capitalize hover:text-jeans">
         {category.label}
       </Link>
@@ -44,15 +46,15 @@ export const CategorySwiper: FC<CategorySwiperProps> = ({category, books}) => {
           })
         }
         <SwiperSlide>
-          <a
-            href=""
+          <Link
+            to={ROUTES.categoryCatalog(category.type)}
             className="cursor-pointer">
             <img
               src={LastSlideImg}
               alt="View all category books"
               className="h-[334px] w-[222px] hover:animate-wiggle"
             />
-          </a>
+          </Link>
         </SwiperSlide>
       </Swiper>
     </div>

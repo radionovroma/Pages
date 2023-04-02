@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
+import { ROUTES } from "@router";
 import img from "@img/banner.png";
 
 export const BannerBlock: FC = () => {
@@ -17,13 +18,13 @@ export const BannerBlock: FC = () => {
             Welcome to Pages! We have several thousand titles and free delivery. Looking for your new favourite book? Browse some of our top categories.
           </p>
           <Link
-            to="/catalog"
+            to={ROUTES.CATALOG}
             preventScrollReset={false}
             className="flex justify-center items-center w-230 h-50 border border-yellow font-serif font-bold text-lg text-white hover:bg-yellow hover:text-blue">
             View our catalog
           </Link>
         </div>
-        <img src={img} alt=""/>
+        <img src={img} alt="Banner image"/>
       </div>
     </section>
   );

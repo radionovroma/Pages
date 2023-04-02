@@ -48,7 +48,7 @@ module.exports = {
         wiggle: 'wiggle 1s ease-in-out infinite',
       },
       backgroundImage: {
-        'error-page': "url('@img/bg-error-page.jpg')",
+        'error-page': "url('@img/bgErrorPage.jpg')",
       },
       colors: {
         blue: '#1b3764',

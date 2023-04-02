@@ -72,7 +72,7 @@ export function makeServer () {
       products.forEach((product) => {
         server.create('product', product)
       });
-      server.create('user', { login: 'user', name: "User", password: 'user123' });
+      server.create('user', { login: 'user', name: "User", password: 'testUser01' });
     },
 
     routes () {

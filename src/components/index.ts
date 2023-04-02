@@ -1,3 +1,4 @@
+export { App } from "./App"
 export { Header } from "./Header";
 export { Footer } from "./Footer";
 export { BannerSwiper } from "./BannerSwiper";
@@ -11,3 +12,5 @@ export { FeaturesBlock } from "./FeaturesBlock";
 export { ErrorBlock } from "./ErrorBlock";
 export { LoginBlock } from "./LoginBlock";
 export { RegistrationBlock } from "./RegistrationBlock";
+export { RequireAuth } from "./RequireAuth";
+export { NotificationContext, NotificationProvider } from "./NotificationProvider";
