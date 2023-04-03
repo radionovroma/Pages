@@ -1,6 +1,6 @@
 import { Category, Book, SearchParams, FilterParams } from "@types";
 
-const BASE_URL = "http://localhost:8080/";
+const BASE_URL = process.env.NODE_ENV === "production" ? "https://radionovroma.github.io/Pages" : "http://localhost:8080/";
 
 export class Api {
   get = (url: string, params: Record<string, string | number> = {}): Promise<any> => {

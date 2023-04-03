@@ -53,7 +53,10 @@ export const Router: FC = () => {
           path="*"
           element={<ErrorPage/>}/>
       </Route>
-    )
+    ),
+    {
+      basename: process.env.NODE_ENV === "production" ? "/Pages" : "/",
+    }
   );
 
   return <RouterProvider router={router}/>
