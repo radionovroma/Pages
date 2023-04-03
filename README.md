@@ -1,18 +1,18 @@
 <img src="src/img/logoXlWithBg.svg" alt="" style="display: block; margin: 20px auto;">
 
 ## Demo Link
-___
+
 Access my project at [Link](https://radionovroma.github.io/Pages/)
 
 ## Table of Content:
-___
+
 - [About The App](#about-the-app)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Status](#status)
 
 ## About The App
-___
+
 Pages is a bookstore website developed as a graduation project from TeachMeSkills Front-end development course.
 
 ## Technologies
